@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Crow Network — Nest Console</title>
+<style>
+  :root{
+    --bg:#0b0e13; --panel:#12161f; --panel2:#171c27; --line:#232a38;
+    --text:#e7ecf4; --dim:#8b96a8; --accent:#7c5cff; --green:#3ddc97;
+    --amber:#ffb454; --red:#ff6b6b; --cyan:#4dd7fa;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font:14px/1.5 "Segoe UI",system-ui,sans-serif;padding:24px;max-width:1280px;margin:0 auto}
+  header{display:flex;align-items:center;justify-content:space-between;margin-bottom:22px}
+  .brand{display:flex;align-items:center;gap:12px}
+  .brand .logo{width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#3b2f7a);display:grid;place-items:center;font-size:20px}
+  h1{font-size:18px;font-weight:600}
+  .sub{color:var(--dim);font-size:12px}
+  .pill{border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:12px;color:var(--dim)}
+  .pill b{color:var(--green)}
+  .kill{background:#2a1216;border:1px solid #5c2530;color:var(--red);border-radius:8px;padding:7px 14px;font-size:12px;cursor:pointer}
+  .grid{display:grid;gap:14px}
+  .kpis{grid-template-columns:repeat(auto-fit,minmax(170px,1fr));margin-bottom:14px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+  .kpi .label{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.6px}
+  .kpi .value{font-size:24px;font-weight:650;margin-top:4px}
+  .kpi .delta{font-size:12px;margin-top:2px}
+  .up{color:var(--green)} .down{color:var(--red)} .warn{color:var(--amber)}
+  .cols{grid-template-columns:1.5fr 1fr;margin-bottom:14px}
+  h2{font-size:13px;font-weight:600;color:var(--dim);text-transform:uppercase;letter-spacing:.7px;margin-bottom:12px}
+  .bars{display:flex;align-items:flex-end;gap:8px;height:150px;padding-top:6px}
+  .bar{flex:1;background:linear-gradient(180deg,var(--accent),#4a3aa6);border-radius:5px 5px 0 0;position:relative;min-height:4px}
+  .bar span{position:absolute;top:-18px;left:50%;transform:translateX(-50%);font-size:10px;color:var(--dim);white-space:nowrap}
+  .bar em{position:absolute;bottom:-20px;left:50%;transform:translateX(-50%);font-size:10px;font-style:normal;color:var(--dim)}
+  .bars-wrap{padding-bottom:22px}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th{color:var(--dim);text-align:left;font-weight:500;font-size:11px;text-transform:uppercase;letter-spacing:.5px;padding:6px 8px;border-bottom:1px solid var(--line)}
+  td{padding:8px;border-bottom:1px solid var(--line)}
+  tr:last-child td{border-bottom:none}
+  .tag{display:inline-block;border-radius:6px;padding:2px 8px;font-size:11px}
+  .t-green{background:#12291f;color:var(--green)} .t-amber{background:#2b2214;color:var(--amber)}
+  .t-red{background:#2a1216;color:var(--red)} .t-cyan{background:#0f2630;color:var(--cyan)}
+  .t-purple{background:#1e1836;color:#b3a1ff}
+  .agents{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+  .agent{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+  .agent .nm{font-size:12.5px;font-weight:600}
+  .agent .st{font-size:11px;margin-top:2px}
+  .dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px}
+  .d-g{background:var(--green)} .d-a{background:var(--amber)} .d-i{background:#4a5568}
+  .approval{display:flex;justify-content:space-between;align-items:center;gap:10px;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:11px 13px;margin-bottom:9px}
+  .approval .t{font-size:13px;font-weight:550}
+  .approval .m{font-size:11.5px;color:var(--dim)}
+  .btns{display:flex;gap:6px}
+  .ok,.no{border:none;border-radius:7px;padding:6px 12px;font-size:12px;cursor:pointer}
+  .ok{background:#164332;color:var(--green)} .no{background:#3a1a20;color:var(--red)}
+  .feed li{list-style:none;padding:7px 0;border-bottom:1px solid var(--line);font-size:12.5px;color:var(--dim)}
+  .feed li:last-child{border:none}
+  .feed b{color:var(--text);font-weight:550}
+  .feed time{float:right;font-size:11px;color:#5d6980}
+  footer{margin-top:20px;color:#5d6980;font-size:11.5px;text-align:center}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <div class="logo">🐦‍⬛</div>
+    <div><h1>The Crow Network</h1><div class="sub">Nest Console · operator: rowland</div></div>
+  </div>
+  <div style="display:flex;gap:10px;align-items:center">
+    <span class="pill">All systems <b>nominal</b></span>
+    <button class="kill" onclick="alert('Kill switch: queues drained, agents disabled (demo)')">⏻ Kill switch</button>
+  </div>
+</header>
+
+<div class="grid kpis" id="kpis"></div>
+
+<div class="grid cols">
+  <div class="card bars-wrap">
+    <h2>Revenue by week (USD, verified on-chain)</h2>
+    <div class="bars" id="rev"></div>
+  </div>
+  <div class="card">
+    <h2>Approvals pending <span class="tag t-amber" id="apcount"></span></h2>
+    <div id="approvals"></div>
+  </div>
+</div>
+
+<div class="grid cols">
+  <div class="card">
+    <h2>Opportunity pipeline</h2>
+    <table id="pipeline"><thead><tr><th>Opportunity</th><th>Type</th><th>EV</th><th>Stage</th><th>Deadline</th></tr></thead><tbody></tbody></table>
+  </div>
+  <div class="card">
+    <h2>Activity feed</h2>
+    <ul class="feed" id="feed"></ul>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Flock status — 16 agents</h2>
+  <div class="grid agents" id="agents"></div>
+</div>
+
+<footer>The Crow Network v0.1 · watch-only treasury · all funds → operator wallets · demo data</footer>
+
+<script>
+const kpis=[
+ ["Revenue MTD","$4,210","+38% vs June","up"],
+ ["Pipeline EV","$18,650","23 active opportunities","dim"],
+ ["Win rate (28d)","31%","+5 pts","up"],
+ ["Tasks today","142","96% success","up"],
+ ["LLM spend today","$6.80","under budget","up"],
+ ["Operator time (wk)","1.4 h","target < 2 h","up"]
+];
+document.getElementById("kpis").innerHTML=kpis.map(([l,v,d,c])=>
+ `<div class="card kpi"><div class="label">${l}</div><div class="value">${v}</div><div class="delta ${c==="up"?"up":""}" style="${c==="dim"?"color:var(--dim)":""}">${d}</div></div>`).join("");
+
+const weeks=[["W23",480],["W24",320],["W25",900],["W26",610],["W27",1250],["W28",4210]];
+const max=Math.max(...weeks.map(w=>w[1]));
+document.getElementById("rev").innerHTML=weeks.map(([w,v])=>
+ `<div class="bar" style="height:${Math.round(v/max*100)}%"><span>$${v.toLocaleString()}</span><em>${w}</em></div>`).join("");
+
+const approvals=[
+ ["Submit Optimism RPGF application","Grant Hunter · EV $3.2k · deadline Jul 14"],
+ ["Publish article: 'Solana fee markets explained'","Content · est. $180/mo affiliate"],
+ ["Accept Dework bounty terms","Bounty Hunter · $850 USDC · 6h est."]
+];
+document.getElementById("apcount").textContent=approvals.length;
+document.getElementById("approvals").innerHTML=approvals.map(([t,m])=>
+ `<div class="approval"><div><div class="t">${t}</div><div class="m">${m}</div></div>
+  <div class="btns"><button class="ok" onclick="this.closest('.approval').style.opacity=.35">Approve</button><button class="no" onclick="this.closest('.approval').style.opacity=.35">Reject</button></div></div>`).join("");
+
+const pipe=[
+ ["Arbitrum docs bounty","Bounty","$1,200","t-cyan|Executing","Jul 18"],
+ ["Gitcoin GG24 round","Grant","$5,000","t-purple|Drafting","Jul 22"],
+ ["DevRel retainer — L2 infra co.","Consulting","$2,500/mo","t-amber|Negotiating","—"],
+ ["ETHGlobal online hack","Hackathon","$4,000","t-green|Scored","Jul 30"],
+ ["Newsletter sponsorship","Content","$400","t-green|Scored","—"],
+ ["Helius creator program","Incentive","$900","t-cyan|Executing","Aug 05"]
+];
+document.querySelector("#pipeline tbody").innerHTML=pipe.map(([n,t,ev,st,d])=>{
+ const[cls,label]=st.split("|");
+ return `<tr><td>${n}</td><td>${t}</td><td>${ev}</td><td><span class="tag ${cls}">${label}</span></td><td>${d}</td></tr>`}).join("");
+
+const feed=[
+ ["Treasury","matched 850 USDC receipt → Dework bounty #412","2m"],
+ ["Scout","discovered 7 new opportunities (2 above EV floor)","18m"],
+ ["Research","scored ETHGlobal hack: P(win) 22%, EV $880","41m"],
+ ["Experimentation","outreach template B +31% reply rate (p=0.03) — promoted","1h"],
+ ["Memory","nightly distillation: 34 episodes → 6 playbook updates","6h"],
+ ["Reporting","daily digest sent to Telegram","7h"]
+];
+document.getElementById("feed").innerHTML=feed.map(([a,m,t])=>
+ `<li><b>${a}</b> ${m}<time>${t} ago</time></li>`).join("");
+
+const agents=[
+ ["Opportunity Scout","g|sweeping 12 sources"],["Research","g|3 briefs in progress"],
+ ["Grant Hunter","a|awaiting approval"],["Bounty Hunter","g|executing #412"],
+ ["Partnership","g|2 threads warm"],["Sales","i|idle"],
+ ["Content","a|awaiting approval"],["Builder","g|PR #88 in review"],
+ ["Automation","i|idle"],["Treasury","g|watching 4 wallets"],
+ ["Analytics","g|marts fresh 09:00"],["Memory","g|indexed 34 episodes"],
+ ["Experimentation","g|2 tests running"],["Scheduler","g|31 timers armed"],
+ ["Reporting","i|next digest 07:00"],["Operator Interface","g|listening"]
+];
+document.getElementById("agents").innerHTML=agents.map(([n,s])=>{
+ const[st,msg]=s.split("|");const d=st==="g"?"d-g":st==="a"?"d-a":"d-i";
+ return `<div class="agent"><div class="nm">${n}</div><div class="st"><span class="dot ${d}"></span>${msg}</div></div>`}).join("");
+</script>
+</body>
+</html>
