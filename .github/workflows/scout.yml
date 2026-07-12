@@ -22,3 +22,17 @@ jobs:
           git add digest.md opportunities.json .scout_seen.json
           git diff --cached --quiet || git commit -m "Daily sweep $(date -u +%F)"
           git push
+      - name: Push notification (ntfy.sh)
+        run: |
+          python3 - <<'EOF'
+          import json, urllib.request
+          opps = json.load(open("opportunities.json"))
+          fresh = [o for o in opps if o.get("is_new")] or opps
+          top = sorted(fresh, key=lambda o: -o["score"])[:3]
+          lines = [f"{o['title']} - ${o['value_usd']:,.0f} (EV {o['score']:,.0f})" for o in top]
+          agent = sum(1 for o in opps if o.get("agent_access") == "AGENT_ALLOWED")
+          body = "\n".join(lines) + f"\n{len(opps)} open, {agent} agent-eligible - nurdthug.github.io/crow-dashboard"
+          req = urllib.request.Request("https://ntfy.sh/crow-nest-nurdthug-x7k2",
+              data=body.encode(), headers={"Title": f"Crow Scout: {len(fresh)} new finds", "Tags": "bird"})
+          urllib.request.urlopen(req, timeout=15)
+          EOF
