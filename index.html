@@ -99,24 +99,68 @@
 
 <script>
 const REPO="nurdthug/crow-dashboard";
-// Operator-registered receive address (PUBLIC address only — platform never holds keys)
-const WALLETS=[{chain:"ETH",addr:"0x084FF47Af080512Ffc68DF95152D8C161d693c1b"}];
+// Operator-registered receive addresses (PUBLIC addresses only — platform never holds keys)
+const EVM_ADDR="0x084FF47Af080512Ffc68DF95152D8C161d693c1b";
+const WALLETS=[
+ {chain:"ETH",addr:EVM_ADDR,explorer:"https://etherscan.io/address/",rpc:null},
+ {chain:"SOL",addr:"2QHYtVneJ8MXDe7t6p2aBHYCAB2oP8vnP8iZJH5zXQe8",explorer:"https://solscan.io/account/"},
+ {chain:"BTC",addr:"bc1qqauw3wxtg6fd4hgsx89m6k99p8kjj6w9eyy4gw",explorer:"https://mempool.space/address/"},
+ {chain:"BNB",addr:EVM_ADDR,explorer:"https://bscscan.com/address/",rpc:"https://bsc-dataseed.binance.org/"},
+ {chain:"POL",addr:EVM_ADDR,explorer:"https://polygonscan.com/address/",rpc:"https://polygon-rpc.com/"},
+ {chain:"SEI",addr:EVM_ADDR,explorer:"https://seitrace.com/address/",rpc:"https://evm-rpc.sei-apis.com/"},
+ {chain:"zkSync",sym:"ETH",addr:EVM_ADDR,explorer:"https://era.zksync.network/address/",rpc:"https://mainnet.era.zksync.io"},
+ {chain:"Base",sym:"ETH",addr:EVM_ADDR,explorer:"https://basescan.org/address/",rpc:"https://mainnet.base.org"},
+ {chain:"Arbitrum",sym:"ETH",addr:EVM_ADDR,explorer:"https://arbiscan.io/address/",rpc:"https://arb1.arbitrum.io/rpc"},
+ {chain:"OP",sym:"ETH",addr:EVM_ADDR,explorer:"https://optimistic.etherscan.io/address/",rpc:"https://mainnet.optimism.io"},
+ {chain:"TRX",addr:"TX6n1aFyxaGvZuy8nPQFzcjBzkUMpRzAZw",explorer:"https://tronscan.org/#/address/"}
+];
 const fmt=n=>"$"+Number(n).toLocaleString();
+
+async function balOf(w){
+ try{
+  if(w.chain==="ETH"){
+   const r=await fetch(`https://eth.blockscout.com/api/v2/addresses/${w.addr}`);
+   if(r.ok){const j=await r.json();return (Number(j.coin_balance||0)/1e18).toFixed(4)+" ETH";}
+  }
+  if(w.rpc){ // generic EVM JSON-RPC
+   const r=await fetch(w.rpc,{method:"POST",
+    headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({jsonrpc:"2.0",id:1,method:"eth_getBalance",params:[w.addr,"latest"]})});
+   if(r.ok){const j=await r.json();return (parseInt(j.result,16)/1e18).toFixed(4)+" "+(w.sym||w.chain);}
+  }
+  if(w.chain==="TRX"){
+   const r=await fetch(`https://apilist.tronscanapi.com/api/accountv2?address=${w.addr}`);
+   if(r.ok){const j=await r.json();return (Number(j.balance||0)/1e6).toFixed(2)+" TRX";}
+  }
+  if(w.chain==="BTC"){
+   const r=await fetch(`https://mempool.space/api/address/${w.addr}`);
+   if(r.ok){const j=await r.json();
+    const sats=(j.chain_stats.funded_txo_sum-j.chain_stats.spent_txo_sum);
+    return (sats/1e8).toFixed(8).replace(/0+$/,"0")+" BTC";}
+  }
+  if(w.chain==="SOL"){
+   const r=await fetch("https://api.mainnet-beta.solana.com",{method:"POST",
+    headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({jsonrpc:"2.0",id:1,method:"getBalance",params:[w.addr]})});
+   if(r.ok){const j=await r.json();return (Number(j.result?.value||0)/1e9).toFixed(4)+" SOL";}
+  }
+ }catch(e){}
+ return "—";
+}
 
 async function loadTreasury(){
  const el=document.getElementById("treasury");
- const w=WALLETS[0];
- const short=w.addr.slice(0,6)+"…"+w.addr.slice(-4);
- let bal="—";
- try{
-  const r=await fetch(`https://eth.blockscout.com/api/v2/addresses/${w.addr}`);
-  if(r.ok){const j=await r.json();bal=(Number(j.coin_balance||0)/1e18).toFixed(4)+" ETH";}
- }catch(e){}
- el.innerHTML=`<div style="font-size:13px"><span class="tag t-green">registered</span> `+
-  `<a href="https://etherscan.io/address/${w.addr}" target="_blank" rel="noopener" style="font-family:monospace">${short}</a>`+
-  `<div style="margin-top:6px;color:var(--text);font-size:16px;font-weight:600">${bal}</div>`+
-  `<div style="margin-top:4px">Watch-only. Incoming payments to this address will be matched to opportunities. `+
-  `Note: Superteam pays USDC/USDG on <b>Solana</b> — add a Solana address to receive those.</div></div>`;
+ const rows=await Promise.all(WALLETS.map(async w=>{
+  const short=w.addr.slice(0,4)+"…"+w.addr.slice(-4);
+  const bal=await balOf(w);
+  return `<div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0">`+
+   `<span><span class="tag t-green">${w.chain}</span> `+
+   `<a href="${w.explorer}${w.addr}" target="_blank" rel="noopener" style="font-family:monospace;font-size:12px">${short}</a></span>`+
+   `<b style="color:var(--text)">${bal}</b></div>`;
+ }));
+ el.innerHTML=`<div style="font-size:13px">${rows.join("")}`+
+  `<div style="margin-top:6px;color:var(--dim)">Watch-only receive addresses, operator-registered. `+
+  `Incoming payments get matched to pipeline opportunities. SOL address receives Superteam USDC/USDG payouts.</div></div>`;
 }
 loadTreasury();
 
