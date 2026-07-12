@@ -14,12 +14,14 @@ jobs:
         with:
           python-version: "3.12"
       - name: Run scout
-        run: python scout.py --outdir .
+        run: |
+          python scout.py --outdir .
+          python research.py
       - name: Commit results
         run: |
           git config user.name "crow-scout[bot]"
           git config user.email "actions@users.noreply.github.com"
-          git add digest.md opportunities.json .scout_seen.json
+          git add digest.md opportunities.json research.md .scout_seen.json
           git diff --cached --quiet || git commit -m "Daily sweep $(date -u +%F)"
           git push
       - name: Push notification (ntfy.sh)
