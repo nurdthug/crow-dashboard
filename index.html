@@ -131,17 +131,31 @@ document.getElementById("approvals").innerHTML=approvals.map(([t,m])=>
  `<div class="approval"><div><div class="t">${t}</div><div class="m">${m}</div></div>
   <div class="btns"><button class="ok" onclick="this.closest('.approval').style.opacity=.35">Approve</button><button class="no" onclick="this.closest('.approval').style.opacity=.35">Reject</button></div></div>`).join("");
 
-const pipe=[
- ["Arbitrum docs bounty","Bounty","$1,200","t-cyan|Executing","Jul 18"],
- ["Gitcoin GG24 round","Grant","$5,000","t-purple|Drafting","Jul 22"],
- ["DevRel retainer — L2 infra co.","Consulting","$2,500/mo","t-amber|Negotiating","—"],
- ["ETHGlobal online hack","Hackathon","$4,000","t-green|Scored","Jul 30"],
- ["Newsletter sponsorship","Content","$400","t-green|Scored","—"],
- ["Helius creator program","Incentive","$900","t-cyan|Executing","Aug 05"]
-];
-document.querySelector("#pipeline tbody").innerHTML=pipe.map(([n,t,ev,st,d])=>{
- const[cls,label]=st.split("|");
- return `<tr><td>${n}</td><td>${t}</td><td>${ev}</td><td><span class="tag ${cls}">${label}</span></td><td>${d}</td></tr>`}).join("");
+// LIVE pipeline: rendered from opportunities.json committed daily by crow-scout (GitHub Actions).
+// Falls back to a notice if the feed hasn't been generated yet.
+async function loadPipeline(){
+ const tbody=document.querySelector("#pipeline tbody");
+ try{
+  const r=await fetch("opportunities.json",{cache:"no-store"});
+  if(!r.ok) throw new Error(r.status);
+  const opps=await r.json();
+  const h2=document.querySelector("#pipeline").closest(".card").querySelector("h2");
+  h2.innerHTML=`Opportunity pipeline <span class="tag t-green">LIVE · ${opps.length} open</span>`;
+  tbody.innerHTML=opps.slice(0,12).map(o=>{
+   const dl=o.days_left==null?"—":Math.round(o.days_left)+"d";
+   const agent=o.agent_access==="AGENT_ALLOWED"?" 🤖":"";
+   return `<tr><td><a href="${o.url}" target="_blank" rel="noopener" style="color:var(--text)">${o.title}${agent}</a></td>`+
+    `<td>${o.type}</td><td>$${Number(o.value_usd).toLocaleString()} ${o.token}</td>`+
+    `<td><span class="tag t-purple">EV ${Number(o.score).toLocaleString()}</span></td><td>${dl}</td></tr>`;
+  }).join("");
+  const ev=opps.reduce((s,o)=>s+(o.value_usd||0),0);
+  document.querySelectorAll(".kpi")[1].querySelector(".value").textContent="$"+ev.toLocaleString();
+  document.querySelectorAll(".kpi")[1].querySelector(".delta").textContent=opps.length+" live opportunities (real data)";
+ }catch(e){
+  tbody.innerHTML=`<tr><td colspan="5" style="color:var(--dim)">Live feed not generated yet — the daily crow-scout Action commits opportunities.json each day at 13:00 UTC.</td></tr>`;
+ }
+}
+loadPipeline();
 
 const feed=[
  ["Treasury","matched 850 USDC receipt → Dework bounty #412","2m"],
