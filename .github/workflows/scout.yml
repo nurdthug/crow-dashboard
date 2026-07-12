@@ -1,0 +1,60 @@
+name: crow-scout-daily
+on:
+  schedule:
+    - cron: "0 13 * * *"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run scout and research
+        run: |
+          python scout.py --outdir .
+          python research.py
+      - name: Commit results
+        run: |
+          git config user.name "crow-scout[bot]"
+          git config user.email "actions@users.noreply.github.com"
+          git add digest.md opportunities.json research.md .scout_seen.json
+          git diff --cached --quiet || git commit -m "Daily sweep $(date -u +%F)"
+          git push
+      - name: Build alert message
+        run: |
+          python3 - <<'EOF'
+          import json
+          o = json.load(open("opportunities.json"))
+          f = [x for x in o if x.get("is_new")] or o
+          t = sorted(f, key=lambda x: -x["score"])[:3]
+          msg = "\n".join(f"{x['title']} - ${x['value_usd']:,.0f} (EV {x['score']:,.0f})" for x in t)
+          agent = sum(1 for x in o if x.get("agent_access") == "AGENT_ALLOWED")
+          msg += f"\n{len(o)} open, {agent} agent-eligible - nurdthug.github.io/crow-dashboard"
+          open("alert.txt","w").write(msg)
+          open("alert_count.txt","w").write(str(len(f)))
+          EOF
+      - name: Notify ntfy.sh
+        run: |
+          curl -s -H "Title: Crow Scout: $(cat alert_count.txt) new finds" -H "Tags: bird" --data-binary @alert.txt https://ntfy.sh/crow-nest-nurdthug-x7k2 >/dev/null
+      - name: Notify Telegram
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          [ -z "$TG_TOKEN" ] && echo "no TELEGRAM_TOKEN - skipping" && exit 0
+          curl -s -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" -d chat_id="${TG_CHAT}" --data-urlencode "text@alert.txt" >/dev/null
+      - name: Notify Discord
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          [ -z "$DISCORD_WEBHOOK" ] && echo "no DISCORD_WEBHOOK - skipping" && exit 0
+          python3 - <<'EOF'
+          import json, os, urllib.request
+          body = json.dumps({"content": "Crow Scout\n" + open("alert.txt").read()}).encode()
+          req = urllib.request.Request(os.environ["DISCORD_WEBHOOK"], data=body, headers={"Content-Type":"application/json"})
+          urllib.request.urlopen(req, timeout=15)
+          EOF
