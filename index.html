@@ -169,17 +169,30 @@ async function loadTreasury(){
 }
 loadTreasury();
 
-// Research brief — parses research.md (written daily by research.py in the same Action)
+// Research brief — prefer structured research.json, with research.md fallback.
 async function loadResearch(){
  const tb=document.querySelector("#research tbody");
  const head=document.getElementById("reshead");
  try{
-  const r=await fetch("research.md",{cache:"no-store"});
+  const r=await fetch("research.json",{cache:"no-store"});
   if(!r.ok) throw 0;
-  const md=await r.text();
-  const date=(md.match(/^# .*?—\s*(.+)$/m)||[])[1]||"";
-  const rows=md.split("\n").filter(l=>/^\|\s*\d+\s*\|/.test(l));
-  const picks=rows.slice(0,5).map(l=>{
+  const data=await r.json();
+  const picks=(data.recommendations||[]).slice(0,5).map(o=>({
+   rank:o.rank,fit:Number(o.fit).toLocaleString(),name:o.title,url:o.url,
+   val:`${fmt(o.value_usd)} ${o.token||"USD"}`,why:o.why,next:o.next_step
+  }));
+  if(!picks.length) throw 0;
+  head.innerHTML=`Research picks <span class="tag t-purple">${data.generated_at||""}</span> `+
+   `<a href="research.md" style="font-size:11px;color:var(--cyan);text-transform:none;letter-spacing:0">full brief →</a>`;
+  renderResearchRows(tb,picks);
+ }catch(e){
+  try{
+   const r=await fetch("research.md",{cache:"no-store"});
+   if(!r.ok) throw 0;
+   const md=await r.text();
+   const date=(md.match(/^# .*?—\s*(.+)$/m)||[])[1]||"";
+   const rows=md.split("\n").filter(l=>/^\|\s*\d+\s*\|/.test(l));
+   const picks=rows.slice(0,5).map(l=>{
    // Title text may itself contain "|", so peel known columns off both ends.
    const p=l.split("|"); // ["", rank, fit, ...title..., value, why, next, ""]
    const rank=p[1].trim(), fit=p[2].trim();
@@ -187,19 +200,24 @@ async function loadResearch(){
    const title=p.slice(3,p.length-4).join("|").trim();
    const m=title.match(/\[(.*)\]\((.*?)\)/);
    return {rank,fit,name:m?m[1]:title,url:m?m[2]:"#",val,why,next};
-  });
-  if(!picks.length) throw 0;
-  head.innerHTML=`Research picks <span class="tag t-purple">${date}</span> `+
-   `<a href="research.md" style="font-size:11px;color:var(--cyan);text-transform:none;letter-spacing:0">full brief →</a>`;
-  tb.innerHTML=picks.map(o=>
-   `<tr><td>${o.rank}</td>`+
-   `<td><a href="${o.url}" target="_blank" rel="noopener">${o.name}</a> <span class="tag t-dim">fit ${o.fit}</span></td>`+
-   `<td>${o.val}</td><td>${o.why}</td><td style="color:var(--dim)">${o.next}</td></tr>`).join("");
- }catch(e){
-  tb.innerHTML=`<tr><td colspan="5" class="empty">research.md not available yet — it lands with the daily 13:00 UTC Action run.</td></tr>`;
+   });
+   if(!picks.length) throw 0;
+   head.innerHTML=`Research picks <span class="tag t-purple">${date}</span> `+
+    `<a href="research.md" style="font-size:11px;color:var(--cyan);text-transform:none;letter-spacing:0">full brief →</a>`;
+   renderResearchRows(tb,picks);
+  }catch(err){
+   tb.innerHTML=`<tr><td colspan="5" class="empty">research output not available yet — it lands with the daily 13:00 UTC Action run.</td></tr>`;
+  }
  }
 }
 loadResearch();
+
+function renderResearchRows(tb,picks){
+ tb.innerHTML=picks.map(o=>
+  `<tr><td>${o.rank}</td>`+
+  `<td><a href="${o.url}" target="_blank" rel="noopener">${o.name}</a> <span class="tag t-dim">fit ${o.fit}</span></td>`+
+  `<td>${o.val}</td><td>${o.why}</td><td style="color:var(--dim)">${o.next}</td></tr>`).join("");
+}
 
 async function boot(){
  let opps=[];
