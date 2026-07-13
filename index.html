@@ -71,6 +71,11 @@
   <table id="research"><thead><tr><th>#</th><th>Opportunity</th><th>Effort</th><th>Value</th><th>Why</th><th>Next step</th></tr></thead><tbody><tr><td colspan="6" class="empty">Loading research brief…</td></tr></tbody></table>
 </div>
 
+<div class="card" style="margin-bottom:14px">
+  <h2>Do not chase first</h2>
+  <ul class="feed" id="avoid"><li>Loading avoid list…</li></ul>
+</div>
+
 <div class="grid cols">
   <div class="card bars-wrap">
     <h2>Top opportunities by face value (live)</h2>
@@ -185,6 +190,7 @@ async function loadResearch(){
   head.innerHTML=`Research picks <span class="tag t-purple">${data.generated_at||""}</span> `+
    `<a href="research.md" style="font-size:11px;color:var(--cyan);text-transform:none;letter-spacing:0">full brief →</a>`;
   renderResearchRows(tb,picks);
+  renderAvoid(data.avoid_first||[]);
  }catch(e){
   try{
    const r=await fetch("research.md",{cache:"no-store"});
@@ -207,8 +213,10 @@ async function loadResearch(){
    head.innerHTML=`Research picks <span class="tag t-purple">${date}</span> `+
     `<a href="research.md" style="font-size:11px;color:var(--cyan);text-transform:none;letter-spacing:0">full brief →</a>`;
    renderResearchRows(tb,picks);
+   renderAvoidFromMarkdown(md);
   }catch(err){
    tb.innerHTML=`<tr><td colspan="6" class="empty">research output not available yet — it lands with the daily 13:00 UTC Action run.</td></tr>`;
+   document.getElementById("avoid").innerHTML=`<li>avoid list not available yet.</li>`;
   }
  }
 }
@@ -220,6 +228,23 @@ function renderResearchRows(tb,picks){
   `<td><a href="${o.url}" target="_blank" rel="noopener">${o.name}</a> <span class="tag t-dim">fit ${o.fit}</span></td>`+
   `<td><span class="tag t-amber">${o.effort||"—"}</span></td>`+
   `<td>${o.val}</td><td>${o.why}</td><td style="color:var(--dim)">${o.next}</td></tr>`).join("");
+}
+
+function renderAvoid(items){
+ const el=document.getElementById("avoid");
+ const traps=items.slice(0,5);
+ el.innerHTML=traps.length?traps.map(o=>
+  `<li><b><a href="${o.url}" target="_blank" rel="noopener">${o.title}</a></b>`+
+  ` <span class="tag t-dim">${Number(o.competition||0).toLocaleString()} competitors</span>`+
+  `<br>${o.reason||"high visible competition"}</li>`).join(""):`<li>No avoid-first traps flagged.</li>`;
+}
+
+function renderAvoidFromMarkdown(md){
+ const items=md.split("\n").filter(l=>/^- \[/.test(l)).slice(0,5).map(l=>{
+  const m=l.match(/^- \[(.*?)\]\((.*?)\):\s*(.*)$/);
+  return m?{title:m[1],url:m[2],reason:m[3],competition:0}:null;
+ }).filter(Boolean);
+ renderAvoid(items);
 }
 
 async function boot(){
