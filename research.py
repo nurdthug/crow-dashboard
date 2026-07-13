@@ -96,10 +96,16 @@ def recommendation(i, o):
     }
 
 
+def is_trap(o):
+    return (o.get("competition") or 0) > 1000
+
+
 def main():
     opps = json.loads(Path("opportunities.json").read_text())
     ranked = sorted(opps, key=fit_score, reverse=True)
-    top = ranked[:10]
+    traps = [o for o in ranked if is_trap(o)][:5]
+    chaseable = [o for o in ranked if not is_trap(o)]
+    top = (chaseable or ranked)[:10]
     agent = [o for o in ranked if o.get("agent_access") == "AGENT_ALLOWED"]
     generated_at = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
 
@@ -124,7 +130,6 @@ def main():
         "## Do Not Chase First",
         "",
     ]
-    traps = [o for o in opps if (o.get("competition") or 0) > 1000][:5]
     for o in traps:
         lines.append(f"- [{o['title']}]({o['url']}): huge pool, but competition is already {o.get('competition'):,}.")
 
