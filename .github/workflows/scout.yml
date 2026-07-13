@@ -35,7 +35,11 @@ jobs:
           recs = research.get("recommendations")
           if not isinstance(recs, list) or not recs:
               raise SystemExit("research.json must contain at least one recommendation")
-          for key in ["rank", "title", "url", "value_usd", "why", "next_step"]:
+          expected = [
+              "rank", "title", "url", "value_usd", "why", "next_step",
+              "effort", "days_left", "competition", "deadline",
+          ]
+          for key in expected:
               if key not in recs[0]:
                   raise SystemExit(f"first recommendation missing {key}")
           print(f"validated {len(opps)} opportunities and {len(recs)} recommendations")
