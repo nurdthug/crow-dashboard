@@ -68,7 +68,7 @@
 
 <div class="card" style="margin-bottom:14px">
   <h2 id="reshead">Research picks — today's brief</h2>
-  <table id="research"><thead><tr><th>#</th><th>Opportunity</th><th>Value</th><th>Why</th><th>Next step</th></tr></thead><tbody><tr><td colspan="5" class="empty">Loading research brief…</td></tr></tbody></table>
+  <table id="research"><thead><tr><th>#</th><th>Opportunity</th><th>Effort</th><th>Value</th><th>Why</th><th>Next step</th></tr></thead><tbody><tr><td colspan="6" class="empty">Loading research brief…</td></tr></tbody></table>
 </div>
 
 <div class="grid cols">
@@ -179,7 +179,7 @@ async function loadResearch(){
   const data=await r.json();
   const picks=(data.recommendations||[]).slice(0,5).map(o=>({
    rank:o.rank,fit:Number(o.fit).toLocaleString(),name:o.title,url:o.url,
-   val:`${fmt(o.value_usd)} ${o.token||"USD"}`,why:o.why,next:o.next_step
+   effort:o.effort||"—",val:`${fmt(o.value_usd)} ${o.token||"USD"}`,why:o.why,next:o.next_step
   }));
   if(!picks.length) throw 0;
   head.innerHTML=`Research picks <span class="tag t-purple">${data.generated_at||""}</span> `+
@@ -194,19 +194,21 @@ async function loadResearch(){
    const rows=md.split("\n").filter(l=>/^\|\s*\d+\s*\|/.test(l));
    const picks=rows.slice(0,5).map(l=>{
    // Title text may itself contain "|", so peel known columns off both ends.
-   const p=l.split("|"); // ["", rank, fit, ...title..., value, why, next, ""]
+   const p=l.split("|"); // ["", rank, fit, effort?, ...title..., value, why, next, ""]
    const rank=p[1].trim(), fit=p[2].trim();
    const next=p[p.length-2].trim(), why=p[p.length-3].trim(), val=p[p.length-4].trim();
-   const title=p.slice(3,p.length-4).join("|").trim();
+   const hasEffort=/^(low-medium|medium|high)$/i.test((p[3]||"").trim());
+   const effort=hasEffort?p[3].trim():"—";
+   const title=p.slice(hasEffort?4:3,p.length-4).join("|").trim();
    const m=title.match(/\[(.*)\]\((.*?)\)/);
-   return {rank,fit,name:m?m[1]:title,url:m?m[2]:"#",val,why,next};
+   return {rank,fit,effort,name:m?m[1]:title,url:m?m[2]:"#",val,why,next};
    });
    if(!picks.length) throw 0;
    head.innerHTML=`Research picks <span class="tag t-purple">${date}</span> `+
     `<a href="research.md" style="font-size:11px;color:var(--cyan);text-transform:none;letter-spacing:0">full brief →</a>`;
    renderResearchRows(tb,picks);
   }catch(err){
-   tb.innerHTML=`<tr><td colspan="5" class="empty">research output not available yet — it lands with the daily 13:00 UTC Action run.</td></tr>`;
+   tb.innerHTML=`<tr><td colspan="6" class="empty">research output not available yet — it lands with the daily 13:00 UTC Action run.</td></tr>`;
   }
  }
 }
@@ -216,6 +218,7 @@ function renderResearchRows(tb,picks){
  tb.innerHTML=picks.map(o=>
   `<tr><td>${o.rank}</td>`+
   `<td><a href="${o.url}" target="_blank" rel="noopener">${o.name}</a> <span class="tag t-dim">fit ${o.fit}</span></td>`+
+  `<td><span class="tag t-amber">${o.effort||"—"}</span></td>`+
   `<td>${o.val}</td><td>${o.why}</td><td style="color:var(--dim)">${o.next}</td></tr>`).join("");
 }
 
