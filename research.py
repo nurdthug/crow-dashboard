@@ -77,6 +77,25 @@ def next_step(o):
     return "Open listing, capture rules/deadline/payout terms, and decide go/no-go."
 
 
+def recommendation(i, o):
+    return {
+        "rank": i,
+        "fit": fit_score(o),
+        "title": o["title"],
+        "url": o["url"],
+        "value_usd": o["value_usd"],
+        "token": o.get("token", "USD"),
+        "why": rationale(o),
+        "next_step": next_step(o),
+        "effort": effort(o),
+        "days_left": o.get("days_left"),
+        "competition": o.get("competition"),
+        "deadline": o.get("deadline"),
+        "source": o.get("source"),
+        "agent_access": o.get("agent_access"),
+    }
+
+
 def main():
     opps = json.loads(Path("opportunities.json").read_text())
     ranked = sorted(opps, key=fit_score, reverse=True)
@@ -91,12 +110,12 @@ def main():
         "",
         f"**Reviewed:** {len(opps)} opportunities · **Agent-allowed:** {len(agent)} · **Recommended focus:** top 3 below",
         "",
-        "| # | Fit | Opportunity | Value | Why | Next step |",
-        "|---|---:|---|---:|---|---|",
+        "| # | Fit | Effort | Opportunity | Value | Why | Next step |",
+        "|---|---:|---|---|---:|---|---|",
     ]
     for i, o in enumerate(top, 1):
         lines.append(
-            f"| {i} | {fit_score(o):,.0f} | [{o['title']}]({o['url']}) "
+            f"| {i} | {fit_score(o):,.0f} | {effort(o)} | [{o['title']}]({o['url']}) "
             f"| ${o['value_usd']:,.0f} {o.get('token','USD')} | {rationale(o)} | {next_step(o)} |"
         )
 
@@ -114,18 +133,7 @@ def main():
         "generated_at": generated_at,
         "reviewed": len(opps),
         "agent_allowed": len(agent),
-        "recommendations": [{
-            "rank": i,
-            "fit": fit_score(o),
-            "title": o["title"],
-            "url": o["url"],
-            "value_usd": o["value_usd"],
-            "token": o.get("token", "USD"),
-            "why": rationale(o),
-            "next_step": next_step(o),
-            "source": o.get("source"),
-            "agent_access": o.get("agent_access"),
-        } for i, o in enumerate(top, 1)],
+        "recommendations": [recommendation(i, o) for i, o in enumerate(top, 1)],
         "avoid_first": [{
             "title": o["title"],
             "url": o["url"],
@@ -133,7 +141,7 @@ def main():
             "reason": "huge pool, but high visible competition",
         } for o in traps],
     }, indent=2))
-    print(f"{len(top)} recommendations -> research.md")
+    print(f"{len(top)} recommendations -> research.md + research.json")
 
 
 if __name__ == "__main__":
