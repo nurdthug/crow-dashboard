@@ -1,0 +1,159 @@
+{
+  "generated_at": "2026-07-13 11:17 UTC",
+  "reviewed": 37,
+  "agent_allowed": 1,
+  "recommendations": [
+    {
+      "rank": 1,
+      "fit": 7000.0,
+      "title": "Build with Gemini XPRIZE",
+      "url": "https://xprize.devpost.com/",
+      "value_usd": 2000000.0,
+      "token": "USD",
+      "why": "verified sponsor",
+      "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
+      "source": "devpost",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 2,
+      "fit": 2000.0,
+      "title": "World Cup Hackathon Brasil",
+      "url": "https://earn.superteam.fun/listings/world-cup-hackathon-brasil",
+      "value_usd": 2000.0,
+      "token": "USDG",
+      "why": "verified sponsor, no visible competition yet",
+      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 3,
+      "fit": 1200.0,
+      "title": "Create Vertical Video Content for Superteam Canada during Canada Crypto Week",
+      "url": "https://earn.superteam.fun/listings/create-vertical-video-content-for-canada-crypto-week",
+      "value_usd": 1500.0,
+      "token": "USDG",
+      "why": "verified sponsor, low competition",
+      "next_step": "Draft script/angle and collect required brand/rule links.",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 4,
+      "fit": 1000.0,
+      "title": "On-Chain Loyalty Rewards System Challenge",
+      "url": "https://earn.superteam.fun/listings/on-chain-loyalty-rewards-system-challenge",
+      "value_usd": 1000.0,
+      "token": "USDG",
+      "why": "verified sponsor, no visible competition yet",
+      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 5,
+      "fit": 771.75,
+      "title": "Kaya AI India Hackathon 2026",
+      "url": "https://kaya-ai-iit-hackathon-2026.devpost.com/",
+      "value_usd": 350000.0,
+      "token": "USD",
+      "why": "urgent",
+      "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
+      "source": "devpost",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 6,
+      "fit": 755.56,
+      "title": "Superteam Nepal Mini Hack",
+      "url": "https://earn.superteam.fun/listings/superteam-nepal-mini-hack",
+      "value_usd": 850.0,
+      "token": "USDC",
+      "why": "verified sponsor, low competition",
+      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 7,
+      "fit": 691.77,
+      "title": "Deep Dive | Australian Innovation, Investment & Competitiveness",
+      "url": "https://earn.superteam.fun/listings/deep-dive-australian-innovation-investment-and-competitiveness",
+      "value_usd": 3500.0,
+      "token": "USDG",
+      "why": "verified sponsor, low competition, urgent",
+      "next_step": "Create research outline and source list; estimate writing time.",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 8,
+      "fit": 666.67,
+      "title": "Design Superteam NL Merchandise",
+      "url": "https://earn.superteam.fun/listings/design-superteam-nl-merchandise",
+      "value_usd": 1250.0,
+      "token": "USDG",
+      "why": "verified sponsor, low competition",
+      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 9,
+      "fit": 533.33,
+      "title": "Superteam Poland Ecosystem Infographic Challenge",
+      "url": "https://earn.superteam.fun/listings/superteam-poland-ecosystem-infographic-challenge",
+      "value_usd": 500.0,
+      "token": "USDG",
+      "why": "verified sponsor, low competition",
+      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 10,
+      "fit": 504.0,
+      "title": "Create a video | Why Build in Australia?",
+      "url": "https://earn.superteam.fun/listings/create-a-video-why-build-in-australia",
+      "value_usd": 1500.0,
+      "token": "USDG",
+      "why": "verified sponsor, low competition, urgent",
+      "next_step": "Draft script/angle and collect required brand/rule links.",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
+    }
+  ],
+  "avoid_first": [
+    {
+      "title": "Build with Gemini XPRIZE",
+      "url": "https://xprize.devpost.com/",
+      "competition": 19096,
+      "reason": "huge pool, but high visible competition"
+    },
+    {
+      "title": "Kaya AI India Hackathon 2026",
+      "url": "https://kaya-ai-iit-hackathon-2026.devpost.com/",
+      "competition": 1435,
+      "reason": "huge pool, but high visible competition"
+    },
+    {
+      "title": "Global AI Hackathon Series with Qwen Cloud ",
+      "url": "https://qwencloud-hackathon.devpost.com/",
+      "competition": 7698,
+      "reason": "huge pool, but high visible competition"
+    },
+    {
+      "title": "Reddit’s Games with a Hook Hackathon",
+      "url": "https://redditgameswithahook.devpost.com/",
+      "competition": 2779,
+      "reason": "huge pool, but high visible competition"
+    },
+    {
+      "title": "Slack Agent Builder Challenge",
+      "url": "https://slackhack.devpost.com/",
+      "competition": 4258,
+      "reason": "huge pool, but high visible competition"
+    }
+  ]
+}
