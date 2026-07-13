@@ -39,9 +39,13 @@ jobs:
               "rank", "title", "url", "value_usd", "why", "next_step",
               "effort", "days_left", "competition", "deadline",
           ]
-          for key in expected:
-              if key not in recs[0]:
-                  raise SystemExit(f"first recommendation missing {key}")
+          for i, rec in enumerate(recs, 1):
+              missing_keys = [key for key in expected if key not in rec]
+              if missing_keys:
+                  raise SystemExit(f"recommendation {i} missing {', '.join(missing_keys)}")
+              if not rec.get("title") or not rec.get("url"):
+                  raise SystemExit(f"recommendation {i} missing title/url value")
+              float(rec.get("value_usd") or 0)
           print(f"validated {len(opps)} opportunities and {len(recs)} recommendations")
           EOF
       - name: Commit results
