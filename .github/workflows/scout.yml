@@ -17,6 +17,29 @@ jobs:
         run: |
           python scout.py --outdir .
           python research.py
+      - name: Validate outputs
+        run: |
+          python3 - <<'EOF'
+          import json
+          from pathlib import Path
+
+          required = ["opportunities.json", "research.json", "digest.md", "research.md"]
+          missing = [p for p in required if not Path(p).exists()]
+          if missing:
+              raise SystemExit(f"missing output files: {', '.join(missing)}")
+
+          opps = json.loads(Path("opportunities.json").read_text())
+          research = json.loads(Path("research.json").read_text())
+          if not isinstance(opps, list):
+              raise SystemExit("opportunities.json must be a list")
+          recs = research.get("recommendations")
+          if not isinstance(recs, list) or not recs:
+              raise SystemExit("research.json must contain at least one recommendation")
+          for key in ["rank", "title", "url", "value_usd", "why", "next_step"]:
+              if key not in recs[0]:
+                  raise SystemExit(f"first recommendation missing {key}")
+          print(f"validated {len(opps)} opportunities and {len(recs)} recommendations")
+          EOF
       - name: Commit results
         run: |
           git config user.name "crow-scout[bot]"
