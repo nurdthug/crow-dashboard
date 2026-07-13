@@ -1,14 +1,14 @@
-# Crow Scout Digest — 2026-07-13 15:43 UTC
+# Crow Scout Digest — 2026-07-13 15:44 UTC
 
-**37 open opportunities** · 3 new since last run · 1 flagged AGENT_ALLOWED · total face value $2,560,000
+**37 open opportunities** · 0 new since last run · 1 flagged AGENT_ALLOWED · total face value $2,560,000
 
 | # | Score | Title | Value | Type | Source | Days left | Competition | Agent? |
 |---|---|---|---|---|---|---|---|---|
 | 1 | 40,000 | [Build with Gemini XPRIZE](https://xprize.devpost.com/) | $2,000,000 USD | hackathon | devpost | 30 | 19274 |  |
-| 2 | 5,000 | [Bring Your Web2 Ideas Onchain](https://earn.superteam.fun/listings/bring-your-web2-ideas-onchain) 🆕 | $5,000 USDC | bounty | superteam-earn | 20 | 0 |  |
+| 2 | 5,000 | [Bring Your Web2 Ideas Onchain](https://earn.superteam.fun/listings/bring-your-web2-ideas-onchain) | $5,000 USDC | bounty | superteam-earn | 20 | 0 |  |
 | 3 | 4,200 | [Kaya AI India Hackathon 2026](https://kaya-ai-iit-hackathon-2026.devpost.com/) | $350,000 USD | hackathon | devpost | — | 1454 |  |
 | 4 | 2,000 | [World Cup Hackathon Brasil](https://earn.superteam.fun/listings/world-cup-hackathon-brasil) | $2,000 USDG | bounty | superteam-earn | 6 | 0 |  |
-| 5 | 1,000 | [Cap for Clacton | Comment Bounty](https://earn.superteam.fun/listings/cap-for-clacton-or-comment-bounty) 🆕 | $1,000 USDG | bounty | superteam-earn | 8 | 0 |  |
+| 5 | 1,000 | [Cap for Clacton | Comment Bounty](https://earn.superteam.fun/listings/cap-for-clacton-or-comment-bounty) | $1,000 USDG | bounty | superteam-earn | 8 | 0 |  |
 | 6 | 1,000 | [Create Vertical Video Content for Superteam Canada during Canada Crypto Week](https://earn.superteam.fun/listings/create-vertical-video-content-for-canada-crypto-week) | $1,500 USDG | bounty | superteam-earn | 10 | 4 |  |
 | 7 | 1,000 | [On-Chain Loyalty Rewards System Challenge](https://earn.superteam.fun/listings/on-chain-loyalty-rewards-system-challenge) | $1,000 USDG | bounty | superteam-earn | 25 | 0 |  |
 | 8 | 988 | [Deep Dive | Australian Innovation, Investment & Competitiveness](https://earn.superteam.fun/listings/deep-dive-australian-innovation-investment-and-competitiveness) | $3,500 USDG | bounty | superteam-earn | 2 | 9 |  |
@@ -21,7 +21,7 @@
 | 15 | 444 | [Superteam Poland Ecosystem Infographic Challenge](https://earn.superteam.fun/listings/superteam-poland-ecosystem-infographic-challenge) | $500 USDG | bounty | superteam-earn | 25 | 1 |  |
 | 16 | 360 | [Reddit’s Games with a Hook Hackathon](https://redditgameswithahook.devpost.com/) | $40,000 USD | hackathon | devpost | 2 | 2832 |  |
 | 17 | 340 | [Superteam Nepal Mini Hack](https://earn.superteam.fun/listings/superteam-nepal-mini-hack) | $850 USDC | bounty | superteam-earn | 2 | 4 |  |
-| 18 | 308 | [Build with DataHub: The Agent Hackathon](https://datahub.devpost.com/) 🆕 | $20,500 USD | hackathon | devpost | 28 | 599 |  |
+| 18 | 308 | [Build with DataHub: The Agent Hackathon](https://datahub.devpost.com/) | $20,500 USD | hackathon | devpost | 28 | 599 |  |
 | 19 | 300 | [Goatfish Bounty Q2 2026 🐐](https://earn.superteam.fun/listings/goatfish-bounty-q2-2026) | $500 USDC | bounty | superteam-earn | 7 | 2 |  |
 | 20 | 286 | [Find Critical Vulnerabilities in Veilo Mainnet Smart Contracts for Fund Loss](https://earn.superteam.fun/listings/veilo-bounty) | $2,000 USDC | bounty | superteam-earn | 38 | 34 |  |
 | 21 | 273 | [Deep Dive on Kaching Football WC Campaign](https://earn.superteam.fun/listings/deep-dive-on-kaching-football-wc-campaign) | $1,000 USDC | bounty | superteam-earn | 4 | 14 |  |
