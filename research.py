@@ -82,9 +82,10 @@ def main():
     ranked = sorted(opps, key=fit_score, reverse=True)
     top = ranked[:10]
     agent = [o for o in ranked if o.get("agent_access") == "AGENT_ALLOWED"]
+    generated_at = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
 
     lines = [
-        f"# Crow Research Brief — {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}",
+        f"# Crow Research Brief — {generated_at}",
         "",
         "This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.",
         "",
@@ -109,6 +110,29 @@ def main():
         lines.append(f"- [{o['title']}]({o['url']}): huge pool, but competition is already {o.get('competition'):,}.")
 
     Path("research.md").write_text("\n".join(lines))
+    Path("research.json").write_text(json.dumps({
+        "generated_at": generated_at,
+        "reviewed": len(opps),
+        "agent_allowed": len(agent),
+        "recommendations": [{
+            "rank": i,
+            "fit": fit_score(o),
+            "title": o["title"],
+            "url": o["url"],
+            "value_usd": o["value_usd"],
+            "token": o.get("token", "USD"),
+            "why": rationale(o),
+            "next_step": next_step(o),
+            "source": o.get("source"),
+            "agent_access": o.get("agent_access"),
+        } for i, o in enumerate(top, 1)],
+        "avoid_first": [{
+            "title": o["title"],
+            "url": o["url"],
+            "competition": o.get("competition"),
+            "reason": "huge pool, but high visible competition",
+        } for o in traps],
+    }, indent=2))
     print(f"{len(top)} recommendations -> research.md")
 
 
