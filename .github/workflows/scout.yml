@@ -46,7 +46,17 @@ jobs:
               if not rec.get("title") or not rec.get("url"):
                   raise SystemExit(f"recommendation {i} missing title/url value")
               float(rec.get("value_usd") or 0)
-          print(f"validated {len(opps)} opportunities and {len(recs)} recommendations")
+          avoid = research.get("avoid_first", [])
+          if not isinstance(avoid, list):
+              raise SystemExit("research.json avoid_first must be a list")
+          for i, trap in enumerate(avoid, 1):
+              missing_keys = [key for key in ["title", "url", "competition", "reason"] if key not in trap]
+              if missing_keys:
+                  raise SystemExit(f"avoid_first {i} missing {', '.join(missing_keys)}")
+              if not trap.get("title") or not trap.get("url"):
+                  raise SystemExit(f"avoid_first {i} missing title/url value")
+              int(trap.get("competition") or 0)
+          print(f"validated {len(opps)} opportunities, {len(recs)} recommendations, and {len(avoid)} avoid-first traps")
           EOF
       - name: Commit results
         run: |
