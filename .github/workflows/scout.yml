@@ -28,20 +28,13 @@ jobs:
         continue-on-error: true
         run: |
           python3 - <<'EOF'
-          import json, re, urllib.request
+          import json, urllib.request
           opps = json.load(open("opportunities.json"))
-          md = open("research.md").read()
+          research = json.load(open("research.json"))
           picks = []
-          for l in md.splitlines():
-              if not re.match(r"^\|\s*[1-3]\s*\|", l):
-                  continue
-              p = l.split("|")
-              title = "|".join(p[3:len(p) - 4]).strip()
-              m = re.match(r"\[(.*)\]\((.*?)\)", title)
-              name = m.group(1) if m else title
-              val = p[len(p) - 4].strip()
-              why = p[len(p) - 3].strip()
-              picks.append(f"{p[1].strip()}. {name} — {val} ({why})")
+          for o in research.get("recommendations", [])[:3]:
+              val = f"${float(o.get('value_usd') or 0):,.0f} {o.get('token') or 'USD'}"
+              picks.append(f"{o.get('rank')}. {o.get('title')} — {val} ({o.get('why')})")
           agent = sum(1 for o in opps if o.get("agent_access") == "AGENT_ALLOWED")
           body = "\n".join(picks) + f"\n{len(opps)} open, {agent} agent-eligible - nurdthug.github.io/crow-dashboard"
           req = urllib.request.Request("https://ntfy.sh/crow-nest-nurdthug-x7k2",
@@ -54,23 +47,17 @@ jobs:
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
           python3 - <<'EOF'
-          import json, os, re, urllib.parse, urllib.request
+          import json, os, urllib.parse, urllib.request
           tok = os.environ.get("TG_TOKEN")
           if not tok:
               print("TELEGRAM_BOT_TOKEN secret not set; skipping")
               raise SystemExit(0)
           opps = json.load(open("opportunities.json"))
-          md = open("research.md").read()
+          research = json.load(open("research.json"))
           picks = []
-          for l in md.splitlines():
-              if not re.match(r"^\|\s*[1-3]\s*\|", l):
-                  continue
-              p = l.split("|")
-              title = "|".join(p[3:len(p) - 4]).strip()
-              m = re.match(r"\[(.*)\]\((.*?)\)", title)
-              name, url = (m.group(1), m.group(2)) if m else (title, "")
-              val = p[len(p) - 4].strip()
-              picks.append(f"{p[1].strip()}. {name} — {val}\n{url}")
+          for o in research.get("recommendations", [])[:3]:
+              val = f"${float(o.get('value_usd') or 0):,.0f} {o.get('token') or 'USD'}"
+              picks.append(f"{o.get('rank')}. {o.get('title')} — {val}\n{o.get('url') or ''}")
           text = (f"🐦‍⬛ Crow brief — {len(opps)} live opportunities. Research top picks:\n\n"
                   + "\n\n".join(picks)
                   + "\n\nDashboard: https://nurdthug.github.io/crow-dashboard/")
