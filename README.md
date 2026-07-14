@@ -11,6 +11,14 @@ Live site: https://nurdthug.github.io/crow-dashboard/
 - GitHub Actions runs the scout daily at 13:00 UTC and can also be started manually with `workflow_dispatch`.
 - GitHub Pages serves `index.html` as the live dashboard.
 
+## Current artifacts
+
+- [Dashboard](https://nurdthug.github.io/crow-dashboard/)
+- [Research brief](research.md)
+- [Research data](research.json)
+- [Scout digest](digest.md)
+- [Opportunity data](opportunities.json)
+
 ## Guardrails
 
 - No paid APIs are used.
