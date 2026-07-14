@@ -46,6 +46,11 @@ jobs:
               if not rec.get("title") or not rec.get("url"):
                   raise SystemExit(f"recommendation {i} missing title/url value")
               float(rec.get("value_usd") or 0)
+              days_left = rec.get("days_left")
+              if days_left is not None:
+                  float(days_left)
+                  if round(days_left, 1) != days_left:
+                      raise SystemExit(f"recommendation {i} days_left must be rounded to 1 decimal")
           avoid = research.get("avoid_first", [])
           if not isinstance(avoid, list):
               raise SystemExit("research.json avoid_first must be a list")
