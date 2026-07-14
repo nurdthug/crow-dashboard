@@ -8,7 +8,7 @@ Live site: https://nurdthug.github.io/crow-dashboard/
 
 - `scout.py` scans live public opportunity sources and writes `opportunities.json` plus `digest.md`.
 - `research.py` ranks the current opportunities into `research.json` and `research.md`.
-- GitHub Actions runs the scout daily at 13:00 UTC and can also be started manually with `workflow_dispatch`.
+- GitHub Actions runs the scout daily at 13:17 UTC and can also be started manually with `workflow_dispatch`.
 - GitHub Pages serves `index.html` as the live dashboard.
 
 ## Current artifacts
