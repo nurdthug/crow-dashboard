@@ -18,6 +18,7 @@ Live site: https://nurdthug.github.io/crow-dashboard/
 - [Research data](research.json)
 - [Scout digest](digest.md)
 - [Opportunity data](opportunities.json)
+- [Daily scout workflow](https://github.com/nurdthug/crow-dashboard/actions/workflows/scout.yml)
 
 ## Guardrails
 
