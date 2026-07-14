@@ -78,6 +78,7 @@ def next_step(o):
 
 
 def recommendation(i, o):
+    days_left = o.get("days_left")
     return {
         "rank": i,
         "fit": fit_score(o),
@@ -88,7 +89,7 @@ def recommendation(i, o):
         "why": rationale(o),
         "next_step": next_step(o),
         "effort": effort(o),
-        "days_left": o.get("days_left"),
+        "days_left": round(days_left, 1) if days_left is not None else None,
         "competition": o.get("competition"),
         "deadline": o.get("deadline"),
         "source": o.get("source"),
