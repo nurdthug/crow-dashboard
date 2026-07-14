@@ -105,7 +105,7 @@
   <div class="grid agents" id="agents"></div>
 </div>
 
-<footer>The Crow Network · $0 infrastructure (GitHub Actions + Pages) · watch-only treasury · data refreshes daily 13:00 UTC</footer>
+<footer>The Crow Network · $0 infrastructure (GitHub Actions + Pages) · watch-only treasury · data refreshes daily 13:17 UTC</footer>
 
 <script>
 const REPO="nurdthug/crow-dashboard";
@@ -215,7 +215,7 @@ async function loadResearch(){
    renderResearchRows(tb,picks);
    renderAvoidFromMarkdown(md);
   }catch(err){
-   tb.innerHTML=`<tr><td colspan="7" class="empty">research output not available yet — it lands with the daily 13:00 UTC Action run.</td></tr>`;
+   tb.innerHTML=`<tr><td colspan="7" class="empty">research output not available yet — it lands with the daily 13:17 UTC Action run.</td></tr>`;
    document.getElementById("avoid").innerHTML=`<li>avoid list not available yet.</li>`;
   }
  }
@@ -296,7 +296,7 @@ async function boot(){
   return `<tr><td><a href="${o.url}" target="_blank" rel="noopener">${o.title}${agent}</a></td>`+
    `<td>${o.type}</td><td>${fmt(o.value_usd)} ${o.token}</td>`+
    `<td><span class="tag t-purple">${Number(o.score).toLocaleString()}</span></td><td>${dl}</td></tr>`;
- }).join("")||`<tr><td colspan="5" class="empty">First sweep lands at 13:00 UTC.</td></tr>`;
+ }).join("")||`<tr><td colspan="5" class="empty">First sweep lands at 13:17 UTC.</td></tr>`;
 
  // Real activity: public commit history
  try{
