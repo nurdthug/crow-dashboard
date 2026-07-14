@@ -61,6 +61,11 @@ jobs:
               if not trap.get("title") or not trap.get("url"):
                   raise SystemExit(f"avoid_first {i} missing title/url value")
               int(trap.get("competition") or 0)
+          rec_urls = {rec["url"] for rec in recs}
+          avoid_urls = {trap["url"] for trap in avoid}
+          overlap = rec_urls & avoid_urls
+          if overlap:
+              raise SystemExit(f"recommendations overlap avoid_first: {', '.join(sorted(overlap))}")
           print(f"validated {len(opps)} opportunities, {len(recs)} recommendations, and {len(avoid)} avoid-first traps")
           EOF
       - name: Commit results
