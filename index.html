@@ -68,12 +68,18 @@
 
 <div class="card" style="margin-bottom:14px">
   <h2 id="reshead">Research picks — today's brief</h2>
-  <table id="research"><thead><tr><th>#</th><th>Opportunity</th><th>Effort</th><th>Context</th><th>Value</th><th>Why</th><th>Next step</th></tr></thead><tbody><tr><td colspan="7" class="empty">Loading research brief…</td></tr></tbody></table>
+  <table id="research"><thead><tr><th>#</th><th>Opportunity</th><th>Value</th><th>Why</th><th>Next step</th></tr></thead><tbody><tr><td colspan="5" class="empty">Loading research brief…</td></tr></tbody></table>
 </div>
 
-<div class="card" style="margin-bottom:14px">
-  <h2>Do not chase first</h2>
-  <ul class="feed" id="avoid"><li>Loading avoid list…</li></ul>
+<div class="grid cols">
+  <div class="card">
+    <h2>Draft packs — ready-to-work briefs</h2>
+    <ul class="feed" id="drafts"><li>Loading…</li></ul>
+  </div>
+  <div class="card bars-wrap">
+    <h2>Pipeline history — open opportunities</h2>
+    <div class="bars" id="history"></div>
+  </div>
 </div>
 
 <div class="grid cols">
@@ -105,7 +111,7 @@
   <div class="grid agents" id="agents"></div>
 </div>
 
-<footer>The Crow Network · $0 infrastructure (GitHub Actions + Pages) · watch-only treasury · data refreshes daily 13:17 UTC</footer>
+<footer>The Crow Network · $0 infrastructure (GitHub Actions + Pages) · watch-only treasury · data refreshes daily 13:00 UTC</footer>
 
 <script>
 const REPO="nurdthug/crow-dashboard";
@@ -174,86 +180,72 @@ async function loadTreasury(){
 }
 loadTreasury();
 
-// Research brief — prefer structured research.json, with research.md fallback.
+// Research brief — parses research.md (written daily by research.py in the same Action)
 async function loadResearch(){
  const tb=document.querySelector("#research tbody");
  const head=document.getElementById("reshead");
  try{
-  const r=await fetch("research.json",{cache:"no-store"});
+  const r=await fetch("research.md",{cache:"no-store"});
   if(!r.ok) throw 0;
-  const data=await r.json();
-  const picks=(data.recommendations||[]).slice(0,5).map(o=>({
-   rank:o.rank,fit:Number(o.fit).toLocaleString(),name:o.title,url:o.url,
-   effort:o.effort||"—",ctx:contextLabel(o),val:`${fmt(o.value_usd)} ${o.token||"USD"}`,why:o.why,next:o.next_step
-  }));
-  if(!picks.length) throw 0;
-  head.innerHTML=`Research picks <span class="tag t-purple">${data.generated_at||""}</span> `+
-   `<a href="research.md" style="font-size:11px;color:var(--cyan);text-transform:none;letter-spacing:0">full brief →</a>`;
-  renderResearchRows(tb,picks);
-  renderAvoid(data.avoid_first||[]);
- }catch(e){
-  try{
-   const r=await fetch("research.md",{cache:"no-store"});
-   if(!r.ok) throw 0;
-   const md=await r.text();
-   const date=(md.match(/^# .*?—\s*(.+)$/m)||[])[1]||"";
-   const rows=md.split("\n").filter(l=>/^\|\s*\d+\s*\|/.test(l));
-   const picks=rows.slice(0,5).map(l=>{
+  const md=await r.text();
+  const date=(md.match(/^# .*?—\s*(.+)$/m)||[])[1]||"";
+  const rows=md.split("\n").filter(l=>/^\|\s*\d+\s*\|/.test(l));
+  const picks=rows.slice(0,5).map(l=>{
    // Title text may itself contain "|", so peel known columns off both ends.
-   const p=l.split("|"); // ["", rank, fit, effort?, ...title..., value, why, next, ""]
+   const p=l.split("|"); // ["", rank, fit, ...title..., value, why, next, ""]
    const rank=p[1].trim(), fit=p[2].trim();
    const next=p[p.length-2].trim(), why=p[p.length-3].trim(), val=p[p.length-4].trim();
-   const hasEffort=/^(low-medium|medium|high)$/i.test((p[3]||"").trim());
-   const effort=hasEffort?p[3].trim():"—";
-   const title=p.slice(hasEffort?4:3,p.length-4).join("|").trim();
+   const title=p.slice(3,p.length-4).join("|").trim();
    const m=title.match(/\[(.*)\]\((.*?)\)/);
-   return {rank,fit,effort,ctx:"—",name:m?m[1]:title,url:m?m[2]:"#",val,why,next};
-   });
-   if(!picks.length) throw 0;
-   head.innerHTML=`Research picks <span class="tag t-purple">${date}</span> `+
-    `<a href="research.md" style="font-size:11px;color:var(--cyan);text-transform:none;letter-spacing:0">full brief →</a>`;
-   renderResearchRows(tb,picks);
-   renderAvoidFromMarkdown(md);
-  }catch(err){
-   tb.innerHTML=`<tr><td colspan="7" class="empty">research output not available yet — it lands with the daily 13:17 UTC Action run.</td></tr>`;
-   document.getElementById("avoid").innerHTML=`<li>avoid list not available yet.</li>`;
-  }
+   return {rank,fit,name:m?m[1]:title,url:m?m[2]:"#",val,why,next};
+  });
+  if(!picks.length) throw 0;
+  head.innerHTML=`Research picks <span class="tag t-purple">${date}</span> `+
+   `<a href="research.md" style="font-size:11px;color:var(--cyan);text-transform:none;letter-spacing:0">full brief →</a>`;
+  tb.innerHTML=picks.map(o=>
+   `<tr><td>${o.rank}</td>`+
+   `<td><a href="${o.url}" target="_blank" rel="noopener">${o.name}</a> <span class="tag t-dim">fit ${o.fit}</span></td>`+
+   `<td>${o.val}</td><td>${o.why}</td><td style="color:var(--dim)">${o.next}</td></tr>`).join("");
+ }catch(e){
+  tb.innerHTML=`<tr><td colspan="5" class="empty">research.md not available yet — it lands with the daily 13:00 UTC Action run.</td></tr>`;
  }
 }
 loadResearch();
 
-function renderResearchRows(tb,picks){
- tb.innerHTML=picks.map(o=>
-  `<tr><td>${o.rank}</td>`+
-  `<td><a href="${o.url}" target="_blank" rel="noopener">${o.name}</a> <span class="tag t-dim">fit ${o.fit}</span></td>`+
-  `<td><span class="tag t-amber">${o.effort||"—"}</span></td>`+
-  `<td>${o.ctx||"—"}</td>`+
-  `<td>${o.val}</td><td>${o.why}</td><td style="color:var(--dim)">${o.next}</td></tr>`).join("");
+// Draft packs — written daily by draft.py
+async function loadDrafts(){
+ const el=document.getElementById("drafts");
+ try{
+  const r=await fetch("drafts/index.json",{cache:"no-store"});
+  if(!r.ok) throw 0;
+  const ds=await r.json();
+  if(!ds.length) throw 0;
+  el.innerHTML=ds.map(d=>
+   `<li><b><a href="${d.file}">${d.title}</a></b>`+
+   `<time>${d.days_left==null?"—":Math.round(d.days_left)+"d left"}</time><br>`+
+   `$${Number(d.value_usd).toLocaleString()} ${d.token} · fit ${Math.round(d.fit).toLocaleString()} · `+
+   `<span class="tag t-dim">${d.kind}</span> `+
+   `<a href="${d.url}" target="_blank" rel="noopener" style="color:var(--cyan)">listing ↗</a></li>`).join("");
+ }catch(e){el.innerHTML=`<li>No draft packs yet — generated by the daily Action.</li>`;}
 }
+loadDrafts();
 
-function contextLabel(o){
- const bits=[];
- if(o.days_left!=null) bits.push(`<span class="tag ${o.days_left<=3?"t-amber":"t-dim"}">${Math.max(0,Math.round(o.days_left))}d left</span>`);
- if(o.competition!=null) bits.push(`<span class="tag t-dim">${Number(o.competition).toLocaleString()} competing</span>`);
- return bits.join(" ")||"—";
+// Pipeline history — appended daily by stats.py
+async function loadHistory(){
+ const el=document.getElementById("history");
+ try{
+  const r=await fetch("stats.csv",{cache:"no-store"});
+  if(!r.ok) throw 0;
+  const rows=(await r.text()).trim().split("\n").slice(1).map(l=>l.split(","));
+  if(!rows.length) throw 0;
+  const last=rows.slice(-14);
+  const mx=Math.max(...last.map(r=>+r[1]),1);
+  el.innerHTML=last.map(r=>
+   `<div class="bar" style="height:${Math.max(4,Math.round(+r[1]/mx*100))}%" title="$${Number(r[2]).toLocaleString()} face value">`+
+   `<span>${r[1]}</span><em>${r[0].slice(5)}</em></div>`).join("");
+ }catch(e){el.innerHTML=`<div class="empty">History starts accruing with the next daily run.</div>`;}
 }
-
-function renderAvoid(items){
- const el=document.getElementById("avoid");
- const traps=items.slice(0,5);
- el.innerHTML=traps.length?traps.map(o=>
-  `<li><b><a href="${o.url}" target="_blank" rel="noopener">${o.title}</a></b>`+
-  ` <span class="tag t-dim">${Number(o.competition||0).toLocaleString()} competitors</span>`+
-  `<br>${o.reason||"high visible competition"}</li>`).join(""):`<li>No avoid-first traps flagged.</li>`;
-}
-
-function renderAvoidFromMarkdown(md){
- const items=md.split("\n").filter(l=>/^- \[/.test(l)).slice(0,5).map(l=>{
-  const m=l.match(/^- \[(.*?)\]\((.*?)\):\s*(.*)$/);
-  return m?{title:m[1],url:m[2],reason:m[3],competition:0}:null;
- }).filter(Boolean);
- renderAvoid(items);
-}
+loadHistory();
 
 async function boot(){
  let opps=[];
@@ -296,7 +288,7 @@ async function boot(){
   return `<tr><td><a href="${o.url}" target="_blank" rel="noopener">${o.title}${agent}</a></td>`+
    `<td>${o.type}</td><td>${fmt(o.value_usd)} ${o.token}</td>`+
    `<td><span class="tag t-purple">${Number(o.score).toLocaleString()}</span></td><td>${dl}</td></tr>`;
- }).join("")||`<tr><td colspan="5" class="empty">First sweep lands at 13:17 UTC.</td></tr>`;
+ }).join("")||`<tr><td colspan="5" class="empty">First sweep lands at 13:00 UTC.</td></tr>`;
 
  // Real activity: public commit history
  try{
@@ -312,10 +304,12 @@ async function boot(){
  const flock=[
   ["Opportunity Scout","g|operational — daily GitHub Action"],
   ["Research","g|operational — deterministic triage (research.py)"],
-  ["Reporting","g|operational — daily Telegram + ntfy brief"]
+  ["Reporting","g|operational — daily Telegram + ntfy brief"],
+  ["Content","g|operational — draft packs (draft.py)"],
+  ["Analytics","g|operational — pipeline history (stats.py)"]
  ];
- ["Grant Hunter","Bounty Hunter","Partnership","Sales","Content","Builder",
-  "Automation","Treasury","Analytics","Memory","Experimentation","Scheduler",
+ ["Grant Hunter","Bounty Hunter","Partnership","Sales","Builder",
+  "Automation","Treasury","Memory","Experimentation","Scheduler",
   "Operator Interface"].forEach(n=>flock.push([n,"i|not built yet"]));
  document.getElementById("agents").innerHTML=flock.map(([n,s])=>{
   const[st,msg]=s.split("|");
