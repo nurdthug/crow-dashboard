@@ -1,4 +1,4 @@
-# Crow Research Brief — 2026-07-15 07:44 UTC
+# Crow Research Brief — 2026-07-15 07:53 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
@@ -19,8 +19,8 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 
 ## Do Not Chase First
 
-- [Build with Gemini XPRIZE](https://xprize.devpost.com/): huge pool, but competition is already 19,579.
-- [OpenAI Build Week](https://openai.devpost.com/): huge pool, but competition is already 16,043.
-- [Global AI Hackathon Series with Qwen Cloud ](https://qwencloud-hackathon.devpost.com/): huge pool, but competition is already 7,922.
+- [Build with Gemini XPRIZE](https://xprize.devpost.com/): huge pool, but competition is already 19,582.
+- [OpenAI Build Week](https://openai.devpost.com/): huge pool, but competition is already 16,090.
+- [Global AI Hackathon Series with Qwen Cloud ](https://qwencloud-hackathon.devpost.com/): huge pool, but competition is already 7,924.
 - [Reddit’s Games with a Hook Hackathon](https://redditgameswithahook.devpost.com/): huge pool, but competition is already 2,974.
 - [CockroachDB × AWS Hackathon - Build with Agentic Memory](https://cockroachdb-ai.devpost.com/): huge pool, but competition is already 1,461.
