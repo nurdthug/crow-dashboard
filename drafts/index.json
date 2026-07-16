@@ -17,7 +17,7 @@
   "token": "USDC",
   "fit": 5000.0,
   "kind": "generic",
-  "days_left": 18.379560037141204
+  "days_left": 17.072686918206017
  },
  {
   "file": "drafts/03-build-privacy-through-noise-tooling-for-solana.md",
@@ -25,9 +25,9 @@
   "url": "https://earn.superteam.fun/listings/noise",
   "value_usd": 3900.0,
   "token": "USDG",
-  "fit": 3900.0,
+  "fit": 2836.36,
   "kind": "build",
-  "days_left": 13.79623826630787
+  "days_left": 12.489365147372686
  },
  {
   "file": "drafts/04-design-the-superteam-brazil-mascot.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 2500.0,
   "kind": "design",
-  "days_left": 11.796226703807871
+  "days_left": 10.489353584872685
  },
  {
   "file": "drafts/05-world-cup-hackathon-brasil.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 1777.78,
   "kind": "generic",
-  "days_left": 4.7962267038078705
+  "days_left": 3.4893535848726853
  }
 ]

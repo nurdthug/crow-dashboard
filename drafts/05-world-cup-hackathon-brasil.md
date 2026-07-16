@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/world-cup-hackathon-brasil
 - Value: $2,000 USDG
-- Deadline: 5 days left (as of 2026-07-15 07:53 UTC)
+- Deadline: 3 days left (as of 2026-07-16 15:15 UTC)
 - Fit score: 1,778 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
