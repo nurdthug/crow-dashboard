@@ -76,10 +76,15 @@
     <h2>Draft packs — ready-to-work briefs</h2>
     <ul class="feed" id="drafts"><li>Loading…</li></ul>
   </div>
-  <div class="card bars-wrap">
-    <h2>Pipeline history — open opportunities</h2>
-    <div class="bars" id="history"></div>
+  <div class="card">
+    <h2 id="queuehead">Executable queue — bounty hunter</h2>
+    <ul class="feed" id="queue"><li>Loading…</li></ul>
   </div>
+</div>
+
+<div class="card bars-wrap" style="margin-bottom:14px">
+  <h2>Pipeline history — open opportunities</h2>
+  <div class="bars" id="history"></div>
 </div>
 
 <div class="grid cols">
@@ -230,6 +235,35 @@ async function loadDrafts(){
 }
 loadDrafts();
 
+// Executable queue — written daily by hunter.py
+async function loadExecutableQueue(){
+ const el=document.getElementById("queue");
+ const head=document.getElementById("queuehead");
+ try{
+  const r=await fetch("executable_queue.json",{cache:"no-store"});
+  if(!r.ok) throw 0;
+  const q=await r.json();
+  const items=Array.isArray(q)?q:(q.items||[]);
+  if(!items.length) throw 0;
+  const generated=q.generated?new Date(q.generated):null;
+  const stamp=generated&&!Number.isNaN(generated)?generated.toISOString().slice(0,16).replace("T"," ")+" UTC":"live";
+  head.innerHTML=`Executable queue <span class="tag t-green">${items.length} ready</span> <span class="tag t-dim">${stamp}</span>`;
+  el.innerHTML=items.slice(0,8).map(item=>{
+   const lane=item.lane==="github_pr"?"GitHub PR":"Listing";
+   const repo=item.repo?` · ${item.repo}`:"";
+   const due=item.days_left==null?"":` · ${Math.round(item.days_left)}d left`;
+   const value=item.value_usd?`$${Number(item.value_usd).toLocaleString()} ${item.token||"USD"}`:"value TBD";
+   const small=item.small?` <span class="tag t-green">small</span>`:"";
+   return `<li><b><a href="${item.url}" target="_blank" rel="noopener">${item.title}</a></b>`+
+    `<time>${value}</time><br><span class="tag t-purple">${lane}</span>${small}`+
+    `<span style="color:var(--dim)">${repo}${due}</span></li>`;
+  }).join("");
+ }catch(e){
+  el.innerHTML=`<li>Executable queue lands with the next successful daily Action run.</li>`;
+ }
+}
+loadExecutableQueue();
+
 // Pipeline history — appended daily by stats.py
 async function loadHistory(){
  const el=document.getElementById("history");
@@ -308,7 +342,8 @@ async function boot(){
   ["Content","g|operational — draft packs (draft.py)"],
   ["Analytics","g|operational — pipeline history (stats.py)"]
  ];
- ["Grant Hunter","Bounty Hunter","Partnership","Sales","Builder",
+ flock.push(["Bounty Hunter","g|operational — executable queue (hunter.py)"]);
+ ["Grant Hunter","Partnership","Sales","Builder",
   "Automation","Treasury","Memory","Experimentation","Scheduler",
   "Operator Interface"].forEach(n=>flock.push([n,"i|not built yet"]));
  document.getElementById("agents").innerHTML=flock.map(([n,s])=>{
