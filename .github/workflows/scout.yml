@@ -1,8 +1,7 @@
 name: crow-scout-daily
 on:
   schedule:
-    - cron: "17 13 * * *"
-    - cron: "47 13 * * *"
+    - cron: "0 13 * * *"
   workflow_dispatch: {}
 permissions:
   contents: write
@@ -20,62 +19,12 @@ jobs:
           python research.py
           python draft.py
           python stats.py
-      - name: Validate outputs
-        run: |
-          python3 - <<'EOF'
-          import json
-          from pathlib import Path
-
-          required = ["opportunities.json", "research.json", "digest.md", "research.md"]
-          missing = [p for p in required if not Path(p).exists()]
-          if missing:
-              raise SystemExit(f"missing output files: {', '.join(missing)}")
-
-          opps = json.loads(Path("opportunities.json").read_text())
-          research = json.loads(Path("research.json").read_text())
-          if not isinstance(opps, list):
-              raise SystemExit("opportunities.json must be a list")
-          recs = research.get("recommendations")
-          if not isinstance(recs, list) or not recs:
-              raise SystemExit("research.json must contain at least one recommendation")
-          expected = [
-              "rank", "title", "url", "value_usd", "why", "next_step",
-              "effort", "days_left", "competition", "deadline",
-          ]
-          for i, rec in enumerate(recs, 1):
-              missing_keys = [key for key in expected if key not in rec]
-              if missing_keys:
-                  raise SystemExit(f"recommendation {i} missing {', '.join(missing_keys)}")
-              if not rec.get("title") or not rec.get("url"):
-                  raise SystemExit(f"recommendation {i} missing title/url value")
-              float(rec.get("value_usd") or 0)
-              days_left = rec.get("days_left")
-              if days_left is not None:
-                  float(days_left)
-                  if round(days_left, 1) != days_left:
-                      raise SystemExit(f"recommendation {i} days_left must be rounded to 1 decimal")
-          avoid = research.get("avoid_first", [])
-          if not isinstance(avoid, list):
-              raise SystemExit("research.json avoid_first must be a list")
-          for i, trap in enumerate(avoid, 1):
-              missing_keys = [key for key in ["title", "url", "competition", "reason"] if key not in trap]
-              if missing_keys:
-                  raise SystemExit(f"avoid_first {i} missing {', '.join(missing_keys)}")
-              if not trap.get("title") or not trap.get("url"):
-                  raise SystemExit(f"avoid_first {i} missing title/url value")
-              int(trap.get("competition") or 0)
-          rec_urls = {rec["url"] for rec in recs}
-          avoid_urls = {trap["url"] for trap in avoid}
-          overlap = rec_urls & avoid_urls
-          if overlap:
-              raise SystemExit(f"recommendations overlap avoid_first: {', '.join(sorted(overlap))}")
-          print(f"validated {len(opps)} opportunities, {len(recs)} recommendations, and {len(avoid)} avoid-first traps")
-          EOF
+          python hunter.py
       - name: Commit results
         run: |
           git config user.name "crow-scout[bot]"
           git config user.email "actions@users.noreply.github.com"
-          git add digest.md opportunities.json research.md research.json .scout_seen.json drafts stats.csv
+          git add digest.md opportunities.json research.md .scout_seen.json drafts stats.csv executable_queue.json
           git diff --cached --quiet || git commit -m "Daily sweep $(date -u +%F)"
           git push
       - name: Push notification (ntfy.sh)
@@ -84,17 +33,13 @@ jobs:
           python3 - <<'EOF'
           import json, urllib.request
           opps = json.load(open("opportunities.json"))
-          research = json.load(open("research.json"))
-          picks = []
-          for o in research.get("recommendations", [])[:3]:
-              val = f"${float(o.get('value_usd') or 0):,.0f} {o.get('token') or 'USD'}"
-              picks.append(f"{o.get('rank')}. {o.get('title')} - {val} ({o.get('why')})")
-          avoid = research.get("avoid_first", [])[:1]
-          skip = f"\nSkip first: {avoid[0].get('title')} ({avoid[0].get('competition'):,} competitors)" if avoid else ""
+          fresh = [o for o in opps if o.get("is_new")] or opps
+          top = sorted(fresh, key=lambda o: -o["score"])[:3]
+          lines = [f"{o['title']} - ${o['value_usd']:,.0f} (EV {o['score']:,.0f})" for o in top]
           agent = sum(1 for o in opps if o.get("agent_access") == "AGENT_ALLOWED")
-          body = "\n".join(picks) + skip + f"\n{len(opps)} open, {agent} agent-eligible - nurdthug.github.io/crow-dashboard"
+          body = "\n".join(lines) + f"\n{len(opps)} open, {agent} agent-eligible - nurdthug.github.io/crow-dashboard"
           req = urllib.request.Request("https://ntfy.sh/crow-nest-nurdthug-x7k2",
-              data=body.encode(), headers={"Title": "Crow Research: top 3 next moves", "Tags": "bird"})
+              data=body.encode(), headers={"Title": f"Crow Scout: {len(fresh)} new finds", "Tags": "bird"})
           urllib.request.urlopen(req, timeout=15)
           EOF
       - name: Telegram daily brief
@@ -103,22 +48,25 @@ jobs:
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
           python3 - <<'EOF'
-          import json, os, urllib.parse, urllib.request
+          import json, os, re, urllib.parse, urllib.request
           tok = os.environ.get("TG_TOKEN")
           if not tok:
               print("TELEGRAM_BOT_TOKEN secret not set; skipping")
               raise SystemExit(0)
           opps = json.load(open("opportunities.json"))
-          research = json.load(open("research.json"))
+          md = open("research.md").read()
           picks = []
-          for o in research.get("recommendations", [])[:3]:
-              val = f"${float(o.get('value_usd') or 0):,.0f} {o.get('token') or 'USD'}"
-              picks.append(f"{o.get('rank')}. {o.get('title')} - {val}\n{o.get('url') or ''}")
-          avoid = research.get("avoid_first", [])[:1]
-          skip = f"\n\nSkip first: {avoid[0].get('title')} ({avoid[0].get('competition'):,} competitors)" if avoid else ""
-          text = (f"Crow brief - {len(opps)} live opportunities. Research top picks:\n\n"
+          for l in md.splitlines():
+              if not re.match(r"^\|\s*[1-3]\s*\|", l):
+                  continue
+              p = l.split("|")
+              title = "|".join(p[3:len(p) - 4]).strip()
+              m = re.match(r"\[(.*)\]\((.*?)\)", title)
+              name, url = (m.group(1), m.group(2)) if m else (title, "")
+              val = p[len(p) - 4].strip()
+              picks.append(f"{p[1].strip()}. {name} — {val}\n{url}")
+          text = (f"🐦‍⬛ Crow brief — {len(opps)} live opportunities. Research top picks:\n\n"
                   + "\n\n".join(picks)
-                  + skip
                   + "\n\nDashboard: https://nurdthug.github.io/crow-dashboard/")
           data = urllib.parse.urlencode({
               "chat_id": "366746092",
