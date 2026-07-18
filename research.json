@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18 14:31 UTC",
+  "generated_at": "2026-07-18 14:40 UTC",
   "reviewed": 41,
   "agent_allowed": 0,
   "recommendations": [
@@ -168,13 +168,13 @@
     {
       "title": "Build with Gemini XPRIZE",
       "url": "https://xprize.devpost.com/",
-      "competition": 20222,
+      "competition": 20225,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "OpenAI Build Week",
       "url": "https://openai.devpost.com/",
-      "competition": 40139,
+      "competition": 40161,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -186,13 +186,13 @@
     {
       "title": "Global AI Hackathon Series with Qwen Cloud ",
       "url": "https://qwencloud-hackathon.devpost.com/",
-      "competition": 8236,
+      "competition": 8237,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "CockroachDB \u00d7 AWS Hackathon - Build with Agentic Memory",
       "url": "https://cockroachdb-ai.devpost.com/",
-      "competition": 1677,
+      "competition": 1678,
       "reason": "huge pool, but high visible competition"
     }
   ]

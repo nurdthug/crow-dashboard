@@ -17,7 +17,7 @@
   "token": "USDC",
   "fit": 4444.44,
   "kind": "generic",
-  "days_left": 15.103015010555556
+  "days_left": 15.096681396446758
  },
  {
   "file": "drafts/03-build-privacy-through-noise-tooling-for-solana.md",
@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 2836.36,
   "kind": "build",
-  "days_left": 10.519693239722221
+  "days_left": 10.513359625613427
  },
  {
   "file": "drafts/04-build-solana-native-plugins-for-zeroclaw.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 2352.94,
   "kind": "build",
-  "days_left": 19.519681677222223
+  "days_left": 19.513348063113426
  },
  {
   "file": "drafts/05-design-the-superteam-brazil-mascot.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 2222.22,
   "kind": "design",
-  "days_left": 8.519681677222222
+  "days_left": 8.513348063113426
  }
 ]
