@@ -1,10 +1,10 @@
-# Draft pack — Build with Gemini XPRIZE
+# Draft pack — Build Solana-native plugins for Zeroclaw 🦞
 
-- Listing: https://xprize.devpost.com/
-- Value: $2,000,000 USD
-- Deadline: 30 days left (as of 2026-07-18 14:31 UTC)
-- Fit score: 7,000 — verified sponsor
-- First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
+- Listing: https://earn.superteam.fun/listings/zeroclaw
+- Value: $5,000 USDG
+- Deadline: 20 days left (as of 2026-07-18 14:31 UTC)
+- Fit score: 2,353 — verified sponsor, low competition
+- First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
 - [ ] Read full rules & eligibility (region, KYC, team size)

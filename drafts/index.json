@@ -15,9 +15,9 @@
   "url": "https://earn.superteam.fun/listings/bring-your-web2-ideas-onchain",
   "value_usd": 5000.0,
   "token": "USDC",
-  "fit": 5000.0,
+  "fit": 4444.44,
   "kind": "generic",
-  "days_left": 17.072686918206017
+  "days_left": 15.103015010555556
  },
  {
   "file": "drafts/03-build-privacy-through-noise-tooling-for-solana.md",
@@ -27,26 +27,26 @@
   "token": "USDG",
   "fit": 2836.36,
   "kind": "build",
-  "days_left": 12.489365147372686
+  "days_left": 10.519693239722221
  },
  {
-  "file": "drafts/04-design-the-superteam-brazil-mascot.md",
+  "file": "drafts/04-build-solana-native-plugins-for-zeroclaw.md",
+  "title": "Build Solana-native plugins for Zeroclaw \ud83e\udd9e",
+  "url": "https://earn.superteam.fun/listings/zeroclaw",
+  "value_usd": 5000.0,
+  "token": "USDG",
+  "fit": 2352.94,
+  "kind": "build",
+  "days_left": 19.519681677222223
+ },
+ {
+  "file": "drafts/05-design-the-superteam-brazil-mascot.md",
   "title": "Design the Superteam Brazil Mascot \ud83c\udde7\ud83c\uddf7",
   "url": "https://earn.superteam.fun/listings/mascot",
   "value_usd": 2500.0,
   "token": "USDG",
-  "fit": 2500.0,
+  "fit": 2222.22,
   "kind": "design",
-  "days_left": 10.489353584872685
- },
- {
-  "file": "drafts/05-world-cup-hackathon-brasil.md",
-  "title": "World Cup Hackathon Brasil",
-  "url": "https://earn.superteam.fun/listings/world-cup-hackathon-brasil",
-  "value_usd": 2000.0,
-  "token": "USDG",
-  "fit": 1777.78,
-  "kind": "generic",
-  "days_left": 3.4893535848726853
+  "days_left": 8.519681677222222
  }
 ]
