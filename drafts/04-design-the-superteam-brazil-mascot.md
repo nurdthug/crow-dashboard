@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/mascot
 - Value: $2,500 USDG
-- Deadline: 9 days left (as of 2026-07-18 14:40 UTC)
+- Deadline: 8 days left (as of 2026-07-19 14:34 UTC)
 - Fit score: 2,222 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 

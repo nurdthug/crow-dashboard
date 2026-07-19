@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-18 14:40 UTC",
-  "reviewed": 41,
+  "generated_at": "2026-07-19 14:34 UTC",
+  "reviewed": 43,
   "agent_allowed": 0,
   "recommendations": [
     {
@@ -13,7 +13,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 15.1,
+      "days_left": 14.1,
       "competition": 1,
       "deadline": "2026-08-02T16:59:59.000Z",
       "source": "superteam-earn",
@@ -21,7 +21,7 @@
     },
     {
       "rank": 2,
-      "fit": 2836.36,
+      "fit": 2600.0,
       "title": "Build Privacy-Through-Noise tooling for Solana \ud83c\udf2b\ufe0f\ud83d\udd2e",
       "url": "https://earn.superteam.fun/listings/noise",
       "value_usd": 3900.0,
@@ -29,30 +29,14 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "high",
-      "days_left": 10.5,
-      "competition": 3,
+      "days_left": 9.5,
+      "competition": 4,
       "deadline": "2026-07-29T02:59:59.999Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
     {
       "rank": 3,
-      "fit": 2352.94,
-      "title": "Build Solana-native plugins for Zeroclaw \ud83e\udd9e",
-      "url": "https://earn.superteam.fun/listings/zeroclaw",
-      "value_usd": 5000.0,
-      "token": "USDG",
-      "why": "verified sponsor, low competition",
-      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
-      "effort": "high",
-      "days_left": 19.5,
-      "competition": 9,
-      "deadline": "2026-08-07T02:59:59.000Z",
-      "source": "superteam-earn",
-      "agent_access": "HUMAN_ONLY"
-    },
-    {
-      "rank": 4,
       "fit": 2222.22,
       "title": "Design the Superteam Brazil Mascot \ud83c\udde7\ud83c\uddf7",
       "url": "https://earn.superteam.fun/listings/mascot",
@@ -61,15 +45,15 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 8.5,
+      "days_left": 7.5,
       "competition": 1,
       "deadline": "2026-07-27T02:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
     {
-      "rank": 5,
-      "fit": 1555.56,
+      "rank": 4,
+      "fit": 1473.68,
       "title": "Deep Dive | Australian Innovation, Investment & Competitiveness",
       "url": "https://earn.superteam.fun/listings/deep-dive-australian-innovation-investment-and-competitiveness",
       "value_usd": 3500.0,
@@ -77,9 +61,25 @@
       "why": "verified sponsor",
       "next_step": "Create research outline and source list; estimate writing time.",
       "effort": "medium",
-      "days_left": 6.0,
-      "competition": 10,
+      "days_left": 5.0,
+      "competition": 11,
       "deadline": "2026-07-24T13:59:59.000Z",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 5,
+      "fit": 1428.57,
+      "title": "Build Solana-native plugins for Zeroclaw \ud83e\udd9e",
+      "url": "https://earn.superteam.fun/listings/zeroclaw",
+      "value_usd": 5000.0,
+      "token": "USDG",
+      "why": "verified sponsor",
+      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
+      "effort": "high",
+      "days_left": 18.5,
+      "competition": 20,
+      "deadline": "2026-08-07T02:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
@@ -93,7 +93,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 10.3,
+      "days_left": 9.3,
       "competition": 1,
       "deadline": "2026-07-28T21:59:59.999Z",
       "source": "superteam-earn",
@@ -101,22 +101,6 @@
     },
     {
       "rank": 7,
-      "fit": 1260.0,
-      "title": "TxODDS World Cup Hackathon Nigeria",
-      "url": "https://earn.superteam.fun/listings/txodds-world-cup-hackathon-nigeria",
-      "value_usd": 3000.0,
-      "token": "USDG",
-      "why": "verified sponsor, no visible competition yet, urgent",
-      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
-      "effort": "medium",
-      "days_left": 1.7,
-      "competition": 0,
-      "deadline": "2026-07-20T08:00:59.000Z",
-      "source": "superteam-earn",
-      "agent_access": "HUMAN_ONLY"
-    },
-    {
-      "rank": 8,
       "fit": 1107.7,
       "title": "Create Vertical Video Content for Superteam Canada during Canada Crypto Week",
       "url": "https://earn.superteam.fun/listings/create-vertical-video-content-for-canada-crypto-week",
@@ -125,14 +109,14 @@
       "why": "verified sponsor, low competition",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 4.6,
+      "days_left": 3.6,
       "competition": 5,
       "deadline": "2026-07-23T03:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
     {
-      "rank": 9,
+      "rank": 8,
       "fit": 960.0,
       "title": "Create a video | Why Build in Australia?",
       "url": "https://earn.superteam.fun/listings/create-a-video-why-build-in-australia",
@@ -141,15 +125,15 @@
       "why": "verified sponsor, low competition",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 6.0,
+      "days_left": 5.0,
       "competition": 7,
       "deadline": "2026-07-24T13:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
     {
-      "rank": 10,
-      "fit": 888.89,
+      "rank": 9,
+      "fit": 800.0,
       "title": "On-Chain Loyalty Rewards System Challenge",
       "url": "https://earn.superteam.fun/listings/on-chain-loyalty-rewards-system-challenge",
       "value_usd": 1000.0,
@@ -157,7 +141,23 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 20.3,
+      "days_left": 19.3,
+      "competition": 2,
+      "deadline": "2026-08-07T21:59:59.000Z",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 10,
+      "fit": 533.33,
+      "title": "Superteam Poland Ecosystem Infographic Challenge",
+      "url": "https://earn.superteam.fun/listings/superteam-poland-ecosystem-infographic-challenge",
+      "value_usd": 500.0,
+      "token": "USDG",
+      "why": "verified sponsor, low competition",
+      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
+      "effort": "medium",
+      "days_left": 19.3,
       "competition": 1,
       "deadline": "2026-08-07T21:59:59.000Z",
       "source": "superteam-earn",
@@ -168,31 +168,31 @@
     {
       "title": "Build with Gemini XPRIZE",
       "url": "https://xprize.devpost.com/",
-      "competition": 20225,
+      "competition": 20440,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "OpenAI Build Week",
       "url": "https://openai.devpost.com/",
-      "competition": 40161,
+      "competition": 42728,
+      "reason": "huge pool, but high visible competition"
+    },
+    {
+      "title": "Build with DataHub: The Agent Hackathon",
+      "url": "https://datahub.devpost.com/",
+      "competition": 1046,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Africa Deep Tech Challenge 2026",
       "url": "https://adtc-2026.devpost.com/",
-      "competition": 1010,
+      "competition": 1032,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Global AI Hackathon Series with Qwen Cloud ",
       "url": "https://qwencloud-hackathon.devpost.com/",
-      "competition": 8237,
-      "reason": "huge pool, but high visible competition"
-    },
-    {
-      "title": "CockroachDB \u00d7 AWS Hackathon - Build with Agentic Memory",
-      "url": "https://cockroachdb-ai.devpost.com/",
-      "competition": 1678,
+      "competition": 8341,
       "reason": "huge pool, but high visible competition"
     }
   ]
