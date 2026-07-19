@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/noise
 - Value: $3,900 USDG
-- Deadline: 10 days left (as of 2026-07-19 14:34 UTC)
+- Deadline: 10 days left (as of 2026-07-19 14:41 UTC)
 - Fit score: 2,600 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 

@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/deep-dive-australian-innovation-investment-and-competitiveness
 - Value: $3,500 USDG
-- Deadline: 5 days left (as of 2026-07-19 14:34 UTC)
+- Deadline: 5 days left (as of 2026-07-19 14:41 UTC)
 - Fit score: 1,474 — verified sponsor
 - First action: Create research outline and source list; estimate writing time.
 

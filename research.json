@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19 14:34 UTC",
+  "generated_at": "2026-07-19 14:41 UTC",
   "reviewed": 43,
   "agent_allowed": 0,
   "recommendations": [
@@ -174,13 +174,13 @@
     {
       "title": "OpenAI Build Week",
       "url": "https://openai.devpost.com/",
-      "competition": 42728,
+      "competition": 42739,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build with DataHub: The Agent Hackathon",
       "url": "https://datahub.devpost.com/",
-      "competition": 1046,
+      "competition": 1049,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -192,7 +192,7 @@
     {
       "title": "Global AI Hackathon Series with Qwen Cloud ",
       "url": "https://qwencloud-hackathon.devpost.com/",
-      "competition": 8341,
+      "competition": 8343,
       "reason": "huge pool, but high visible competition"
     }
   ]
