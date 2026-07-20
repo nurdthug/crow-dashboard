@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20 15:20 UTC",
+  "generated_at": "2026-07-20 15:33 UTC",
   "reviewed": 40,
   "agent_allowed": 0,
   "recommendations": [
@@ -168,13 +168,13 @@
     {
       "title": "Build with Gemini XPRIZE",
       "url": "https://xprize.devpost.com/",
-      "competition": 20587,
+      "competition": 20590,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "OpenAI Build Week",
       "url": "https://openai.devpost.com/",
-      "competition": 44506,
+      "competition": 44517,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -192,7 +192,7 @@
     {
       "title": "Africa Deep Tech Challenge 2026",
       "url": "https://adtc-2026.devpost.com/",
-      "competition": 1052,
+      "competition": 1054,
       "reason": "huge pool, but high visible competition"
     }
   ]
