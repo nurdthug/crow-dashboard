@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21 15:17 UTC",
+  "generated_at": "2026-07-21 15:25 UTC",
   "reviewed": 44,
   "agent_allowed": 0,
   "recommendations": [
@@ -174,13 +174,13 @@
     {
       "title": "OpenAI Build Week",
       "url": "https://openai.devpost.com/",
-      "competition": 45997,
+      "competition": 46011,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build with DataHub: The Agent Hackathon",
       "url": "https://datahub.devpost.com/",
-      "competition": 1202,
+      "competition": 1204,
       "reason": "huge pool, but high visible competition"
     },
     {
