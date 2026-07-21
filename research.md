@@ -1,26 +1,26 @@
-# Crow Research Brief — 2026-07-20 15:33 UTC
+# Crow Research Brief — 2026-07-21 15:17 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
-**Reviewed:** 40 opportunities · **Agent-allowed:** 0 · **Recommended focus:** top 3 below
+**Reviewed:** 44 opportunities · **Agent-allowed:** 0 · **Recommended focus:** top 3 below
 
 | # | Fit | Effort | Opportunity | Value | Why | Next step |
 |---|---:|---|---|---:|---|---|
-| 1 | 4,444 | medium | [Bring Your Web2 Ideas Onchain](https://earn.superteam.fun/listings/bring-your-web2-ideas-onchain) | $5,000 USDC | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
-| 2 | 2,400 | high | [Build Privacy-Through-Noise tooling for Solana 🌫️🔮](https://earn.superteam.fun/listings/noise) | $3,900 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
-| 3 | 2,222 | medium | [Design the Superteam Brazil Mascot 🇧🇷](https://earn.superteam.fun/listings/mascot) | $2,500 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
-| 4 | 1,474 | medium | [Deep Dive | Australian Innovation, Investment & Competitiveness](https://earn.superteam.fun/listings/deep-dive-australian-innovation-investment-and-competitiveness) | $3,500 USDG | verified sponsor | Create research outline and source list; estimate writing time. |
-| 5 | 1,333 | medium | [Learn how to borrow better, leave product feedback and earn with Zodial](https://earn.superteam.fun/listings/learn-how-to-borrow-better-leave-product-feedback-and-earn-with-zodial) | $1,500 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
-| 6 | 1,250 | high | [Build Solana-native plugins for Zeroclaw 🦞](https://earn.superteam.fun/listings/zeroclaw) | $5,000 USDG | verified sponsor | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
-| 7 | 960 | low-medium | [Create a video | Why Build in Australia?](https://earn.superteam.fun/listings/create-a-video-why-build-in-australia) | $1,500 USDG | verified sponsor, low competition | Draft script/angle and collect required brand/rule links. |
-| 8 | 800 | medium | [On-Chain Loyalty Rewards System Challenge](https://earn.superteam.fun/listings/on-chain-loyalty-rewards-system-challenge) | $1,000 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
-| 9 | 533 | medium | [Superteam Poland Ecosystem Infographic Challenge](https://earn.superteam.fun/listings/superteam-poland-ecosystem-infographic-challenge) | $500 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
-| 10 | 432 | low-medium | [Create Vertical Video Content for Superteam Canada during Canada Crypto Week](https://earn.superteam.fun/listings/create-vertical-video-content-for-canada-crypto-week) | $1,500 USDG | verified sponsor, low competition, urgent | Draft script/angle and collect required brand/rule links. |
+| 1 | 4,000 | medium | [Bring Your Web2 Ideas Onchain](https://earn.superteam.fun/listings/bring-your-web2-ideas-onchain) | $5,000 USDC | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
+| 2 | 2,700 | medium | [Youth Challenge Blockchain — Ideathon UNICEF x Superteam Brasil](https://earn.superteam.fun/listings/youth-challenge-blockchain-ideathon-unicef-x-superteam-brasil) | $2,700 USDG | verified sponsor, no visible competition yet | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
+| 3 | 2,229 | high | [Build Privacy-Through-Noise tooling for Solana 🌫️🔮](https://earn.superteam.fun/listings/noise) | $3,900 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
+| 4 | 2,222 | medium | [Design the Superteam Brazil Mascot 🇧🇷](https://earn.superteam.fun/listings/mascot) | $2,500 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
+| 5 | 2,089 | medium | [Poste Sobre o Youth Challenge Blockchain no X — UNICEF x Superteam Brasil](https://earn.superteam.fun/listings/poste-sobre-o-youth-challenge-blockchain-no-x-unicef-x-superteam-brasil) | $2,350 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
+| 6 | 1,312 | medium | [Ask the Suits: TradFi's reaction to RWA](https://earn.superteam.fun/listings/ask-the-suits) | $1,750 USDC | no visible competition yet | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
+| 7 | 1,091 | medium | [Learn how to borrow better, leave product feedback and earn with Zodial](https://earn.superteam.fun/listings/learn-how-to-borrow-better-leave-product-feedback-and-earn-with-zodial) | $1,500 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
+| 8 | 1,000 | high | [Build Solana-native plugins for Zeroclaw 🦞](https://earn.superteam.fun/listings/zeroclaw) | $5,000 USDG | verified sponsor | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
+| 9 | 875 | medium | [Write About the Brain Drain Wall](https://earn.superteam.fun/listings/write-about-the-brain-drain-wall) | $875 USDG | verified sponsor, no visible competition yet | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
+| 10 | 727 | medium | [On-Chain Loyalty Rewards System Challenge](https://earn.superteam.fun/listings/on-chain-loyalty-rewards-system-challenge) | $1,000 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 
 ## Do Not Chase First
 
-- [Build with Gemini XPRIZE](https://xprize.devpost.com/): huge pool, but competition is already 20,590.
-- [OpenAI Build Week](https://openai.devpost.com/): huge pool, but competition is already 44,517.
-- [Global AI Hackathon Series with Qwen Cloud ](https://qwencloud-hackathon.devpost.com/): huge pool, but competition is already 8,462.
-- [Build with DataHub: The Agent Hackathon](https://datahub.devpost.com/): huge pool, but competition is already 1,119.
-- [Africa Deep Tech Challenge 2026](https://adtc-2026.devpost.com/): huge pool, but competition is already 1,054.
+- [Build with Gemini XPRIZE](https://xprize.devpost.com/): huge pool, but competition is already 20,827.
+- [OpenAI Build Week](https://openai.devpost.com/): huge pool, but competition is already 45,997.
+- [Build with DataHub: The Agent Hackathon](https://datahub.devpost.com/): huge pool, but competition is already 1,202.
+- [Africa Deep Tech Challenge 2026](https://adtc-2026.devpost.com/): huge pool, but competition is already 1,086.
+- [CockroachDB × AWS Hackathon - Build with Agentic Memory](https://cockroachdb-ai.devpost.com/): huge pool, but competition is already 1,891.

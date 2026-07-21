@@ -1,9 +1,9 @@
-# Draft pack — Build Privacy-Through-Noise tooling for Solana 🌫️🔮
+# Draft pack — Youth Challenge Blockchain — Ideathon UNICEF x Superteam Brasil
 
-- Listing: https://earn.superteam.fun/listings/noise
-- Value: $3,900 USDG
-- Deadline: 8 days left (as of 2026-07-20 15:33 UTC)
-- Fit score: 2,400 — verified sponsor, low competition
+- Listing: https://earn.superteam.fun/listings/youth-challenge-blockchain-ideathon-unicef-x-superteam-brasil
+- Value: $2,700 USDG
+- Deadline: 8 days left (as of 2026-07-21 15:17 UTC)
+- Fit score: 2,700 — verified sponsor, no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist

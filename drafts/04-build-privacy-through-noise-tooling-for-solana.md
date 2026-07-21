@@ -1,10 +1,10 @@
-# Draft pack — Build with Gemini XPRIZE
+# Draft pack — Build Privacy-Through-Noise tooling for Solana 🌫️🔮
 
-- Listing: https://xprize.devpost.com/
-- Value: $2,000,000 USD
-- Deadline: 27 days left (as of 2026-07-21 15:17 UTC)
-- Fit score: 7,000 — verified sponsor
-- First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
+- Listing: https://earn.superteam.fun/listings/noise
+- Value: $3,900 USDG
+- Deadline: 7 days left (as of 2026-07-21 15:17 UTC)
+- Fit score: 2,229 — verified sponsor, low competition
+- First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
 - [ ] Read full rules & eligibility (region, KYC, team size)
