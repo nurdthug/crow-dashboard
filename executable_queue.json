@@ -1,5 +1,92 @@
 {
- "generated": "2026-07-22T15:16:58+00:00",
- "count": 0,
- "items": []
+ "generated": "2026-07-22T15:23:27+00:00",
+ "count": 5,
+ "items": [
+  {
+   "lane": "github_pr",
+   "title": "Calculate the exact value of PI",
+   "url": "https://github.com/xevrion-v2/agent-playground/issues/17",
+   "repo": "xevrion-v2/agent-playground",
+   "issue_number": 17,
+   "value_usd": 1000,
+   "labels": [
+    "good first issue",
+    "bounty",
+    "ai agent friendly",
+    "\ud83d\udc8e bounty",
+    "$1k"
+   ],
+   "small": true,
+   "created": "2026-06-03T05:56:26Z"
+  },
+  {
+   "lane": "github_pr",
+   "title": "Low Handing Fruit Automation",
+   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743",
+   "repo": "SecureBananaLabs/bug-bounty",
+   "issue_number": 743,
+   "value_usd": 700,
+   "labels": [
+    "bug",
+    "documentation",
+    "good first issue",
+    "help wanted",
+    "bug bounty",
+    "ai agent friendly",
+    "bounty",
+    "\ud83d\udc8e bounty",
+    "$700"
+   ],
+   "small": true,
+   "created": "2026-05-27T06:32:39Z"
+  },
+  {
+   "lane": "github_pr",
+   "title": "Add JSDoc to userService",
+   "url": "https://github.com/xevrion-v2/agent-playground/issues/1",
+   "repo": "xevrion-v2/agent-playground",
+   "issue_number": 1,
+   "value_usd": 50,
+   "labels": [
+    "good first issue",
+    "bounty",
+    "ai agent friendly",
+    "\ud83d\udc8e bounty",
+    "$50"
+   ],
+   "small": true,
+   "created": "2026-06-03T05:50:49Z"
+  },
+  {
+   "lane": "github_pr",
+   "title": "Fix typo in README",
+   "url": "https://github.com/xevrion-v2/agent-playground/issues/2",
+   "repo": "xevrion-v2/agent-playground",
+   "issue_number": 2,
+   "value_usd": 50,
+   "labels": [
+    "good first issue",
+    "bounty",
+    "ai agent friendly",
+    "\ud83d\udc8e bounty",
+    "$50"
+   ],
+   "small": true,
+   "created": "2026-06-03T05:50:49Z"
+  },
+  {
+   "lane": "github_pr",
+   "title": "parse_duration drops the days (d) unit",
+   "url": "https://github.com/tine1117/oss-hunter-livefire/issues/1",
+   "repo": "tine1117/oss-hunter-livefire",
+   "issue_number": 1,
+   "value_usd": 50,
+   "labels": [
+    "\ud83d\udc8e bounty",
+    "$50"
+   ],
+   "small": false,
+   "created": "2026-06-01T14:37:16Z"
+  }
+ ]
 }

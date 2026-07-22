@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22 15:16 UTC",
+  "generated_at": "2026-07-22 15:23 UTC",
   "reviewed": 41,
   "agent_allowed": 0,
   "recommendations": [
@@ -168,7 +168,7 @@
     {
       "title": "Build with Gemini XPRIZE",
       "url": "https://xprize.devpost.com/",
-      "competition": 21158,
+      "competition": 21161,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -180,7 +180,7 @@
     {
       "title": "Africa Deep Tech Challenge 2026",
       "url": "https://adtc-2026.devpost.com/",
-      "competition": 1104,
+      "competition": 1105,
       "reason": "huge pool, but high visible competition"
     },
     {
