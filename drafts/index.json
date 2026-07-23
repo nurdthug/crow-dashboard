@@ -17,7 +17,7 @@
   "token": "USDC",
   "fit": 4000.0,
   "kind": "generic",
-  "days_left": 10.067244896319444
+  "days_left": 10.066484271307871
  },
  {
   "file": "drafts/03-youth-challenge-blockchain-ideathon-unicef-x-superteam-brasi.md",
@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 2700.0,
   "kind": "build",
-  "days_left": 6.483911562986111
+  "days_left": 6.483150937974537
  },
  {
   "file": "drafts/04-design-the-superteam-brazil-mascot.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 2222.22,
   "kind": "design",
-  "days_left": 11.483911562986112
+  "days_left": 11.483150937974537
  },
  {
   "file": "drafts/05-build-privacy-through-noise-tooling-for-solana.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 1835.29,
   "kind": "build",
-  "days_left": 5.483923125486111
+  "days_left": 5.4831625004745375
  }
 ]

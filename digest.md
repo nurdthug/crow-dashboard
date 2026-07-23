@@ -1,6 +1,6 @@
-# Crow Scout Digest — 2026-07-23 15:23 UTC
+# Crow Scout Digest — 2026-07-23 15:24 UTC
 
-**41 open opportunities** · 3 new since last run · 0 flagged AGENT_ALLOWED · total face value $2,146,165
+**41 open opportunities** · 0 new since last run · 0 flagged AGENT_ALLOWED · total face value $2,146,165
 
 | # | Score | Title | Value | Type | Source | Days left | Competition | Agent? |
 |---|---|---|---|---|---|---|---|---|
@@ -15,8 +15,8 @@
 | 9 | 875 | [Write About the Brain Drain Wall](https://earn.superteam.fun/listings/write-about-the-brain-drain-wall) | $875 USDG | bounty | superteam-earn | 13 | 0 |  |
 | 10 | 784 | [Build Solana-native plugins for Zeroclaw 🦞](https://earn.superteam.fun/listings/zeroclaw) | $5,000 USDG | bounty | superteam-earn | 14 | 43 |  |
 | 11 | 667 | [On-Chain Loyalty Rewards System Challenge](https://earn.superteam.fun/listings/on-chain-loyalty-rewards-system-challenge) | $1,000 USDG | bounty | superteam-earn | 15 | 4 |  |
-| 12 | 500 | [Craft an Engaging Tweet for Solana Summit Serbia to Excite Turkish Attendance](https://earn.superteam.fun/listings/craft-an-engaging-tweet-for-solana-summit-serbia-to-excite-turkish-attendance) 🆕 | $500 USDG | bounty | superteam-earn | 7 | 0 |  |
-| 13 | 500 | [Linkedin Post About Solana Summit Serbia](https://earn.superteam.fun/listings/linkedin-post-about-solana-summit-serbia) 🆕 | $500 USDG | bounty | superteam-earn | 7 | 0 |  |
+| 12 | 500 | [Craft an Engaging Tweet for Solana Summit Serbia to Excite Turkish Attendance](https://earn.superteam.fun/listings/craft-an-engaging-tweet-for-solana-summit-serbia-to-excite-turkish-attendance) | $500 USDG | bounty | superteam-earn | 7 | 0 |  |
+| 13 | 500 | [Linkedin Post About Solana Summit Serbia](https://earn.superteam.fun/listings/linkedin-post-about-solana-summit-serbia) | $500 USDG | bounty | superteam-earn | 7 | 0 |  |
 | 14 | 489 | [VoltHacks](https://volthacks.devpost.com/) | $32,585 USD | hackathon | devpost | 30 | 904 |  |
 | 15 | 444 | [Superteam Poland Ecosystem Infographic Challenge](https://earn.superteam.fun/listings/superteam-poland-ecosystem-infographic-challenge) | $500 USDG | bounty | superteam-earn | 15 | 1 |  |
 | 16 | 400 | [Polish Startup Icons: The NextGen Founders Challenge](https://earn.superteam.fun/listings/polish-startup-icons-the-nextgen-founders-challenge) | $500 USDG | bounty | superteam-earn | 15 | 2 |  |

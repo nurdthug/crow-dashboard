@@ -1,4 +1,4 @@
-# Crow Research Brief — 2026-07-23 15:23 UTC
+# Crow Research Brief — 2026-07-23 15:24 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
