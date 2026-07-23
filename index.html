@@ -185,22 +185,53 @@ async function loadTreasury(){
 }
 loadTreasury();
 
-// Research brief — parses research.md (written daily by research.py in the same Action)
-async function loadResearch(){
+function researchDate(stamp){
+ if(!stamp) return "";
+ const d=new Date(stamp);
+ if(!Number.isNaN(d)) return d.toISOString().slice(0,16).replace("T"," ")+" UTC";
+ return stamp;
+}
+
+function renderResearchPicks(picks, stamp){
  const tb=document.querySelector("#research tbody");
  const head=document.getElementById("reshead");
+ const date=researchDate(stamp);
+ head.innerHTML=`Research picks ${date?`<span class="tag t-purple">${date}</span> `:""}`+
+  `<a href="research.md" style="font-size:11px;color:var(--cyan);text-transform:none;letter-spacing:0">full brief -></a>`;
+ tb.innerHTML=picks.slice(0,5).map(o=>{
+  const value=o.value_usd!=null?`$${Number(o.value_usd).toLocaleString()} ${o.token||"USD"}`:(o.val||"value TBD");
+  const fit=o.fit!=null?`fit ${Number(o.fit).toLocaleString()}`:"fit —";
+  return `<tr><td>${o.rank||""}</td>`+
+   `<td><a href="${o.url||"#"}" target="_blank" rel="noopener">${o.title||o.name||"Untitled"}</a> `+
+   `<span class="tag t-dim">${fit}</span></td>`+
+   `<td>${value}</td><td>${o.why||"—"}</td><td style="color:var(--dim)">${o.next_step||o.next||"—"}</td></tr>`;
+ }).join("");
+}
+
+// Research brief — prefers research.json and falls back to research.md
+async function loadResearch(){
+ const tb=document.querySelector("#research tbody");
  try{
+  const jr=await fetch("research.json",{cache:"no-store"});
+  if(jr.ok){
+   const j=await jr.json();
+   if(j.recommendations&&j.recommendations.length){
+    renderResearchPicks(j.recommendations,j.generated_at||j.generated);
+    return;
+   }
+  }
+  const head=document.getElementById("reshead");
   const r=await fetch("research.md",{cache:"no-store"});
   if(!r.ok) throw 0;
   const md=await r.text();
   const date=(md.match(/^# .*?—\s*(.+)$/m)||[])[1]||"";
   const rows=md.split("\n").filter(l=>/^\|\s*\d+\s*\|/.test(l));
   const picks=rows.slice(0,5).map(l=>{
-   // Title text may itself contain "|", so peel known columns off both ends.
-   const p=l.split("|"); // ["", rank, fit, ...title..., value, why, next, ""]
+   // Opportunity text may itself contain "|", so peel known columns off both ends.
+   const p=l.split("|"); // ["", rank, fit, effort, ...opportunity..., value, why, next, ""]
    const rank=p[1].trim(), fit=p[2].trim();
    const next=p[p.length-2].trim(), why=p[p.length-3].trim(), val=p[p.length-4].trim();
-   const title=p.slice(3,p.length-4).join("|").trim();
+   const title=p.slice(4,p.length-4).join("|").trim();
    const m=title.match(/\[(.*)\]\((.*?)\)/);
    return {rank,fit,name:m?m[1]:title,url:m?m[2]:"#",val,why,next};
   });
