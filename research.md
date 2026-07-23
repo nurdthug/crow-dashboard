@@ -1,4 +1,4 @@
-# Crow Research Brief — 2026-07-23 15:24 UTC
+# Crow Research Brief — 2026-07-23 15:44 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
@@ -14,13 +14,13 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 | 6 | 1,000 | medium | [Learn how to borrow better, leave product feedback and earn with Zodial](https://earn.superteam.fun/listings/learn-how-to-borrow-better-leave-product-feedback-and-earn-with-zodial) | $1,500 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 7 | 940 | medium | [Poste Sobre o Youth Challenge Blockchain no X — UNICEF x Superteam Brasil](https://earn.superteam.fun/listings/poste-sobre-o-youth-challenge-blockchain-no-x-unicef-x-superteam-brasil) | $2,350 USDG | verified sponsor | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 8 | 875 | medium | [Write About the Brain Drain Wall](https://earn.superteam.fun/listings/write-about-the-brain-drain-wall) | $875 USDG | verified sponsor, no visible competition yet | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
-| 9 | 784 | high | [Build Solana-native plugins for Zeroclaw 🦞](https://earn.superteam.fun/listings/zeroclaw) | $5,000 USDG | verified sponsor | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
+| 9 | 755 | high | [Build Solana-native plugins for Zeroclaw 🦞](https://earn.superteam.fun/listings/zeroclaw) | $5,000 USDG | verified sponsor | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 10 | 667 | medium | [On-Chain Loyalty Rewards System Challenge](https://earn.superteam.fun/listings/on-chain-loyalty-rewards-system-challenge) | $1,000 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 
 ## Do Not Chase First
 
-- [Build with Gemini XPRIZE](https://xprize.devpost.com/): huge pool, but competition is already 21,392.
+- [Build with Gemini XPRIZE](https://xprize.devpost.com/): huge pool, but competition is already 21,395.
 - [Build with DataHub: The Agent Hackathon](https://datahub.devpost.com/): huge pool, but competition is already 1,400.
 - [Africa Deep Tech Challenge 2026](https://adtc-2026.devpost.com/): huge pool, but competition is already 1,127.
-- [Arm Create: AI Optimization Challenge](https://arm-ai-optimization-challenge.devpost.com/): huge pool, but competition is already 1,725.
-- [CockroachDB × AWS Hackathon - Build with Agentic Memory](https://cockroachdb-ai.devpost.com/): huge pool, but competition is already 2,080.
+- [Arm Create: AI Optimization Challenge](https://arm-ai-optimization-challenge.devpost.com/): huge pool, but competition is already 1,727.
+- [CockroachDB × AWS Hackathon - Build with Agentic Memory](https://cockroachdb-ai.devpost.com/): huge pool, but competition is already 2,081.

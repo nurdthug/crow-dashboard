@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23 15:24 UTC",
+  "generated_at": "2026-07-23 15:44 UTC",
   "reviewed": 41,
   "agent_allowed": 0,
   "recommendations": [
@@ -133,7 +133,7 @@
     },
     {
       "rank": 9,
-      "fit": 784.31,
+      "fit": 754.72,
       "title": "Build Solana-native plugins for Zeroclaw \ud83e\udd9e",
       "url": "https://earn.superteam.fun/listings/zeroclaw",
       "value_usd": 5000.0,
@@ -142,7 +142,7 @@
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "high",
       "days_left": 14.5,
-      "competition": 43,
+      "competition": 45,
       "deadline": "2026-08-07T02:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -168,7 +168,7 @@
     {
       "title": "Build with Gemini XPRIZE",
       "url": "https://xprize.devpost.com/",
-      "competition": 21392,
+      "competition": 21395,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -186,13 +186,13 @@
     {
       "title": "Arm Create: AI Optimization Challenge",
       "url": "https://arm-ai-optimization-challenge.devpost.com/",
-      "competition": 1725,
+      "competition": 1727,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "CockroachDB \u00d7 AWS Hackathon - Build with Agentic Memory",
       "url": "https://cockroachdb-ai.devpost.com/",
-      "competition": 2080,
+      "competition": 2081,
       "reason": "huge pool, but high visible competition"
     }
   ]
