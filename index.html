@@ -136,6 +136,14 @@ const WALLETS=[
  {chain:"TRX",addr:"TX6n1aFyxaGvZuy8nPQFzcjBzkUMpRzAZw",explorer:"https://tronscan.org/#/address/"}
 ];
 const fmt=n=>"$"+Number(n).toLocaleString();
+function ageLabel(stamp){
+ const d=new Date(stamp);
+ if(!stamp||Number.isNaN(d)) return {label:"unknown", stale:true};
+ const hours=(Date.now()-d.getTime())/36e5;
+ if(hours<1) return {label:"<1h ago", stale:false};
+ if(hours<48) return {label:`${Math.round(hours)}h ago`, stale:hours>30};
+ return {label:`${Math.round(hours/24)}d ago`, stale:true};
+}
 
 async function balOf(w){
  try{
@@ -314,10 +322,17 @@ loadHistory();
 
 async function boot(){
  let opps=[];
+ let queueMeta=null;
  try{
   const r=await fetch("opportunities.json",{cache:"no-store"});
   if(r.ok) opps=await r.json();
  }catch(e){}
+ try{
+  const r=await fetch("executable_queue.json",{cache:"no-store"});
+  if(r.ok) queueMeta=await r.json();
+ }catch(e){}
+ const generated=queueMeta&&queueMeta.generated;
+ const freshness=ageLabel(generated);
 
  // KPIs — all computed from real data
  const agentOk=opps.filter(o=>o.agent_access==="AGENT_ALLOWED");
@@ -327,6 +342,7 @@ async function boot(){
  const kpis=[
   ["Open opportunities",opps.length,"across live sources"],
   ["Pipeline face value",fmt(face),"total prizes/rewards listed"],
+  ["Data freshness",freshness.label,generated||"latest sweep timestamp unavailable"],
   ["Agent-eligible 🤖",agentOk.length,"flagged AGENT_ALLOWED"],
   ["New this sweep",fresh.length,"first seen in latest run"],
   ["Closing ≤3 days",soon,"act-now window"],
@@ -335,7 +351,9 @@ async function boot(){
  document.getElementById("kpis").innerHTML=kpis.map(([l,v,d])=>
   `<div class="card kpi"><div class="label">${l}</div><div class="value">${v}</div><div class="delta">${d}</div></div>`).join("");
  document.getElementById("status").innerHTML=opps.length
-  ?`Scout <b>operational</b> · ${opps.length} live listings`
+  ?(freshness.stale
+    ?`Scout <b style="color:var(--amber)">stale</b> · ${freshness.label}`
+    :`Scout <b>operational</b> · ${opps.length} live listings`)
   :`Awaiting first sweep`;
 
  // Top-by-value bars
