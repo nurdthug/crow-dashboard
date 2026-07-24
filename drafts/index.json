@@ -7,7 +7,7 @@
   "token": "USD",
   "fit": 7000.0,
   "kind": "build",
-  "days_left": 25.0
+  "days_left": 24.0
  },
  {
   "file": "drafts/02-bring-your-web2-ideas-onchain.md",
@@ -15,9 +15,9 @@
   "url": "https://earn.superteam.fun/listings/bring-your-web2-ideas-onchain",
   "value_usd": 5000.0,
   "token": "USDC",
-  "fit": 4000.0,
+  "fit": 3636.36,
   "kind": "generic",
-  "days_left": 10.052254526053241
+  "days_left": 9.10648207357639
  },
  {
   "file": "drafts/03-youth-challenge-blockchain-ideathon-unicef-x-superteam-brasi.md",
@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 2700.0,
   "kind": "build",
-  "days_left": 6.4689211927199075
+  "days_left": 5.523148740243055
  },
  {
   "file": "drafts/04-design-the-superteam-brazil-mascot.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 2222.22,
   "kind": "design",
-  "days_left": 11.468921192719908
+  "days_left": 10.523148740243055
  },
  {
   "file": "drafts/05-build-privacy-through-noise-tooling-for-solana.md",
@@ -45,8 +45,8 @@
   "url": "https://earn.superteam.fun/listings/noise",
   "value_usd": 3900.0,
   "token": "USDG",
-  "fit": 1835.29,
+  "fit": 1733.33,
   "kind": "build",
-  "days_left": 5.468932755219908
+  "days_left": 4.523160302743055
  }
 ]
