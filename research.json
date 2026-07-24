@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24 15:05 UTC",
+  "generated_at": "2026-07-24 15:17 UTC",
   "reviewed": 40,
   "agent_allowed": 0,
   "recommendations": [
@@ -168,13 +168,13 @@
     {
       "title": "Build with Gemini XPRIZE",
       "url": "https://xprize.devpost.com/",
-      "competition": 21766,
+      "competition": 21768,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build with DataHub: The Agent Hackathon",
       "url": "https://datahub.devpost.com/",
-      "competition": 1759,
+      "competition": 1760,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -186,7 +186,7 @@
     {
       "title": "Backblaze Generative Media Hackathon: Build with Genblaze on B2",
       "url": "https://backblaze-generative-media.devpost.com/",
-      "competition": 1021,
+      "competition": 1022,
       "reason": "huge pool, but high visible competition"
     },
     {

@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/youth-challenge-blockchain-ideathon-unicef-x-superteam-brasil
 - Value: $2,700 USDG
-- Deadline: 5 days left (as of 2026-07-24 15:05 UTC)
+- Deadline: 5 days left (as of 2026-07-24 15:17 UTC)
 - Fit score: 2,700 — verified sponsor, no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
