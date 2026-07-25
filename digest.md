@@ -1,10 +1,10 @@
-# Crow Scout Digest — 2026-07-25 14:41 UTC
+# Crow Scout Digest — 2026-07-25 14:50 UTC
 
 **37 open opportunities** · 0 new since last run · 0 flagged AGENT_ALLOWED · total face value $2,139,015
 
 | # | Score | Title | Value | Type | Source | Days left | Competition | Agent? |
 |---|---|---|---|---|---|---|---|---|
-| 1 | 40,000 | [Build with Gemini XPRIZE](https://xprize.devpost.com/) | $2,000,000 USD | hackathon | devpost | 23 | 21981 |  |
+| 1 | 40,000 | [Build with Gemini XPRIZE](https://xprize.devpost.com/) | $2,000,000 USD | hackathon | devpost | 23 | 21984 |  |
 | 2 | 3,333 | [Bring Your Web2 Ideas Onchain](https://earn.superteam.fun/listings/bring-your-web2-ideas-onchain) | $5,000 USDC | bounty | superteam-earn | 8 | 4 |  |
 | 3 | 2,700 | [Youth Challenge Blockchain — Ideathon UNICEF x Superteam Brasil](https://earn.superteam.fun/listings/youth-challenge-blockchain-ideathon-unicef-x-superteam-brasil) | $2,700 USDG | bounty | superteam-earn | 5 | 0 |  |
 | 4 | 2,222 | [Design the Superteam Brazil Mascot 🇧🇷](https://earn.superteam.fun/listings/mascot) | $2,500 USDG | bounty | superteam-earn | 10 | 1 |  |
@@ -26,8 +26,8 @@
 | 20 | 188 | [Create Content for FBYT](https://earn.superteam.fun/listings/create-content-for-fbyt) | $500 USDC | bounty | superteam-earn | 6 | 8 |  |
 | 21 | 175 | [CockroachDB × AWS Hackathon - Build with Agentic Memory](https://cockroachdb-ai.devpost.com/) | $8,750 USD | hackathon | devpost | 24 | 2299 |  |
 | 22 | 158 | [Manic PnL Challenge (UGC Contest)](https://earn.superteam.fun/listings/manic-pnl-challenge-ugc-contest) | $500 USDC | bounty | superteam-earn | 24 | 11 |  |
-| 23 | 150 | [Backblaze Generative Media Hackathon: Build with Genblaze on B2](https://backblaze-generative-media.devpost.com/) | $10,000 USD | hackathon | devpost | 9 | 1053 |  |
+| 23 | 150 | [Backblaze Generative Media Hackathon: Build with Genblaze on B2](https://backblaze-generative-media.devpost.com/) | $10,000 USD | hackathon | devpost | 9 | 1055 |  |
 | 24 | 136 | [Find Critical Vulnerabilities in Veilo Mainnet Smart Contracts for Fund Loss](https://earn.superteam.fun/listings/veilo-bounty) | $2,000 USDC | bounty | superteam-earn | 26 | 80 |  |
-| 25 | 120 | [Arm Create: AI Optimization Challenge](https://arm-ai-optimization-challenge.devpost.com/) | $8,000 USD | hackathon | devpost | 20 | 1803 |  |
+| 25 | 120 | [Arm Create: AI Optimization Challenge](https://arm-ai-optimization-challenge.devpost.com/) | $8,000 USD | hackathon | devpost | 20 | 1804 |  |
 
 *Scores are EV heuristics (value × win-probability proxy × urgency × sponsor trust). Verify terms before committing work.*
