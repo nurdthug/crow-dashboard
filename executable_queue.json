@@ -1,6 +1,6 @@
 {
- "generated": "2026-07-24T15:17:39+00:00",
- "count": 5,
+ "generated": "2026-07-25T14:41:50+00:00",
+ "count": 6,
  "items": [
   {
    "lane": "github_pr",
@@ -18,6 +18,30 @@
    ],
    "small": true,
    "created": "2026-06-03T05:56:26Z"
+  },
+  {
+   "lane": "github_pr",
+   "title": "Automate Bug Detection and Reviews",
+   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11398",
+   "repo": "SecureBananaLabs/bug-bounty",
+   "issue_number": 11398,
+   "value_usd": 800,
+   "labels": [
+    "bug",
+    "documentation",
+    "enhancement",
+    "good first issue",
+    "help wanted",
+    "bug bounty",
+    "ai agent friendly",
+    "bounty",
+    "\ud83d\udc8e bounty",
+    "$780",
+    "$1k",
+    "$1.2k"
+   ],
+   "small": true,
+   "created": "2026-07-25T09:51:18Z"
   },
   {
    "lane": "github_pr",
@@ -42,10 +66,10 @@
   },
   {
    "lane": "github_pr",
-   "title": "Fix typo in README",
-   "url": "https://github.com/xevrion-v2/agent-playground/issues/2",
+   "title": "Add JSDoc to userService",
+   "url": "https://github.com/xevrion-v2/agent-playground/issues/1",
    "repo": "xevrion-v2/agent-playground",
-   "issue_number": 2,
+   "issue_number": 1,
    "value_usd": 50,
    "labels": [
     "good first issue",
@@ -59,10 +83,10 @@
   },
   {
    "lane": "github_pr",
-   "title": "Add JSDoc to userService",
-   "url": "https://github.com/xevrion-v2/agent-playground/issues/1",
+   "title": "Fix typo in README",
+   "url": "https://github.com/xevrion-v2/agent-playground/issues/2",
    "repo": "xevrion-v2/agent-playground",
-   "issue_number": 1,
+   "issue_number": 2,
    "value_usd": 50,
    "labels": [
     "good first issue",
