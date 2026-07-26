@@ -7,7 +7,7 @@
   "token": "USD",
   "fit": 7000.0,
   "kind": "build",
-  "days_left": 23.0
+  "days_left": 22.0
  },
  {
   "file": "drafts/02-bring-your-web2-ideas-onchain.md",
@@ -17,7 +17,7 @@
   "token": "USDC",
   "fit": 3333.33,
   "kind": "generic",
-  "days_left": 8.090243161886574
+  "days_left": 7.094346807418981
  },
  {
   "file": "drafts/03-youth-challenge-blockchain-ideathon-unicef-x-superteam-brasi.md",
@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 2700.0,
   "kind": "build",
-  "days_left": 4.5069098285532405
+  "days_left": 3.5110134740856482
  },
  {
   "file": "drafts/04-design-the-superteam-brazil-mascot.md",
@@ -37,16 +37,16 @@
   "token": "USDG",
   "fit": 2222.22,
   "kind": "design",
-  "days_left": 9.50690982855324
+  "days_left": 8.511013474085647
  },
  {
-  "file": "drafts/05-build-privacy-through-noise-tooling-for-solana.md",
-  "title": "Build Privacy-Through-Noise tooling for Solana \ud83c\udf2b\ufe0f\ud83d\udd2e",
-  "url": "https://earn.superteam.fun/listings/noise",
-  "value_usd": 3900.0,
-  "token": "USDG",
-  "fit": 1733.33,
-  "kind": "build",
-  "days_left": 3.5069213910532406
+  "file": "drafts/05-ask-the-suits-tradfi-s-reaction-to-rwa.md",
+  "title": "Ask the Suits: TradFi's reaction to RWA",
+  "url": "https://earn.superteam.fun/listings/ask-the-suits",
+  "value_usd": 1750.0,
+  "token": "USDC",
+  "fit": 1050.0,
+  "kind": "generic",
+  "days_left": 15.552691703252314
  }
 ]

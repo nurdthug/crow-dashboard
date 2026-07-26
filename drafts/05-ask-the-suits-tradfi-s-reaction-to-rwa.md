@@ -1,9 +1,9 @@
-# Draft pack — Bring Your Web2 Ideas Onchain
+# Draft pack — Ask the Suits: TradFi's reaction to RWA
 
-- Listing: https://earn.superteam.fun/listings/bring-your-web2-ideas-onchain
-- Value: $5,000 USDC
-- Deadline: 7 days left (as of 2026-07-26 14:44 UTC)
-- Fit score: 3,333 — verified sponsor, low competition
+- Listing: https://earn.superteam.fun/listings/ask-the-suits
+- Value: $1,750 USDC
+- Deadline: 16 days left (as of 2026-07-26 14:44 UTC)
+- Fit score: 1,050 — low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
