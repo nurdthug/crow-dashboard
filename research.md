@@ -1,4 +1,4 @@
-# Crow Research Brief — 2026-07-26 14:44 UTC
+# Crow Research Brief — 2026-07-26 14:52 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
@@ -19,8 +19,8 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 
 ## Do Not Chase First
 
-- [Build with Gemini XPRIZE](https://xprize.devpost.com/): huge pool, but competition is already 22,191.
-- [Build with DataHub: The Agent Hackathon](https://datahub.devpost.com/): huge pool, but competition is already 1,940.
+- [Build with Gemini XPRIZE](https://xprize.devpost.com/): huge pool, but competition is already 22,192.
+- [Build with DataHub: The Agent Hackathon](https://datahub.devpost.com/): huge pool, but competition is already 1,941.
 - [Africa Deep Tech Challenge 2026](https://adtc-2026.devpost.com/): huge pool, but competition is already 1,174.
 - [Backblaze Generative Media Hackathon: Build with Genblaze on B2](https://backblaze-generative-media.devpost.com/): huge pool, but competition is already 1,088.
 - [Arm Create: AI Optimization Challenge](https://arm-ai-optimization-challenge.devpost.com/): huge pool, but competition is already 1,825.

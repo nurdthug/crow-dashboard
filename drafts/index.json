@@ -17,7 +17,7 @@
   "token": "USDC",
   "fit": 3333.33,
   "kind": "generic",
-  "days_left": 7.094346807418981
+  "days_left": 7.088675182453704
  },
  {
   "file": "drafts/03-youth-challenge-blockchain-ideathon-unicef-x-superteam-brasi.md",
@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 2700.0,
   "kind": "build",
-  "days_left": 3.5110134740856482
+  "days_left": 3.50534184912037
  },
  {
   "file": "drafts/04-design-the-superteam-brazil-mascot.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 2222.22,
   "kind": "design",
-  "days_left": 8.511013474085647
+  "days_left": 8.50534184912037
  },
  {
   "file": "drafts/05-ask-the-suits-tradfi-s-reaction-to-rwa.md",
@@ -47,6 +47,6 @@
   "token": "USDC",
   "fit": 1050.0,
   "kind": "generic",
-  "days_left": 15.552691703252314
+  "days_left": 15.547020078287037
  }
 ]

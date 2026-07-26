@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26 14:44 UTC",
+  "generated_at": "2026-07-26 14:52 UTC",
   "reviewed": 37,
   "agent_allowed": 0,
   "recommendations": [
@@ -61,7 +61,7 @@
       "why": "low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 15.6,
+      "days_left": 15.5,
       "competition": 2,
       "deadline": "2026-08-11T03:59:59.999Z",
       "source": "superteam-earn",
@@ -168,13 +168,13 @@
     {
       "title": "Build with Gemini XPRIZE",
       "url": "https://xprize.devpost.com/",
-      "competition": 22191,
+      "competition": 22192,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build with DataHub: The Agent Hackathon",
       "url": "https://datahub.devpost.com/",
-      "competition": 1940,
+      "competition": 1941,
       "reason": "huge pool, but high visible competition"
     },
     {

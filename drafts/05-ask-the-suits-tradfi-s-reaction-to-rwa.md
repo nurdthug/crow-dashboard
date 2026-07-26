@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/ask-the-suits
 - Value: $1,750 USDC
-- Deadline: 16 days left (as of 2026-07-26 14:44 UTC)
+- Deadline: 16 days left (as of 2026-07-26 14:52 UTC)
 - Fit score: 1,050 — low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
