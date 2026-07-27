@@ -7,7 +7,7 @@
   "token": "USD",
   "fit": 7000.0,
   "kind": "build",
-  "days_left": 22.0
+  "days_left": 21.0
  },
  {
   "file": "drafts/02-bring-your-web2-ideas-onchain.md",
@@ -17,36 +17,36 @@
   "token": "USDC",
   "fit": 3333.33,
   "kind": "generic",
-  "days_left": 7.088675182453704
+  "days_left": 6.048382207152778
  },
  {
-  "file": "drafts/03-youth-challenge-blockchain-ideathon-unicef-x-superteam-brasi.md",
-  "title": "Youth Challenge Blockchain \u2014 Ideathon UNICEF x Superteam Brasil",
-  "url": "https://earn.superteam.fun/listings/youth-challenge-blockchain-ideathon-unicef-x-superteam-brasil",
-  "value_usd": 2700.0,
-  "token": "USDG",
-  "fit": 2700.0,
-  "kind": "build",
-  "days_left": 3.50534184912037
- },
- {
-  "file": "drafts/04-design-the-superteam-brazil-mascot.md",
+  "file": "drafts/03-design-the-superteam-brazil-mascot.md",
   "title": "Design the Superteam Brazil Mascot \ud83c\udde7\ud83c\uddf7",
   "url": "https://earn.superteam.fun/listings/mascot",
   "value_usd": 2500.0,
   "token": "USDG",
   "fit": 2222.22,
   "kind": "design",
-  "days_left": 8.50534184912037
+  "days_left": 7.465048873819445
  },
  {
-  "file": "drafts/05-ask-the-suits-tradfi-s-reaction-to-rwa.md",
+  "file": "drafts/04-ask-the-suits-tradfi-s-reaction-to-rwa.md",
   "title": "Ask the Suits: TradFi's reaction to RWA",
   "url": "https://earn.superteam.fun/listings/ask-the-suits",
   "value_usd": 1750.0,
   "token": "USDC",
   "fit": 1050.0,
   "kind": "generic",
-  "days_left": 15.547020078287037
+  "days_left": 14.506727102986112
+ },
+ {
+  "file": "drafts/05-write-about-the-brain-drain-wall.md",
+  "title": "Write About the Brain Drain Wall",
+  "url": "https://earn.superteam.fun/listings/write-about-the-brain-drain-wall",
+  "value_usd": 875.0,
+  "token": "USDG",
+  "fit": 777.78,
+  "kind": "writing",
+  "days_left": 9.298382207152779
  }
 ]
