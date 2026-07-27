@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/write-about-the-brain-drain-wall
 - Value: $875 USDG
-- Deadline: 9 days left (as of 2026-07-27 15:50 UTC)
+- Deadline: 9 days left (as of 2026-07-27 16:05 UTC)
 - Fit score: 778 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 

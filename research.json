@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27 15:50 UTC",
+  "generated_at": "2026-07-27 16:05 UTC",
   "reviewed": 34,
   "agent_allowed": 0,
   "recommendations": [
@@ -93,7 +93,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 11.3,
+      "days_left": 11.2,
       "competition": 5,
       "deadline": "2026-08-07T21:59:59.000Z",
       "source": "superteam-earn",
@@ -125,7 +125,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 11.3,
+      "days_left": 11.2,
       "competition": 1,
       "deadline": "2026-08-07T21:59:59.000Z",
       "source": "superteam-earn",
@@ -168,7 +168,7 @@
     {
       "title": "Build with Gemini XPRIZE",
       "url": "https://xprize.devpost.com/",
-      "competition": 22381,
+      "competition": 22384,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -180,13 +180,13 @@
     {
       "title": "Build with DataHub: The Agent Hackathon",
       "url": "https://datahub.devpost.com/",
-      "competition": 2022,
+      "competition": 2024,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Backblaze Generative Media Hackathon: Build with Genblaze on B2",
       "url": "https://backblaze-generative-media.devpost.com/",
-      "competition": 1115,
+      "competition": 1116,
       "reason": "huge pool, but high visible competition"
     },
     {

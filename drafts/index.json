@@ -17,7 +17,7 @@
   "token": "USDC",
   "fit": 3333.33,
   "kind": "generic",
-  "days_left": 6.048382207152778
+  "days_left": 6.038028546226852
  },
  {
   "file": "drafts/03-design-the-superteam-brazil-mascot.md",
@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 2222.22,
   "kind": "design",
-  "days_left": 7.465048873819445
+  "days_left": 7.454695212893519
  },
  {
   "file": "drafts/04-ask-the-suits-tradfi-s-reaction-to-rwa.md",
@@ -37,7 +37,7 @@
   "token": "USDC",
   "fit": 1050.0,
   "kind": "generic",
-  "days_left": 14.506727102986112
+  "days_left": 14.496373442060186
  },
  {
   "file": "drafts/05-write-about-the-brain-drain-wall.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 777.78,
   "kind": "writing",
-  "days_left": 9.298382207152779
+  "days_left": 9.288028546226853
  }
 ]
