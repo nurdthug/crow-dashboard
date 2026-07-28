@@ -1,9 +1,9 @@
-# Draft pack — Build with Gemini XPRIZE
+# Draft pack — CALL-E: Your Code Is Calling
 
-- Listing: https://xprize.devpost.com/
-- Value: $2,000,000 USD
-- Deadline: 20 days left (as of 2026-07-28 15:34 UTC)
-- Fit score: 7,000 — verified sponsor
+- Listing: https://call-e.devpost.com/
+- Value: $10,000 USD
+- Deadline: 60 days left (as of 2026-07-28 15:34 UTC)
+- Fit score: 98 — reasonable EV after competition/deadline adjustment
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist

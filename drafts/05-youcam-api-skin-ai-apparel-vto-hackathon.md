@@ -1,9 +1,9 @@
-# Draft pack — Build with Gemini XPRIZE
+# Draft pack — YouCam API Skin AI & Apparel VTO Hackathon 
 
-- Listing: https://xprize.devpost.com/
-- Value: $2,000,000 USD
+- Listing: https://youcam-api.devpost.com/
+- Value: $6,000 USD
 - Deadline: 20 days left (as of 2026-07-28 15:34 UTC)
-- Fit score: 7,000 — verified sponsor
+- Fit score: 58 — reasonable EV after competition/deadline adjustment
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist

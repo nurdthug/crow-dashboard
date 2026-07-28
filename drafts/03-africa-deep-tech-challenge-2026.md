@@ -1,9 +1,9 @@
-# Draft pack — Build with Gemini XPRIZE
+# Draft pack — Africa Deep Tech Challenge 2026
 
-- Listing: https://xprize.devpost.com/
-- Value: $2,000,000 USD
-- Deadline: 20 days left (as of 2026-07-28 15:34 UTC)
-- Fit score: 7,000 — verified sponsor
+- Listing: https://adtc-2026.devpost.com/
+- Value: $16,500 USD
+- Deadline: 28 days left (as of 2026-07-28 15:34 UTC)
+- Fit score: 87 — reasonable EV after competition/deadline adjustment
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist

@@ -1,6 +1,6 @@
 {
- "generated": "2026-07-27T16:05:15+00:00",
- "count": 6,
+ "generated": "2026-07-28T15:34:18+00:00",
+ "count": 7,
  "items": [
   {
    "lane": "github_pr",
@@ -42,6 +42,25 @@
    ],
    "small": true,
    "created": "2026-07-25T09:51:18Z"
+  },
+  {
+   "lane": "github_pr",
+   "title": "Pixel Art Creation with high Creative Thinking",
+   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/80",
+   "repo": "SecureBananaLabs/bug-bounty",
+   "issue_number": 80,
+   "value_usd": 780,
+   "labels": [
+    "good first issue",
+    "help wanted",
+    "bug bounty",
+    "ai agent friendly",
+    "bounty",
+    "\ud83d\udc8e bounty",
+    "$780"
+   ],
+   "small": true,
+   "created": "2026-05-17T15:04:05Z"
   },
   {
    "lane": "github_pr",
