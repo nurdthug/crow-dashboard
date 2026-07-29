@@ -4,6 +4,36 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Crow Network — Nest Console</title>
+<meta name="description" content="Crow Network autonomous services and public operating state.">
+<link rel="alternate" type="application/json" href="./oracle.json" title="Crow Oracle discovery">
+<link rel="alternate" type="text/plain" href="./llms.txt" title="Crow Network agent context">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Crow Oracle",
+  "url": "https://nurdthug.github.io/crow-dashboard/oracle.json",
+  "serviceType": "Autonomous Solana token risk and lending health API",
+  "provider": {
+    "@type": "Organization",
+    "name": "Crow Network"
+  },
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Solana token risk verdict",
+      "price": "0.03",
+      "priceCurrency": "USDC"
+    },
+    {
+      "@type": "Offer",
+      "name": "Solana lending health check",
+      "price": "0.05",
+      "priceCurrency": "USDC"
+    }
+  ]
+}
+</script>
 <style>
   :root{
     --bg:#0b0e13; --panel:#12161f; --panel2:#171c27; --line:#232a38;
@@ -20,8 +50,9 @@
   .pill{border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:12px;color:var(--dim)}
   .pill b{color:var(--green)}
   .grid{display:grid;gap:14px}
+  .grid>*{min-width:0}
   .kpis{grid-template-columns:repeat(auto-fit,minmax(170px,1fr));margin-bottom:14px}
-  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;min-width:0}
   .kpi .label{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.6px}
   .kpi .value{font-size:24px;font-weight:650;margin-top:4px}
   .kpi .delta{font-size:12px;margin-top:2px;color:var(--dim)}
@@ -34,6 +65,7 @@
   .bar em{position:absolute;bottom:-34px;left:50%;transform:translateX(-50%);font-size:9px;font-style:normal;color:var(--dim);width:80px;text-align:center;line-height:1.2;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
   .bars-wrap{padding-bottom:40px}
   table{width:100%;border-collapse:collapse;font-size:13px}
+  .table-scroll{max-width:100%;overflow-x:auto}
   th{color:var(--dim);text-align:left;font-weight:500;font-size:11px;text-transform:uppercase;letter-spacing:.5px;padding:6px 8px;border-bottom:1px solid var(--line)}
   td{padding:8px;border-bottom:1px solid var(--line)}
   tr:last-child td{border-bottom:none}
@@ -51,24 +83,57 @@
   .feed li:last-child{border:none}
   .feed b{color:var(--text);font-weight:550}
   .feed time{float:right;font-size:11px;color:#5d6980}
+  .oracle-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:18px;align-items:center}
+  .oracle-copy{color:var(--dim);max-width:760px}
+  .oracle-url{font:12px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--cyan);overflow-wrap:anywhere;margin-top:8px}
+  .oracle-actions{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end}
+  .oracle-actions a{border:1px solid var(--line);border-radius:6px;padding:7px 10px;text-decoration:none;font-size:12px;background:var(--panel2)}
   a{color:inherit}
   footer{margin-top:20px;color:#5d6980;font-size:11.5px;text-align:center}
+  @media (max-width:760px){
+    body{padding:16px}
+    header{gap:12px;flex-wrap:wrap}
+    .cols{grid-template-columns:1fr}
+    .table-scroll table{min-width:680px}
+    .bars{gap:4px;padding-left:24px;padding-right:24px}
+    .bar em{width:48px}
+    .oracle-row{grid-template-columns:1fr}
+    .oracle-actions{justify-content:flex-start}
+  }
 </style>
 </head>
 <body>
 <header>
   <div class="brand">
     <div class="logo">🐦‍⬛</div>
-    <div><h1>The Crow Network</h1><div class="sub">Nest Console · live data only</div></div>
+    <div><h1>The Crow Network</h1><div class="sub">Nest Console · autonomous services</div></div>
   </div>
   <span class="pill" id="status">Loading…</span>
 </header>
+
+<section class="card" style="margin-bottom:14px" aria-labelledby="oracle-title">
+  <div class="oracle-row">
+    <div>
+      <h2 id="oracle-title">Crow Oracle <span class="tag t-green" id="oracle-state">Loading</span></h2>
+      <div class="oracle-copy" id="oracle-copy">Loading the stable machine discovery beacon.</div>
+      <div class="oracle-url" id="oracle-url">https://nurdthug.github.io/crow-dashboard/oracle.json</div>
+    </div>
+    <nav class="oracle-actions" aria-label="Crow Oracle resources">
+      <a href="oracle.json" id="oracle-beacon">Beacon JSON</a>
+      <a href="llms.txt">llms.txt</a>
+      <a href="oracle.json" id="oracle-catalog">Live catalog</a>
+      <a href="oracle.json" id="oracle-sample">Free sample</a>
+    </nav>
+  </div>
+</section>
 
 <div class="grid kpis" id="kpis"></div>
 
 <div class="card" style="margin-bottom:14px">
   <h2 id="reshead">Research picks — today's brief</h2>
-  <table id="research"><thead><tr><th>#</th><th>Opportunity</th><th>Value</th><th>Why</th><th>Next step</th></tr></thead><tbody><tr><td colspan="5" class="empty">Loading research brief…</td></tr></tbody></table>
+  <div class="table-scroll">
+    <table id="research"><thead><tr><th>#</th><th>Opportunity</th><th>Value</th><th>Why</th><th>Next step</th></tr></thead><tbody><tr><td colspan="5" class="empty">Loading research brief…</td></tr></tbody></table>
+  </div>
 </div>
 
 <div class="grid cols">
@@ -96,14 +161,16 @@
     <h2>Treasury (watch-only)</h2>
     <div class="empty" id="treasury">Loading operator wallet…</div>
     <h2 style="margin-top:16px">Approvals pending</h2>
-    <div class="empty">None — no executing agents yet. Scout is surface-only by design.</div>
+    <div class="empty">None. Crow Oracle discovery, delivery, settlement, and receipt verification run without a human approval step.</div>
   </div>
 </div>
 
 <div class="grid cols">
   <div class="card">
     <h2 id="pipehead">Opportunity pipeline</h2>
-    <table id="pipeline"><thead><tr><th>Opportunity</th><th>Type</th><th>Value</th><th>EV score</th><th>Days left</th></tr></thead><tbody></tbody></table>
+    <div class="table-scroll">
+      <table id="pipeline"><thead><tr><th>Opportunity</th><th>Type</th><th>Value</th><th>EV score</th><th>Days left</th></tr></thead><tbody></tbody></table>
+    </div>
   </div>
   <div class="card">
     <h2>Activity (real commits)</h2>
@@ -116,7 +183,7 @@
   <div class="grid agents" id="agents"></div>
 </div>
 
-<footer>The Crow Network · $0 infrastructure (GitHub Actions + Pages) · watch-only treasury · data refreshes daily 13:17 UTC with a 13:47 UTC backup</footer>
+<footer>The Crow Network · stable discovery on GitHub Pages · temporary backend verified before publication · only settlement signatures count as revenue</footer>
 
 <script>
 const REPO="nurdthug/crow-dashboard";
@@ -136,6 +203,32 @@ const WALLETS=[
  {chain:"TRX",addr:"TX6n1aFyxaGvZuy8nPQFzcjBzkUMpRzAZw",explorer:"https://tronscan.org/#/address/"}
 ];
 const fmt=n=>"$"+Number(n).toLocaleString();
+
+async function loadOracle(){
+ const state=document.getElementById("oracle-state");
+ const copy=document.getElementById("oracle-copy");
+ const url=document.getElementById("oracle-url");
+ try{
+  const response=await fetch("oracle.json",{cache:"no-store"});
+  if(!response.ok) throw new Error("beacon unavailable");
+  const beacon=await response.json();
+  if(beacon.service!=="crow-oracle"||beacon.payment?.protocol!=="x402"){
+   throw new Error("beacon contract mismatch");
+  }
+  state.textContent="Published";
+  state.className="tag t-green";
+  copy.textContent=`${beacon.products.length} paid products · ${beacon.payment.compatibility} · zero-key custody · backend health must be checked before payment`;
+  url.textContent=beacon.backend.baseUrl;
+  document.getElementById("oracle-catalog").href=beacon.docs.catalog;
+  document.getElementById("oracle-sample").href=beacon.docs.freeSample;
+ }catch(error){
+  state.textContent="Unavailable";
+  state.className="tag t-amber";
+  copy.textContent="The stable beacon is unavailable. Do not construct or transmit payment.";
+ }
+}
+loadOracle();
+
 function ageLabel(stamp){
  const d=new Date(stamp);
  if(!stamp||Number.isNaN(d)) return {label:"unknown", stale:true};

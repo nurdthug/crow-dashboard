@@ -1,0 +1,14 @@
+{
+  "name": "crow-dashboard-agentic",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "beacon:check": "node scripts/update-oracle-beacon.mjs --check-only",
+    "beacon:sync": "scripts/sync-oracle-beacon.sh"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

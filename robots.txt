@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nurdthug.github.io/crow-dashboard/sitemap.xml

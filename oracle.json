@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "service": "crow-oracle",
+  "operator": "RowLow",
+  "version": "0.3.11",
+  "stableOrigin": "https://nurdthug.github.io/crow-dashboard",
+  "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
+  "updatedAt": "2026-07-29T11:53:15.566Z",
+  "backend": {
+    "baseUrl": "https://logging-gcc-troy-weblogs.trycloudflare.com",
+    "hostnameClass": "temporary-accountless-cloudflare",
+    "permanent": false,
+    "health": "https://logging-gcc-troy-weblogs.trycloudflare.com/healthz",
+    "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
+  },
+  "network": "solana-mainnet",
+  "custody": "zero-key",
+  "revenueAccounting": "Only unique confirmed x402 settlement signatures count as Crow revenue.",
+  "payment": {
+    "protocol": "x402",
+    "wireVersion": 1,
+    "scheme": "exact",
+    "settlement": "direct-solana",
+    "compatibility": "legacy-x402-v1",
+    "bazaarIndexed": false,
+    "payTo": "AxaEvPSnYhDALmxordg2zzqZxEoALrQpt17ZL8CsGsNh",
+    "tokenAccount": "4W7xRpvGz1mqtVANNrRWHR3KAVMcc1LQrooym2weTbh5",
+    "asset": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "receipt": {
+      "attestation": "deterministic-integrity",
+      "serverSigned": false,
+      "onChainChecked": false
+    }
+  },
+  "docs": {
+    "catalog": "https://logging-gcc-troy-weblogs.trycloudflare.com/catalog.json",
+    "openapi": "https://logging-gcc-troy-weblogs.trycloudflare.com/openapi.json",
+    "llms": "https://logging-gcc-troy-weblogs.trycloudflare.com/llms.txt",
+    "freeSample": "https://logging-gcc-troy-weblogs.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://logging-gcc-troy-weblogs.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://logging-gcc-troy-weblogs.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://logging-gcc-troy-weblogs.trycloudflare.com/state"
+  },
+  "products": [
+    {
+      "id": "token-risk-check",
+      "method": "GET",
+      "resourceTemplate": "https://logging-gcc-troy-weblogs.trycloudflare.com/check/{mint}",
+      "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
+      "price": {
+        "amountUSDC": 0.03,
+        "amountBaseUnits": "30000",
+        "asset": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "quoteStatus": 402
+    },
+    {
+      "id": "lending-health",
+      "method": "GET",
+      "resourceTemplate": "https://logging-gcc-troy-weblogs.trycloudflare.com/health/{wallet}",
+      "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
+      "price": {
+        "amountUSDC": 0.05,
+        "amountBaseUnits": "50000",
+        "asset": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "quoteStatus": 402
+    }
+  ],
+  "integrity": {
+    "publisher": "nurdthug/crow-dashboard",
+    "publication": "Authenticated GitHub repository update after live health, catalog, sample, and unpaid-quote validation.",
+    "redirectPolicy": "reject",
+    "credentialBearingBackendUrls": "reject"
+  }
+}
