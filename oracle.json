@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "service": "crow-oracle",
   "operator": "RowLow",
-  "version": "0.3.11",
+  "version": "0.4.0",
   "stableOrigin": "https://nurdthug.github.io/crow-dashboard",
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
-  "updatedAt": "2026-07-29T11:53:15.566Z",
+  "updatedAt": "2026-07-29T20:26:02.858Z",
   "backend": {
     "baseUrl": "https://logging-gcc-troy-weblogs.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
@@ -21,11 +21,43 @@
     "wireVersion": 1,
     "scheme": "exact",
     "settlement": "direct-solana",
-    "compatibility": "legacy-x402-v1",
+    "compatibility": "parallel-x402-v2-and-legacy-v1",
     "bazaarIndexed": false,
     "payTo": "AxaEvPSnYhDALmxordg2zzqZxEoALrQpt17ZL8CsGsNh",
     "tokenAccount": "4W7xRpvGz1mqtVANNrRWHR3KAVMcc1LQrooym2weTbh5",
     "asset": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "standardV2": {
+      "wireVersion": 2,
+      "scheme": "exact",
+      "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "challengeHeader": "PAYMENT-REQUIRED",
+      "requestHeader": "PAYMENT-SIGNATURE",
+      "responseHeader": "PAYMENT-RESPONSE",
+      "specificationCommit": "895f3505a6c0beb767555344cb97130c3da7c8b2",
+      "payTo": "AxaEvPSnYhDALmxordg2zzqZxEoALrQpt17ZL8CsGsNh",
+      "asset": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "maxTimeoutSeconds": 300,
+      "facilitator": {
+        "origin": "https://x402.dexter.cash",
+        "feePayer": "DeXterR2kQm8AvRHnNPatWkE46TfAcMeBDjb6FySoAb8",
+        "accountRequired": false,
+        "credentialRequired": false,
+        "gasSponsored": true,
+        "redirectsAccepted": false,
+        "capabilityCheckedBeforeQuote": true
+      },
+      "retry": {
+        "policy": "same-payment-same-resource-redelivery",
+        "exactHeaderRequired": true,
+        "secondSale": false
+      },
+      "receipt": {
+        "networkCalls": false,
+        "onChainChecked": false,
+        "serverSigned": false
+      },
+      "bazaarIndexed": false
+    },
     "receipt": {
       "attestation": "deterministic-integrity",
       "serverSigned": false,

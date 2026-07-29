@@ -8,25 +8,35 @@ import {
 } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import { TextDecoder } from "node:util";
 
 const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
 const REPO_DIR = path.resolve(SCRIPT_DIR, "..");
 
 export const EXPECTED = Object.freeze({
-  version: "0.3.11",
+  version: "0.4.0",
   service: "crow-oracle",
   operator: "RowLow",
   healthNetwork: "mainnet",
   catalogNetwork: "solana-mainnet",
+  v2Network: "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+  v2SpecificationCommit:
+    "895f3505a6c0beb767555344cb97130c3da7c8b2",
+  v2FacilitatorOrigin: "https://x402.dexter.cash",
+  v2FeePayer: "DeXterR2kQm8AvRHnNPatWkE46TfAcMeBDjb6FySoAb8",
+  v2MaxTimeoutSeconds: 300,
   payTo: "AxaEvPSnYhDALmxordg2zzqZxEoALrQpt17ZL8CsGsNh",
   tokenAccount: "4W7xRpvGz1mqtVANNrRWHR3KAVMcc1LQrooym2weTbh5",
   asset: "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
   tokenRiskAmount: "30000",
   lendingHealthAmount: "50000",
   stableOrigin: "https://nurdthug.github.io/crow-dashboard",
+  compatibility:
+    "Parallel contracts: standards-conformant x402 v2 exact Solana through the fixed public Dexter facilitator, plus the preserved legacy x402 v1 direct-settlement path.",
 });
 
 const MAX_JSON_BYTES = 1_000_000;
+const MAX_HEADER_BYTES = 256 * 1024;
 const QUOTE_RESOURCES = Object.freeze({
   tokenRisk: "/check/11111111111111111111111111111111",
   lendingHealth: "/health/11111111111111111111111111111111",
@@ -34,6 +44,208 @@ const QUOTE_RESOURCES = Object.freeze({
 
 function fail(message) {
   throw new Error(message);
+}
+
+function isPlainObject(value) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) {
+    return false;
+  }
+  const prototype = Object.getPrototypeOf(value);
+  return prototype === Object.prototype || prototype === null;
+}
+
+function requirePlainObject(value, label) {
+  if (!isPlainObject(value)) fail(`${label} must be an object`);
+  return value;
+}
+
+function requireExactKeys(value, expected, label) {
+  const object = requirePlainObject(value, label);
+  const actual = Object.keys(object).sort();
+  const required = [...expected].sort();
+  if (
+    actual.length !== required.length ||
+    actual.some((key, index) => key !== required[index])
+  ) {
+    fail(`${label} fields mismatch`);
+  }
+  return object;
+}
+
+function parseJsonStructure(text) {
+  let index = 0;
+  let depth = 0;
+
+  const malformed = () => fail("JSON is malformed");
+  const whitespace = () => {
+    while (
+      index < text.length &&
+      (text[index] === " " ||
+        text[index] === "\n" ||
+        text[index] === "\r" ||
+        text[index] === "\t")
+    ) {
+      index += 1;
+    }
+  };
+  const string = () => {
+    if (text[index] !== '"') malformed();
+    const start = index;
+    index += 1;
+    while (index < text.length) {
+      const code = text.charCodeAt(index);
+      if (code < 0x20) malformed();
+      if (text[index] === '"') {
+        index += 1;
+        try {
+          return JSON.parse(text.slice(start, index));
+        } catch {
+          malformed();
+        }
+      }
+      if (text[index] === "\\") {
+        index += 1;
+        if (index >= text.length) malformed();
+        if (text[index] === "u") {
+          if (!/^[0-9a-fA-F]{4}$/.test(text.slice(index + 1, index + 5))) {
+            malformed();
+          }
+          index += 5;
+          continue;
+        }
+        if (!'"\\/bfnrt'.includes(text[index])) malformed();
+      }
+      index += 1;
+    }
+    malformed();
+  };
+  const value = () => {
+    whitespace();
+    const character = text[index];
+    if (character === "{") return object();
+    if (character === "[") return array();
+    if (character === '"') {
+      string();
+      return;
+    }
+    const literal = text.slice(index);
+    const number = literal.match(
+      /^-?(?:0|[1-9][0-9]*)(?:\.[0-9]+)?(?:[eE][+-]?[0-9]+)?/,
+    );
+    if (number) {
+      index += number[0].length;
+      return;
+    }
+    for (const token of ["true", "false", "null"]) {
+      if (literal.startsWith(token)) {
+        index += token.length;
+        return;
+      }
+    }
+    malformed();
+  };
+  const object = () => {
+    depth += 1;
+    if (depth > 64) malformed();
+    index += 1;
+    whitespace();
+    const keys = new Set();
+    if (text[index] === "}") {
+      index += 1;
+      depth -= 1;
+      return;
+    }
+    while (index < text.length) {
+      whitespace();
+      const key = string();
+      if (keys.has(key)) fail("JSON contains a duplicate field");
+      keys.add(key);
+      whitespace();
+      if (text[index] !== ":") malformed();
+      index += 1;
+      value();
+      whitespace();
+      if (text[index] === "}") {
+        index += 1;
+        depth -= 1;
+        return;
+      }
+      if (text[index] !== ",") malformed();
+      index += 1;
+    }
+    malformed();
+  };
+  const array = () => {
+    depth += 1;
+    if (depth > 64) malformed();
+    index += 1;
+    whitespace();
+    if (text[index] === "]") {
+      index += 1;
+      depth -= 1;
+      return;
+    }
+    while (index < text.length) {
+      value();
+      whitespace();
+      if (text[index] === "]") {
+        index += 1;
+        depth -= 1;
+        return;
+      }
+      if (text[index] !== ",") malformed();
+      index += 1;
+    }
+    malformed();
+  };
+
+  whitespace();
+  value();
+  whitespace();
+  if (index !== text.length) malformed();
+}
+
+function parseStrictJson(text, maxBytes) {
+  if (
+    typeof text !== "string" ||
+    Buffer.byteLength(text, "utf8") > maxBytes
+  ) {
+    fail("JSON is invalid or oversized");
+  }
+  parseJsonStructure(text);
+  try {
+    return JSON.parse(text);
+  } catch {
+    fail("JSON is malformed");
+  }
+}
+
+function decodePaymentRequiredHeader(value, label) {
+  if (
+    typeof value !== "string" ||
+    !value ||
+    value.length > Math.ceil((MAX_HEADER_BYTES * 4) / 3) + 4 ||
+    value.length % 4 === 1 ||
+    !/^[A-Za-z0-9+/]*={0,2}$/.test(value)
+  ) {
+    fail(`${label} is not canonical base64`);
+  }
+  const bytes = Buffer.from(value, "base64");
+  const padded = bytes.toString("base64");
+  if (
+    bytes.length > MAX_HEADER_BYTES ||
+    (value !== padded && value !== padded.replace(/=+$/, ""))
+  ) {
+    fail(`${label} is not canonical base64`);
+  }
+
+  let text;
+  try {
+    text = new TextDecoder("utf-8", { fatal: true }).decode(bytes);
+  } catch {
+    fail(`${label} is not UTF-8 JSON`);
+  }
+  return parseStrictJson(text, MAX_HEADER_BYTES);
 }
 
 export function isTryCloudflareHostname(hostname) {
@@ -113,11 +325,13 @@ async function fetchJson(
   if (Buffer.byteLength(text, "utf8") > MAX_JSON_BYTES) {
     fail(`${label} response is too large`);
   }
+  let json;
   try {
-    return JSON.parse(text);
+    json = parseStrictJson(text, MAX_JSON_BYTES);
   } catch {
     fail(`${label} returned malformed JSON`);
   }
+  return { json, headers: response.headers };
 }
 
 function requireEqual(actual, expected, label) {
@@ -147,6 +361,16 @@ function validateCatalog(catalog, baseUrl) {
   requireEqual(catalog?.payment?.wireVersion, 1, "payment wire version");
   requireEqual(catalog?.payment?.scheme, "exact", "payment scheme");
   requireEqual(
+    catalog?.payment?.network,
+    EXPECTED.catalogNetwork,
+    "payment network",
+  );
+  requireEqual(
+    catalog?.payment?.requestHeader,
+    "X-Payment",
+    "payment request header",
+  );
+  requireEqual(
     catalog?.payment?.settlement,
     "direct-solana",
     "payment settlement",
@@ -161,6 +385,112 @@ function validateCatalog(catalog, baseUrl) {
     catalog?.payment?.bazaarIndexed,
     false,
     "Bazaar label",
+  );
+  requireEqual(
+    catalog?.payment?.compatibility,
+    EXPECTED.compatibility,
+    "payment compatibility",
+  );
+
+  const standardV2 = requirePlainObject(
+    catalog?.payment?.standardV2,
+    "standard v2 contract",
+  );
+  requireEqual(standardV2.wireVersion, 2, "standard v2 wire version");
+  requireEqual(standardV2.scheme, "exact", "standard v2 scheme");
+  requireEqual(
+    standardV2.network,
+    EXPECTED.v2Network,
+    "standard v2 network",
+  );
+  requireEqual(
+    standardV2.challengeHeader,
+    "PAYMENT-REQUIRED",
+    "standard v2 challenge header",
+  );
+  requireEqual(
+    standardV2.requestHeader,
+    "PAYMENT-SIGNATURE",
+    "standard v2 request header",
+  );
+  requireEqual(
+    standardV2.responseHeader,
+    "PAYMENT-RESPONSE",
+    "standard v2 response header",
+  );
+  requireEqual(
+    standardV2.specificationCommit,
+    EXPECTED.v2SpecificationCommit,
+    "standard v2 specification commit",
+  );
+  const facilitator = requirePlainObject(
+    standardV2.facilitator,
+    "standard v2 facilitator",
+  );
+  requireEqual(
+    facilitator.origin,
+    EXPECTED.v2FacilitatorOrigin,
+    "standard v2 facilitator origin",
+  );
+  requireEqual(
+    facilitator.accountRequired,
+    false,
+    "standard v2 account requirement",
+  );
+  requireEqual(
+    facilitator.credentialRequired,
+    false,
+    "standard v2 credential requirement",
+  );
+  requireEqual(
+    facilitator.gasSponsored,
+    true,
+    "standard v2 gas sponsorship",
+  );
+  requireEqual(
+    facilitator.redirectsAccepted,
+    false,
+    "standard v2 redirect policy",
+  );
+  requireEqual(
+    facilitator.capabilityCheckedBeforeQuote,
+    true,
+    "standard v2 capability check",
+  );
+  requireEqual(
+    standardV2?.retry?.policy,
+    "same-payment-same-resource-redelivery",
+    "standard v2 retry policy",
+  );
+  requireEqual(
+    standardV2?.retry?.exactHeaderRequired,
+    true,
+    "standard v2 retry header binding",
+  );
+  requireEqual(
+    standardV2?.retry?.secondSale,
+    false,
+    "standard v2 second-sale label",
+  );
+  requireEqual(
+    standardV2?.receiptVerification?.verifier,
+    `${baseUrl}/verify-receipt.mjs`,
+    "standard v2 receipt verifier",
+  );
+  requireEqual(
+    standardV2?.receiptVerification?.networkCalls,
+    false,
+    "standard v2 receipt network label",
+  );
+  requireEqual(
+    standardV2?.receiptVerification?.onChainChecks,
+    false,
+    "standard v2 receipt on-chain label",
+  );
+  requireEqual(
+    standardV2.bazaarIndexed,
+    false,
+    "standard v2 Bazaar label",
   );
 
   const expectedDocs = {
@@ -253,6 +583,98 @@ function validateQuote(quote, resource, amount, label) {
   );
 }
 
+function validateV2Challenge(header, baseUrl, resource, amount, label) {
+  if (header === null) fail(`${label} PAYMENT-REQUIRED header is missing`);
+  const challenge = decodePaymentRequiredHeader(
+    header,
+    `${label} PAYMENT-REQUIRED header`,
+  );
+  requireExactKeys(
+    challenge,
+    ["x402Version", "resource", "accepts"],
+    `${label} v2 challenge`,
+  );
+  requireEqual(challenge.x402Version, 2, `${label} v2 wire version`);
+
+  const advertisedResource = requireExactKeys(
+    challenge.resource,
+    ["url", "description", "mimeType", "serviceName", "tags"],
+    `${label} v2 resource`,
+  );
+  requireEqual(
+    advertisedResource.url,
+    `${baseUrl}${resource}`,
+    `${label} v2 resource URL`,
+  );
+  if (
+    typeof advertisedResource.description !== "string" ||
+    !advertisedResource.description
+  ) {
+    fail(`${label} v2 resource description mismatch`);
+  }
+  requireEqual(
+    advertisedResource.mimeType,
+    "application/json",
+    `${label} v2 resource MIME type`,
+  );
+  requireEqual(
+    advertisedResource.serviceName,
+    "Crow Oracle",
+    `${label} v2 service name`,
+  );
+  if (
+    !Array.isArray(advertisedResource.tags) ||
+    advertisedResource.tags.length !== 3 ||
+    advertisedResource.tags[0] !== "solana" ||
+    advertisedResource.tags[1] !== "risk" ||
+    advertisedResource.tags[2] !== "x402"
+  ) {
+    fail(`${label} v2 resource tags mismatch`);
+  }
+
+  if (!Array.isArray(challenge.accepts) || challenge.accepts.length !== 1) {
+    fail(`${label} v2 accepts contract mismatch`);
+  }
+  const accepted = requireExactKeys(
+    challenge.accepts[0],
+    [
+      "scheme",
+      "network",
+      "amount",
+      "asset",
+      "payTo",
+      "maxTimeoutSeconds",
+      "extra",
+    ],
+    `${label} v2 payment requirement`,
+  );
+  requireEqual(accepted.scheme, "exact", `${label} v2 scheme`);
+  requireEqual(
+    accepted.network,
+    EXPECTED.v2Network,
+    `${label} v2 network`,
+  );
+  requireEqual(accepted.amount, amount, `${label} v2 amount`);
+  requireEqual(accepted.asset, EXPECTED.asset, `${label} v2 asset`);
+  requireEqual(accepted.payTo, EXPECTED.payTo, `${label} v2 pay-to`);
+  requireEqual(
+    accepted.maxTimeoutSeconds,
+    EXPECTED.v2MaxTimeoutSeconds,
+    `${label} v2 timeout`,
+  );
+  const extra = requireExactKeys(
+    accepted.extra,
+    ["feePayer"],
+    `${label} v2 extra`,
+  );
+  requireEqual(
+    extra.feePayer,
+    EXPECTED.v2FeePayer,
+    `${label} v2 fee payer`,
+  );
+  return challenge;
+}
+
 export async function probeOracle(
   rawBaseUrl,
   {
@@ -265,7 +687,13 @@ export async function probeOracle(
     allowHostname,
     allowPort,
   });
-  const [health, catalog, sample, tokenRiskQuote, lendingHealthQuote] =
+  const [
+    healthResponse,
+    catalogResponse,
+    sampleResponse,
+    tokenRiskResponse,
+    lendingHealthResponse,
+  ] =
     await Promise.all([
     fetchJson(fetchImpl, `${baseUrl}/healthz`, "health"),
     fetchJson(fetchImpl, `${baseUrl}/catalog.json`, "catalog"),
@@ -284,6 +712,11 @@ export async function probeOracle(
     ),
   ]);
 
+  const health = healthResponse.json;
+  const catalog = catalogResponse.json;
+  const sample = sampleResponse.json;
+  const tokenRiskQuote = tokenRiskResponse.json;
+  const lendingHealthQuote = lendingHealthResponse.json;
   validateHealth(health);
   validateCatalog(catalog, baseUrl);
   validateSample(sample, baseUrl);
@@ -299,14 +732,34 @@ export async function probeOracle(
     EXPECTED.lendingHealthAmount,
     "lending-health",
   );
+  const tokenRiskV2 = validateV2Challenge(
+    tokenRiskResponse.headers.get("payment-required"),
+    baseUrl,
+    QUOTE_RESOURCES.tokenRisk,
+    EXPECTED.tokenRiskAmount,
+    "token-risk",
+  );
+  const lendingHealthV2 = validateV2Challenge(
+    lendingHealthResponse.headers.get("payment-required"),
+    baseUrl,
+    QUOTE_RESOURCES.lendingHealth,
+    EXPECTED.lendingHealthAmount,
+    "lending-health",
+  );
   return {
     baseUrl,
     health,
     catalog,
     sample,
     quotes: {
-      tokenRisk: tokenRiskQuote,
-      lendingHealth: lendingHealthQuote,
+      tokenRisk: {
+        legacyV1: tokenRiskQuote,
+        standardV2: tokenRiskV2,
+      },
+      lendingHealth: {
+        legacyV1: lendingHealthQuote,
+        standardV2: lendingHealthV2,
+      },
     },
   };
 }
@@ -333,7 +786,9 @@ export function buildBeacon(
   } = {},
 ) {
   const { baseUrl, catalog, quotes } = probe;
-  const accepted = quotes.tokenRisk.accepts[0];
+  const accepted = quotes.tokenRisk.legacyV1.accepts[0];
+  const acceptedV2 = quotes.tokenRisk.standardV2.accepts[0];
+  const standardV2 = catalog.payment.standardV2;
   return {
     schemaVersion: 1,
     service: EXPECTED.service,
@@ -359,11 +814,45 @@ export function buildBeacon(
       wireVersion: 1,
       scheme: "exact",
       settlement: "direct-solana",
-      compatibility: "legacy-x402-v1",
+      compatibility: "parallel-x402-v2-and-legacy-v1",
       bazaarIndexed: false,
       payTo: accepted.payTo,
       tokenAccount: accepted.tokenAccount,
       asset: accepted.asset,
+      standardV2: {
+        wireVersion: 2,
+        scheme: "exact",
+        network: standardV2.network,
+        challengeHeader: standardV2.challengeHeader,
+        requestHeader: standardV2.requestHeader,
+        responseHeader: standardV2.responseHeader,
+        specificationCommit: standardV2.specificationCommit,
+        payTo: acceptedV2.payTo,
+        asset: acceptedV2.asset,
+        maxTimeoutSeconds: acceptedV2.maxTimeoutSeconds,
+        facilitator: {
+          origin: standardV2.facilitator.origin,
+          feePayer: acceptedV2.extra.feePayer,
+          accountRequired: standardV2.facilitator.accountRequired,
+          credentialRequired: standardV2.facilitator.credentialRequired,
+          gasSponsored: standardV2.facilitator.gasSponsored,
+          redirectsAccepted: standardV2.facilitator.redirectsAccepted,
+          capabilityCheckedBeforeQuote:
+            standardV2.facilitator.capabilityCheckedBeforeQuote,
+        },
+        retry: {
+          policy: standardV2.retry.policy,
+          exactHeaderRequired: standardV2.retry.exactHeaderRequired,
+          secondSale: standardV2.retry.secondSale,
+        },
+        receipt: {
+          networkCalls: standardV2.receiptVerification.networkCalls,
+          onChainChecked:
+            standardV2.receiptVerification.onChainChecks,
+          serverSigned: false,
+        },
+        bazaarIndexed: false,
+      },
       receipt: {
         attestation: "deterministic-integrity",
         serverSigned: false,
@@ -428,12 +917,18 @@ export async function syncFromUrlFile({
     allowPort,
   });
   const existing = await readExisting(output);
-  const updatedAt =
-    existing?.backend?.baseUrl === probe.baseUrl &&
-    typeof existing?.updatedAt === "string"
-      ? existing.updatedAt
-      : now().toISOString();
-  const beacon = buildBeacon(probe, { updatedAt });
+  let beacon = null;
+  if (typeof existing?.updatedAt === "string") {
+    const candidate = buildBeacon(probe, {
+      updatedAt: existing.updatedAt,
+    });
+    if (JSON.stringify(candidate) === JSON.stringify(existing)) {
+      beacon = candidate;
+    }
+  }
+  if (!beacon) {
+    beacon = buildBeacon(probe, { updatedAt: now().toISOString() });
+  }
   const text = `${JSON.stringify(beacon, null, 2)}\n`;
 
   if (checkOnly) {

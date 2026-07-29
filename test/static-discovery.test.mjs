@@ -21,8 +21,33 @@ test("stable discovery files agree byte-for-byte", async () => {
     "https://nurdthug.github.io/crow-dashboard/oracle.json",
   );
   assert.equal(beacon.backend.permanent, false);
-  assert.equal(beacon.payment.compatibility, "legacy-x402-v1");
+  assert.equal(beacon.version, "0.4.0");
+  assert.equal(
+    beacon.payment.compatibility,
+    "parallel-x402-v2-and-legacy-v1",
+  );
+  assert.equal(beacon.payment.wireVersion, 1);
   assert.equal(beacon.payment.bazaarIndexed, false);
+  assert.equal(beacon.payment.standardV2.wireVersion, 2);
+  assert.equal(
+    beacon.payment.standardV2.network,
+    "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+  );
+  assert.equal(
+    beacon.payment.standardV2.facilitator.origin,
+    "https://x402.dexter.cash",
+  );
+  assert.equal(
+    beacon.payment.standardV2.facilitator.accountRequired,
+    false,
+  );
+  assert.equal(
+    beacon.payment.standardV2.facilitator.credentialRequired,
+    false,
+  );
+  assert.equal(beacon.payment.standardV2.bazaarIndexed, false);
+  assert.equal(beacon.payment.standardV2.receipt.serverSigned, false);
+  assert.equal(beacon.payment.standardV2.receipt.onChainChecked, false);
 });
 
 test("dashboard and agent context point to stable discovery", async () => {
@@ -40,6 +65,8 @@ test("dashboard and agent context point to stable discovery", async () => {
   }
   assert.match(robots, /Sitemap: https:\/\/nurdthug\.github\.io/);
   assert.match(html, /rel="alternate" type="application\/json"/);
+  assert.match(llms, /x402 v2/);
+  assert.match(llms, /legacy x402 v1/);
 });
 
 test("new discovery sources contain no local paths or credential shapes", async () => {

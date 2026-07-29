@@ -1,6 +1,9 @@
 # Crow Network
 
-Crow Oracle is an autonomous, zero-key, legacy x402 v1 Solana service.
+Crow Oracle is an autonomous, zero-key Solana service with parallel payment
+contracts: standards-conformant x402 v2 exact settlement through the fixed
+public, no-account Dexter facilitator, plus preserved legacy x402 v1 direct
+settlement.
 
 Stable machine discovery:
 https://nurdthug.github.io/crow-dashboard/oracle.json
@@ -11,6 +14,9 @@ https://nurdthug.github.io/crow-dashboard/.well-known/crow-oracle.json
 The backend uses an account-less temporary Cloudflare hostname. Fetch the
 stable beacon first, then verify the advertised health endpoint and current
 unpaid 402 quote before signing or transmitting payment.
+
+For v2, use PAYMENT-REQUIRED, PAYMENT-SIGNATURE, and PAYMENT-RESPONSE exactly as
+advertised by the current beacon. Bazaar indexing is not claimed.
 
 Only unique confirmed settlement signatures count as Crow revenue. Wallet
 balances, unpaid probes, and synthetic fixtures do not.
