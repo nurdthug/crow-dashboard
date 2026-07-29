@@ -1,6 +1,6 @@
 {
- "generated": "2026-07-28T15:54:21+00:00",
- "count": 7,
+ "generated": "2026-07-29T15:18:51+00:00",
+ "count": 5,
  "items": [
   {
    "lane": "github_pr",
@@ -45,50 +45,10 @@
   },
   {
    "lane": "github_pr",
-   "title": "Pixel Art Creation with high Creative Thinking",
-   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/80",
-   "repo": "SecureBananaLabs/bug-bounty",
-   "issue_number": 80,
-   "value_usd": 780,
-   "labels": [
-    "good first issue",
-    "help wanted",
-    "bug bounty",
-    "ai agent friendly",
-    "bounty",
-    "\ud83d\udc8e bounty",
-    "$780"
-   ],
-   "small": true,
-   "created": "2026-05-17T15:04:05Z"
-  },
-  {
-   "lane": "github_pr",
-   "title": "Low Handing Fruit Automation",
-   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743",
-   "repo": "SecureBananaLabs/bug-bounty",
-   "issue_number": 743,
-   "value_usd": 700,
-   "labels": [
-    "bug",
-    "documentation",
-    "good first issue",
-    "help wanted",
-    "bug bounty",
-    "ai agent friendly",
-    "bounty",
-    "\ud83d\udc8e bounty",
-    "$700"
-   ],
-   "small": true,
-   "created": "2026-05-27T06:32:39Z"
-  },
-  {
-   "lane": "github_pr",
-   "title": "Fix typo in README",
-   "url": "https://github.com/xevrion-v2/agent-playground/issues/2",
+   "title": "Add JSDoc to userService",
+   "url": "https://github.com/xevrion-v2/agent-playground/issues/1",
    "repo": "xevrion-v2/agent-playground",
-   "issue_number": 2,
+   "issue_number": 1,
    "value_usd": 50,
    "labels": [
     "good first issue",
@@ -102,10 +62,10 @@
   },
   {
    "lane": "github_pr",
-   "title": "Add JSDoc to userService",
-   "url": "https://github.com/xevrion-v2/agent-playground/issues/1",
+   "title": "Fix typo in README",
+   "url": "https://github.com/xevrion-v2/agent-playground/issues/2",
    "repo": "xevrion-v2/agent-playground",
-   "issue_number": 1,
+   "issue_number": 2,
    "value_usd": 50,
    "labels": [
     "good first issue",

@@ -2,7 +2,7 @@
 
 - Listing: https://xprize.devpost.com/
 - Value: $2,000,000 USD
-- Deadline: 20 days left (as of 2026-07-28 15:54 UTC)
+- Deadline: 19 days left (as of 2026-07-29 15:18 UTC)
 - Fit score: 7,000 — verified sponsor
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
