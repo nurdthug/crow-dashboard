@@ -14,7 +14,7 @@ const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
 const REPO_DIR = path.resolve(SCRIPT_DIR, "..");
 
 export const EXPECTED = Object.freeze({
-  version: "0.4.0",
+  version: "0.4.1",
   service: "crow-oracle",
   operator: "RowLow",
   healthNetwork: "mainnet",
@@ -30,6 +30,9 @@ export const EXPECTED = Object.freeze({
   asset: "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
   tokenRiskAmount: "30000",
   lendingHealthAmount: "50000",
+  bazaarExtension: "bazaar",
+  bazaarDeclaration:
+    "included when the facilitator advertises support",
   stableOrigin: "https://nurdthug.github.io/crow-dashboard",
   compatibility:
     "Parallel contracts: standards-conformant x402 v2 exact Solana through the fixed public Dexter facilitator, plus the preserved legacy x402 v1 direct-settlement path.",
@@ -41,6 +44,191 @@ const QUOTE_RESOURCES = Object.freeze({
   tokenRisk: "/check/11111111111111111111111111111111",
   lendingHealth: "/health/11111111111111111111111111111111",
 });
+const BAZAAR_CONTRACTS = Object.freeze({
+  tokenRisk: {
+    routeTemplate: "/check/:mint",
+    pathParam: "mint",
+    pathDescription: "Solana token mint address",
+    outputExample: (mint) => ({
+      mint,
+      verdict: "green",
+      reasons: [
+        "no authority, extension, or concentration red flags found",
+      ],
+      token_program: "spl-token",
+      top1_holder_pct: 12.5,
+      top5_holder_pct: 25,
+    }),
+    outputSchema: {
+      properties: {
+        mint: { type: "string" },
+        verdict: {
+          type: "string",
+          enum: ["green", "amber", "red"],
+        },
+        reasons: {
+          type: "array",
+          items: { type: "string" },
+        },
+        token_program: {
+          type: "string",
+          enum: ["spl-token", "token-2022"],
+        },
+        top1_holder_pct: { type: ["number", "null"] },
+        top5_holder_pct: { type: ["number", "null"] },
+      },
+      required: [
+        "mint",
+        "verdict",
+        "reasons",
+        "token_program",
+        "top1_holder_pct",
+        "top5_holder_pct",
+      ],
+      additionalProperties: false,
+    },
+  },
+  lendingHealth: {
+    routeTemplate: "/health/:wallet",
+    pathParam: "wallet",
+    pathDescription: "Solana wallet address",
+    outputExample: (wallet) => ({
+      wallet: `${wallet.slice(0, 4)}...`,
+      protocol: "kamino",
+      positions: [
+        {
+          market: "main",
+          health_factor: 1.8,
+          deposited_usd: 1000,
+          borrowed_usd: 400,
+          at_risk: false,
+        },
+      ],
+      any_at_risk: false,
+      summary: "1 position(s) healthy; lowest health factor 1.8.",
+    }),
+    outputSchema: {
+      properties: {
+        wallet: { type: "string" },
+        protocol: { type: "string", const: "kamino" },
+        positions: {
+          type: "array",
+          items: {
+            type: "object",
+            properties: {
+              market: { type: "string" },
+              health_factor: { type: "number" },
+              deposited_usd: { type: "number" },
+              borrowed_usd: { type: "number" },
+              at_risk: { type: "boolean" },
+            },
+            required: [
+              "market",
+              "health_factor",
+              "deposited_usd",
+              "borrowed_usd",
+              "at_risk",
+            ],
+            additionalProperties: false,
+          },
+        },
+        any_at_risk: { type: "boolean" },
+        summary: { type: "string" },
+      },
+      required: [
+        "wallet",
+        "protocol",
+        "positions",
+        "any_at_risk",
+        "summary",
+      ],
+      additionalProperties: false,
+    },
+  },
+});
+
+function canonicalJson(value) {
+  if (Array.isArray(value)) {
+    return `[${value.map(canonicalJson).join(",")}]`;
+  }
+  if (isPlainObject(value)) {
+    return `{${Object.keys(value)
+      .sort()
+      .map((key) => `${JSON.stringify(key)}:${canonicalJson(value[key])}`)
+      .join(",")}}`;
+  }
+  return JSON.stringify(value);
+}
+
+export function buildExpectedBazaarExtension(kind, pathValue) {
+  const contract = BAZAAR_CONTRACTS[kind];
+  if (!contract || typeof pathValue !== "string" || !pathValue) {
+    fail("unknown Bazaar contract");
+  }
+  const pathParams = { [contract.pathParam]: pathValue };
+  return {
+    info: {
+      input: {
+        type: "http",
+        method: "GET",
+        queryParams: {},
+        pathParams,
+      },
+      output: {
+        type: "json",
+        example: contract.outputExample(pathValue),
+      },
+    },
+    schema: {
+      $schema: "https://json-schema.org/draft/2020-12/schema",
+      type: "object",
+      properties: {
+        input: {
+          type: "object",
+          properties: {
+            type: {
+              type: "string",
+              const: "http",
+            },
+            method: {
+              type: "string",
+              enum: ["GET", "HEAD", "DELETE"],
+            },
+            queryParams: {
+              type: "object",
+              properties: {},
+            },
+            pathParams: {
+              type: "object",
+              properties: {
+                [contract.pathParam]: {
+                  type: "string",
+                  description: contract.pathDescription,
+                },
+              },
+              required: [contract.pathParam],
+            },
+          },
+          required: ["type", "method"],
+          additionalProperties: false,
+        },
+        output: {
+          type: "object",
+          properties: {
+            type: { type: "string" },
+            example: {
+              type: "object",
+              ...contract.outputSchema,
+            },
+          },
+          required: ["type"],
+        },
+      },
+      required: ["input"],
+    },
+    routeTemplate: contract.routeTemplate,
+  };
+}
 
 function fail(message) {
   throw new Error(message);
@@ -487,6 +675,31 @@ function validateCatalog(catalog, baseUrl) {
     false,
     "standard v2 receipt on-chain label",
   );
+  const bazaar = requireExactKeys(
+    standardV2.bazaar,
+    ["extension", "declaration", "clientEchoRequired", "indexed"],
+    "standard v2 Bazaar declaration",
+  );
+  requireEqual(
+    bazaar.extension,
+    EXPECTED.bazaarExtension,
+    "standard v2 Bazaar extension",
+  );
+  requireEqual(
+    bazaar.declaration,
+    EXPECTED.bazaarDeclaration,
+    "standard v2 Bazaar declaration policy",
+  );
+  requireEqual(
+    bazaar.clientEchoRequired,
+    true,
+    "standard v2 Bazaar echo policy",
+  );
+  requireEqual(
+    bazaar.indexed,
+    false,
+    "standard v2 Bazaar indexing claim",
+  );
   requireEqual(
     standardV2.bazaarIndexed,
     false,
@@ -583,7 +796,14 @@ function validateQuote(quote, resource, amount, label) {
   );
 }
 
-function validateV2Challenge(header, baseUrl, resource, amount, label) {
+function validateV2Challenge(
+  header,
+  baseUrl,
+  resource,
+  amount,
+  label,
+  bazaarKind,
+) {
   if (header === null) fail(`${label} PAYMENT-REQUIRED header is missing`);
   const challenge = decodePaymentRequiredHeader(
     header,
@@ -591,7 +811,7 @@ function validateV2Challenge(header, baseUrl, resource, amount, label) {
   );
   requireExactKeys(
     challenge,
-    ["x402Version", "resource", "accepts"],
+    ["x402Version", "resource", "accepts", "extensions"],
     `${label} v2 challenge`,
   );
   requireEqual(challenge.x402Version, 2, `${label} v2 wire version`);
@@ -672,6 +892,22 @@ function validateV2Challenge(header, baseUrl, resource, amount, label) {
     EXPECTED.v2FeePayer,
     `${label} v2 fee payer`,
   );
+  const extensions = requireExactKeys(
+    challenge.extensions,
+    [EXPECTED.bazaarExtension],
+    `${label} v2 extensions`,
+  );
+  const pathValue = resource.split("/").at(-1);
+  const expectedBazaar = buildExpectedBazaarExtension(
+    bazaarKind,
+    pathValue,
+  );
+  if (
+    canonicalJson(extensions[EXPECTED.bazaarExtension]) !==
+    canonicalJson(expectedBazaar)
+  ) {
+    fail(`${label} v2 Bazaar extension mismatch`);
+  }
   return challenge;
 }
 
@@ -738,6 +974,7 @@ export async function probeOracle(
     QUOTE_RESOURCES.tokenRisk,
     EXPECTED.tokenRiskAmount,
     "token-risk",
+    "tokenRisk",
   );
   const lendingHealthV2 = validateV2Challenge(
     lendingHealthResponse.headers.get("payment-required"),
@@ -745,6 +982,7 @@ export async function probeOracle(
     QUOTE_RESOURCES.lendingHealth,
     EXPECTED.lendingHealthAmount,
     "lending-health",
+    "lendingHealth",
   );
   return {
     baseUrl,
@@ -850,6 +1088,12 @@ export function buildBeacon(
           onChainChecked:
             standardV2.receiptVerification.onChainChecks,
           serverSigned: false,
+        },
+        bazaar: {
+          extension: standardV2.bazaar.extension,
+          declaration: standardV2.bazaar.declaration,
+          clientEchoRequired: standardV2.bazaar.clientEchoRequired,
+          indexed: standardV2.bazaar.indexed,
         },
         bazaarIndexed: false,
       },

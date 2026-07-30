@@ -7,6 +7,7 @@ import test from "node:test";
 
 import {
   EXPECTED,
+  buildExpectedBazaarExtension,
   buildBeacon,
   parseTemporaryBackend,
   probeOracle,
@@ -18,7 +19,7 @@ const TOKEN_RISK_RESOURCE =
 const LENDING_HEALTH_RESOURCE =
   "/health/11111111111111111111111111111111";
 
-function v2Challenge(baseUrl, resource, amount) {
+function v2Challenge(baseUrl, resource, amount, bazaarKind) {
   return {
     x402Version: 2,
     resource: {
@@ -41,6 +42,12 @@ function v2Challenge(baseUrl, resource, amount) {
         },
       },
     ],
+    extensions: {
+      bazaar: buildExpectedBazaarExtension(
+        bazaarKind,
+        resource.split("/").at(-1),
+      ),
+    },
   };
 }
 
@@ -92,6 +99,12 @@ function fixture(baseUrl, overrides = {}) {
       verifier: `${baseUrl}/verify-receipt.mjs`,
       networkCalls: false,
       onChainChecks: false,
+    },
+    bazaar: {
+      extension: EXPECTED.bazaarExtension,
+      declaration: EXPECTED.bazaarDeclaration,
+      clientEchoRequired: true,
+      indexed: false,
     },
     bazaarIndexed: false,
     ...overrides.standardV2,
@@ -212,11 +225,13 @@ function fixture(baseUrl, overrides = {}) {
       baseUrl,
       TOKEN_RISK_RESOURCE,
       EXPECTED.tokenRiskAmount,
+      "tokenRisk",
     ),
     lendingHealthV2: v2Challenge(
       baseUrl,
       LENDING_HEALTH_RESOURCE,
       EXPECTED.lendingHealthAmount,
+      "lendingHealth",
     ),
   };
 }
@@ -348,6 +363,13 @@ test("valid dual live contract writes deterministic beacons", async () => {
       assert.equal(v2.receipt.networkCalls, false);
       assert.equal(v2.receipt.onChainChecked, false);
       assert.equal(v2.receipt.serverSigned, false);
+      assert.equal(v2.bazaar.extension, "bazaar");
+      assert.equal(
+        v2.bazaar.declaration,
+        EXPECTED.bazaarDeclaration,
+      );
+      assert.equal(v2.bazaar.clientEchoRequired, true);
+      assert.equal(v2.bazaar.indexed, false);
       assert.equal(v2.bazaarIndexed, false);
 
       const primary = await readFile(output, "utf8");
@@ -689,6 +711,122 @@ test("duplicate v2 JSON fields fail closed", async () => {
     },
   );
 });
+
+test("catalog Bazaar echo-policy rebinding fails closed", async () => {
+  await withFixtureServer(
+    {
+      overrides: {
+        standardV2: {
+          bazaar: {
+            extension: EXPECTED.bazaarExtension,
+            declaration: EXPECTED.bazaarDeclaration,
+            clientEchoRequired: false,
+            indexed: false,
+          },
+        },
+      },
+    },
+    async ({ baseUrl, fetchImpl }) => {
+      await assert.rejects(
+        probeOracle(baseUrl, {
+          fetchImpl,
+          ...localPolicy,
+        }),
+        /standard v2 Bazaar echo policy mismatch/,
+      );
+    },
+  );
+});
+
+test("missing Bazaar quote extension fails closed", async () => {
+  await withFixtureServer(
+    {
+      tokenRiskPaymentRequired: (challenge) => {
+        delete challenge.extensions;
+        return challenge;
+      },
+    },
+    async ({ baseUrl, fetchImpl }) => {
+      await assert.rejects(
+        probeOracle(baseUrl, {
+          fetchImpl,
+          ...localPolicy,
+        }),
+        /token-risk v2 challenge fields mismatch/,
+      );
+    },
+  );
+});
+
+test("undeclared extra quote extension fails closed", async () => {
+  await withFixtureServer(
+    {
+      tokenRiskPaymentRequired: (challenge) => {
+        challenge.extensions.rogue = {};
+        return challenge;
+      },
+    },
+    async ({ baseUrl, fetchImpl }) => {
+      await assert.rejects(
+        probeOracle(baseUrl, {
+          fetchImpl,
+          ...localPolicy,
+        }),
+        /token-risk v2 extensions fields mismatch/,
+      );
+    },
+  );
+});
+
+const bazaarRebindingCases = [
+  [
+    "route template",
+    (challenge) => {
+      challenge.extensions.bazaar.routeTemplate = "/check/:other";
+      return challenge;
+    },
+  ],
+  [
+    "path parameter",
+    (challenge) => {
+      challenge.extensions.bazaar.info.input.pathParams.mint =
+        "So11111111111111111111111111111111111111112";
+      return challenge;
+    },
+  ],
+  [
+    "output example",
+    (challenge) => {
+      challenge.extensions.bazaar.info.output.example.verdict = "red";
+      return challenge;
+    },
+  ],
+  [
+    "output schema",
+    (challenge) => {
+      challenge.extensions.bazaar.schema.properties.output.properties
+        .example.properties.verdict.enum = ["red"];
+      return challenge;
+    },
+  ],
+];
+
+for (const [name, mutate] of bazaarRebindingCases) {
+  test(`Bazaar ${name} rebinding fails closed`, async () => {
+    await withFixtureServer(
+      { tokenRiskPaymentRequired: mutate },
+      async ({ baseUrl, fetchImpl }) => {
+        await assert.rejects(
+          probeOracle(baseUrl, {
+            fetchImpl,
+            ...localPolicy,
+          }),
+          /token-risk v2 Bazaar extension mismatch/,
+        );
+      },
+    );
+  });
+}
 
 const v2RebindingCases = [
   [

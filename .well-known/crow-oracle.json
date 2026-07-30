@@ -2,15 +2,15 @@
   "schemaVersion": 1,
   "service": "crow-oracle",
   "operator": "RowLow",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "stableOrigin": "https://nurdthug.github.io/crow-dashboard",
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
-  "updatedAt": "2026-07-31T14:53:26.238Z",
+  "updatedAt": "2026-07-30T02:27:55.000Z",
   "backend": {
-    "baseUrl": "https://respiratory-assets-red-nest.trycloudflare.com",
+    "baseUrl": "https://logging-gcc-troy-weblogs.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://respiratory-assets-red-nest.trycloudflare.com/healthz",
+    "health": "https://logging-gcc-troy-weblogs.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -56,6 +56,12 @@
         "onChainChecked": false,
         "serverSigned": false
       },
+      "bazaar": {
+        "extension": "bazaar",
+        "declaration": "included when the facilitator advertises support",
+        "clientEchoRequired": true,
+        "indexed": false
+      },
       "bazaarIndexed": false
     },
     "receipt": {
@@ -65,19 +71,19 @@
     }
   },
   "docs": {
-    "catalog": "https://respiratory-assets-red-nest.trycloudflare.com/catalog.json",
-    "openapi": "https://respiratory-assets-red-nest.trycloudflare.com/openapi.json",
-    "llms": "https://respiratory-assets-red-nest.trycloudflare.com/llms.txt",
-    "freeSample": "https://respiratory-assets-red-nest.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://respiratory-assets-red-nest.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://respiratory-assets-red-nest.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://respiratory-assets-red-nest.trycloudflare.com/state"
+    "catalog": "https://logging-gcc-troy-weblogs.trycloudflare.com/catalog.json",
+    "openapi": "https://logging-gcc-troy-weblogs.trycloudflare.com/openapi.json",
+    "llms": "https://logging-gcc-troy-weblogs.trycloudflare.com/llms.txt",
+    "freeSample": "https://logging-gcc-troy-weblogs.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://logging-gcc-troy-weblogs.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://logging-gcc-troy-weblogs.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://logging-gcc-troy-weblogs.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://respiratory-assets-red-nest.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://logging-gcc-troy-weblogs.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -89,7 +95,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://respiratory-assets-red-nest.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://logging-gcc-troy-weblogs.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,

@@ -16,7 +16,9 @@ stable beacon first, then verify the advertised health endpoint and current
 unpaid 402 quote before signing or transmitting payment.
 
 For v2, use PAYMENT-REQUIRED, PAYMENT-SIGNATURE, and PAYMENT-RESPONSE exactly as
-advertised by the current beacon. Bazaar indexing is not claimed.
+advertised by the current beacon. When Dexter advertises Bazaar, each challenge
+declares the official `extensions.bazaar` metadata and requires an exact client
+echo before verification or settlement. Bazaar indexing is not claimed.
 
 Only unique confirmed settlement signatures count as Crow revenue. Wallet
 balances, unpaid probes, and synthetic fixtures do not.
