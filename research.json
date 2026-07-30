@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30 15:22 UTC",
+  "generated_at": "2026-07-30 15:43 UTC",
   "reviewed": 31,
   "agent_allowed": 0,
   "recommendations": [
@@ -168,31 +168,31 @@
     {
       "title": "Build with Gemini XPRIZE",
       "url": "https://xprize.devpost.com/",
-      "competition": 22990,
+      "competition": 23002,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agentic Cinema: The Blockbuster Hackathon",
       "url": "https://agentic-cinema.devpost.com/",
-      "competition": 1876,
+      "competition": 1895,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Africa Deep Tech Challenge 2026",
       "url": "https://adtc-2026.devpost.com/",
-      "competition": 1293,
+      "competition": 1295,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build with DataHub: The Agent Hackathon",
       "url": "https://datahub.devpost.com/",
-      "competition": 2247,
+      "competition": 2249,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Backblaze Generative Media Hackathon: Build with Genblaze on B2",
       "url": "https://backblaze-generative-media.devpost.com/",
-      "competition": 1180,
+      "competition": 1181,
       "reason": "huge pool, but high visible competition"
     }
   ]
