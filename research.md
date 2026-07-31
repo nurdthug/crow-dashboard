@@ -1,4 +1,4 @@
-# Crow Research Brief — 2026-07-31 15:28 UTC
+# Crow Research Brief — 2026-07-31 15:48 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
@@ -19,8 +19,8 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 
 ## Do Not Chase First
 
-- [Build with Gemini XPRIZE](https://xprize.devpost.com/): huge pool, but competition is already 23,230.
-- [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/): huge pool, but competition is already 9,603.
-- [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/): huge pool, but competition is already 2,279.
-- [Build with DataHub: The Agent Hackathon](https://datahub.devpost.com/): huge pool, but competition is already 2,317.
-- [Backblaze Generative Media Hackathon: Build with Genblaze on B2](https://backblaze-generative-media.devpost.com/): huge pool, but competition is already 1,196.
+- [Build with Gemini XPRIZE](https://xprize.devpost.com/): huge pool, but competition is already 23,231.
+- [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/): huge pool, but competition is already 9,613.
+- [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/): huge pool, but competition is already 2,285.
+- [Build with DataHub: The Agent Hackathon](https://datahub.devpost.com/): huge pool, but competition is already 2,320.
+- [Backblaze Generative Media Hackathon: Build with Genblaze on B2](https://backblaze-generative-media.devpost.com/): huge pool, but competition is already 1,197.

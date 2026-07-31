@@ -17,7 +17,7 @@
   "token": "USDC",
   "fit": 2666.67,
   "kind": "generic",
-  "days_left": 23.063315389907405
+  "days_left": 23.049313449548613
  },
  {
   "file": "drafts/03-design-the-superteam-brazil-mascot.md",
@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 2000.0,
   "kind": "design",
-  "days_left": 3.4799820565740744
+  "days_left": 3.465980116215278
  },
  {
   "file": "drafts/04-revenuecat-shipaton-2026.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 1200.0,
   "kind": "content",
-  "days_left": 9.271648723240741
+  "days_left": 9.257646782881944
  }
 ]
