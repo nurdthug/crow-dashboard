@@ -7,7 +7,7 @@
   "token": "USD",
   "fit": 7000.0,
   "kind": "build",
-  "days_left": 18.0
+  "days_left": 17.0
  },
  {
   "file": "drafts/02-bring-your-web2-ideas-onchain.md",
@@ -15,9 +15,9 @@
   "url": "https://earn.superteam.fun/listings/bring-your-web2-ideas-onchain",
   "value_usd": 5000.0,
   "token": "USDC",
-  "fit": 2857.14,
+  "fit": 2666.67,
   "kind": "generic",
-  "days_left": 24.053435093935185
+  "days_left": 23.063315389907405
  },
  {
   "file": "drafts/03-design-the-superteam-brazil-mascot.md",
@@ -27,26 +27,26 @@
   "token": "USDG",
   "fit": 2000.0,
   "kind": "design",
-  "days_left": 4.470101760601852
+  "days_left": 3.4799820565740744
  },
  {
-  "file": "drafts/04-write-twitter-thread-dutch-solana-ecosystem-superteam-nl-pro.md",
+  "file": "drafts/04-revenuecat-shipaton-2026.md",
+  "title": "RevenueCat Shipaton 2026",
+  "url": "https://revenuecat-shipaton-2026.devpost.com/",
+  "value_usd": 685000.0,
+  "token": "USD",
+  "fit": 1798.12,
+  "kind": "build",
+  "days_left": 60.0
+ },
+ {
+  "file": "drafts/05-write-twitter-thread-dutch-solana-ecosystem-superteam-nl-pro.md",
   "title": "Write Twitter Thread: Dutch Solana Ecosystem & Superteam NL Progress",
   "url": "https://earn.superteam.fun/listings/write-twitter-thread-dutch-solana-ecosystem-and-superteam-nl-progress",
   "value_usd": 1000.0,
   "token": "USDG",
   "fit": 1200.0,
   "kind": "content",
-  "days_left": 10.261768427268517
- },
- {
-  "file": "drafts/05-ask-the-suits-tradfi-s-reaction-to-rwa.md",
-  "title": "Ask the Suits: TradFi's reaction to RWA",
-  "url": "https://earn.superteam.fun/listings/ask-the-suits",
-  "value_usd": 1750.0,
-  "token": "USDC",
-  "fit": 1050.0,
-  "kind": "generic",
-  "days_left": 11.511779989768518
+  "days_left": 9.271648723240741
  }
 ]
