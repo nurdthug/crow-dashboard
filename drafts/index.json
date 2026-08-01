@@ -7,7 +7,7 @@
   "token": "USD",
   "fit": 7000.0,
   "kind": "build",
-  "days_left": 17.0
+  "days_left": 16.0
  },
  {
   "file": "drafts/02-bring-your-web2-ideas-onchain.md",
@@ -17,20 +17,10 @@
   "token": "USDC",
   "fit": 2666.67,
   "kind": "generic",
-  "days_left": 23.049313449548613
+  "days_left": 22.09703264074074
  },
  {
-  "file": "drafts/03-design-the-superteam-brazil-mascot.md",
-  "title": "Design the Superteam Brazil Mascot \ud83c\udde7\ud83c\uddf7",
-  "url": "https://earn.superteam.fun/listings/mascot",
-  "value_usd": 2500.0,
-  "token": "USDG",
-  "fit": 2000.0,
-  "kind": "design",
-  "days_left": 3.465980116215278
- },
- {
-  "file": "drafts/04-revenuecat-shipaton-2026.md",
+  "file": "drafts/03-revenuecat-shipaton-2026.md",
   "title": "RevenueCat Shipaton 2026",
   "url": "https://revenuecat-shipaton-2026.devpost.com/",
   "value_usd": 685000.0,
@@ -40,13 +30,23 @@
   "days_left": 60.0
  },
  {
-  "file": "drafts/05-write-twitter-thread-dutch-solana-ecosystem-superteam-nl-pro.md",
+  "file": "drafts/04-write-twitter-thread-dutch-solana-ecosystem-superteam-nl-pro.md",
   "title": "Write Twitter Thread: Dutch Solana Ecosystem & Superteam NL Progress",
   "url": "https://earn.superteam.fun/listings/write-twitter-thread-dutch-solana-ecosystem-and-superteam-nl-progress",
   "value_usd": 1000.0,
   "token": "USDG",
   "fit": 1200.0,
   "kind": "content",
-  "days_left": 9.257646782881944
+  "days_left": 8.305365974074075
+ },
+ {
+  "file": "drafts/05-provide-a-report-on-solana-communities-based-on-direct-engag.md",
+  "title": "Provide a Report on Solana Communities Based on Direct Engagement",
+  "url": "https://earn.superteam.fun/listings/provide-a-report-on-solana-communities-based-on-direct-engagement",
+  "value_usd": 1000.0,
+  "token": "USDG",
+  "fit": 1000.0,
+  "kind": "writing",
+  "days_left": 16.555377536574074
  }
 ]
