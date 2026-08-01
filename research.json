@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01 14:40 UTC",
+  "generated_at": "2026-08-01 14:47 UTC",
   "reviewed": 27,
   "agent_allowed": 0,
   "recommendations": [
@@ -168,31 +168,31 @@
     {
       "title": "Build with Gemini XPRIZE",
       "url": "https://xprize.devpost.com/",
-      "competition": 23381,
+      "competition": 23383,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 10163,
+      "competition": 10164,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agentic Cinema: The Blockbuster Hackathon",
       "url": "https://agentic-cinema.devpost.com/",
-      "competition": 2502,
+      "competition": 2505,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build with DataHub: The Agent Hackathon",
       "url": "https://datahub.devpost.com/",
-      "competition": 2380,
+      "competition": 2381,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "CALL-E: Your Code Is Calling",
       "url": "https://call-e.devpost.com/",
-      "competition": 1256,
+      "competition": 1259,
       "reason": "huge pool, but high visible competition"
     }
   ]

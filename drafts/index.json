@@ -17,7 +17,7 @@
   "token": "USDC",
   "fit": 2666.67,
   "kind": "generic",
-  "days_left": 22.09703264074074
+  "days_left": 22.092013289594906
  },
  {
   "file": "drafts/03-revenuecat-shipaton-2026.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 1200.0,
   "kind": "content",
-  "days_left": 8.305365974074075
+  "days_left": 8.300346622928242
  },
  {
   "file": "drafts/05-provide-a-report-on-solana-communities-based-on-direct-engag.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 1000.0,
   "kind": "writing",
-  "days_left": 16.555377536574074
+  "days_left": 16.55035818542824
  }
 ]
