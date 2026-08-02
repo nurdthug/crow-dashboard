@@ -1,11 +1,11 @@
-# Crow Scout Digest — 2026-08-02 14:42 UTC
+# Crow Scout Digest — 2026-08-02 14:50 UTC
 
 **26 open opportunities** · 0 new since last run · 0 flagged AGENT_ALLOWED · total face value $2,849,975
 
 | # | Score | Title | Value | Type | Source | Days left | Competition | Agent? |
 |---|---|---|---|---|---|---|---|---|
 | 1 | 40,000 | [Build with Gemini XPRIZE](https://xprize.devpost.com/) | $2,000,000 USD | hackathon | devpost | 15 | 23538 |  |
-| 2 | 10,275 | [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/) | $685,000 USD | hackathon | devpost | 60 | 10615 |  |
+| 2 | 10,275 | [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/) | $685,000 USD | hackathon | devpost | 60 | 10620 |  |
 | 3 | 2,667 | [Bring Your Web2 Ideas Onchain](https://earn.superteam.fun/listings/bring-your-web2-ideas-onchain) | $5,000 USDC | bounty | superteam-earn | 21 | 7 |  |
 | 4 | 1,500 | [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/) | $75,000 USD | hackathon | devpost | 30 | 2694 |  |
 | 5 | 1,000 | [Provide a Report on Solana Communities Based on Direct Engagement](https://earn.superteam.fun/listings/provide-a-report-on-solana-communities-based-on-direct-engagement) | $1,000 USDG | bounty | superteam-earn | 16 | 0 |  |

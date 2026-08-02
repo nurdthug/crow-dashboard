@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02 14:42 UTC",
+  "generated_at": "2026-08-02 14:50 UTC",
   "reviewed": 26,
   "agent_allowed": 0,
   "recommendations": [
@@ -45,7 +45,7 @@
       "why": "verified sponsor, no visible competition yet",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 15.6,
+      "days_left": 15.5,
       "competition": 0,
       "deadline": "2026-08-18T03:59:59.999Z",
       "source": "superteam-earn",
@@ -61,7 +61,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 15.6,
+      "days_left": 15.5,
       "competition": 3,
       "deadline": "2026-08-18T03:59:59.999Z",
       "source": "superteam-earn",
@@ -93,7 +93,7 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 8.6,
+      "days_left": 8.5,
       "competition": 10,
       "deadline": "2026-08-11T03:59:59.999Z",
       "source": "superteam-earn",
@@ -174,7 +174,7 @@
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 10615,
+      "competition": 10620,
       "reason": "huge pool, but high visible competition"
     },
     {
