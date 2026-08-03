@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/create-the-best-x-thread-about-my-crypto-casino
 - Value: $1,500 USDC
-- Deadline: 13 days left (as of 2026-08-03 15:50 UTC)
+- Deadline: 13 days left (as of 2026-08-03 16:09 UTC)
 - Fit score: 1,000 — low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 

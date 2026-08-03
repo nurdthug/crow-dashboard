@@ -1,8 +1,8 @@
-# Crow Research Brief — 2026-08-03 15:50 UTC
+# Crow Research Brief — 2026-08-03 16:09 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
-**Reviewed:** 28 opportunities · **Agent-allowed:** 0 · **Recommended focus:** top 3 below
+**Reviewed:** 29 opportunities · **Agent-allowed:** 0 · **Recommended focus:** top 3 below
 
 | # | Fit | Effort | Opportunity | Value | Why | Next step |
 |---|---:|---|---|---:|---|---|
@@ -15,12 +15,12 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 | 7 | 553 | medium | [Ask the Suits: TradFi's reaction to RWA](https://earn.superteam.fun/listings/ask-the-suits) | $1,750 USDC | reasonable EV after competition/deadline adjustment | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 8 | 538 | medium | [Write About the Brain Drain Wall](https://earn.superteam.fun/listings/write-about-the-brain-drain-wall) | $875 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 9 | 533 | medium | [Superteam Poland Ecosystem Infographic Challenge](https://earn.superteam.fun/listings/superteam-poland-ecosystem-infographic-challenge) | $500 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
-| 10 | 495 | low-medium | [Create the Ultimate HuzzFun AI  Hype Video](https://earn.superteam.fun/listings/create-the-ultimate-huzzfun-ai-hype-video) | $550 USDC | no visible competition yet | Draft script/angle and collect required brand/rule links. |
+| 10 | 500 | medium | [Analyze Trader Behavior: CEX vs. Solana DEX Perpetual Futures Report](https://earn.superteam.fun/listings/analyze-trader-behavior-cex-vs-solana-dex-perpetual-futures-report) | $500 USDC | verified sponsor, no visible competition yet | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 
 ## Do Not Chase First
 
-- [Build with Gemini XPRIZE](https://xprize.devpost.com/): huge pool, but competition is already 23,679.
-- [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/): huge pool, but competition is already 11,414.
-- [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/): huge pool, but competition is already 2,903.
+- [Build with Gemini XPRIZE](https://xprize.devpost.com/): huge pool, but competition is already 23,684.
+- [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/): huge pool, but competition is already 11,430.
+- [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/): huge pool, but competition is already 2,912.
 - [Build with DataHub: The Agent Hackathon](https://datahub.devpost.com/): huge pool, but competition is already 2,487.
-- [CALL-E: Your Code Is Calling](https://call-e.devpost.com/): huge pool, but competition is already 1,630.
+- [CALL-E: Your Code Is Calling](https://call-e.devpost.com/): huge pool, but competition is already 1,631.

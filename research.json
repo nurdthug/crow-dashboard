@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-03 15:50 UTC",
-  "reviewed": 28,
+  "generated_at": "2026-08-03 16:09 UTC",
+  "reviewed": 29,
   "agent_allowed": 0,
   "recommendations": [
     {
@@ -29,7 +29,7 @@
       "why": "low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 13.3,
+      "days_left": 13.2,
       "competition": 1,
       "deadline": "2026-08-16T21:59:59.000Z",
       "source": "superteam-earn",
@@ -61,7 +61,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Draft thread outline and verify rules before posting.",
       "effort": "low-medium",
-      "days_left": 6.3,
+      "days_left": 6.2,
       "competition": 3,
       "deadline": "2026-08-09T21:59:59.000Z",
       "source": "superteam-earn",
@@ -93,7 +93,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 4.3,
+      "days_left": 4.2,
       "competition": 6,
       "deadline": "2026-08-07T21:59:59.000Z",
       "source": "superteam-earn",
@@ -141,7 +141,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 4.3,
+      "days_left": 4.2,
       "competition": 1,
       "deadline": "2026-08-07T21:59:59.000Z",
       "source": "superteam-earn",
@@ -149,17 +149,17 @@
     },
     {
       "rank": 10,
-      "fit": 495.0,
-      "title": "Create the Ultimate HuzzFun AI  Hype Video",
-      "url": "https://earn.superteam.fun/listings/create-the-ultimate-huzzfun-ai-hype-video",
-      "value_usd": 550.0,
+      "fit": 500.0,
+      "title": "Analyze Trader Behavior: CEX vs. Solana DEX Perpetual Futures Report",
+      "url": "https://earn.superteam.fun/listings/analyze-trader-behavior-cex-vs-solana-dex-perpetual-futures-report",
+      "value_usd": 500.0,
       "token": "USDC",
-      "why": "no visible competition yet",
-      "next_step": "Draft script/angle and collect required brand/rule links.",
-      "effort": "low-medium",
-      "days_left": 22.1,
+      "why": "verified sponsor, no visible competition yet",
+      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
+      "effort": "medium",
+      "days_left": 7.2,
       "competition": 0,
-      "deadline": "2026-08-25T18:29:59.000Z",
+      "deadline": "2026-08-10T20:59:59.999Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     }
@@ -168,19 +168,19 @@
     {
       "title": "Build with Gemini XPRIZE",
       "url": "https://xprize.devpost.com/",
-      "competition": 23679,
+      "competition": 23684,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 11414,
+      "competition": 11430,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agentic Cinema: The Blockbuster Hackathon",
       "url": "https://agentic-cinema.devpost.com/",
-      "competition": 2903,
+      "competition": 2912,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -192,7 +192,7 @@
     {
       "title": "CALL-E: Your Code Is Calling",
       "url": "https://call-e.devpost.com/",
-      "competition": 1630,
+      "competition": 1631,
       "reason": "huge pool, but high visible competition"
     }
   ]
