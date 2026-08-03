@@ -7,7 +7,7 @@
   "token": "USD",
   "fit": 7000.0,
   "kind": "build",
-  "days_left": 15.0
+  "days_left": 14.0
  },
  {
   "file": "drafts/02-bring-your-web2-ideas-onchain.md",
@@ -17,7 +17,7 @@
   "token": "USDC",
   "fit": 2666.67,
   "kind": "generic",
-  "days_left": 21.090165459976852
+  "days_left": 20.047962241180553
  },
  {
   "file": "drafts/03-revenuecat-shipaton-2026.md",
@@ -30,14 +30,14 @@
   "days_left": 60.0
  },
  {
-  "file": "drafts/04-write-twitter-thread-dutch-solana-ecosystem-superteam-nl-pro.md",
-  "title": "Write Twitter Thread: Dutch Solana Ecosystem & Superteam NL Progress",
-  "url": "https://earn.superteam.fun/listings/write-twitter-thread-dutch-solana-ecosystem-and-superteam-nl-progress",
-  "value_usd": 1000.0,
-  "token": "USDG",
-  "fit": 1066.67,
+  "file": "drafts/04-create-the-best-x-thread-about-my-crypto-casino.md",
+  "title": "Create The Best X Thread About My Crypto Casino",
+  "url": "https://earn.superteam.fun/listings/create-the-best-x-thread-about-my-crypto-casino",
+  "value_usd": 1500.0,
+  "token": "USDC",
+  "fit": 1000.0,
   "kind": "content",
-  "days_left": 7.298498793310185
+  "days_left": 13.256295574513887
  },
  {
   "file": "drafts/05-provide-a-report-on-solana-communities-based-on-direct-engag.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 1000.0,
   "kind": "writing",
-  "days_left": 15.548510355810185
+  "days_left": 14.506307137013888
  }
 ]
