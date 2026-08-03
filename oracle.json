@@ -5,12 +5,12 @@
   "version": "0.4.1",
   "stableOrigin": "https://nurdthug.github.io/crow-dashboard",
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
-  "updatedAt": "2026-07-31T15:06:24.814Z",
+  "updatedAt": "2026-08-03T03:35:34.920Z",
   "backend": {
-    "baseUrl": "https://respiratory-assets-red-nest.trycloudflare.com",
+    "baseUrl": "https://major-partnerships-nevertheless-concentrations.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://respiratory-assets-red-nest.trycloudflare.com/healthz",
+    "health": "https://major-partnerships-nevertheless-concentrations.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -71,19 +71,19 @@
     }
   },
   "docs": {
-    "catalog": "https://respiratory-assets-red-nest.trycloudflare.com/catalog.json",
-    "openapi": "https://respiratory-assets-red-nest.trycloudflare.com/openapi.json",
-    "llms": "https://respiratory-assets-red-nest.trycloudflare.com/llms.txt",
-    "freeSample": "https://respiratory-assets-red-nest.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://respiratory-assets-red-nest.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://respiratory-assets-red-nest.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://respiratory-assets-red-nest.trycloudflare.com/state"
+    "catalog": "https://major-partnerships-nevertheless-concentrations.trycloudflare.com/catalog.json",
+    "openapi": "https://major-partnerships-nevertheless-concentrations.trycloudflare.com/openapi.json",
+    "llms": "https://major-partnerships-nevertheless-concentrations.trycloudflare.com/llms.txt",
+    "freeSample": "https://major-partnerships-nevertheless-concentrations.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://major-partnerships-nevertheless-concentrations.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://major-partnerships-nevertheless-concentrations.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://major-partnerships-nevertheless-concentrations.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://respiratory-assets-red-nest.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://major-partnerships-nevertheless-concentrations.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -95,7 +95,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://respiratory-assets-red-nest.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://major-partnerships-nevertheless-concentrations.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
