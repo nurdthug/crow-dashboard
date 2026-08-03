@@ -5,12 +5,12 @@
   "version": "0.4.1",
   "stableOrigin": "https://nurdthug.github.io/crow-dashboard",
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
-  "updatedAt": "2026-08-03T03:35:34.920Z",
+  "updatedAt": "2026-08-03T12:24:38.247Z",
   "backend": {
-    "baseUrl": "https://major-partnerships-nevertheless-concentrations.trycloudflare.com",
+    "baseUrl": "https://workflow-item-antiques-bargains.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://major-partnerships-nevertheless-concentrations.trycloudflare.com/healthz",
+    "health": "https://workflow-item-antiques-bargains.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -71,19 +71,19 @@
     }
   },
   "docs": {
-    "catalog": "https://major-partnerships-nevertheless-concentrations.trycloudflare.com/catalog.json",
-    "openapi": "https://major-partnerships-nevertheless-concentrations.trycloudflare.com/openapi.json",
-    "llms": "https://major-partnerships-nevertheless-concentrations.trycloudflare.com/llms.txt",
-    "freeSample": "https://major-partnerships-nevertheless-concentrations.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://major-partnerships-nevertheless-concentrations.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://major-partnerships-nevertheless-concentrations.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://major-partnerships-nevertheless-concentrations.trycloudflare.com/state"
+    "catalog": "https://workflow-item-antiques-bargains.trycloudflare.com/catalog.json",
+    "openapi": "https://workflow-item-antiques-bargains.trycloudflare.com/openapi.json",
+    "llms": "https://workflow-item-antiques-bargains.trycloudflare.com/llms.txt",
+    "freeSample": "https://workflow-item-antiques-bargains.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://workflow-item-antiques-bargains.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://workflow-item-antiques-bargains.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://workflow-item-antiques-bargains.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://major-partnerships-nevertheless-concentrations.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://workflow-item-antiques-bargains.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -95,7 +95,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://major-partnerships-nevertheless-concentrations.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://workflow-item-antiques-bargains.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
