@@ -5,12 +5,12 @@
   "version": "0.4.1",
   "stableOrigin": "https://nurdthug.github.io/crow-dashboard",
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
-  "updatedAt": "2026-08-03T12:24:38.247Z",
+  "updatedAt": "2026-08-04T04:07:42.653Z",
   "backend": {
-    "baseUrl": "https://workflow-item-antiques-bargains.trycloudflare.com",
+    "baseUrl": "https://paperback-available-singer-stadium.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://workflow-item-antiques-bargains.trycloudflare.com/healthz",
+    "health": "https://paperback-available-singer-stadium.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -71,19 +71,19 @@
     }
   },
   "docs": {
-    "catalog": "https://workflow-item-antiques-bargains.trycloudflare.com/catalog.json",
-    "openapi": "https://workflow-item-antiques-bargains.trycloudflare.com/openapi.json",
-    "llms": "https://workflow-item-antiques-bargains.trycloudflare.com/llms.txt",
-    "freeSample": "https://workflow-item-antiques-bargains.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://workflow-item-antiques-bargains.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://workflow-item-antiques-bargains.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://workflow-item-antiques-bargains.trycloudflare.com/state"
+    "catalog": "https://paperback-available-singer-stadium.trycloudflare.com/catalog.json",
+    "openapi": "https://paperback-available-singer-stadium.trycloudflare.com/openapi.json",
+    "llms": "https://paperback-available-singer-stadium.trycloudflare.com/llms.txt",
+    "freeSample": "https://paperback-available-singer-stadium.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://paperback-available-singer-stadium.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://paperback-available-singer-stadium.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://paperback-available-singer-stadium.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://workflow-item-antiques-bargains.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://paperback-available-singer-stadium.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -95,7 +95,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://workflow-item-antiques-bargains.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://paperback-available-singer-stadium.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
