@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/write-twitter-thread-dutch-solana-ecosystem-and-superteam-nl-progress
 - Value: $1,000 USDG
-- Deadline: 5 days left (as of 2026-08-04 15:34 UTC)
+- Deadline: 5 days left (as of 2026-08-04 16:02 UTC)
 - Fit score: 873 — verified sponsor, low competition
 - First action: Draft thread outline and verify rules before posting.
 

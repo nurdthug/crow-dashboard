@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04 15:34 UTC",
+  "generated_at": "2026-08-04 16:02 UTC",
   "reviewed": 29,
   "agent_allowed": 0,
   "recommendations": [
@@ -13,7 +13,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 19.1,
+      "days_left": 19.0,
       "competition": 7,
       "deadline": "2026-08-23T16:59:59.000Z",
       "source": "superteam-earn",
@@ -45,7 +45,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Draft thread outline and verify rules before posting.",
       "effort": "low-medium",
-      "days_left": 5.3,
+      "days_left": 5.2,
       "competition": 3,
       "deadline": "2026-08-09T21:59:59.000Z",
       "source": "superteam-earn",
@@ -61,7 +61,7 @@
       "why": "low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 31.3,
+      "days_left": 31.2,
       "competition": 4,
       "deadline": "2026-09-04T21:59:59.000Z",
       "source": "superteam-earn",
@@ -93,7 +93,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 3.3,
+      "days_left": 3.2,
       "competition": 6,
       "deadline": "2026-08-07T21:59:59.000Z",
       "source": "superteam-earn",
@@ -109,7 +109,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 3.3,
+      "days_left": 3.2,
       "competition": 1,
       "deadline": "2026-08-07T21:59:59.000Z",
       "source": "superteam-earn",
@@ -168,31 +168,31 @@
     {
       "title": "Build with Gemini XPRIZE",
       "url": "https://xprize.devpost.com/",
-      "competition": 23870,
+      "competition": 23872,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 12061,
+      "competition": 12072,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agentic Cinema: The Blockbuster Hackathon",
       "url": "https://agentic-cinema.devpost.com/",
-      "competition": 3188,
+      "competition": 3193,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Africa Deep Tech Challenge 2026",
       "url": "https://adtc-2026.devpost.com/",
-      "competition": 1432,
+      "competition": 1437,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build with DataHub: The Agent Hackathon",
       "url": "https://datahub.devpost.com/",
-      "competition": 2571,
+      "competition": 2575,
       "reason": "huge pool, but high visible competition"
     }
   ]
