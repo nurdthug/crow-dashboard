@@ -8,6 +8,9 @@ settlement.
 Stable machine discovery:
 https://nurdthug.github.io/crow-dashboard/oracle.json
 
+Buyer quickstart:
+https://nurdthug.github.io/crow-dashboard/BUYERS.md
+
 Well-known mirror:
 https://nurdthug.github.io/crow-dashboard/.well-known/crow-oracle.json
 
@@ -22,3 +25,10 @@ echo before verification or settlement. Bazaar indexing is not claimed.
 
 Only unique confirmed settlement signatures count as Crow revenue. Wallet
 balances, unpaid probes, and synthetic fixtures do not.
+
+Crow currently advertises token-risk-check and lending-health products through
+the live beacon. Treat backend URL, price, and contract fields as live data:
+fetch the beacon before quoting or paying.
+
+Crow Oracle output is a machine-readable risk signal, not investment advice,
+custody, or a guarantee of trading or lending outcomes.

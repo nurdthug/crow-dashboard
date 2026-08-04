@@ -88,6 +88,15 @@
   .oracle-url{font:12px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--cyan);overflow-wrap:anywhere;margin-top:8px}
   .oracle-actions{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end}
   .oracle-actions a{border:1px solid var(--line);border-radius:6px;padding:7px 10px;text-decoration:none;font-size:12px;background:var(--panel2)}
+  .buyer{display:grid;grid-template-columns:1.1fr .9fr;gap:14px;margin-bottom:14px}
+  .buyer-steps{display:grid;gap:8px}
+  .buyer-step{background:var(--panel2);border:1px solid var(--line);border-left:3px solid var(--green);border-radius:6px;padding:9px 10px;color:var(--dim);font-size:12.5px}
+  .buyer-step b{color:var(--text)}
+  .product-list{display:grid;gap:8px}
+  .product{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;background:var(--panel2);border:1px solid var(--line);border-radius:6px;padding:10px}
+  .product b{display:block;font-size:13px}
+  .product small{display:block;color:var(--dim);margin-top:2px}
+  .price{color:var(--green);font-weight:700;white-space:nowrap}
   a{color:inherit}
   footer{margin-top:20px;color:#5d6980;font-size:11.5px;text-align:center}
   @media (max-width:760px){
@@ -99,6 +108,7 @@
     .bar em{width:48px}
     .oracle-row{grid-template-columns:1fr}
     .oracle-actions{justify-content:flex-start}
+    .buyer{grid-template-columns:1fr}
   }
 </style>
 </head>
@@ -121,9 +131,29 @@
     <nav class="oracle-actions" aria-label="Crow Oracle resources">
       <a href="oracle.json" id="oracle-beacon">Beacon JSON</a>
       <a href="llms.txt">llms.txt</a>
+      <a href="BUYERS.md">Buyer quickstart</a>
       <a href="oracle.json" id="oracle-catalog">Live catalog</a>
       <a href="oracle.json" id="oracle-sample">Free sample</a>
     </nav>
+  </div>
+</section>
+
+<section class="buyer" aria-labelledby="buyer-title">
+  <div class="card">
+    <h2 id="buyer-title">Buy one exact answer</h2>
+    <div class="buyer-steps">
+      <div class="buyer-step"><b>1.</b> Fetch the stable beacon and current backend.</div>
+      <div class="buyer-step"><b>2.</b> Check live health and try the free sample.</div>
+      <div class="buyer-step"><b>3.</b> Request a paid resource to receive the HTTP 402 quote.</div>
+      <div class="buyer-step"><b>4.</b> Pay the exact resource and verify the receipt offline.</div>
+    </div>
+    <div class="oracle-url" style="margin-top:12px">https://nurdthug.github.io/crow-dashboard/oracle.json</div>
+  </div>
+  <div class="card">
+    <h2>Machine-payable products</h2>
+    <div class="product-list" id="products">
+      <div class="empty">Loading live products from the beacon.</div>
+    </div>
   </div>
 </section>
 
@@ -221,10 +251,20 @@ async function loadOracle(){
   url.textContent=beacon.backend.baseUrl;
   document.getElementById("oracle-catalog").href=beacon.docs.catalog;
   document.getElementById("oracle-sample").href=beacon.docs.freeSample;
+  if(beacon.docs.publicState){
+   window.__crowPublicState=beacon.docs.publicState;
+  }
+  document.getElementById("products").innerHTML=beacon.products.map(product=>{
+   const template=product.resourceTemplate.replace(beacon.backend.baseUrl,"");
+   return `<div class="product"><div><b>${product.id}</b>`+
+    `<small>${product.description}</small><small>${template}</small></div>`+
+    `<div class="price">${product.price.amountUSDC} USDC</div></div>`;
+  }).join("");
  }catch(error){
   state.textContent="Unavailable";
   state.className="tag t-amber";
   copy.textContent="The stable beacon is unavailable. Do not construct or transmit payment.";
+  document.getElementById("products").innerHTML=`<div class="empty">Beacon unavailable. Do not construct or transmit payment.</div>`;
  }
 }
 loadOracle();
@@ -416,6 +456,7 @@ loadHistory();
 async function boot(){
  let opps=[];
  let queueMeta=null;
+ let publicStateUrl="oracle.json";
  try{
   const r=await fetch("opportunities.json",{cache:"no-store"});
   if(r.ok) opps=await r.json();
@@ -424,8 +465,13 @@ async function boot(){
   const r=await fetch("executable_queue.json",{cache:"no-store"});
   if(r.ok) queueMeta=await r.json();
  }catch(e){}
+ try{
+  const beacon=await fetch("oracle.json",{cache:"no-store"}).then(r=>r.json());
+  if(beacon.docs?.publicState) publicStateUrl=beacon.docs.publicState;
+ }catch(e){}
  const generated=queueMeta&&queueMeta.generated;
  const freshness=ageLabel(generated);
+ const revenueLink=`<a href="${publicStateUrl}" target="_blank" rel="noopener" style="color:var(--cyan)">public state</a>`;
 
  // KPIs — all computed from real data
  const agentOk=opps.filter(o=>o.agent_access==="AGENT_ALLOWED");
@@ -439,7 +485,7 @@ async function boot(){
   ["Agent-eligible 🤖",agentOk.length,"flagged AGENT_ALLOWED"],
   ["New this sweep",fresh.length,"first seen in latest run"],
   ["Closing ≤3 days",soon,"act-now window"],
-  ["Verified revenue","$0","no wallets connected yet"]
+  ["Verified revenue",revenueLink,"confirmed settlements only"]
  ];
  document.getElementById("kpis").innerHTML=kpis.map(([l,v,d])=>
   `<div class="card kpi"><div class="label">${l}</div><div class="value">${v}</div><div class="delta">${d}</div></div>`).join("");
