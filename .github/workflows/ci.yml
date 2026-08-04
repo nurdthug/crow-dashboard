@@ -23,5 +23,7 @@ jobs:
           sudo apt-get install -y zsh
       - name: Run protocol and discovery tests
         run: npm test
+      - name: Seed live backend URL from committed beacon
+        run: node -e 'const fs=require("node:fs"); const beacon=require("./oracle.json"); fs.writeFileSync("/tmp/crow-oracle-public-url", beacon.backend.baseUrl + "\n");'
       - name: Check live beacon contract
         run: npm run beacon:check
