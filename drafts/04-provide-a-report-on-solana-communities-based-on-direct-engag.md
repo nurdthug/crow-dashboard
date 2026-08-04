@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/provide-a-report-on-solana-communities-based-on-direct-engagement
 - Value: $1,000 USDG
-- Deadline: 14 days left (as of 2026-08-03 16:09 UTC)
+- Deadline: 14 days left (as of 2026-08-04 15:34 UTC)
 - Fit score: 1,000 — verified sponsor, no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 

@@ -1,10 +1,10 @@
-# Draft pack — Create The Best X Thread About My Crypto Casino
+# Draft pack — Write Twitter Thread: Dutch Solana Ecosystem & Superteam NL Progress
 
-- Listing: https://earn.superteam.fun/listings/create-the-best-x-thread-about-my-crypto-casino
-- Value: $1,500 USDC
-- Deadline: 13 days left (as of 2026-08-03 16:09 UTC)
-- Fit score: 1,000 — low competition
-- First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
+- Listing: https://earn.superteam.fun/listings/write-twitter-thread-dutch-solana-ecosystem-and-superteam-nl-progress
+- Value: $1,000 USDG
+- Deadline: 5 days left (as of 2026-08-04 15:34 UTC)
+- Fit score: 873 — verified sponsor, low competition
+- First action: Draft thread outline and verify rules before posting.
 
 ## Go/no-go checklist
 - [ ] Read full rules & eligibility (region, KYC, team size)

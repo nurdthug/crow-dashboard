@@ -1,4 +1,4 @@
-# Crow Research Brief — 2026-08-03 16:09 UTC
+# Crow Research Brief — 2026-08-04 15:34 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
@@ -7,20 +7,20 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 | # | Fit | Effort | Opportunity | Value | Why | Next step |
 |---|---:|---|---|---:|---|---|
 | 1 | 2,667 | medium | [Bring Your Web2 Ideas Onchain](https://earn.superteam.fun/listings/bring-your-web2-ideas-onchain) | $5,000 USDC | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
-| 2 | 1,000 | medium | [Create The Best X Thread About My Crypto Casino](https://earn.superteam.fun/listings/create-the-best-x-thread-about-my-crypto-casino) | $1,500 USDC | low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
-| 3 | 1,000 | medium | [Provide a Report on Solana Communities Based on Direct Engagement](https://earn.superteam.fun/listings/provide-a-report-on-solana-communities-based-on-direct-engagement) | $1,000 USDG | verified sponsor, no visible competition yet | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
-| 4 | 873 | low-medium | [Write Twitter Thread: Dutch Solana Ecosystem & Superteam NL Progress](https://earn.superteam.fun/listings/write-twitter-thread-dutch-solana-ecosystem-and-superteam-nl-progress) | $1,000 USDG | verified sponsor, low competition | Draft thread outline and verify rules before posting. |
+| 2 | 1,000 | medium | [Provide a Report on Solana Communities Based on Direct Engagement](https://earn.superteam.fun/listings/provide-a-report-on-solana-communities-based-on-direct-engagement) | $1,000 USDG | verified sponsor, no visible competition yet | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
+| 3 | 873 | low-medium | [Write Twitter Thread: Dutch Solana Ecosystem & Superteam NL Progress](https://earn.superteam.fun/listings/write-twitter-thread-dutch-solana-ecosystem-and-superteam-nl-progress) | $1,000 USDG | verified sponsor, low competition | Draft thread outline and verify rules before posting. |
+| 4 | 750 | medium | [Create The Best X Thread About My Crypto Casino](https://earn.superteam.fun/listings/create-the-best-x-thread-about-my-crypto-casino) | $1,500 USDC | low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 5 | 615 | medium | [Develop Solana Ecosystem Auto-Updating Report & Interactive Dashboard](https://earn.superteam.fun/listings/develop-solana-ecosystem-auto-updating-report-and-interactive-dashboard) | $1,000 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 6 | 571 | medium | [On-Chain Loyalty Rewards System Challenge](https://earn.superteam.fun/listings/on-chain-loyalty-rewards-system-challenge) | $1,000 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
-| 7 | 553 | medium | [Ask the Suits: TradFi's reaction to RWA](https://earn.superteam.fun/listings/ask-the-suits) | $1,750 USDC | reasonable EV after competition/deadline adjustment | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
-| 8 | 538 | medium | [Write About the Brain Drain Wall](https://earn.superteam.fun/listings/write-about-the-brain-drain-wall) | $875 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
-| 9 | 533 | medium | [Superteam Poland Ecosystem Infographic Challenge](https://earn.superteam.fun/listings/superteam-poland-ecosystem-infographic-challenge) | $500 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
-| 10 | 500 | medium | [Analyze Trader Behavior: CEX vs. Solana DEX Perpetual Futures Report](https://earn.superteam.fun/listings/analyze-trader-behavior-cex-vs-solana-dex-perpetual-futures-report) | $500 USDC | verified sponsor, no visible competition yet | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
+| 7 | 533 | medium | [Superteam Poland Ecosystem Infographic Challenge](https://earn.superteam.fun/listings/superteam-poland-ecosystem-infographic-challenge) | $500 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
+| 8 | 525 | medium | [Ask the Suits: TradFi's reaction to RWA](https://earn.superteam.fun/listings/ask-the-suits) | $1,750 USDC | reasonable EV after competition/deadline adjustment | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
+| 9 | 438 | medium | [Write About the Brain Drain Wall](https://earn.superteam.fun/listings/write-about-the-brain-drain-wall) | $875 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
+| 10 | 364 | medium | [Analyze Trader Behavior: CEX vs. Solana DEX Perpetual Futures Report](https://earn.superteam.fun/listings/analyze-trader-behavior-cex-vs-solana-dex-perpetual-futures-report) | $500 USDC | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 
 ## Do Not Chase First
 
-- [Build with Gemini XPRIZE](https://xprize.devpost.com/): huge pool, but competition is already 23,684.
-- [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/): huge pool, but competition is already 11,430.
-- [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/): huge pool, but competition is already 2,912.
-- [Build with DataHub: The Agent Hackathon](https://datahub.devpost.com/): huge pool, but competition is already 2,487.
-- [CALL-E: Your Code Is Calling](https://call-e.devpost.com/): huge pool, but competition is already 1,631.
+- [Build with Gemini XPRIZE](https://xprize.devpost.com/): huge pool, but competition is already 23,870.
+- [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/): huge pool, but competition is already 12,061.
+- [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/): huge pool, but competition is already 3,188.
+- [Africa Deep Tech Challenge 2026](https://adtc-2026.devpost.com/): huge pool, but competition is already 1,432.
+- [Build with DataHub: The Agent Hackathon](https://datahub.devpost.com/): huge pool, but competition is already 2,571.
