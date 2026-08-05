@@ -5,12 +5,12 @@
   "version": "0.4.1",
   "stableOrigin": "https://nurdthug.github.io/crow-dashboard",
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
-  "updatedAt": "2026-08-04T09:41:27.999Z",
+  "updatedAt": "2026-08-05T05:45:06.324Z",
   "backend": {
-    "baseUrl": "https://updating-valued-make-land.trycloudflare.com",
+    "baseUrl": "https://corporation-cottage-molecular-oldest.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://updating-valued-make-land.trycloudflare.com/healthz",
+    "health": "https://corporation-cottage-molecular-oldest.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -71,19 +71,19 @@
     }
   },
   "docs": {
-    "catalog": "https://updating-valued-make-land.trycloudflare.com/catalog.json",
-    "openapi": "https://updating-valued-make-land.trycloudflare.com/openapi.json",
-    "llms": "https://updating-valued-make-land.trycloudflare.com/llms.txt",
-    "freeSample": "https://updating-valued-make-land.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://updating-valued-make-land.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://updating-valued-make-land.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://updating-valued-make-land.trycloudflare.com/state"
+    "catalog": "https://corporation-cottage-molecular-oldest.trycloudflare.com/catalog.json",
+    "openapi": "https://corporation-cottage-molecular-oldest.trycloudflare.com/openapi.json",
+    "llms": "https://corporation-cottage-molecular-oldest.trycloudflare.com/llms.txt",
+    "freeSample": "https://corporation-cottage-molecular-oldest.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://corporation-cottage-molecular-oldest.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://corporation-cottage-molecular-oldest.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://corporation-cottage-molecular-oldest.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://updating-valued-make-land.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://corporation-cottage-molecular-oldest.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -95,7 +95,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://updating-valued-make-land.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://corporation-cottage-molecular-oldest.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
