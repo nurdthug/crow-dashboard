@@ -5,12 +5,12 @@
   "version": "0.4.1",
   "stableOrigin": "https://nurdthug.github.io/crow-dashboard",
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
-  "updatedAt": "2026-08-05T07:45:03.452Z",
+  "updatedAt": "2026-08-05T11:01:19.505Z",
   "backend": {
-    "baseUrl": "https://enb-ranking-pci-holdings.trycloudflare.com",
+    "baseUrl": "https://des-samples-integrity-manual.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://enb-ranking-pci-holdings.trycloudflare.com/healthz",
+    "health": "https://des-samples-integrity-manual.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -71,19 +71,19 @@
     }
   },
   "docs": {
-    "catalog": "https://enb-ranking-pci-holdings.trycloudflare.com/catalog.json",
-    "openapi": "https://enb-ranking-pci-holdings.trycloudflare.com/openapi.json",
-    "llms": "https://enb-ranking-pci-holdings.trycloudflare.com/llms.txt",
-    "freeSample": "https://enb-ranking-pci-holdings.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://enb-ranking-pci-holdings.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://enb-ranking-pci-holdings.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://enb-ranking-pci-holdings.trycloudflare.com/state"
+    "catalog": "https://des-samples-integrity-manual.trycloudflare.com/catalog.json",
+    "openapi": "https://des-samples-integrity-manual.trycloudflare.com/openapi.json",
+    "llms": "https://des-samples-integrity-manual.trycloudflare.com/llms.txt",
+    "freeSample": "https://des-samples-integrity-manual.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://des-samples-integrity-manual.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://des-samples-integrity-manual.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://des-samples-integrity-manual.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://enb-ranking-pci-holdings.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://des-samples-integrity-manual.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -95,7 +95,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://enb-ranking-pci-holdings.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://des-samples-integrity-manual.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
