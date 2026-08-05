@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05 15:26 UTC",
+  "generated_at": "2026-08-05 15:50 UTC",
   "reviewed": 29,
   "agent_allowed": 1,
   "recommendations": [
@@ -13,7 +13,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 18.1,
+      "days_left": 18.0,
       "competition": 8,
       "deadline": "2026-08-23T16:59:59.000Z",
       "source": "superteam-earn",
@@ -21,7 +21,7 @@
     },
     {
       "rank": 2,
-      "fit": 1200.0,
+      "fit": 1080.0,
       "title": "Twitter Post about NFT Locks on Streamflow",
       "url": "https://earn.superteam.fun/listings/twitter-post-about-nft-locks-on-streamflow",
       "value_usd": 500.0,
@@ -30,7 +30,7 @@
       "next_step": "Draft thread outline and verify rules before posting.",
       "effort": "low-medium",
       "days_left": 23.3,
-      "competition": 1,
+      "competition": 2,
       "deadline": "2026-08-28T21:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "AGENT_ALLOWED"
@@ -133,7 +133,7 @@
     },
     {
       "rank": 9,
-      "fit": 307.69,
+      "fit": 285.71,
       "title": "Analyze Trader Behavior: CEX vs. Solana DEX Perpetual Futures Report",
       "url": "https://earn.superteam.fun/listings/analyze-trader-behavior-cex-vs-solana-dex-perpetual-futures-report",
       "value_usd": 500.0,
@@ -142,7 +142,7 @@
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
       "days_left": 5.2,
-      "competition": 5,
+      "competition": 6,
       "deadline": "2026-08-10T20:59:59.999Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -168,19 +168,19 @@
     {
       "title": "Build with Gemini XPRIZE",
       "url": "https://xprize.devpost.com/",
-      "competition": 23997,
+      "competition": 24004,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 12815,
+      "competition": 12826,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agentic Cinema: The Blockbuster Hackathon",
       "url": "https://agentic-cinema.devpost.com/",
-      "competition": 3348,
+      "competition": 3355,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -192,7 +192,7 @@
     {
       "title": "Build with DataHub: The Agent Hackathon",
       "url": "https://datahub.devpost.com/",
-      "competition": 2634,
+      "competition": 2635,
       "reason": "huge pool, but high visible competition"
     }
   ]
