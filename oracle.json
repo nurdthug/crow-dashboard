@@ -5,12 +5,12 @@
   "version": "0.4.1",
   "stableOrigin": "https://nurdthug.github.io/crow-dashboard",
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
-  "updatedAt": "2026-08-05T05:45:06.324Z",
+  "updatedAt": "2026-08-05T07:45:03.452Z",
   "backend": {
-    "baseUrl": "https://corporation-cottage-molecular-oldest.trycloudflare.com",
+    "baseUrl": "https://enb-ranking-pci-holdings.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://corporation-cottage-molecular-oldest.trycloudflare.com/healthz",
+    "health": "https://enb-ranking-pci-holdings.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -71,19 +71,19 @@
     }
   },
   "docs": {
-    "catalog": "https://corporation-cottage-molecular-oldest.trycloudflare.com/catalog.json",
-    "openapi": "https://corporation-cottage-molecular-oldest.trycloudflare.com/openapi.json",
-    "llms": "https://corporation-cottage-molecular-oldest.trycloudflare.com/llms.txt",
-    "freeSample": "https://corporation-cottage-molecular-oldest.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://corporation-cottage-molecular-oldest.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://corporation-cottage-molecular-oldest.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://corporation-cottage-molecular-oldest.trycloudflare.com/state"
+    "catalog": "https://enb-ranking-pci-holdings.trycloudflare.com/catalog.json",
+    "openapi": "https://enb-ranking-pci-holdings.trycloudflare.com/openapi.json",
+    "llms": "https://enb-ranking-pci-holdings.trycloudflare.com/llms.txt",
+    "freeSample": "https://enb-ranking-pci-holdings.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://enb-ranking-pci-holdings.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://enb-ranking-pci-holdings.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://enb-ranking-pci-holdings.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://corporation-cottage-molecular-oldest.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://enb-ranking-pci-holdings.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -95,7 +95,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://corporation-cottage-molecular-oldest.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://enb-ranking-pci-holdings.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
