@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-04T16:02:13+00:00",
- "count": 5,
+ "generated": "2026-08-05T15:26:17+00:00",
+ "count": 6,
  "items": [
   {
    "lane": "github_pr",
@@ -42,6 +42,15 @@
    ],
    "small": true,
    "created": "2026-07-25T09:51:18Z"
+  },
+  {
+   "lane": "listing",
+   "title": "Twitter Post about NFT Locks on Streamflow",
+   "url": "https://earn.superteam.fun/listings/twitter-post-about-nft-locks-on-streamflow",
+   "value_usd": 500.0,
+   "token": "USDC",
+   "days_left": 23.27342654091435,
+   "small": true
   },
   {
    "lane": "github_pr",

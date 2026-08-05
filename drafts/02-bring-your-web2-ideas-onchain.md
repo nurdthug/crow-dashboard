@@ -2,8 +2,8 @@
 
 - Listing: https://earn.superteam.fun/listings/bring-your-web2-ideas-onchain
 - Value: $5,000 USDC
-- Deadline: 19 days left (as of 2026-08-04 16:02 UTC)
-- Fit score: 2,667 — verified sponsor, low competition
+- Deadline: 18 days left (as of 2026-08-05 15:26 UTC)
+- Fit score: 2,500 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist

@@ -1,9 +1,9 @@
-# Draft pack — Write Twitter Thread: Dutch Solana Ecosystem & Superteam NL Progress
+# Draft pack — Twitter Post about NFT Locks on Streamflow
 
-- Listing: https://earn.superteam.fun/listings/write-twitter-thread-dutch-solana-ecosystem-and-superteam-nl-progress
-- Value: $1,000 USDG
-- Deadline: 5 days left (as of 2026-08-04 16:02 UTC)
-- Fit score: 873 — verified sponsor, low competition
+- Listing: https://earn.superteam.fun/listings/twitter-post-about-nft-locks-on-streamflow
+- Value: $500 USDC
+- Deadline: 23 days left (as of 2026-08-05 15:26 UTC)
+- Fit score: 1,200 — explicitly agent-allowed, low competition
 - First action: Draft thread outline and verify rules before posting.
 
 ## Go/no-go checklist
