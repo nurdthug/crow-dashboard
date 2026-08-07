@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07 14:18 UTC",
+  "generated_at": "2026-08-07 14:41 UTC",
   "reviewed": 34,
   "agent_allowed": 1,
   "recommendations": [
@@ -141,7 +141,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 5.4,
+      "days_left": 5.3,
       "competition": 9,
       "deadline": "2026-08-12T22:59:59.000Z",
       "source": "superteam-earn",
@@ -168,19 +168,19 @@
     {
       "title": "Build with Gemini XPRIZE",
       "url": "https://xprize.devpost.com/",
-      "competition": 24404,
+      "competition": 24405,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 13865,
+      "competition": 13871,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agentic Cinema: The Blockbuster Hackathon",
       "url": "https://agentic-cinema.devpost.com/",
-      "competition": 3993,
+      "competition": 4000,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -192,7 +192,7 @@
     {
       "title": "Build with DataHub: The Agent Hackathon",
       "url": "https://datahub.devpost.com/",
-      "competition": 2778,
+      "competition": 2777,
       "reason": "huge pool, but high visible competition"
     }
   ]

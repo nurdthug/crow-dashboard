@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/why-digital-credit-matters
 - Value: $2,000 USDC
-- Deadline: 20 days left (as of 2026-08-07 14:18 UTC)
+- Deadline: 20 days left (as of 2026-08-07 14:41 UTC)
 - Fit score: 1,500 — no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
