@@ -5,12 +5,12 @@
   "version": "0.4.1",
   "stableOrigin": "https://nurdthug.github.io/crow-dashboard",
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
-  "updatedAt": "2026-08-06T21:59:52.713Z",
+  "updatedAt": "2026-08-07T00:18:28.860Z",
   "backend": {
-    "baseUrl": "https://grip-pretty-revision-complications.trycloudflare.com",
+    "baseUrl": "https://senators-earthquake-dangerous-wishes.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://grip-pretty-revision-complications.trycloudflare.com/healthz",
+    "health": "https://senators-earthquake-dangerous-wishes.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -71,19 +71,19 @@
     }
   },
   "docs": {
-    "catalog": "https://grip-pretty-revision-complications.trycloudflare.com/catalog.json",
-    "openapi": "https://grip-pretty-revision-complications.trycloudflare.com/openapi.json",
-    "llms": "https://grip-pretty-revision-complications.trycloudflare.com/llms.txt",
-    "freeSample": "https://grip-pretty-revision-complications.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://grip-pretty-revision-complications.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://grip-pretty-revision-complications.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://grip-pretty-revision-complications.trycloudflare.com/state"
+    "catalog": "https://senators-earthquake-dangerous-wishes.trycloudflare.com/catalog.json",
+    "openapi": "https://senators-earthquake-dangerous-wishes.trycloudflare.com/openapi.json",
+    "llms": "https://senators-earthquake-dangerous-wishes.trycloudflare.com/llms.txt",
+    "freeSample": "https://senators-earthquake-dangerous-wishes.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://senators-earthquake-dangerous-wishes.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://senators-earthquake-dangerous-wishes.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://senators-earthquake-dangerous-wishes.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://grip-pretty-revision-complications.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://senators-earthquake-dangerous-wishes.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -95,7 +95,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://grip-pretty-revision-complications.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://senators-earthquake-dangerous-wishes.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
