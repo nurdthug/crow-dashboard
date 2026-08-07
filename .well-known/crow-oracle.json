@@ -5,12 +5,12 @@
   "version": "0.4.1",
   "stableOrigin": "https://nurdthug.github.io/crow-dashboard",
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
-  "updatedAt": "2026-08-07T01:59:26.464Z",
+  "updatedAt": "2026-08-07T06:49:23.609Z",
   "backend": {
-    "baseUrl": "https://midnight-although-lived-studio.trycloudflare.com",
+    "baseUrl": "https://aquarium-barriers-copying-java.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://midnight-although-lived-studio.trycloudflare.com/healthz",
+    "health": "https://aquarium-barriers-copying-java.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -71,19 +71,19 @@
     }
   },
   "docs": {
-    "catalog": "https://midnight-although-lived-studio.trycloudflare.com/catalog.json",
-    "openapi": "https://midnight-although-lived-studio.trycloudflare.com/openapi.json",
-    "llms": "https://midnight-although-lived-studio.trycloudflare.com/llms.txt",
-    "freeSample": "https://midnight-although-lived-studio.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://midnight-although-lived-studio.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://midnight-although-lived-studio.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://midnight-although-lived-studio.trycloudflare.com/state"
+    "catalog": "https://aquarium-barriers-copying-java.trycloudflare.com/catalog.json",
+    "openapi": "https://aquarium-barriers-copying-java.trycloudflare.com/openapi.json",
+    "llms": "https://aquarium-barriers-copying-java.trycloudflare.com/llms.txt",
+    "freeSample": "https://aquarium-barriers-copying-java.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://aquarium-barriers-copying-java.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://aquarium-barriers-copying-java.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://aquarium-barriers-copying-java.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://midnight-although-lived-studio.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://aquarium-barriers-copying-java.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -95,7 +95,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://midnight-although-lived-studio.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://aquarium-barriers-copying-java.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
