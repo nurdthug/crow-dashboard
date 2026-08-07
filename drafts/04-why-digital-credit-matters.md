@@ -1,9 +1,9 @@
-# Draft pack — Bring Your Web2 Ideas Onchain
+# Draft pack — Why Digital Credit Matters
 
-- Listing: https://earn.superteam.fun/listings/bring-your-web2-ideas-onchain
-- Value: $5,000 USDC
-- Deadline: 16 days left (as of 2026-08-07 14:18 UTC)
-- Fit score: 2,353 — verified sponsor, low competition
+- Listing: https://earn.superteam.fun/listings/why-digital-credit-matters
+- Value: $2,000 USDC
+- Deadline: 20 days left (as of 2026-08-07 14:18 UTC)
+- Fit score: 1,500 — no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
