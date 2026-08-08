@@ -1,9 +1,9 @@
-# Draft pack — Why Digital Credit Matters
+# Draft pack — $1,000 USDC Manic Bug Bounty
 
-- Listing: https://earn.superteam.fun/listings/why-digital-credit-matters
-- Value: $2,000 USDC
-- Deadline: 20 days left (as of 2026-08-07 14:41 UTC)
-- Fit score: 1,500 — no visible competition yet
+- Listing: https://earn.superteam.fun/listings/dollar1000-usdc-manic-bug-bounty
+- Value: $1,000 USDC
+- Deadline: 30 days left (as of 2026-08-08 13:56 UTC)
+- Fit score: 600 — low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
