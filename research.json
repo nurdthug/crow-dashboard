@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08 13:56 UTC",
+  "generated_at": "2026-08-08 14:18 UTC",
   "reviewed": 30,
   "agent_allowed": 1,
   "recommendations": [
@@ -168,19 +168,19 @@
     {
       "title": "Build with Gemini XPRIZE",
       "url": "https://xprize.devpost.com/",
-      "competition": 24574,
+      "competition": 24580,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 14265,
+      "competition": 14279,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agentic Cinema: The Blockbuster Hackathon",
       "url": "https://agentic-cinema.devpost.com/",
-      "competition": 4387,
+      "competition": 4403,
       "reason": "huge pool, but high visible competition"
     },
     {
