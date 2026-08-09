@@ -2,8 +2,8 @@
 
 - Listing: https://earn.superteam.fun/listings/dollar1000-usdc-manic-bug-bounty
 - Value: $1,000 USDC
-- Deadline: 29 days left (as of 2026-08-09 13:57 UTC)
-- Fit score: 600 — low competition
+- Deadline: 29 days left (as of 2026-08-09 14:20 UTC)
+- Fit score: 545 — low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09 13:57 UTC",
+  "generated_at": "2026-08-09 14:20 UTC",
   "reviewed": 31,
   "agent_allowed": 1,
   "recommendations": [
@@ -37,7 +37,7 @@
     },
     {
       "rank": 3,
-      "fit": 600.0,
+      "fit": 545.45,
       "title": "$1,000 USDC Manic Bug Bounty",
       "url": "https://earn.superteam.fun/listings/dollar1000-usdc-manic-bug-bounty",
       "value_usd": 1000.0,
@@ -46,14 +46,14 @@
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
       "days_left": 28.7,
-      "competition": 2,
+      "competition": 3,
       "deadline": "2026-09-07T06:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
     {
       "rank": 4,
-      "fit": 500.0,
+      "fit": 470.59,
       "title": "Develop Solana Ecosystem Auto-Updating Report & Interactive Dashboard",
       "url": "https://earn.superteam.fun/listings/develop-solana-ecosystem-auto-updating-report-and-interactive-dashboard",
       "value_usd": 1000.0,
@@ -62,7 +62,7 @@
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
       "days_left": 8.6,
-      "competition": 8,
+      "competition": 9,
       "deadline": "2026-08-18T03:59:59.999Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -133,22 +133,6 @@
     },
     {
       "rank": 9,
-      "fit": 272.73,
-      "title": "Why Digital Credit Matters",
-      "url": "https://earn.superteam.fun/listings/why-digital-credit-matters",
-      "value_usd": 2000.0,
-      "token": "USDC",
-      "why": "reasonable EV after competition/deadline adjustment",
-      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
-      "effort": "medium",
-      "days_left": 17.7,
-      "competition": 36,
-      "deadline": "2026-08-27T06:59:59.999Z",
-      "source": "superteam-earn",
-      "agent_access": "HUMAN_ONLY"
-    },
-    {
-      "rank": 10,
       "fit": 266.67,
       "title": "Linkedin Post About Solana Summit Serbia",
       "url": "https://earn.superteam.fun/listings/linkedin-post-about-solana-summit-serbia",
@@ -162,25 +146,41 @@
       "deadline": "2026-08-13T20:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 10,
+      "fit": 266.67,
+      "title": "Why Digital Credit Matters",
+      "url": "https://earn.superteam.fun/listings/why-digital-credit-matters",
+      "value_usd": 2000.0,
+      "token": "USDC",
+      "why": "reasonable EV after competition/deadline adjustment",
+      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
+      "effort": "medium",
+      "days_left": 17.7,
+      "competition": 37,
+      "deadline": "2026-08-27T06:59:59.999Z",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
     }
   ],
   "avoid_first": [
     {
       "title": "Build with Gemini XPRIZE",
       "url": "https://xprize.devpost.com/",
-      "competition": 24736,
+      "competition": 24741,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 14620,
+      "competition": 14633,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agentic Cinema: The Blockbuster Hackathon",
       "url": "https://agentic-cinema.devpost.com/",
-      "competition": 4787,
+      "competition": 4807,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -192,7 +192,7 @@
     {
       "title": "CALL-E: Your Code Is Calling",
       "url": "https://call-e.devpost.com/",
-      "competition": 1983,
+      "competition": 1985,
       "reason": "huge pool, but high visible competition"
     }
   ]

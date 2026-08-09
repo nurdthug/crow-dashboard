@@ -17,7 +17,7 @@
   "token": "USDC",
   "fit": 2222.22,
   "kind": "generic",
-  "days_left": 14.126496826377315
+  "days_left": 14.110877742627315
  },
  {
   "file": "drafts/03-revenuecat-shipaton-2026.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 1000.0,
   "kind": "writing",
-  "days_left": 8.58484172221065
+  "days_left": 8.569222638460648
  },
  {
   "file": "drafts/05-1-000-usdc-manic-bug-bounty.md",
@@ -45,8 +45,8 @@
   "url": "https://earn.superteam.fun/listings/dollar1000-usdc-manic-bug-bounty",
   "value_usd": 1000.0,
   "token": "USDC",
-  "fit": 600.0,
+  "fit": 545.45,
   "kind": "generic",
-  "days_left": 28.70983015971065
+  "days_left": 28.694211075960645
  }
 ]
