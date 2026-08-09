@@ -7,7 +7,7 @@
   "token": "USD",
   "fit": 7000.0,
   "kind": "build",
-  "days_left": 9.0
+  "days_left": 8.0
  },
  {
   "file": "drafts/02-bring-your-web2-ideas-onchain.md",
@@ -17,7 +17,7 @@
   "token": "USDC",
   "fit": 2222.22,
   "kind": "generic",
-  "days_left": 15.11246297707176
+  "days_left": 14.126496826377315
  },
  {
   "file": "drafts/03-revenuecat-shipaton-2026.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 1000.0,
   "kind": "writing",
-  "days_left": 9.570807872905092
+  "days_left": 8.58484172221065
  },
  {
   "file": "drafts/05-1-000-usdc-manic-bug-bounty.md",
@@ -47,6 +47,6 @@
   "token": "USDC",
   "fit": 600.0,
   "kind": "generic",
-  "days_left": 29.695796310405093
+  "days_left": 28.70983015971065
  }
 ]

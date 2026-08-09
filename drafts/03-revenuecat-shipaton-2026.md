@@ -2,7 +2,7 @@
 
 - Listing: https://revenuecat-shipaton-2026.devpost.com/
 - Value: $685,000 USD
-- Deadline: 60 days left (as of 2026-08-08 14:18 UTC)
+- Deadline: 60 days left (as of 2026-08-09 13:57 UTC)
 - Fit score: 1,798 — reasonable EV after competition/deadline adjustment
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
