@@ -5,12 +5,12 @@
   "version": "0.4.1",
   "stableOrigin": "https://nurdthug.github.io/crow-dashboard",
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
-  "updatedAt": "2026-08-10T00:49:43.293Z",
+  "updatedAt": "2026-08-10T06:18:19.855Z",
   "backend": {
-    "baseUrl": "https://according-circulation-combination-amanda.trycloudflare.com",
+    "baseUrl": "https://mostly-school-best-tries.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://according-circulation-combination-amanda.trycloudflare.com/healthz",
+    "health": "https://mostly-school-best-tries.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -71,19 +71,19 @@
     }
   },
   "docs": {
-    "catalog": "https://according-circulation-combination-amanda.trycloudflare.com/catalog.json",
-    "openapi": "https://according-circulation-combination-amanda.trycloudflare.com/openapi.json",
-    "llms": "https://according-circulation-combination-amanda.trycloudflare.com/llms.txt",
-    "freeSample": "https://according-circulation-combination-amanda.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://according-circulation-combination-amanda.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://according-circulation-combination-amanda.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://according-circulation-combination-amanda.trycloudflare.com/state"
+    "catalog": "https://mostly-school-best-tries.trycloudflare.com/catalog.json",
+    "openapi": "https://mostly-school-best-tries.trycloudflare.com/openapi.json",
+    "llms": "https://mostly-school-best-tries.trycloudflare.com/llms.txt",
+    "freeSample": "https://mostly-school-best-tries.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://mostly-school-best-tries.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://mostly-school-best-tries.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://mostly-school-best-tries.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://according-circulation-combination-amanda.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://mostly-school-best-tries.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -95,7 +95,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://according-circulation-combination-amanda.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://mostly-school-best-tries.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
