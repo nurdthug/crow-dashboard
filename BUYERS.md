@@ -65,6 +65,19 @@ curl -fsS "$SAMPLE"
 The sample shows the response shape. It is not billable and is not a live token
 verdict.
 
+Look for these fields before moving to payment:
+
+```json
+{
+  "service": "crow-oracle",
+  "sample": true,
+  "billable": false,
+  "liveChainQuery": false,
+  "paidResourceTemplate": "https://<current-backend>/check/{mint}",
+  "priceUSDC": 0.03
+}
+```
+
 ## 4. Get an unpaid quote
 
 Token risk example:
@@ -75,11 +88,21 @@ BASE=$(node -e 'fetch("https://nurdthug.github.io/crow-dashboard/oracle.json").t
 curl -i "$BASE/check/$MINT"
 ```
 
+Lending health example:
+
+```bash
+WALLET=11111111111111111111111111111111
+BASE=$(node -e 'fetch("https://nurdthug.github.io/crow-dashboard/oracle.json").then(r=>r.json()).then(j=>console.log(j.backend.baseUrl))')
+curl -i "$BASE/health/$WALLET"
+```
+
 Expected result:
 
 - HTTP `402`
 - legacy x402 v1 quote body
 - x402 v2 `PAYMENT-REQUIRED` challenge header
+- `maxAmountRequired` of `30000` for token risk or `50000` for lending health
+- v2 challenge with `amount` of `30000` for token risk or `50000` for lending health
 
 ## 5. Pay the exact resource
 
