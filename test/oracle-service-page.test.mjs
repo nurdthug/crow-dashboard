@@ -183,6 +183,37 @@ test("service page fails closed before reachability on a rebound live resource",
   }
 });
 
+test("service page fails closed on a credential-bearing same-origin live resource", async () => {
+  const backend = "https://unit-test.trycloudflare.com";
+  const beacon = validBeacon({
+    docs: {
+      ...validBeacon().docs,
+      freeSample: `https://buyer:secret@${new URL(backend).hostname}/sample/token-risk`,
+    },
+  });
+  let calls = 0;
+  const harness = await runServiceScript(async (url) => {
+    calls += 1;
+    assert.equal(
+      url,
+      "https://nurdthug.github.io/crow-dashboard/oracle.json",
+      "must not probe a credential-bearing backend URL before rejecting it",
+    );
+    return { ok: true, json: async () => beacon };
+  });
+
+  assert.equal(calls, 1);
+  assert.equal(harness.dot.className, "dot failed");
+  assert.equal(
+    harness.healthCopy.textContent,
+    "Public backend unavailable; use the stable beacon before payment",
+  );
+  for (const link of Object.values(harness.links)) {
+    assert.equal(link.href, "../oracle.json");
+    assert.equal(link.getAttribute("aria-disabled"), "true");
+  }
+});
+
 test("dashboard and sitemap expose the service page", async () => {
   const [dashboard, sitemap] = await Promise.all([
     text("index.html"),
