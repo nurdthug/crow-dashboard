@@ -5,12 +5,12 @@
   "version": "0.4.1",
   "stableOrigin": "https://nurdthug.github.io/crow-dashboard",
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
-  "updatedAt": "2026-08-11T12:15:18.251Z",
+  "updatedAt": "2026-08-12T07:49:45.524Z",
   "backend": {
-    "baseUrl": "https://hosting-affiliates-greatest-assured.trycloudflare.com",
+    "baseUrl": "https://operated-repairs-zope-ricky.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://hosting-affiliates-greatest-assured.trycloudflare.com/healthz",
+    "health": "https://operated-repairs-zope-ricky.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -71,19 +71,19 @@
     }
   },
   "docs": {
-    "catalog": "https://hosting-affiliates-greatest-assured.trycloudflare.com/catalog.json",
-    "openapi": "https://hosting-affiliates-greatest-assured.trycloudflare.com/openapi.json",
-    "llms": "https://hosting-affiliates-greatest-assured.trycloudflare.com/llms.txt",
-    "freeSample": "https://hosting-affiliates-greatest-assured.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://hosting-affiliates-greatest-assured.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://hosting-affiliates-greatest-assured.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://hosting-affiliates-greatest-assured.trycloudflare.com/state"
+    "catalog": "https://operated-repairs-zope-ricky.trycloudflare.com/catalog.json",
+    "openapi": "https://operated-repairs-zope-ricky.trycloudflare.com/openapi.json",
+    "llms": "https://operated-repairs-zope-ricky.trycloudflare.com/llms.txt",
+    "freeSample": "https://operated-repairs-zope-ricky.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://operated-repairs-zope-ricky.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://operated-repairs-zope-ricky.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://operated-repairs-zope-ricky.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://hosting-affiliates-greatest-assured.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://operated-repairs-zope-ricky.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -95,7 +95,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://hosting-affiliates-greatest-assured.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://operated-repairs-zope-ricky.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
