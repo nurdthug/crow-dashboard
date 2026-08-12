@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crow Oracle | Solana token risk and lending health API</title>
+<meta name="description" content="Account-less Solana token risk and lending health checks through legacy x402 v1 direct USDC settlement, with a free sample and offline receipt verification.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://nurdthug.github.io/crow-dashboard/oracle/">
+<link rel="alternate" type="application/json" href="../oracle.json" title="Crow Oracle machine discovery">
+<link rel="alternate" type="text/plain" href="../llms.txt" title="Crow Oracle agent context">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Crow Oracle | Solana risk API">
+<meta property="og:description" content="Token risk and lending health checks with account-less legacy x402 v1 direct Solana USDC settlement.">
+<meta property="og:url" content="https://nurdthug.github.io/crow-dashboard/oracle/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Crow Oracle",
+  "url": "https://nurdthug.github.io/crow-dashboard/oracle/",
+  "description": "Account-less Solana token risk and lending health checks through legacy x402 v1 direct USDC settlement.",
+  "serviceType": "Solana token risk and lending health API",
+  "provider": {
+    "@type": "Organization",
+    "name": "Crow Network",
+    "url": "https://nurdthug.github.io/crow-dashboard/"
+  },
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Solana token risk verdict",
+      "price": "0.03",
+      "priceCurrency": "USDC"
+    },
+    {
+      "@type": "Offer",
+      "name": "Solana lending health check",
+      "price": "0.05",
+      "priceCurrency": "USDC"
+    }
+  ]
+}
+</script>
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: #0b0e13;
+    --surface: #131821;
+    --surface-2: #181f2a;
+    --line: #293241;
+    --text: #eef2f7;
+    --muted: #9ba7b8;
+    --green: #4cdb9b;
+    --cyan: #5cc8e8;
+    --amber: #f2b35d;
+    --red: #ff7a7a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 15px/1.55 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  a { color: inherit; }
+  .shell { width: min(1040px, calc(100% - 40px)); margin: 0 auto; }
+  header { border-bottom: 1px solid var(--line); }
+  header .shell {
+    min-height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .network { text-decoration: none; font-weight: 680; }
+  .header-links { display: flex; flex-wrap: wrap; gap: 18px; }
+  .header-links a { color: var(--muted); font-size: 13px; text-decoration: none; }
+  main { padding: 58px 0 36px; }
+  .intro { max-width: 800px; padding-bottom: 48px; }
+  .eyebrow {
+    color: var(--green);
+    font: 650 12px/1.3 ui-monospace, SFMono-Regular, Menlo, monospace;
+    text-transform: uppercase;
+    letter-spacing: 0;
+  }
+  h1 { margin: 10px 0 14px; font-size: 68px; line-height: 1; letter-spacing: 0; }
+  .lead { max-width: 720px; margin: 0; color: #c4ceda; font-size: 20px; }
+  .status-row { display: flex; align-items: center; gap: 10px; margin-top: 22px; color: var(--muted); font-size: 13px; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--amber); flex: 0 0 auto; }
+  .dot.live { background: var(--green); }
+  .dot.failed { background: var(--red); }
+  .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
+  .action {
+    min-height: 40px;
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 9px 13px;
+    background: var(--surface);
+    text-decoration: none;
+    font-weight: 650;
+    font-size: 13px;
+  }
+  .action.primary { border-color: #34785d; color: var(--green); }
+  .action[aria-disabled="true"] { color: var(--muted); }
+  section.band { border-top: 1px solid var(--line); padding: 34px 0; }
+  .section-head { display: grid; grid-template-columns: 180px 1fr; gap: 28px; align-items: start; }
+  h2 { margin: 0; font-size: 15px; letter-spacing: 0; }
+  .product-list { display: grid; gap: 10px; }
+  .product {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 24px;
+    padding: 18px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: var(--surface);
+  }
+  .product h3 { margin: 0 0 5px; font-size: 16px; }
+  .product p { margin: 0; color: var(--muted); }
+  .price { color: var(--cyan); font: 700 17px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; white-space: nowrap; }
+  dl { display: grid; grid-template-columns: 1fr 1fr; margin: 0; border-top: 1px solid var(--line); }
+  dl div { padding: 15px 0; border-bottom: 1px solid var(--line); }
+  dl div:nth-child(odd) { padding-right: 24px; }
+  dt { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0; }
+  dd { margin: 4px 0 0; font-weight: 620; }
+  .machine-url { color: var(--cyan); overflow-wrap: anywhere; font: 13px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; }
+  footer { border-top: 1px solid var(--line); padding: 22px 0 34px; color: var(--muted); font-size: 12px; }
+  @media (max-width: 720px) {
+    .shell { width: min(100% - 28px, 1040px); }
+    header .shell { align-items: flex-start; flex-direction: column; justify-content: center; padding: 14px 0; }
+    main { padding-top: 38px; }
+    h1 { font-size: 44px; }
+    .lead { font-size: 17px; }
+    .section-head { grid-template-columns: 1fr; gap: 18px; }
+    .product { grid-template-columns: 1fr; gap: 10px; }
+    dl { grid-template-columns: 1fr; }
+    dl div:nth-child(odd) { padding-right: 0; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="shell">
+    <a class="network" href="../">Crow Network</a>
+    <nav class="header-links" aria-label="Machine resources">
+      <a href="../oracle.json">Discovery JSON</a>
+      <a href="../llms.txt">llms.txt</a>
+    </nav>
+  </div>
+</header>
+<main class="shell">
+  <section class="intro" aria-labelledby="service-title">
+    <div class="eyebrow">Account-less Solana API</div>
+    <h1 id="service-title">Crow Oracle</h1>
+    <p class="lead">Token risk and lending health checks delivered through legacy x402 v1 direct Solana USDC settlement.</p>
+    <div class="status-row" role="status" aria-live="polite">
+      <span class="dot" id="health-dot"></span>
+      <span id="health-copy">Checking the public backend</span>
+    </div>
+    <nav class="actions" aria-label="Oracle evaluation and buyer resources">
+      <a class="action primary" data-live="sample" href="../oracle.json" aria-disabled="true">Free sample</a>
+      <a class="action" data-live="catalog" href="../oracle.json" aria-disabled="true">Live catalog</a>
+      <a class="action" data-live="client" href="../oracle.json" aria-disabled="true">Buyer client</a>
+      <a class="action" data-live="verifier" href="../oracle.json" aria-disabled="true">Receipt verifier</a>
+    </nav>
+  </section>
+
+  <section class="band section-head" aria-labelledby="products-title">
+    <h2 id="products-title">Products</h2>
+    <div class="product-list">
+      <article class="product">
+        <div>
+          <h3>Solana token risk verdict</h3>
+          <p>Red, amber, or green token risk result with concise reasons.</p>
+        </div>
+        <div class="price">0.03 USDC</div>
+      </article>
+      <article class="product">
+        <div>
+          <h3>Solana lending health check</h3>
+          <p>Kamino position health and liquidation-risk signals.</p>
+        </div>
+        <div class="price">0.05 USDC</div>
+      </article>
+    </div>
+  </section>
+
+  <section class="band section-head" aria-labelledby="contract-title">
+    <h2 id="contract-title">Service contract</h2>
+    <dl>
+      <div><dt>Protocol</dt><dd>Legacy x402 v1</dd></div>
+      <div><dt>Network</dt><dd>Solana mainnet</dd></div>
+      <div><dt>Asset</dt><dd>USDC, 6 decimals</dd></div>
+      <div><dt>Settlement</dt><dd>Direct to authorized receive address</dd></div>
+      <div><dt>Buyer account</dt><dd>Not required</dd></div>
+      <div><dt>Receipt verification</dt><dd>Offline, zero dependency</dd></div>
+    </dl>
+  </section>
+
+  <section class="band section-head" aria-labelledby="discovery-title">
+    <h2 id="discovery-title">Stable discovery</h2>
+    <div>
+      <a class="machine-url" href="../oracle.json">https://nurdthug.github.io/crow-dashboard/oracle.json</a>
+      <p style="color:var(--muted);margin:10px 0 0">The stable beacon names the current temporary backend. Buyers must recheck backend health and the unpaid quote before transmitting payment.</p>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="shell">Only independently verified settlement signatures count as revenue.</div>
+</footer>
+<script>
+const BEACON_URL = "https://nurdthug.github.io/crow-dashboard/oracle.json";
+const liveLinks = {
+  sample: document.querySelector('[data-live="sample"]'),
+  catalog: document.querySelector('[data-live="catalog"]'),
+  client: document.querySelector('[data-live="client"]'),
+  verifier: document.querySelector('[data-live="verifier"]'),
+};
+const dot = document.getElementById("health-dot");
+const healthCopy = document.getElementById("health-copy");
+
+function sameSecureOrigin(candidate, backend) {
+  const url = new URL(candidate);
+  return url.protocol === "https:" && !url.username && !url.password && url.origin === backend.origin ? url.href : null;
+}
+
+function failClosed(message) {
+  dot.className = "dot failed";
+  healthCopy.textContent = message;
+  for (const link of Object.values(liveLinks)) {
+    link.href = "../oracle.json";
+    link.setAttribute("aria-disabled", "true");
+  }
+}
+
+async function refreshBackend() {
+  try {
+    const response = await fetch(BEACON_URL, { cache: "no-store" });
+    if (!response.ok) throw new Error("stable beacon unavailable");
+    const beacon = await response.json();
+    if (beacon.service !== "crow-oracle" || beacon.payment?.protocol !== "x402" || beacon.payment?.wireVersion !== 1) {
+      throw new Error("stable beacon contract mismatch");
+    }
+    if (beacon.backend?.permanent !== false) throw new Error("backend class mismatch");
+    const backend = new URL(beacon.backend.baseUrl);
+    if (backend.protocol !== "https:" || backend.username || backend.password) throw new Error("backend is not safe HTTPS");
+    const expectedProducts = new Map([
+      ["token-risk-check", "30000"],
+      ["lending-health", "50000"],
+    ]);
+    if (beacon.products?.length !== expectedProducts.size || beacon.products.some((product) => expectedProducts.get(product.id) !== product.price?.amountBaseUnits)) {
+      throw new Error("published product contract mismatch");
+    }
+    const targets = {
+      sample: sameSecureOrigin(beacon.docs?.freeSample, backend),
+      catalog: sameSecureOrigin(beacon.docs?.catalog, backend),
+      client: sameSecureOrigin(beacon.docs?.buyerClient, backend),
+      verifier: sameSecureOrigin(beacon.docs?.receiptVerifier, backend),
+      health: sameSecureOrigin(beacon.backend?.health, backend),
+    };
+    if (Object.values(targets).some((value) => !value)) throw new Error("live resource binding mismatch");
+    const healthResponse = await fetch(targets.health, {
+      cache: "no-store",
+      mode: "no-cors",
+      redirect: "error",
+    });
+    if (healthResponse.type !== "opaque" && !healthResponse.ok) throw new Error("public backend unavailable");
+    for (const [name, link] of Object.entries(liveLinks)) {
+      link.href = targets[name];
+      link.setAttribute("aria-disabled", "false");
+    }
+    dot.className = "dot live";
+    healthCopy.textContent = `Public backend reachable at ${backend.hostname}; verify the live unpaid quote before payment`;
+  } catch (error) {
+    failClosed("Public backend unavailable; use the stable beacon before payment");
+  }
+}
+
+refreshBackend();
+</script>
+</body>
+</html>
