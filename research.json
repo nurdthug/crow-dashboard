@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-11 14:45 UTC",
-  "reviewed": 30,
+  "generated_at": "2026-08-12 14:31 UTC",
+  "reviewed": 32,
   "agent_allowed": 1,
   "recommendations": [
     {
@@ -13,7 +13,7 @@
       "why": "verified sponsor",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 12.1,
+      "days_left": 11.1,
       "competition": 13,
       "deadline": "2026-08-23T16:59:59.000Z",
       "source": "superteam-earn",
@@ -22,6 +22,22 @@
     {
       "rank": 2,
       "fit": 1000.0,
+      "title": "Solana Developer Challenge: Anchor Flash Loan",
+      "url": "https://earn.superteam.fun/listings/solana-developer-challenge-anchor-flash-loan",
+      "value_usd": 1000.0,
+      "token": "USDG",
+      "why": "verified sponsor, no visible competition yet",
+      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
+      "effort": "high",
+      "days_left": 11.3,
+      "competition": 0,
+      "deadline": "2026-08-23T21:59:59.000Z",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 3,
+      "fit": 1000.0,
       "title": "Provide a Report on Solana Communities Based on Direct Engagement",
       "url": "https://earn.superteam.fun/listings/provide-a-report-on-solana-communities-based-on-direct-engagement",
       "value_usd": 1000.0,
@@ -29,14 +45,14 @@
       "why": "verified sponsor, no visible competition yet",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 20.6,
+      "days_left": 19.6,
       "competition": 0,
       "deadline": "2026-09-01T03:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "fit": 444.44,
       "title": "Develop Solana Ecosystem Auto-Updating Report & Interactive Dashboard",
       "url": "https://earn.superteam.fun/listings/develop-solana-ecosystem-auto-updating-report-and-interactive-dashboard",
@@ -45,14 +61,14 @@
       "why": "verified sponsor",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 20.6,
+      "days_left": 19.6,
       "competition": 10,
       "deadline": "2026-09-01T03:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "fit": 400.0,
       "title": "Superteam Nepal Creator Bounty: The Superteam Story",
       "url": "https://earn.superteam.fun/listings/superteam-nepal-creator-bounty-the-superteam-story",
@@ -61,15 +77,15 @@
       "why": "verified sponsor, no visible competition yet",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 10.1,
+      "days_left": 9.2,
       "competition": 0,
       "deadline": "2026-08-21T18:14:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
     {
-      "rank": 5,
-      "fit": 360.0,
+      "rank": 6,
+      "fit": 346.15,
       "title": "Create The Best X Thread About My Crypto Casino",
       "url": "https://earn.superteam.fun/listings/create-the-best-x-thread-about-my-crypto-casino",
       "value_usd": 1500.0,
@@ -77,31 +93,31 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 24.3,
-      "competition": 17,
+      "days_left": 23.3,
+      "competition": 18,
       "deadline": "2026-09-04T21:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
     {
-      "rank": 6,
-      "fit": 352.94,
+      "rank": 7,
+      "fit": 300.0,
       "title": "$1,000 USDC Manic Bug Bounty",
       "url": "https://earn.superteam.fun/listings/dollar1000-usdc-manic-bug-bounty",
       "value_usd": 1000.0,
       "token": "USDC",
-      "why": "low competition",
+      "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 26.7,
-      "competition": 9,
+      "days_left": 25.7,
+      "competition": 12,
       "deadline": "2026-09-07T06:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
     {
-      "rank": 7,
-      "fit": 337.49,
+      "rank": 8,
+      "fit": 300.0,
       "title": "Twitter Post about NFT Locks on Streamflow",
       "url": "https://earn.superteam.fun/listings/twitter-post-about-nft-locks-on-streamflow",
       "value_usd": 500.0,
@@ -109,30 +125,30 @@
       "why": "explicitly agent-allowed",
       "next_step": "Draft thread outline and verify rules before posting.",
       "effort": "low-medium",
-      "days_left": 17.3,
-      "competition": 24,
+      "days_left": 16.3,
+      "competition": 28,
       "deadline": "2026-08-28T21:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "AGENT_ALLOWED"
     },
     {
-      "rank": 8,
-      "fit": 300.0,
+      "rank": 9,
+      "fit": 218.18,
       "title": "Explain Solana to Crypto Beginners",
       "url": "https://earn.superteam.fun/listings/explain-solana-to-crypto-beginners",
       "value_usd": 300.0,
       "token": "USDG",
-      "why": "verified sponsor, no visible competition yet",
+      "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 7.3,
-      "competition": 0,
+      "days_left": 6.3,
+      "competition": 3,
       "deadline": "2026-08-18T20:59:59.999Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "fit": 205.0,
       "title": "Superteam Nepal Ambassador Campaign",
       "url": "https://earn.superteam.fun/listings/superteam-nepal-ambassador-campaign",
@@ -141,25 +157,9 @@
       "why": "verified sponsor, no visible competition yet",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 20.1,
+      "days_left": 19.2,
       "competition": 0,
       "deadline": "2026-08-31T18:14:59.999Z",
-      "source": "superteam-earn",
-      "agent_access": "HUMAN_ONLY"
-    },
-    {
-      "rank": 10,
-      "fit": 144.58,
-      "title": "Why Digital Credit Matters",
-      "url": "https://earn.superteam.fun/listings/why-digital-credit-matters",
-      "value_usd": 2000.0,
-      "token": "USDC",
-      "why": "reasonable EV after competition/deadline adjustment",
-      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
-      "effort": "medium",
-      "days_left": 15.7,
-      "competition": 75,
-      "deadline": "2026-08-27T06:59:59.999Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     }
@@ -168,31 +168,31 @@
     {
       "title": "Build with Gemini XPRIZE",
       "url": "https://xprize.devpost.com/",
-      "competition": 25162,
+      "competition": 25350,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 15468,
+      "competition": 15913,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "All Things Agentic Hackathon",
       "url": "https://allthingsagentichackathon.devpost.com/",
-      "competition": 1594,
+      "competition": 1905,
+      "reason": "huge pool, but high visible competition"
+    },
+    {
+      "title": "Agents for Humans Hackathon",
+      "url": "https://agentsforhumans.devpost.com/",
+      "competition": 1019,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agentic Cinema: The Blockbuster Hackathon",
       "url": "https://agentic-cinema.devpost.com/",
-      "competition": 5382,
-      "reason": "huge pool, but high visible competition"
-    },
-    {
-      "title": "Africa Deep Tech Challenge 2026",
-      "url": "https://adtc-2026.devpost.com/",
-      "competition": 1582,
+      "competition": 5568,
       "reason": "huge pool, but high visible competition"
     }
   ]

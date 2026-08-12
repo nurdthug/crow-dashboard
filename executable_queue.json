@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-11T14:45:28+00:00",
+ "generated": "2026-08-12T14:31:56+00:00",
  "count": 6,
  "items": [
   {
@@ -49,15 +49,15 @@
    "url": "https://earn.superteam.fun/listings/twitter-post-about-nft-locks-on-streamflow",
    "value_usd": 500.0,
    "token": "USDC",
-   "days_left": 17.30178875824074,
+   "days_left": 16.311183146666664,
    "small": true
   },
   {
    "lane": "github_pr",
-   "title": "Add JSDoc to userService",
-   "url": "https://github.com/xevrion-v2/agent-playground/issues/1",
+   "title": "Fix typo in README",
+   "url": "https://github.com/xevrion-v2/agent-playground/issues/2",
    "repo": "xevrion-v2/agent-playground",
-   "issue_number": 1,
+   "issue_number": 2,
    "value_usd": 50,
    "labels": [
     "good first issue",
@@ -71,10 +71,10 @@
   },
   {
    "lane": "github_pr",
-   "title": "Fix typo in README",
-   "url": "https://github.com/xevrion-v2/agent-playground/issues/2",
+   "title": "Add JSDoc to userService",
+   "url": "https://github.com/xevrion-v2/agent-playground/issues/1",
    "repo": "xevrion-v2/agent-playground",
-   "issue_number": 2,
+   "issue_number": 1,
    "value_usd": 50,
    "labels": [
     "good first issue",

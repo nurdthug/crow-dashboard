@@ -7,7 +7,7 @@
   "token": "USD",
   "fit": 7000.0,
   "kind": "build",
-  "days_left": 6.0
+  "days_left": 5.0
  },
  {
   "file": "drafts/02-bring-your-web2-ideas-onchain.md",
@@ -17,7 +17,7 @@
   "token": "USDC",
   "fit": 1904.76,
   "kind": "generic",
-  "days_left": 12.093455424907408
+  "days_left": 11.102849813333334
  },
  {
   "file": "drafts/03-revenuecat-shipaton-2026.md",
@@ -37,16 +37,16 @@
   "token": "USD",
   "fit": 1260.0,
   "kind": "build",
-  "days_left": 20.0
+  "days_left": 19.0
  },
  {
-  "file": "drafts/05-provide-a-report-on-solana-communities-based-on-direct-engag.md",
-  "title": "Provide a Report on Solana Communities Based on Direct Engagement",
-  "url": "https://earn.superteam.fun/listings/provide-a-report-on-solana-communities-based-on-direct-engagement",
+  "file": "drafts/05-solana-developer-challenge-anchor-flash-loan.md",
+  "title": "Solana Developer Challenge: Anchor Flash Loan",
+  "url": "https://earn.superteam.fun/listings/solana-developer-challenge-anchor-flash-loan",
   "value_usd": 1000.0,
   "token": "USDG",
   "fit": 1000.0,
-  "kind": "writing",
-  "days_left": 20.55178875824074
+  "kind": "build",
+  "days_left": 11.311183146666666
  }
 ]

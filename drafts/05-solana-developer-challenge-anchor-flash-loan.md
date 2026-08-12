@@ -1,10 +1,10 @@
-# Draft pack — All Things Agentic Hackathon
+# Draft pack — Solana Developer Challenge: Anchor Flash Loan
 
-- Listing: https://allthingsagentichackathon.devpost.com/
-- Value: $180,000 USD
-- Deadline: 19 days left (as of 2026-08-12 14:31 UTC)
-- Fit score: 1,260 — verified sponsor
-- First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
+- Listing: https://earn.superteam.fun/listings/solana-developer-challenge-anchor-flash-loan
+- Value: $1,000 USDG
+- Deadline: 11 days left (as of 2026-08-12 14:31 UTC)
+- Fit score: 1,000 — verified sponsor, no visible competition yet
+- First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
 - [ ] Read full rules & eligibility (region, KYC, team size)
