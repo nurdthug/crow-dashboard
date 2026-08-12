@@ -17,7 +17,7 @@
   "token": "USDC",
   "fit": 1904.76,
   "kind": "generic",
-  "days_left": 11.102849813333334
+  "days_left": 11.093316253518518
  },
  {
   "file": "drafts/03-revenuecat-shipaton-2026.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 1000.0,
   "kind": "build",
-  "days_left": 11.311183146666666
+  "days_left": 11.301649586851852
  }
 ]
