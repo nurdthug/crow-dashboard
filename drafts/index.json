@@ -7,7 +7,7 @@
   "token": "USD",
   "fit": 7000.0,
   "kind": "build",
-  "days_left": 5.0
+  "days_left": 4.0
  },
  {
   "file": "drafts/02-bring-your-web2-ideas-onchain.md",
@@ -17,7 +17,7 @@
   "token": "USDC",
   "fit": 1904.76,
   "kind": "generic",
-  "days_left": 11.093316253518518
+  "days_left": 10.102145769722222
  },
  {
   "file": "drafts/03-revenuecat-shipaton-2026.md",
@@ -30,23 +30,23 @@
   "days_left": 60.0
  },
  {
-  "file": "drafts/04-all-things-agentic-hackathon.md",
-  "title": "All Things Agentic Hackathon",
-  "url": "https://allthingsagentichackathon.devpost.com/",
-  "value_usd": 180000.0,
-  "token": "USD",
-  "fit": 1260.0,
-  "kind": "build",
-  "days_left": 19.0
- },
- {
-  "file": "drafts/05-solana-developer-challenge-anchor-flash-loan.md",
+  "file": "drafts/04-solana-developer-challenge-anchor-flash-loan.md",
   "title": "Solana Developer Challenge: Anchor Flash Loan",
   "url": "https://earn.superteam.fun/listings/solana-developer-challenge-anchor-flash-loan",
   "value_usd": 1000.0,
   "token": "USDG",
   "fit": 1000.0,
   "kind": "build",
-  "days_left": 11.301649586851852
+  "days_left": 10.310479103055556
+ },
+ {
+  "file": "drafts/05-provide-a-report-on-solana-communities-based-on-direct-engag.md",
+  "title": "Provide a Report on Solana Communities Based on Direct Engagement",
+  "url": "https://earn.superteam.fun/listings/provide-a-report-on-solana-communities-based-on-direct-engagement",
+  "value_usd": 1000.0,
+  "token": "USDG",
+  "fit": 1000.0,
+  "kind": "writing",
+  "days_left": 18.560479103055556
  }
 ]
