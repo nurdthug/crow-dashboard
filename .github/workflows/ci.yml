@@ -1,6 +1,8 @@
 name: ci
 
 on:
+  schedule:
+    - cron: "17 */6 * * *"
   push:
     branches: ["main"]
   pull_request:
@@ -23,6 +25,15 @@ jobs:
           sudo apt-get install -y zsh
       - name: Run protocol and discovery tests
         run: npm test
+
+  live-contract:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
       - name: Seed live backend URL from committed beacon
         run: node -e 'const fs=require("node:fs"); const beacon=require("./oracle.json"); fs.writeFileSync("/tmp/crow-oracle-public-url", beacon.backend.baseUrl + "\n");'
       - name: Check live beacon contract
