@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13 14:32 UTC",
+  "generated_at": "2026-08-13 14:46 UTC",
   "reviewed": 32,
   "agent_allowed": 2,
   "recommendations": [
@@ -77,7 +77,7 @@
       "why": "verified sponsor, no visible competition yet",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 8.2,
+      "days_left": 8.1,
       "competition": 0,
       "deadline": "2026-08-21T18:14:59.000Z",
       "source": "superteam-earn",
@@ -157,7 +157,7 @@
       "why": "verified sponsor, no visible competition yet",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 18.2,
+      "days_left": 18.1,
       "competition": 0,
       "deadline": "2026-08-31T18:14:59.999Z",
       "source": "superteam-earn",
@@ -168,31 +168,31 @@
     {
       "title": "Build with Gemini XPRIZE",
       "url": "https://xprize.devpost.com/",
-      "competition": 25521,
+      "competition": 25523,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 16249,
+      "competition": 16255,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "All Things Agentic Hackathon",
       "url": "https://allthingsagentichackathon.devpost.com/",
-      "competition": 2229,
+      "competition": 2231,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agents for Humans Hackathon",
       "url": "https://agentsforhumans.devpost.com/",
-      "competition": 1525,
+      "competition": 1530,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agentic Cinema: The Blockbuster Hackathon",
       "url": "https://agentic-cinema.devpost.com/",
-      "competition": 5723,
+      "competition": 5725,
       "reason": "huge pool, but high visible competition"
     }
   ]

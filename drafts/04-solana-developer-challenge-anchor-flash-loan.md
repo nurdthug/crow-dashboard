@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/solana-developer-challenge-anchor-flash-loan
 - Value: $1,000 USDG
-- Deadline: 10 days left (as of 2026-08-13 14:32 UTC)
+- Deadline: 10 days left (as of 2026-08-13 14:46 UTC)
 - Fit score: 1,000 — verified sponsor, no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
