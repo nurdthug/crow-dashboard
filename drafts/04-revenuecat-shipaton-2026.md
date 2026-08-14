@@ -1,10 +1,10 @@
-# Draft pack — Solana Developer Challenge: Anchor Flash Loan
+# Draft pack — RevenueCat Shipaton 2026
 
-- Listing: https://earn.superteam.fun/listings/solana-developer-challenge-anchor-flash-loan
-- Value: $1,000 USDG
-- Deadline: 10 days left (as of 2026-08-13 14:46 UTC)
-- Fit score: 1,000 — verified sponsor, no visible competition yet
-- First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
+- Listing: https://revenuecat-shipaton-2026.devpost.com/
+- Value: $685,000 USD
+- Deadline: 60 days left (as of 2026-08-14 14:19 UTC)
+- Fit score: 1,798 — reasonable EV after competition/deadline adjustment
+- First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist
 - [ ] Read full rules & eligibility (region, KYC, team size)

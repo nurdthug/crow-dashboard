@@ -1,26 +1,36 @@
 [
  {
-  "file": "drafts/01-build-with-gemini-xprize.md",
+  "file": "drafts/01-solana-summit-serbia-content-bounty-10-000-for-the-best-summ.md",
+  "title": "Solana Summit Serbia Content Bounty: $10,000 for the best summit content",
+  "url": "https://earn.superteam.fun/listings/solana-summit-serbia-content",
+  "value_usd": 10000.0,
+  "token": "USDG",
+  "fit": 12000.0,
+  "kind": "content",
+  "days_left": 27.31971935579861
+ },
+ {
+  "file": "drafts/02-build-with-gemini-xprize.md",
   "title": "Build with Gemini XPRIZE",
   "url": "https://xprize.devpost.com/",
   "value_usd": 2000000.0,
   "token": "USD",
   "fit": 7000.0,
   "kind": "build",
-  "days_left": 4.0
+  "days_left": 3.0
  },
  {
-  "file": "drafts/02-bring-your-web2-ideas-onchain.md",
+  "file": "drafts/03-bring-your-web2-ideas-onchain.md",
   "title": "Bring Your Web2 Ideas Onchain",
   "url": "https://earn.superteam.fun/listings/bring-your-web2-ideas-onchain",
   "value_usd": 5000.0,
   "token": "USDC",
-  "fit": 1904.76,
+  "fit": 1818.18,
   "kind": "generic",
-  "days_left": 10.092996967071759
+  "days_left": 9.111386022465277
  },
  {
-  "file": "drafts/03-revenuecat-shipaton-2026.md",
+  "file": "drafts/04-revenuecat-shipaton-2026.md",
   "title": "RevenueCat Shipaton 2026",
   "url": "https://revenuecat-shipaton-2026.devpost.com/",
   "value_usd": 685000.0,
@@ -30,16 +40,6 @@
   "days_left": 60.0
  },
  {
-  "file": "drafts/04-solana-developer-challenge-anchor-flash-loan.md",
-  "title": "Solana Developer Challenge: Anchor Flash Loan",
-  "url": "https://earn.superteam.fun/listings/solana-developer-challenge-anchor-flash-loan",
-  "value_usd": 1000.0,
-  "token": "USDG",
-  "fit": 1000.0,
-  "kind": "build",
-  "days_left": 10.301330300405093
- },
- {
   "file": "drafts/05-provide-a-report-on-solana-communities-based-on-direct-engag.md",
   "title": "Provide a Report on Solana Communities Based on Direct Engagement",
   "url": "https://earn.superteam.fun/listings/provide-a-report-on-solana-communities-based-on-direct-engagement",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 1000.0,
   "kind": "writing",
-  "days_left": 18.55133030040509
+  "days_left": 17.56971935579861
  }
 ]
