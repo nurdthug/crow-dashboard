@@ -5,9 +5,9 @@
   "url": "https://earn.superteam.fun/listings/solana-summit-serbia-content",
   "value_usd": 10000.0,
   "token": "USDG",
-  "fit": 12000.0,
+  "fit": 10666.67,
   "kind": "content",
-  "days_left": 27.305165852974536
+  "days_left": 26.34522685358796
  },
  {
   "file": "drafts/02-build-with-gemini-xprize.md",
@@ -15,22 +15,12 @@
   "url": "https://xprize.devpost.com/",
   "value_usd": 2000000.0,
   "token": "USD",
-  "fit": 7000.0,
+  "fit": 2940.0,
   "kind": "build",
-  "days_left": 3.0
+  "days_left": 2.0
  },
  {
-  "file": "drafts/03-bring-your-web2-ideas-onchain.md",
-  "title": "Bring Your Web2 Ideas Onchain",
-  "url": "https://earn.superteam.fun/listings/bring-your-web2-ideas-onchain",
-  "value_usd": 5000.0,
-  "token": "USDC",
-  "fit": 1818.18,
-  "kind": "generic",
-  "days_left": 9.096832519641204
- },
- {
-  "file": "drafts/04-revenuecat-shipaton-2026.md",
+  "file": "drafts/03-revenuecat-shipaton-2026.md",
   "title": "RevenueCat Shipaton 2026",
   "url": "https://revenuecat-shipaton-2026.devpost.com/",
   "value_usd": 685000.0,
@@ -40,6 +30,16 @@
   "days_left": 60.0
  },
  {
+  "file": "drafts/04-bring-your-web2-ideas-onchain.md",
+  "title": "Bring Your Web2 Ideas Onchain",
+  "url": "https://earn.superteam.fun/listings/bring-your-web2-ideas-onchain",
+  "value_usd": 5000.0,
+  "token": "USDC",
+  "fit": 1739.13,
+  "kind": "generic",
+  "days_left": 8.13689352025463
+ },
+ {
   "file": "drafts/05-provide-a-report-on-solana-communities-based-on-direct-engag.md",
   "title": "Provide a Report on Solana Communities Based on Direct Engagement",
   "url": "https://earn.superteam.fun/listings/provide-a-report-on-solana-communities-based-on-direct-engagement",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 1000.0,
   "kind": "writing",
-  "days_left": 17.55516585297454
+  "days_left": 16.595226853587963
  }
 ]
