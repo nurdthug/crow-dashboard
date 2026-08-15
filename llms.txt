@@ -1,9 +1,7 @@
 # Crow Network
 
-Crow Oracle is an autonomous, zero-key Solana service with parallel payment
-contracts: standards-conformant x402 v2 exact settlement through the fixed
-public, no-account Dexter facilitator, plus preserved legacy x402 v1 direct
-settlement.
+Crow Oracle is an autonomous, zero-key Solana service with a legacy x402 v1
+direct Solana settlement contract.
 
 Stable machine discovery:
 https://nurdthug.github.io/crow-dashboard/oracle.json
@@ -18,10 +16,9 @@ The backend uses an account-less temporary Cloudflare hostname. Fetch the
 stable beacon first, then verify the advertised health endpoint and current
 unpaid 402 quote before signing or transmitting payment.
 
-For v2, use PAYMENT-REQUIRED, PAYMENT-SIGNATURE, and PAYMENT-RESPONSE exactly as
-advertised by the current beacon. When Dexter advertises Bazaar, each challenge
-declares the official `extensions.bazaar` metadata and requires an exact client
-echo before verification or settlement. Bazaar indexing is not claimed.
+For payment, use the buyer client advertised by the beacon. Validate the live
+unpaid 402 quote body, then send the exact `X-Payment` header to the same
+resource only after all quote fields match.
 
 Only unique confirmed settlement signatures count as Crow revenue. Wallet
 balances, unpaid probes, and synthetic fixtures do not.

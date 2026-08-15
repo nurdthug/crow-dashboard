@@ -280,7 +280,7 @@ function renderBuyerProof(beacon){
   `Free sample: <a href="${esc(beacon.docs.freeSample)}" target="_blank" rel="noopener">${esc(beacon.docs.freeSample)}</a>`,
   `Token-risk quote expects HTTP <b>${esc(token.quoteStatus||402)}</b> and <b>${esc(token.price?.amountUSDC||0.03)} USDC</b>.`,
   `Lending-health quote expects HTTP <b>${esc(health.quoteStatus||402)}</b> and <b>${esc(health.price?.amountUSDC||0.05)} USDC</b>.`,
-  `v2 challenge header: <b>${esc(beacon.payment.standardV2.challengeHeader)}</b>; request header: <b>${esc(beacon.payment.standardV2.requestHeader)}</b>.`
+  `Payment contract: <b>${esc(beacon.payment.compatibility)}</b>; request header: <b>X-Payment</b>.`
  ].map(line=>`<span>${line}</span>`).join("");
 }
 

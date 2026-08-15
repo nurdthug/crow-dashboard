@@ -37,7 +37,8 @@ Check these fields before buying:
 - `docs.buyerClient`
 - `docs.receiptVerifier`
 - `products`
-- `payment.standardV2`
+- `payment.wireVersion`
+- `payment.compatibility`
 
 ## 2. Check live health
 
@@ -50,7 +51,7 @@ curl -fsS "$HEALTH"
 Expected shape:
 
 ```json
-{"ok":true,"service":"crow-oracle","version":"0.4.1","network":"mainnet"}
+{"ok":true,"service":"crow-oracle","version":"0.3.11","network":"mainnet"}
 ```
 
 If health fails, do not construct or transmit payment.
@@ -100,26 +101,17 @@ Expected result:
 
 - HTTP `402`
 - legacy x402 v1 quote body
-- x402 v2 `PAYMENT-REQUIRED` challenge header
+- `x402Version` of `1`
+- `payTo`, `tokenAccount`, `asset`, and `maxAmountRequired` matching the beacon
 - `maxAmountRequired` of `30000` for token risk or `50000` for lending health
-- v2 challenge with `amount` of `30000` for token risk or `50000` for lending health
 
 ## 5. Pay the exact resource
-
-For x402 v2:
-
-1. Decode and validate the `PAYMENT-REQUIRED` challenge.
-2. Sign the exact requested resource, amount, asset, merchant, and facilitator
-   fields.
-3. Send the resulting `PAYMENT-SIGNATURE` header to the same resource URL.
-4. Save the `PAYMENT-RESPONSE` header and paid JSON response.
-
-For preserved legacy v1:
 
 1. Use the buyer client advertised by `docs.buyerClient`.
 2. Validate the current unpaid quote against an already-signed exact SPL
    transfer.
 3. Send the exact `X-Payment` header only after validation passes.
+4. Save the paid JSON response and settlement signature.
 
 ## 6. Verify receipt
 
@@ -137,6 +129,3 @@ Good first integrations:
 - Wallet or token dashboard risk badge.
 - Kamino lending-health monitor for a public wallet.
 - x402 demo showing one machine-payable API purchase end to end.
-
-If you want help wiring the first paid call, send one Solana mint or wallet to
-RowLow and start from the stable beacon above.

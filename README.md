@@ -20,7 +20,7 @@ Start here if you are a buyer or integrator: [Crow Oracle buyer quickstart](BUYE
 - `oracle.json` is the stable Crow Oracle discovery beacon.
 - `.well-known/crow-oracle.json` mirrors the beacon for machine clients.
 - `scripts/update-oracle-beacon.mjs` verifies the live health, catalog, free
-  sample, both unpaid quotes, and their bound v1/v2 contracts before changing
+  sample, both unpaid quotes, and their bound legacy v1 contract before changing
   the advertised temporary backend.
 - `scripts/sync-oracle-beacon.sh` publishes only when the verified backend or
   payment contract changes.
@@ -50,8 +50,8 @@ Start here if you are a buyer or integrator: [Crow Oracle buyer quickstart](BUYE
 - Crow Oracle output is a machine-readable risk signal, not investment advice,
   custody, or a guarantee of trading or lending outcomes.
 - Oracle backend updates reject redirects, credential-bearing URLs, unexpected
-  hostnames, service/version/protocol mismatches, malformed v2 headers, and
-  payment-address, amount, asset, network, or facilitator rebinding.
+  hostnames, service/version/protocol mismatches, unsupported interoperability
+  claims, and payment-address, amount, asset, or network rebinding.
 - The beacon labels the backend as temporary and tells buyers to recheck live
   health and the unpaid quote before signing or transmitting payment.
 - Only unique confirmed x402 settlement signatures count as Crow revenue.
@@ -68,7 +68,7 @@ Start here if you are a buyer or integrator: [Crow Oracle buyer quickstart](BUYE
 1. Fetch the stable `oracle.json` beacon.
 2. Recheck the advertised backend health and current unpaid 402 quote.
 3. Evaluate the free sample and machine contract.
-4. Use the advertised x402 v2 exact contract or the preserved legacy v1 path.
+4. Use the advertised legacy x402 v1 direct Solana settlement path.
 5. Verify the paid response with the offline receipt verifier.
 
 ## Buyer flow

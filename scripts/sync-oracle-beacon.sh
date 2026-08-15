@@ -36,7 +36,7 @@ if ! /usr/bin/git rebase origin/main; then
   exit 1
 fi
 
-"$node_bin" "$SCRIPT_DIR/update-oracle-beacon.mjs"
+"$node_bin" "$SCRIPT_DIR/sync-oracle-v1-beacon.mjs"
 
 if ! /usr/bin/git diff --quiet -- oracle.json .well-known/crow-oracle.json; then
   /usr/bin/git add -- oracle.json .well-known/crow-oracle.json
