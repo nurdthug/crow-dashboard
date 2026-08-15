@@ -7,7 +7,7 @@
   "token": "USDG",
   "fit": 10666.67,
   "kind": "content",
-  "days_left": 26.34522685358796
+  "days_left": 26.332584059756947
  },
  {
   "file": "drafts/02-build-with-gemini-xprize.md",
@@ -37,7 +37,7 @@
   "token": "USDC",
   "fit": 1739.13,
   "kind": "generic",
-  "days_left": 8.13689352025463
+  "days_left": 8.124250726423611
  },
  {
   "file": "drafts/05-provide-a-report-on-solana-communities-based-on-direct-engag.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 1000.0,
   "kind": "writing",
-  "days_left": 16.595226853587963
+  "days_left": 16.582584059756947
  }
 ]
