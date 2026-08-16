@@ -1,9 +1,9 @@
-# Draft pack — RevenueCat Shipaton 2026
+# Draft pack — Build with Gemini XPRIZE
 
-- Listing: https://revenuecat-shipaton-2026.devpost.com/
-- Value: $685,000 USD
-- Deadline: 60 days left (as of 2026-08-15 14:01 UTC)
-- Fit score: 1,798 — reasonable EV after competition/deadline adjustment
+- Listing: https://xprize.devpost.com/
+- Value: $2,000,000 USD
+- Deadline: 1 days left (as of 2026-08-16 13:43 UTC)
+- Fit score: 2,940 — verified sponsor, urgent
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist
