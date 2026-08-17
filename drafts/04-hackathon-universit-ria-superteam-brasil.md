@@ -1,9 +1,9 @@
-# Draft pack — Bring Your Web2 Ideas Onchain
+# Draft pack — Hackathon Universitária Superteam Brasil
 
-- Listing: https://earn.superteam.fun/listings/bring-your-web2-ideas-onchain
-- Value: $5,000 USDC
-- Deadline: 7 days left (as of 2026-08-16 14:02 UTC)
-- Fit score: 1,667 — verified sponsor
+- Listing: https://earn.superteam.fun/listings/hackathon-universitaria-superteam-brasil-1
+- Value: $3,000 USDG
+- Deadline: 20 days left (as of 2026-08-17 13:52 UTC)
+- Fit score: 3,000 — verified sponsor, no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
