@@ -7,7 +7,7 @@
   "token": "USDG",
   "fit": 10666.67,
   "kind": "content",
-  "days_left": 24.338641010266205
+  "days_left": 24.325183453680555
  },
  {
   "file": "drafts/02-ugc-for-fomo-rush.md",
@@ -17,7 +17,7 @@
   "token": "USDC",
   "fit": 9000.0,
   "kind": "generic",
-  "days_left": 4.296974343599537
+  "days_left": 4.283516787013888
  },
  {
   "file": "drafts/03-build-with-gemini-xprize.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 3000.0,
   "kind": "generic",
-  "days_left": 19.546974343599537
+  "days_left": 19.53351678701389
  },
  {
   "file": "drafts/05-creator-program-tell-the-story-that-brings-thailand-s-next-t.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 2325.0,
   "kind": "generic",
-  "days_left": 11.13031923943287
+  "days_left": 11.116861682847222
  }
 ]
