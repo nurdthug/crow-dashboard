@@ -7,7 +7,7 @@
   "token": "USDG",
   "fit": 8727.28,
   "kind": "content",
-  "days_left": 23.336093741608796
+  "days_left": 23.321241961493055
  },
  {
   "file": "drafts/02-reverie-hacks-2026.md",
@@ -27,7 +27,7 @@
   "token": "USDC",
   "fit": 5625.0,
   "kind": "generic",
-  "days_left": 3.2944270749421296
+  "days_left": 3.2795752948263885
  },
  {
   "file": "drafts/04-hackathon-universit-ria-superteam-brasil.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 3000.0,
   "kind": "generic",
-  "days_left": 20.54442707494213
+  "days_left": 20.52957529482639
  },
  {
   "file": "drafts/05-creator-program-tell-the-story-that-brings-thailand-s-next-t.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 2066.67,
   "kind": "generic",
-  "days_left": 10.127771970775463
+  "days_left": 10.112920190659722
  }
 ]

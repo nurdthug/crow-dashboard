@@ -1,8 +1,8 @@
-# Crow Research Brief — 2026-08-18 13:56 UTC
+# Crow Research Brief — 2026-08-18 14:17 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
-**Reviewed:** 39 opportunities · **Agent-allowed:** 4 · **Recommended focus:** top 3 below
+**Reviewed:** 38 opportunities · **Agent-allowed:** 4 · **Recommended focus:** top 3 below
 
 | # | Fit | Effort | Opportunity | Value | Why | Next step |
 |---|---:|---|---|---:|---|---|
@@ -19,8 +19,8 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 
 ## Do Not Chase First
 
-- [Reverie Hacks 2026](https://reverie-hacks-2026.devpost.com/): huge pool, but competition is already 1,744.
-- [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/): huge pool, but competition is already 17,939.
-- [All Things Agentic Hackathon](https://allthingsagentichackathon.devpost.com/): huge pool, but competition is already 4,865.
-- [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/): huge pool, but competition is already 6,333.
+- [Reverie Hacks 2026](https://reverie-hacks-2026.devpost.com/): huge pool, but competition is already 1,745.
+- [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/): huge pool, but competition is already 17,944.
+- [All Things Agentic Hackathon](https://allthingsagentichackathon.devpost.com/): huge pool, but competition is already 4,877.
+- [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/): huge pool, but competition is already 6,334.
 - [VoltHacks](https://volthacks.devpost.com/): huge pool, but competition is already 1,631.
