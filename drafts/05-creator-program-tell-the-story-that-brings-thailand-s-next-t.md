@@ -2,8 +2,8 @@
 
 - Listing: https://earn.superteam.fun/listings/creator-program-tell-the-story-that-brings-thailands-next-talent-to-solana
 - Value: $3,100 USDG
-- Deadline: 11 days left (as of 2026-08-17 14:11 UTC)
-- Fit score: 2,325 — no visible competition yet
+- Deadline: 10 days left (as of 2026-08-18 13:56 UTC)
+- Fit score: 2,067 — low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist

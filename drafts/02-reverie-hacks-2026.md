@@ -1,9 +1,9 @@
-# Draft pack — Build with Gemini XPRIZE
+# Draft pack — Reverie Hacks 2026
 
-- Listing: https://xprize.devpost.com/
-- Value: $2,000,000 USD
-- Deadline: no deadline listed (as of 2026-08-17 14:11 UTC)
-- Fit score: 5,600 — verified sponsor
+- Listing: https://reverie-hacks-2026.devpost.com/
+- Value: $1,096,950 USD
+- Deadline: 6 days left (as of 2026-08-18 13:56 UTC)
+- Fit score: 5,759 — reasonable EV after competition/deadline adjustment
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist

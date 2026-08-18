@@ -2,8 +2,8 @@
 
 - Listing: https://earn.superteam.fun/listings/ugc-for-fomo-rush
 - Value: $5,000 USDC
-- Deadline: 4 days left (as of 2026-08-17 14:11 UTC)
-- Fit score: 9,000 — explicitly agent-allowed, low competition
+- Deadline: 3 days left (as of 2026-08-18 13:56 UTC)
+- Fit score: 5,625 — explicitly agent-allowed, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
