@@ -1,9 +1,9 @@
-# Draft pack — Hackathon Universitária Superteam Brasil
+# Draft pack — Creator Program: Tell the story that brings Thailand's next talent to Solana
 
-- Listing: https://earn.superteam.fun/listings/hackathon-universitaria-superteam-brasil-1
-- Value: $3,000 USDG
-- Deadline: 21 days left (as of 2026-08-18 14:17 UTC)
-- Fit score: 3,000 — verified sponsor, no visible competition yet
+- Listing: https://earn.superteam.fun/listings/creator-program-tell-the-story-that-brings-thailands-next-talent-to-solana
+- Value: $3,100 USDG
+- Deadline: 9 days left (as of 2026-08-19 13:56 UTC)
+- Fit score: 2,067 — low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
