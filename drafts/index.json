@@ -7,7 +7,7 @@
   "token": "USDG",
   "fit": 8000.0,
   "kind": "content",
-  "days_left": 22.33568239597222
+  "days_left": 22.320803770520833
  },
  {
   "file": "drafts/02-reverie-hacks-2026.md",
@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 3000.0,
   "kind": "generic",
-  "days_left": 19.544015729305553
+  "days_left": 19.529137103854165
  },
  {
   "file": "drafts/04-creator-program-tell-the-story-that-brings-thailand-s-next-t.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 2066.67,
   "kind": "generic",
-  "days_left": 9.127360625138888
+  "days_left": 9.1124819996875
  },
  {
   "file": "drafts/05-solana-summit-creator-grant.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 2000.0,
   "kind": "generic",
-  "days_left": 31.08568239597222
+  "days_left": 31.070803770520833
  }
 ]
