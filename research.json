@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20 13:58 UTC",
+  "generated_at": "2026-08-20 14:21 UTC",
   "reviewed": 40,
   "agent_allowed": 4,
   "recommendations": [
@@ -168,31 +168,31 @@
     {
       "title": "Reverie Hacks 2026",
       "url": "https://reverie-hacks-2026.devpost.com/",
-      "competition": 1847,
+      "competition": 1849,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 18598,
+      "competition": 18608,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "All Things Agentic Hackathon",
       "url": "https://allthingsagentichackathon.devpost.com/",
-      "competition": 5936,
+      "competition": 5954,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agentic Cinema: The Blockbuster Hackathon",
       "url": "https://agentic-cinema.devpost.com/",
-      "competition": 6604,
+      "competition": 6606,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "VoltHacks",
       "url": "https://volthacks.devpost.com/",
-      "competition": 1672,
+      "competition": 1673,
       "reason": "huge pool, but high visible competition"
     }
   ]

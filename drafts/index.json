@@ -7,7 +7,7 @@
   "token": "USDG",
   "fit": 10000.0,
   "kind": "build",
-  "days_left": 32.66772781341435
+  "days_left": 32.65149586530092
  },
  {
   "file": "drafts/02-reverie-hacks-2026.md",
@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 7384.62,
   "kind": "content",
-  "days_left": 21.33439448008102
+  "days_left": 21.318162531967594
  },
  {
   "file": "drafts/04-ugc-for-fomo-rush.md",
@@ -37,7 +37,7 @@
   "token": "USDC",
   "fit": 3103.44,
   "kind": "generic",
-  "days_left": 3.2927278134143516
+  "days_left": 3.276495865300926
  },
  {
   "file": "drafts/05-hackathon-universit-ria-superteam-brasil.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 2666.67,
   "kind": "generic",
-  "days_left": 18.542727813414352
+  "days_left": 18.526495865300927
  }
 ]

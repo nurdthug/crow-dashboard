@@ -2,7 +2,7 @@
 
 - Listing: https://reverie-hacks-2026.devpost.com/
 - Value: $1,447,350 USD
-- Deadline: 4 days left (as of 2026-08-20 13:58 UTC)
+- Deadline: 4 days left (as of 2026-08-20 14:21 UTC)
 - Fit score: 7,599 — reasonable EV after competition/deadline adjustment
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
