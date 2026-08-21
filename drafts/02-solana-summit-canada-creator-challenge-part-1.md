@@ -1,10 +1,10 @@
-# Draft pack — Reverie Hacks 2026
+# Draft pack — Solana Summit Canada Creator Challenge - part 1
 
-- Listing: https://reverie-hacks-2026.devpost.com/
-- Value: $1,447,350 USD
-- Deadline: 4 days left (as of 2026-08-20 14:21 UTC)
-- Fit score: 7,599 — reasonable EV after competition/deadline adjustment
-- First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
+- Listing: https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-1
+- Value: $10,000 USDG
+- Deadline: 32 days left (as of 2026-08-21 13:57 UTC)
+- Fit score: 10,000 — verified sponsor, no visible competition yet
+- First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
 - [ ] Read full rules & eligibility (region, KYC, team size)
