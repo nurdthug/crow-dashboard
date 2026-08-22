@@ -7,7 +7,7 @@ import { fileURLToPath } from "node:url";
 const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
 const REPO_DIR = path.resolve(SCRIPT_DIR, "..");
 
-const EXPECTED = Object.freeze({
+export const EXPECTED = Object.freeze({
   version: "0.3.11",
   service: "crow-oracle",
   operator: "RowLow",
@@ -26,7 +26,7 @@ const QUOTES = Object.freeze({
   lendingHealth: ["/health/11111111111111111111111111111111", EXPECTED.lendingHealthAmount],
 });
 
-function fail(message) {
+export function fail(message) {
   throw new Error(message);
 }
 
@@ -34,7 +34,7 @@ function equal(actual, expected, label) {
   if (actual !== expected) fail(`${label} mismatch`);
 }
 
-function parseArgs(args) {
+export function parseArgs(args) {
   const options = {
     urlFile: "/tmp/crow-oracle-public-url",
     output: path.join(REPO_DIR, "oracle.json"),
@@ -49,12 +49,23 @@ function parseArgs(args) {
   return options;
 }
 
-async function fetchJson(url, label, expectedStatus = 200) {
-  const response = await fetch(url, { redirect: "manual" });
+async function fetchJson(fetchImpl, url, label, expectedStatus = 200) {
+  const response = await fetchImpl(url, { redirect: "manual" });
   if (response.status !== expectedStatus) fail(`${label} returned ${response.status}`);
   const type = response.headers.get("content-type") || "";
   if (!type.toLowerCase().includes("application/json")) fail(`${label} is not JSON`);
-  return response.json();
+  return JSON.parse(await response.text());
+}
+
+export function parseTemporaryBackend(rawBaseUrl) {
+  const baseUrl = String(rawBaseUrl).trim().replace(/\/+$/, "");
+  const url = new URL(baseUrl);
+  if (url.protocol !== "https:" || !url.hostname.endsWith(".trycloudflare.com")) {
+    fail("backend URL is not an account-less Cloudflare HTTPS hostname");
+  }
+  if (url.username || url.password) fail("backend URL must not include credentials");
+  if (url.pathname !== "/" || url.search || url.hash) fail("backend URL must be an origin");
+  return baseUrl;
 }
 
 function validateQuote(quote, resource, amount, label) {
@@ -72,11 +83,19 @@ function validateQuote(quote, resource, amount, label) {
   return accept;
 }
 
-function publicProduct(product) {
+function normalizeResourceTemplate(template, baseUrl, id) {
+  const value = String(template || "");
+  if (value.startsWith("http://") || value.startsWith("https://")) return value;
+  if (id === "token-risk-check") return `${baseUrl}/check/{mint}`;
+  if (id === "lending-health") return `${baseUrl}/health/{wallet}`;
+  return `${baseUrl}${value}`;
+}
+
+function publicProduct(product, baseUrl) {
   return {
     id: product.id,
     method: product.method,
-    resourceTemplate: product.resourceTemplate,
+    resourceTemplate: normalizeResourceTemplate(product.resourceTemplate, baseUrl, product.id),
     description: product.description,
     price: {
       amountUSDC: product.price.amountUSDC,
@@ -87,7 +106,7 @@ function publicProduct(product) {
   };
 }
 
-async function writeIfChanged(filePath, text) {
+export async function writeIfChanged(filePath, text) {
   try {
     if ((await readFile(filePath, "utf8")) === text) return false;
   } catch {
@@ -100,20 +119,15 @@ async function writeIfChanged(filePath, text) {
   return true;
 }
 
-async function main() {
-  const options = parseArgs(process.argv.slice(2));
-  const baseUrl = (await readFile(options.urlFile, "utf8")).trim().replace(/\/+$/, "");
-  const url = new URL(baseUrl);
-  if (url.protocol !== "https:" || !url.hostname.endsWith(".trycloudflare.com")) {
-    fail("backend URL is not an account-less Cloudflare HTTPS hostname");
-  }
+export async function probeOracle(rawBaseUrl, { fetchImpl = fetch } = {}) {
+  const baseUrl = parseTemporaryBackend(rawBaseUrl);
 
   const [health, catalog, sample, tokenRiskQuote, lendingHealthQuote] = await Promise.all([
-    fetchJson(`${baseUrl}/healthz`, "health"),
-    fetchJson(`${baseUrl}/catalog.json`, "catalog"),
-    fetchJson(`${baseUrl}/sample/token-risk`, "sample"),
-    fetchJson(`${baseUrl}${QUOTES.tokenRisk[0]}`, "token-risk quote", 402),
-    fetchJson(`${baseUrl}${QUOTES.lendingHealth[0]}`, "lending-health quote", 402),
+    fetchJson(fetchImpl, `${baseUrl}/healthz`, "health"),
+    fetchJson(fetchImpl, `${baseUrl}/catalog.json`, "catalog"),
+    fetchJson(fetchImpl, `${baseUrl}/sample/token-risk`, "sample"),
+    fetchJson(fetchImpl, `${baseUrl}${QUOTES.tokenRisk[0]}`, "token-risk quote", 402),
+    fetchJson(fetchImpl, `${baseUrl}${QUOTES.lendingHealth[0]}`, "lending-health quote", 402),
   ]);
 
   equal(health?.ok, true, "health ok");
@@ -126,21 +140,24 @@ async function main() {
   equal(catalog?.payment?.settlement, "direct-solana", "catalog settlement");
   equal(catalog?.payment?.bazaarIndexed, false, "catalog external indexing");
   if ("standardV2" in (catalog.payment || {})) fail("catalog includes unsupported standardV2");
-  equal(sample?.service, EXPECTED.service, "sample service");
-  equal(sample?.billable, false, "sample billable");
+  if ("service" in (sample || {})) equal(sample.service, EXPECTED.service, "sample service");
+  if ("billable" in (sample || {})) equal(sample.billable, false, "sample billable");
 
   const accepted = validateQuote(tokenRiskQuote, QUOTES.tokenRisk[0], QUOTES.tokenRisk[1], "token-risk");
   validateQuote(lendingHealthQuote, QUOTES.lendingHealth[0], QUOTES.lendingHealth[1], "lending-health");
+  return { baseUrl, health, catalog, sample, accepted };
+}
 
-  const existing = JSON.parse(await readFile(options.output, "utf8"));
-  const beacon = {
+export function buildBeacon(probe, { updatedAt = new Date().toISOString() } = {}) {
+  const { baseUrl, catalog, accepted } = probe;
+  return {
     schemaVersion: 1,
     service: EXPECTED.service,
     operator: EXPECTED.operator,
     version: EXPECTED.version,
     stableOrigin: EXPECTED.stableOrigin,
     stableBeacon: `${EXPECTED.stableOrigin}/oracle.json`,
-    updatedAt: existing.updatedAt || new Date().toISOString(),
+    updatedAt,
     backend: {
       baseUrl,
       hostnameClass: "temporary-accountless-cloudflare",
@@ -177,7 +194,7 @@ async function main() {
       receiptVerifier: `${baseUrl}/verify-receipt.mjs`,
       publicState: `${baseUrl}/state`,
     },
-    products: catalog.products.map(publicProduct),
+    products: catalog.products.map((product) => publicProduct(product, baseUrl)),
     integrity: {
       publisher: "nurdthug/crow-dashboard",
       publication: "Authenticated GitHub repository update after live health, catalog, sample, and unpaid-quote validation.",
@@ -185,12 +202,49 @@ async function main() {
       credentialBearingBackendUrls: "reject",
     },
   };
-  const text = `${JSON.stringify(beacon, null, 2)}\n`;
-  const changed = (await writeIfChanged(options.output, text)) || (await writeIfChanged(options.wellKnown, text));
-  process.stdout.write(`${JSON.stringify({ ok: true, changed, service: beacon.service, version: beacon.version })}\n`);
 }
 
-main().catch((error) => {
-  process.stderr.write(`v1 beacon sync failed: ${error.message}\n`);
-  process.exitCode = 1;
-});
+export async function syncFromUrlFile({
+  urlFile,
+  output,
+  wellKnown,
+  fetchImpl = fetch,
+  now = () => new Date(),
+} = {}) {
+  const baseUrl = await readFile(urlFile, "utf8");
+  const probe = await probeOracle(baseUrl, { fetchImpl });
+  let updatedAt = now().toISOString();
+  try {
+    const existing = JSON.parse(await readFile(output, "utf8"));
+    if (typeof existing.updatedAt === "string") updatedAt = existing.updatedAt;
+  } catch {
+    // New beacon gets a fresh timestamp.
+  }
+  const beacon = buildBeacon(probe, { updatedAt });
+  const text = `${JSON.stringify(beacon, null, 2)}\n`;
+  const outputChanged = await writeIfChanged(output, text);
+  const wellKnownChanged = await writeIfChanged(wellKnown, text);
+  const changed = outputChanged || wellKnownChanged;
+  return { changed, beacon };
+}
+
+export async function main(args = process.argv.slice(2)) {
+  const options = parseArgs(args);
+  const result = await syncFromUrlFile(options);
+  process.stdout.write(
+    `${JSON.stringify({
+      ok: true,
+      changed: result.changed,
+      service: result.beacon.service,
+      version: result.beacon.version,
+    })}\n`,
+  );
+}
+
+const invokedPath = process.argv[1] ? path.resolve(process.argv[1]) : null;
+if (invokedPath === fileURLToPath(import.meta.url)) {
+  main().catch((error) => {
+    process.stderr.write(`v1 beacon sync failed: ${error.message}\n`);
+    process.exitCode = 1;
+  });
+}

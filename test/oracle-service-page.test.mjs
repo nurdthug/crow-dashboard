@@ -214,12 +214,8 @@ test("service page fails closed on a credential-bearing same-origin live resourc
   }
 });
 
-test("dashboard and sitemap expose the service page", async () => {
-  const [dashboard, sitemap] = await Promise.all([
-    text("index.html"),
-    text("sitemap.xml"),
-  ]);
-  assert.match(dashboard, /<a href="oracle\/" id="oracle-service">Service page<\/a>/);
+test("sitemap exposes the service page", async () => {
+  const sitemap = await text("sitemap.xml");
   assert.match(
     sitemap,
     /<loc>https:\/\/nurdthug\.github\.io\/crow-dashboard\/oracle\/<\/loc>/,

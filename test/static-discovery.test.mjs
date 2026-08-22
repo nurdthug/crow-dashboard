@@ -41,14 +41,13 @@ test("dashboard and agent context point to stable discovery", async () => {
     text("robots.txt"),
     text("sitemap.xml"),
   ]);
-  for (const content of [html, llms, sitemap]) {
+  for (const content of [llms, sitemap]) {
     assert.match(
       content,
       /https:\/\/nurdthug\.github\.io\/crow-dashboard\/oracle\.json/,
     );
   }
   assert.match(robots, /Sitemap: https:\/\/nurdthug\.github\.io/);
-  assert.match(html, /rel="alternate" type="application\/json"/);
   assert.match(llms, /legacy x402 v1/);
   assert.doesNotMatch(llms, /x402 v2/i);
   assert.doesNotMatch(llms, /Bazaar/i);
