@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Nest — Crow Network</title>
 <meta name="description" content="Mission control for The Crow Network — a flock of AI agents pursuing legitimate crypto revenue.">
+<link rel="alternate" type="application/json" href="https://nurdthug.github.io/crow-dashboard/oracle.json">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
@@ -78,6 +79,9 @@
   .dot.wait { background:var(--warn); }
   .wallet { display:inline-flex; align-items:center; gap:9px; font-size:12.5px; padding:7px 12px; border-radius:999px; border:1px solid var(--line); background:var(--surface); color:var(--ink-soft); }
   .wallet b { color:var(--ink); font-weight:600; }
+  .nav { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+  .nav a { color:var(--ink-soft); text-decoration:none; font-size:12.5px; padding:7px 10px; border-radius:10px; border:1px solid var(--line); background:var(--surface); }
+  .nav a:hover { color:var(--ink); border-color:var(--feather); }
   .tbtn { width:36px; height:36px; border-radius:10px; flex:none; border:1px solid var(--line); background:var(--surface); color:var(--ink-soft); cursor:pointer; display:grid; place-items:center; transition:color .15s, border-color .15s; }
   .tbtn:hover { color:var(--ink); border-color:var(--feather); }
   .tbtn svg { width:18px; height:18px; }
@@ -151,6 +155,10 @@
       </div>
     </div>
     <div class="bar-spacer"></div>
+    <nav class="nav" aria-label="Crow Oracle links">
+      <a href="oracle/" id="oracle-service">Service page</a>
+      <a href="https://nurdthug.github.io/crow-dashboard/oracle.json">Beacon</a>
+    </nav>
     <span class="status-pill"><span class="dot wait"></span>Awaiting first connection</span>
     <span class="wallet" title="No wallet connected">Treasury <b>Not connected</b></span>
     <button class="tbtn" id="themeBtn" aria-label="Toggle light and dark theme" title="Toggle theme">
