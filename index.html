@@ -1,599 +1,295 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Crow Network — Nest Console</title>
-<meta name="description" content="Crow Network autonomous services and public operating state.">
-<link rel="alternate" type="application/json" href="./oracle.json" title="Crow Oracle discovery">
-<link rel="alternate" type="text/plain" href="./llms.txt" title="Crow Network agent context">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Crow Oracle",
-  "url": "https://nurdthug.github.io/crow-dashboard/oracle.json",
-  "serviceType": "Autonomous Solana token risk and lending health API",
-  "provider": {
-    "@type": "Organization",
-    "name": "Crow Network"
-  },
-  "offers": [
-    {
-      "@type": "Offer",
-      "name": "Solana token risk verdict",
-      "price": "0.03",
-      "priceCurrency": "USDC"
-    },
-    {
-      "@type": "Offer",
-      "name": "Solana lending health check",
-      "price": "0.05",
-      "priceCurrency": "USDC"
-    }
-  ]
-}
-</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Nest — Crow Network</title>
+<meta name="description" content="Mission control for The Crow Network — a flock of AI agents pursuing legitimate crypto revenue.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <style>
-  :root{
-    --bg:#0b0e13; --panel:#12161f; --panel2:#171c27; --line:#232a38;
-    --text:#e7ecf4; --dim:#8b96a8; --accent:#7c5cff; --green:#3ddc97;
-    --amber:#ffb454; --red:#ff6b6b; --cyan:#4dd7fa;
+  :root {
+    --ink:#14161d; --ink-soft:#565b6b; --ink-faint:#8a8fa0;
+    --ground:#eceef3; --surface:#f7f8fb; --surface-2:#ffffff;
+    --line:#d9dce4; --line-soft:#e6e8ef;
+    --feather:#6a5bd6; --feather-2:#8b7cff; --teal:#0e9c8e; --teal-glow:#16b7a6;
+    --good:#1f9d57; --warn:#c98214; --crit:#d24a4a;
+    --good-bg:#e2f3e9; --warn-bg:#f6ecd8; --crit-bg:#f6e2e2; --idle-bg:#e6e8ef;
+    --shadow:0 1px 2px rgba(20,22,29,.05), 0 8px 24px rgba(20,22,29,.06);
+    --radius:14px;
   }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--bg);color:var(--text);font:14px/1.5 "Segoe UI",system-ui,sans-serif;padding:24px;max-width:1280px;margin:0 auto}
-  header{display:flex;align-items:center;justify-content:space-between;margin-bottom:22px}
-  .brand{display:flex;align-items:center;gap:12px}
-  .brand .logo{width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#3b2f7a);display:grid;place-items:center;font-size:20px}
-  h1{font-size:18px;font-weight:600}
-  .sub{color:var(--dim);font-size:12px}
-  .pill{border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:12px;color:var(--dim)}
-  .pill b{color:var(--green)}
-  .grid{display:grid;gap:14px}
-  .grid>*{min-width:0}
-  .kpis{grid-template-columns:repeat(auto-fit,minmax(170px,1fr));margin-bottom:14px}
-  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;min-width:0}
-  .kpi .label{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.6px}
-  .kpi .value{font-size:24px;font-weight:650;margin-top:4px}
-  .kpi .delta{font-size:12px;margin-top:2px;color:var(--dim)}
-  .up{color:var(--green)}
-  .cols{grid-template-columns:1.5fr 1fr;margin-bottom:14px}
-  h2{font-size:13px;font-weight:600;color:var(--dim);text-transform:uppercase;letter-spacing:.7px;margin-bottom:12px}
-  .bars{display:flex;align-items:flex-end;gap:8px;height:150px;padding-top:6px}
-  .bar{flex:1;background:linear-gradient(180deg,var(--accent),#4a3aa6);border-radius:5px 5px 0 0;position:relative;min-height:4px}
-  .bar span{position:absolute;top:-18px;left:50%;transform:translateX(-50%);font-size:10px;color:var(--dim);white-space:nowrap}
-  .bar em{position:absolute;bottom:-34px;left:50%;transform:translateX(-50%);font-size:9px;font-style:normal;color:var(--dim);width:80px;text-align:center;line-height:1.2;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
-  .bars-wrap{padding-bottom:40px}
-  table{width:100%;border-collapse:collapse;font-size:13px}
-  .table-scroll{max-width:100%;overflow-x:auto}
-  th{color:var(--dim);text-align:left;font-weight:500;font-size:11px;text-transform:uppercase;letter-spacing:.5px;padding:6px 8px;border-bottom:1px solid var(--line)}
-  td{padding:8px;border-bottom:1px solid var(--line)}
-  tr:last-child td{border-bottom:none}
-  .tag{display:inline-block;border-radius:6px;padding:2px 8px;font-size:11px}
-  .t-green{background:#12291f;color:var(--green)} .t-amber{background:#2b2214;color:var(--amber)}
-  .t-purple{background:#1e1836;color:#b3a1ff} .t-dim{background:#1a2030;color:var(--dim)}
-  .agents{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
-  .agent{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
-  .agent .nm{font-size:12.5px;font-weight:600}
-  .agent .st{font-size:11px;margin-top:2px;color:var(--dim)}
-  .dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px}
-  .d-g{background:var(--green)} .d-i{background:#4a5568}
-  .empty{color:var(--dim);font-size:12.5px;background:var(--panel2);border:1px dashed var(--line);border-radius:10px;padding:14px}
-  .feed li{list-style:none;padding:7px 0;border-bottom:1px solid var(--line);font-size:12.5px;color:var(--dim)}
-  .feed li:last-child{border:none}
-  .feed b{color:var(--text);font-weight:550}
-  .feed time{float:right;font-size:11px;color:#5d6980}
-  .oracle-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:18px;align-items:center}
-  .oracle-copy{color:var(--dim);max-width:760px}
-  .oracle-url{font:12px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--cyan);overflow-wrap:anywhere;margin-top:8px}
-  .oracle-actions{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end}
-  .oracle-actions a{border:1px solid var(--line);border-radius:6px;padding:7px 10px;text-decoration:none;font-size:12px;background:var(--panel2)}
-  .buyer{display:grid;grid-template-columns:1.1fr .9fr;gap:14px;margin-bottom:14px}
-  .buyer-steps{display:grid;gap:8px}
-  .buyer-step{background:var(--panel2);border:1px solid var(--line);border-left:3px solid var(--green);border-radius:6px;padding:9px 10px;color:var(--dim);font-size:12.5px}
-  .buyer-step b{color:var(--text)}
-  .product-list{display:grid;gap:8px}
-  .product{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;background:var(--panel2);border:1px solid var(--line);border-radius:6px;padding:10px}
-  .product b{display:block;font-size:13px}
-  .product small{display:block;color:var(--dim);margin-top:2px}
-  .price{color:var(--green);font-weight:700;white-space:nowrap}
-  .quote-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
-  .quote-panel{display:grid;gap:10px}
-  .quote-panel h3{font-size:13px;font-weight:600}
-  .quote-panel pre{background:#090c12;border:1px solid var(--line);border-radius:6px;padding:10px;overflow:auto;color:var(--cyan);font:12px/1.45 ui-monospace,SFMono-Regular,Menlo,monospace}
-  .quote-panel .proof-list{display:grid;gap:7px;color:var(--dim);font-size:12.5px}
-  .quote-panel .proof-list span{display:block}
-  a{color:inherit}
-  footer{margin-top:20px;color:#5d6980;font-size:11.5px;text-align:center}
-  @media (max-width:760px){
-    body{padding:16px}
-    header{gap:12px;flex-wrap:wrap}
-    .cols{grid-template-columns:1fr}
-    .table-scroll table{min-width:680px}
-    .bars{gap:4px;padding-left:24px;padding-right:24px}
-    .bar em{width:48px}
-    .oracle-row{grid-template-columns:1fr}
-    .oracle-actions{justify-content:flex-start}
-    .buyer{grid-template-columns:1fr}
-    .quote-grid{grid-template-columns:1fr}
+  :root:not([data-theme="light"]) {
+    --ink:#e8eaf2; --ink-soft:#9aa0b4; --ink-faint:#656b80;
+    --ground:#0b0d13; --surface:#14171f; --surface-2:#1a1e28;
+    --line:#262b38; --line-soft:#1f2430;
+    --feather:#9d8dff; --feather-2:#b6aaff; --teal:#2bd0bd; --teal-glow:#3fe0cd;
+    --good:#34c77b; --warn:#e0a53c; --crit:#f0706e;
+    --good-bg:#12271c; --warn-bg:#2a2113; --crit-bg:#2c1618; --idle-bg:#1f2430;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 12px 34px rgba(0,0,0,.45);
   }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ink:#e8eaf2; --ink-soft:#9aa0b4; --ink-faint:#656b80;
+      --ground:#0b0d13; --surface:#14171f; --surface-2:#1a1e28;
+      --line:#262b38; --line-soft:#1f2430;
+      --feather:#9d8dff; --feather-2:#b6aaff; --teal:#2bd0bd; --teal-glow:#3fe0cd;
+      --good:#34c77b; --warn:#e0a53c; --crit:#f0706e;
+      --good-bg:#12271c; --warn-bg:#2a2113; --crit-bg:#2c1618; --idle-bg:#1f2430;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ink:#e8eaf2; --ink-soft:#9aa0b4; --ink-faint:#656b80;
+    --ground:#0b0d13; --surface:#14171f; --surface-2:#1a1e28;
+    --line:#262b38; --line-soft:#1f2430;
+    --feather:#9d8dff; --feather-2:#b6aaff; --teal:#2bd0bd; --teal-glow:#3fe0cd;
+    --good:#34c77b; --warn:#e0a53c; --crit:#f0706e;
+    --good-bg:#12271c; --warn-bg:#2a2113; --crit-bg:#2c1618; --idle-bg:#1f2430;
+  }
+
+  * { box-sizing:border-box; }
+  html { -webkit-text-size-adjust:100%; }
+  body {
+    margin:0; background:var(--ground); color:var(--ink);
+    font-family:'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+    font-size:15px; line-height:1.5; -webkit-font-smoothing:antialiased;
+  }
+  .mono { font-family:'IBM Plex Mono', ui-monospace, monospace; font-variant-numeric:tabular-nums; }
+  .wrap { max-width:1240px; margin:0 auto; padding:0 22px 64px; }
+
+  header.bar {
+    position:sticky; top:0; z-index:20;
+    background:color-mix(in srgb, var(--ground) 86%, transparent);
+    backdrop-filter:blur(10px); border-bottom:1px solid var(--line-soft);
+  }
+  .bar-inner { max-width:1240px; margin:0 auto; padding:14px 22px; display:flex; align-items:center; gap:18px; flex-wrap:wrap; }
+  .brand { display:flex; align-items:center; gap:12px; }
+  .glyph {
+    width:38px; height:38px; flex:none; display:grid; place-items:center; border-radius:11px;
+    background:radial-gradient(120% 120% at 30% 20%, var(--feather-2), var(--feather) 55%, var(--teal) 130%);
+    box-shadow:0 0 0 1px color-mix(in srgb, var(--feather) 40%, transparent), var(--shadow);
+  }
+  .glyph svg { width:22px; height:22px; display:block; }
+  .brand h1 { font-family:'Bricolage Grotesque',sans-serif; font-weight:800; font-size:18px; margin:0; letter-spacing:-.01em; line-height:1; }
+  .brand .sub { font-size:11px; color:var(--ink-faint); letter-spacing:.14em; text-transform:uppercase; margin-top:4px; }
+  .bar-spacer { flex:1 1 auto; }
+  .status-pill { display:inline-flex; align-items:center; gap:8px; font-size:12.5px; color:var(--ink-soft); padding:7px 12px; border-radius:999px; border:1px solid var(--line); background:var(--surface); }
+  .dot { width:8px; height:8px; border-radius:50%; background:var(--ink-faint); flex:none; }
+  .dot.wait { background:var(--warn); }
+  .wallet { display:inline-flex; align-items:center; gap:9px; font-size:12.5px; padding:7px 12px; border-radius:999px; border:1px solid var(--line); background:var(--surface); color:var(--ink-soft); }
+  .wallet b { color:var(--ink); font-weight:600; }
+  .tbtn { width:36px; height:36px; border-radius:10px; flex:none; border:1px solid var(--line); background:var(--surface); color:var(--ink-soft); cursor:pointer; display:grid; place-items:center; transition:color .15s, border-color .15s; }
+  .tbtn:hover { color:var(--ink); border-color:var(--feather); }
+  .tbtn svg { width:18px; height:18px; }
+
+  .lede { padding:30px 0 8px; max-width:64ch; }
+  .lede h2 { font-family:'Bricolage Grotesque',sans-serif; font-weight:700; font-size:clamp(24px,3.4vw,34px); margin:0 0 8px; letter-spacing:-.02em; text-wrap:balance; }
+  .lede p { margin:0; color:var(--ink-soft); font-size:15px; }
+  .setup-tag { display:inline-flex; align-items:center; gap:6px; margin-bottom:14px; font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--feather); background:color-mix(in srgb,var(--feather) 14%,transparent); border:1px solid color-mix(in srgb,var(--feather) 35%,transparent); padding:4px 10px; border-radius:999px; font-weight:600; }
+
+  .kpis { display:grid; gap:14px; margin:22px 0 8px; grid-template-columns:repeat(5,1fr); }
+  .kpi { background:var(--surface); border:1px solid var(--line-soft); border-radius:var(--radius); padding:16px 16px 14px; box-shadow:var(--shadow); position:relative; overflow:hidden; }
+  .kpi .label { font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-faint); font-weight:600; }
+  .kpi .val { font-family:'Bricolage Grotesque',sans-serif; font-weight:800; font-size:27px; margin:8px 0 2px; letter-spacing:-.02em; font-variant-numeric:tabular-nums; color:var(--ink-faint); }
+  .kpi .delta { font-size:12px; font-family:'IBM Plex Mono',monospace; color:var(--ink-faint); }
+
+  .grid { display:grid; gap:14px; grid-template-columns:1.5fr 1fr; margin-top:14px; }
+  .card { background:var(--surface); border:1px solid var(--line-soft); border-radius:var(--radius); box-shadow:var(--shadow); padding:18px; min-width:0; }
+  .card h3 { font-family:'Bricolage Grotesque',sans-serif; font-weight:700; font-size:15px; margin:0 0 2px; letter-spacing:-.01em; display:flex; align-items:center; justify-content:space-between; gap:10px; }
+  .card .hint { font-size:12px; color:var(--ink-faint); margin:0 0 16px; }
+  .card h3 .tiny { font-size:11px; color:var(--ink-faint); font-family:'IBM Plex Mono',monospace; font-weight:500; letter-spacing:0; }
+
+  .empty { display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:34px 18px; border:1px dashed var(--line); border-radius:12px; background:var(--surface-2); color:var(--ink-faint); gap:8px; }
+  .empty svg { width:26px; height:26px; opacity:.6; }
+  .empty .big { font-size:13.5px; color:var(--ink-soft); font-weight:500; }
+  .empty .small { font-size:12px; }
+
+  .pipe { display:grid; grid-template-columns:repeat(5,1fr); gap:8px; }
+  .stage { background:var(--surface-2); border:1px solid var(--line-soft); border-radius:10px; padding:11px 10px; }
+  .stage .n { font-family:'Bricolage Grotesque',sans-serif; font-weight:800; font-size:22px; color:var(--ink-faint); }
+  .stage .s { font-size:10.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-faint); margin-top:2px; }
+
+  .agents { display:grid; grid-template-columns:repeat(2,1fr); gap:8px; }
+  .agent { display:flex; align-items:center; gap:10px; padding:9px 10px; border-radius:10px; background:var(--surface-2); border:1px solid var(--line-soft); }
+  .agent .ic { width:26px; height:26px; border-radius:7px; flex:none; display:grid; place-items:center; background:color-mix(in srgb,var(--feather) 15%,transparent); color:var(--feather); font-size:13px; }
+  .agent .an { font-size:13px; font-weight:500; line-height:1.15; flex:1 1 auto; min-width:0; }
+  .agent .an small { display:block; color:var(--ink-faint); font-size:11px; font-weight:400; }
+  .state { font-size:10px; text-transform:uppercase; letter-spacing:.05em; padding:2px 7px; border-radius:999px; font-weight:600; flex:none; background:var(--idle-bg); color:var(--ink-faint); }
+
+  .treasury { display:grid; gap:10px; }
+  .tr-row { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:11px 12px; border-radius:10px; background:var(--surface-2); border:1px solid var(--line-soft); }
+  .tr-row .chain { display:flex; align-items:center; gap:10px; font-size:13px; }
+  .tr-row .chain .cico { width:24px; height:24px; border-radius:50%; display:grid; place-items:center; font-size:11px; font-weight:700; color:#fff; flex:none; }
+  .tr-row .addr { font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--ink-faint); }
+  .tr-row .bal { font-family:'IBM Plex Mono',monospace; font-size:13px; font-weight:600; color:var(--ink-faint); }
+  .connect-note { margin-top:12px; font-size:12px; color:var(--ink-faint); display:flex; gap:8px; align-items:flex-start; }
+  .connect-note svg { width:15px; height:15px; flex:none; margin-top:1px; }
+
+  footer { margin-top:30px; padding-top:18px; border-top:1px solid var(--line-soft); color:var(--ink-faint); font-size:12.5px; display:flex; flex-wrap:wrap; gap:6px 16px; align-items:center; }
+  footer .sep { opacity:.4; }
+
+  @media (max-width:960px){ .kpis{grid-template-columns:repeat(2,1fr);} .grid{grid-template-columns:1fr;} .agents{grid-template-columns:1fr;} }
+  @media (max-width:560px){ .kpis{grid-template-columns:1fr 1fr;} .pipe{grid-template-columns:repeat(2,1fr);} }
+  @media (prefers-reduced-motion:reduce){ *{animation:none!important; transition:none!important;} }
+  :focus-visible { outline:2px solid var(--feather); outline-offset:2px; border-radius:6px; }
 </style>
 </head>
 <body>
-<header>
-  <div class="brand">
-    <div class="logo">🐦‍⬛</div>
-    <div><h1>The Crow Network</h1><div class="sub">Nest Console · autonomous services</div></div>
+
+<header class="bar">
+  <div class="bar-inner">
+    <div class="brand">
+      <span class="glyph" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M3 13c2.5-1 4-3 6-3 1.6 0 2.4.7 3.6.7 1.8 0 3.2-1.4 5.4-1.4-.4 2-1.8 3.3-3.4 4 .9.3 1.9.3 3 0-.8 1.9-2.6 3-4.6 3.2.4.6.9 1 1.6 1.4-1.7.7-3.6.5-5-.6-1.7 1.2-3.9 1.2-5.6-.2C6 19 5 17.4 5 15.6c0-.4 0-.8.1-1.2L3 13Z" fill="white"/>
+          <circle cx="16.4" cy="10.4" r=".9" fill="#14161d"/>
+        </svg>
+      </span>
+      <div>
+        <h1>The Crow Network</h1>
+        <div class="sub">The Nest · Mission Control</div>
+      </div>
+    </div>
+    <div class="bar-spacer"></div>
+    <span class="status-pill"><span class="dot wait"></span>Awaiting first connection</span>
+    <span class="wallet" title="No wallet connected">Treasury <b>Not connected</b></span>
+    <button class="tbtn" id="themeBtn" aria-label="Toggle light and dark theme" title="Toggle theme">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6l1.4 1.4M17 17l1.4 1.4M18.4 5.6L17 7M7 17l-1.4 1.4"/></svg>
+    </button>
   </div>
-  <span class="pill" id="status">Loading…</span>
 </header>
 
-<section class="card" style="margin-bottom:14px" aria-labelledby="oracle-title">
-  <div class="oracle-row">
-    <div>
-      <h2 id="oracle-title">Crow Oracle <span class="tag t-green" id="oracle-state">Loading</span></h2>
-      <div class="oracle-copy" id="oracle-copy">Loading the stable machine discovery beacon.</div>
-      <div class="oracle-url" id="oracle-url">https://nurdthug.github.io/crow-dashboard/oracle.json</div>
+<div class="wrap">
+
+  <section class="lede">
+    <span class="setup-tag">● Awaiting data · not yet connected</span>
+    <h2>Your flock is ready — nothing tracked yet</h2>
+    <p>This is your live mission control for The Crow Network. Once agents, wallets, and data sources are connected, revenue, pipeline, and activity will populate here in real time. Right now everything is at zero.</p>
+  </section>
+
+  <section class="kpis" aria-label="Key metrics">
+    <div class="kpi"><div class="label">Revenue · 30d</div><div class="val mono">—</div><div class="delta">No data yet</div></div>
+    <div class="kpi"><div class="label">Pipeline value</div><div class="val mono">—</div><div class="delta">No data yet</div></div>
+    <div class="kpi"><div class="label">Recurring · MRR</div><div class="val mono">—</div><div class="delta">No data yet</div></div>
+    <div class="kpi"><div class="label">Tasks · 7d</div><div class="val mono">0</div><div class="delta">No data yet</div></div>
+    <div class="kpi"><div class="label">Operator time saved</div><div class="val mono">0<span style="font-size:15px;font-weight:600"> hrs</span></div><div class="delta">No data yet</div></div>
+  </section>
+
+  <div class="grid">
+    <div style="display:grid; gap:14px; min-width:0;">
+
+      <div class="card">
+        <h3>Revenue by source <span class="tiny">last 30 days</span></h3>
+        <p class="hint">Earned value will break down here by grant, bounty, content, and partnership.</p>
+        <div class="empty">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 20V4M4 20h16M8 20v-6M13 20V9M18 20v-9"/></svg>
+          <span class="big">No revenue recorded yet</span>
+          <span class="small">Connect the Treasury agent to start tracking earnings.</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Opportunity pipeline</h3>
+        <p class="hint">Leads move from first sighting to won as the Scout finds them.</p>
+        <div class="pipe">
+          <div class="stage"><div class="n">0</div><div class="s">Scouted</div></div>
+          <div class="stage"><div class="n">0</div><div class="s">Qualified</div></div>
+          <div class="stage"><div class="n">0</div><div class="s">In progress</div></div>
+          <div class="stage"><div class="n">0</div><div class="s">Submitted</div></div>
+          <div class="stage"><div class="n">0</div><div class="s">Won</div></div>
+        </div>
+        <div class="empty" style="margin-top:16px;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+          <span class="big">No opportunities in the pipeline</span>
+          <span class="small">The Opportunity Scout will list leads here once it's running.</span>
+        </div>
+      </div>
+
     </div>
-    <nav class="oracle-actions" aria-label="Crow Oracle resources">
-      <a href="oracle/" id="oracle-service">Service page</a>
-      <a href="oracle.json" id="oracle-beacon">Beacon JSON</a>
-      <a href="llms.txt">llms.txt</a>
-      <a href="BUYERS.md">Buyer quickstart</a>
-      <a href="oracle.json" id="oracle-catalog">Live catalog</a>
-      <a href="oracle.json" id="oracle-sample">Free sample</a>
-    </nav>
-  </div>
-</section>
 
-<section class="buyer" aria-labelledby="buyer-title">
-  <div class="card">
-    <h2 id="buyer-title">Buy one exact answer</h2>
-    <div class="buyer-steps">
-      <div class="buyer-step"><b>1.</b> Fetch the stable beacon and current backend.</div>
-      <div class="buyer-step"><b>2.</b> Check live health and try the free sample.</div>
-      <div class="buyer-step"><b>3.</b> Request a paid resource to receive the HTTP 402 quote.</div>
-      <div class="buyer-step"><b>4.</b> Pay the exact resource and verify the receipt offline.</div>
-    </div>
-    <div class="oracle-url" style="margin-top:12px">https://nurdthug.github.io/crow-dashboard/oracle.json</div>
-  </div>
-  <div class="card">
-    <h2>Machine-payable products</h2>
-    <div class="product-list" id="products">
-      <div class="empty">Loading live products from the beacon.</div>
-    </div>
-  </div>
-</section>
+    <div style="display:grid; gap:14px; min-width:0;">
 
-<section class="quote-grid" aria-labelledby="proof-title">
-  <div class="card quote-panel">
-    <h2 id="proof-title">Live proof path</h2>
-    <div class="proof-list" id="proof-list">
-      <span>Loading sample and quote proof from the stable beacon.</span>
-    </div>
-  </div>
-  <div class="card quote-panel">
-    <h2>Unpaid quote commands</h2>
-    <h3>Token risk</h3>
-    <pre id="token-quote">Loading command...</pre>
-    <h3>Lending health</h3>
-    <pre id="health-quote">Loading command...</pre>
-  </div>
-</section>
+      <div class="card">
+        <h3>Live activity <span class="tiny" id="clock">—</span></h3>
+        <p class="hint">The event log, newest at the top.</p>
+        <div class="empty">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 8v4l3 2"/><circle cx="12" cy="12" r="9"/></svg>
+          <span class="big">No activity yet</span>
+          <span class="small">Agent events will stream in as the flock starts working.</span>
+        </div>
+      </div>
 
-<div class="grid kpis" id="kpis"></div>
+      <div class="card">
+        <h3>Agent roster <span class="tiny">16 total · on standby</span></h3>
+        <p class="hint">The specialized agents, ready to be activated.</p>
+        <div class="agents">
+          <div class="agent"><span class="ic">✦</span><span class="an">The Nest<small>Orchestrator</small></span><span class="state">standby</span></div>
+          <div class="agent"><span class="ic">◎</span><span class="an">Opportunity Scout<small>Discovery</small></span><span class="state">standby</span></div>
+          <div class="agent"><span class="ic">◈</span><span class="an">Research<small>Diligence</small></span><span class="state">standby</span></div>
+          <div class="agent"><span class="ic">❖</span><span class="an">Grant Hunter<small>Applications</small></span><span class="state">standby</span></div>
+          <div class="agent"><span class="ic">✜</span><span class="an">Bounty Hunter<small>Bounties</small></span><span class="state">standby</span></div>
+          <div class="agent"><span class="ic">⬡</span><span class="an">Partnership<small>Deals</small></span><span class="state">standby</span></div>
+          <div class="agent"><span class="ic">✎</span><span class="an">Content<small>Publishing</small></span><span class="state">standby</span></div>
+          <div class="agent"><span class="ic">⚒</span><span class="an">Builder<small>Shipping</small></span><span class="state">standby</span></div>
+          <div class="agent"><span class="ic">◇</span><span class="an">Treasury<small>Wallets</small></span><span class="state">standby</span></div>
+          <div class="agent"><span class="ic">◔</span><span class="an">Analytics<small>Metrics</small></span><span class="state">standby</span></div>
+          <div class="agent"><span class="ic">⌘</span><span class="an">Memory<small>Knowledge</small></span><span class="state">standby</span></div>
+          <div class="agent"><span class="ic">⚗</span><span class="an">Experimentation<small>A/B tests</small></span><span class="state">standby</span></div>
+        </div>
+      </div>
 
-<div class="card" style="margin-bottom:14px">
-  <h2 id="reshead">Research picks — today's brief</h2>
-  <div class="table-scroll">
-    <table id="research"><thead><tr><th>#</th><th>Opportunity</th><th>Value</th><th>Why</th><th>Next step</th></tr></thead><tbody><tr><td colspan="5" class="empty">Loading research brief…</td></tr></tbody></table>
-  </div>
-</div>
+      <div class="card">
+        <h3>Treasury <span class="tiny">operator-controlled</span></h3>
+        <p class="hint">Balances across chains appear here once a wallet is linked.</p>
+        <div class="treasury">
+          <div class="tr-row"><span class="chain"><span class="cico" style="background:#627eea">Ξ</span><span>Ethereum</span></span><span class="bal">Not connected</span></div>
+          <div class="tr-row"><span class="chain"><span class="cico" style="background:#0052ff">B</span><span>Base</span></span><span class="bal">Not connected</span></div>
+          <div class="tr-row"><span class="chain"><span class="cico" style="background:#9945ff">◎</span><span>Solana</span></span><span class="bal">Not connected</span></div>
+        </div>
+        <div class="connect-note">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 16v-4M12 8h.01"/><circle cx="12" cy="12" r="9"/></svg>
+          <span>No wallet is linked. You'll supply an address you control before any funds are tracked or routed.</span>
+        </div>
+      </div>
 
-<div class="grid cols">
-  <div class="card">
-    <h2>Draft packs — ready-to-work briefs</h2>
-    <ul class="feed" id="drafts"><li>Loading…</li></ul>
-  </div>
-  <div class="card">
-    <h2 id="queuehead">Executable queue — bounty hunter</h2>
-    <ul class="feed" id="queue"><li>Loading…</li></ul>
-  </div>
-</div>
-
-<div class="card bars-wrap" style="margin-bottom:14px">
-  <h2>Pipeline history — open opportunities</h2>
-  <div class="bars" id="history"></div>
-</div>
-
-<div class="grid cols">
-  <div class="card bars-wrap">
-    <h2>Top opportunities by face value (live)</h2>
-    <div class="bars" id="topbars"></div>
-  </div>
-  <div class="card">
-    <h2>Treasury (watch-only)</h2>
-    <div class="empty" id="treasury">Loading operator wallet…</div>
-    <h2 style="margin-top:16px">Approvals pending</h2>
-    <div class="empty">None. Crow Oracle discovery, delivery, settlement, and receipt verification run without a human approval step.</div>
-  </div>
-</div>
-
-<div class="grid cols">
-  <div class="card">
-    <h2 id="pipehead">Opportunity pipeline</h2>
-    <div class="table-scroll">
-      <table id="pipeline"><thead><tr><th>Opportunity</th><th>Type</th><th>Value</th><th>EV score</th><th>Days left</th></tr></thead><tbody></tbody></table>
     </div>
   </div>
-  <div class="card">
-    <h2>Activity (real commits)</h2>
-    <ul class="feed" id="feed"><li>Loading…</li></ul>
-  </div>
-</div>
 
-<div class="card">
-  <h2>Flock status — honest edition</h2>
-  <div class="grid agents" id="agents"></div>
+  <footer>
+    <span>The Crow Network — mission control</span>
+    <span class="sep">•</span>
+    <span>Awaiting first data</span>
+    <span class="sep">•</span>
+    <span>No live wallets connected</span>
+    <span class="sep">•</span>
+    <span id="foot-updated">Local time —</span>
+  </footer>
 </div>
-
-<footer>The Crow Network · stable discovery on GitHub Pages · temporary backend verified before publication · only settlement signatures count as revenue</footer>
 
 <script>
-const REPO="nurdthug/crow-dashboard";
-// Operator-registered receive addresses (PUBLIC addresses only — platform never holds keys)
-const EVM_ADDR="0x084FF47Af080512Ffc68DF95152D8C161d693c1b";
-const WALLETS=[
- {chain:"ETH",addr:EVM_ADDR,explorer:"https://etherscan.io/address/",rpc:null},
- {chain:"SOL",addr:"2QHYtVneJ8MXDe7t6p2aBHYCAB2oP8vnP8iZJH5zXQe8",explorer:"https://solscan.io/account/"},
- {chain:"BTC",addr:"bc1qqauw3wxtg6fd4hgsx89m6k99p8kjj6w9eyy4gw",explorer:"https://mempool.space/address/"},
- {chain:"BNB",addr:EVM_ADDR,explorer:"https://bscscan.com/address/",rpc:"https://bsc-dataseed.binance.org/"},
- {chain:"POL",addr:EVM_ADDR,explorer:"https://polygonscan.com/address/",rpc:"https://polygon-rpc.com/"},
- {chain:"SEI",addr:EVM_ADDR,explorer:"https://seitrace.com/address/",rpc:"https://evm-rpc.sei-apis.com/"},
- {chain:"zkSync",sym:"ETH",addr:EVM_ADDR,explorer:"https://era.zksync.network/address/",rpc:"https://mainnet.era.zksync.io"},
- {chain:"Base",sym:"ETH",addr:EVM_ADDR,explorer:"https://basescan.org/address/",rpc:"https://mainnet.base.org"},
- {chain:"Arbitrum",sym:"ETH",addr:EVM_ADDR,explorer:"https://arbiscan.io/address/",rpc:"https://arb1.arbitrum.io/rpc"},
- {chain:"OP",sym:"ETH",addr:EVM_ADDR,explorer:"https://optimistic.etherscan.io/address/",rpc:"https://mainnet.optimism.io"},
- {chain:"TRX",addr:"TX6n1aFyxaGvZuy8nPQFzcjBzkUMpRzAZw",explorer:"https://tronscan.org/#/address/"}
-];
-const fmt=n=>"$"+Number(n).toLocaleString();
-const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
-
-function productById(beacon,id){
- return (beacon.products||[]).find(product=>product.id===id)||{};
-}
-
-function commandFor(template,placeholder){
- const url=String(template||"").replace(placeholder,"11111111111111111111111111111111");
- return `BEACON=https://nurdthug.github.io/crow-dashboard/oracle.json
-BASE=$(node -e 'fetch(process.env.BEACON).then(r=>r.json()).then(j=>console.log(j.backend.baseUrl))')
-curl -i "${url.replace(/^https?:\/\/[^/]+/, "$BASE")}"`;
-}
-
-function renderBuyerProof(beacon){
- const token=productById(beacon,"token-risk-check");
- const health=productById(beacon,"lending-health");
- document.getElementById("token-quote").textContent=commandFor(token.resourceTemplate,"{mint}");
- document.getElementById("health-quote").textContent=commandFor(health.resourceTemplate,"{wallet}");
- document.getElementById("proof-list").innerHTML=[
-  `Beacon updated <b>${esc(beacon.updatedAt||"unknown")}</b>.`,
-  `Free sample: <a href="${esc(beacon.docs.freeSample)}" target="_blank" rel="noopener">${esc(beacon.docs.freeSample)}</a>`,
-  `Token-risk quote expects HTTP <b>${esc(token.quoteStatus||402)}</b> and <b>${esc(token.price?.amountUSDC||0.03)} USDC</b>.`,
-  `Lending-health quote expects HTTP <b>${esc(health.quoteStatus||402)}</b> and <b>${esc(health.price?.amountUSDC||0.05)} USDC</b>.`,
-  `Payment contract: <b>${esc(beacon.payment.compatibility)}</b>; request header: <b>X-Payment</b>.`
- ].map(line=>`<span>${line}</span>`).join("");
-}
-
-async function loadOracle(){
- const state=document.getElementById("oracle-state");
- const copy=document.getElementById("oracle-copy");
- const url=document.getElementById("oracle-url");
- try{
-  const response=await fetch("oracle.json",{cache:"no-store"});
-  if(!response.ok) throw new Error("beacon unavailable");
-  const beacon=await response.json();
-  if(beacon.service!=="crow-oracle"||beacon.payment?.protocol!=="x402"){
-   throw new Error("beacon contract mismatch");
-  }
-  state.textContent="Published";
-  state.className="tag t-green";
-  copy.textContent=`${beacon.products.length} paid products · ${beacon.payment.compatibility} · zero-key custody · backend health must be checked before payment`;
-  url.textContent=beacon.backend.baseUrl;
-  document.getElementById("oracle-catalog").href=beacon.docs.catalog;
-  document.getElementById("oracle-sample").href=beacon.docs.freeSample;
-  if(beacon.docs.publicState){
-   window.__crowPublicState=beacon.docs.publicState;
-  }
-  document.getElementById("products").innerHTML=beacon.products.map(product=>{
-   const template=product.resourceTemplate.replace(beacon.backend.baseUrl,"");
-   return `<div class="product"><div><b>${product.id}</b>`+
-    `<small>${product.description}</small><small>${template}</small></div>`+
-    `<div class="price">${product.price.amountUSDC} USDC</div></div>`;
-  }).join("");
-  renderBuyerProof(beacon);
- }catch(error){
-  state.textContent="Unavailable";
-  state.className="tag t-amber";
-  copy.textContent="The stable beacon is unavailable. Do not construct or transmit payment.";
-  document.getElementById("products").innerHTML=`<div class="empty">Beacon unavailable. Do not construct or transmit payment.</div>`;
-  document.getElementById("proof-list").innerHTML=`<span>Beacon unavailable. Do not construct or transmit payment.</span>`;
-  document.getElementById("token-quote").textContent="Beacon unavailable";
-  document.getElementById("health-quote").textContent="Beacon unavailable";
- }
-}
-loadOracle();
-
-function ageLabel(stamp){
- const d=new Date(stamp);
- if(!stamp||Number.isNaN(d)) return {label:"unknown", stale:true};
- const hours=(Date.now()-d.getTime())/36e5;
- if(hours<1) return {label:"<1h ago", stale:false};
- if(hours<48) return {label:`${Math.round(hours)}h ago`, stale:hours>30};
- return {label:`${Math.round(hours/24)}d ago`, stale:true};
-}
-
-async function balOf(w){
- try{
-  if(w.chain==="ETH"){
-   const r=await fetch(`https://eth.blockscout.com/api/v2/addresses/${w.addr}`);
-   if(r.ok){const j=await r.json();return (Number(j.coin_balance||0)/1e18).toFixed(4)+" ETH";}
-  }
-  if(w.rpc){ // generic EVM JSON-RPC
-   const r=await fetch(w.rpc,{method:"POST",
-    headers:{"Content-Type":"application/json"},
-    body:JSON.stringify({jsonrpc:"2.0",id:1,method:"eth_getBalance",params:[w.addr,"latest"]})});
-   if(r.ok){const j=await r.json();return (parseInt(j.result,16)/1e18).toFixed(4)+" "+(w.sym||w.chain);}
-  }
-  if(w.chain==="TRX"){
-   const r=await fetch(`https://apilist.tronscanapi.com/api/accountv2?address=${w.addr}`);
-   if(r.ok){const j=await r.json();return (Number(j.balance||0)/1e6).toFixed(2)+" TRX";}
-  }
-  if(w.chain==="BTC"){
-   const r=await fetch(`https://mempool.space/api/address/${w.addr}`);
-   if(r.ok){const j=await r.json();
-    const sats=(j.chain_stats.funded_txo_sum-j.chain_stats.spent_txo_sum);
-    return (sats/1e8).toFixed(8).replace(/0+$/,"0")+" BTC";}
-  }
-  if(w.chain==="SOL"){
-   const r=await fetch("https://api.mainnet-beta.solana.com",{method:"POST",
-    headers:{"Content-Type":"application/json"},
-    body:JSON.stringify({jsonrpc:"2.0",id:1,method:"getBalance",params:[w.addr]})});
-   if(r.ok){const j=await r.json();return (Number(j.result?.value||0)/1e9).toFixed(4)+" SOL";}
-  }
- }catch(e){}
- return "—";
-}
-
-async function loadTreasury(){
- const el=document.getElementById("treasury");
- const rows=await Promise.all(WALLETS.map(async w=>{
-  const short=w.addr.slice(0,4)+"…"+w.addr.slice(-4);
-  const bal=await balOf(w);
-  return `<div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0">`+
-   `<span><span class="tag t-green">${w.chain}</span> `+
-   `<a href="${w.explorer}${w.addr}" target="_blank" rel="noopener" style="font-family:monospace;font-size:12px">${short}</a></span>`+
-   `<b style="color:var(--text)">${bal}</b></div>`;
- }));
- el.innerHTML=`<div style="font-size:13px">${rows.join("")}`+
-  `<div style="margin-top:6px;color:var(--dim)">Watch-only receive addresses, operator-registered. `+
-  `Incoming payments get matched to pipeline opportunities. SOL address receives Superteam USDC/USDG payouts.</div></div>`;
-}
-loadTreasury();
-
-function researchDate(stamp){
- if(!stamp) return "";
- const d=new Date(stamp);
- if(!Number.isNaN(d)) return d.toISOString().slice(0,16).replace("T"," ")+" UTC";
- return stamp;
-}
-
-function renderResearchPicks(picks, stamp){
- const tb=document.querySelector("#research tbody");
- const head=document.getElementById("reshead");
- const date=researchDate(stamp);
- head.innerHTML=`Research picks ${date?`<span class="tag t-purple">${date}</span> `:""}`+
-  `<a href="research.md" style="font-size:11px;color:var(--cyan);text-transform:none;letter-spacing:0">full brief -></a>`;
- tb.innerHTML=picks.slice(0,5).map(o=>{
-  const value=o.value_usd!=null?`$${Number(o.value_usd).toLocaleString()} ${o.token||"USD"}`:(o.val||"value TBD");
-  const fit=o.fit!=null?`fit ${Number(o.fit).toLocaleString()}`:"fit —";
-  return `<tr><td>${o.rank||""}</td>`+
-   `<td><a href="${o.url||"#"}" target="_blank" rel="noopener">${o.title||o.name||"Untitled"}</a> `+
-   `<span class="tag t-dim">${fit}</span></td>`+
-   `<td>${value}</td><td>${o.why||"—"}</td><td style="color:var(--dim)">${o.next_step||o.next||"—"}</td></tr>`;
- }).join("");
-}
-
-// Research brief — prefers research.json and falls back to research.md
-async function loadResearch(){
- const tb=document.querySelector("#research tbody");
- try{
-  const jr=await fetch("research.json",{cache:"no-store"});
-  if(jr.ok){
-   const j=await jr.json();
-   if(j.recommendations&&j.recommendations.length){
-    renderResearchPicks(j.recommendations,j.generated_at||j.generated);
-    return;
-   }
-  }
-  const head=document.getElementById("reshead");
-  const r=await fetch("research.md",{cache:"no-store"});
-  if(!r.ok) throw 0;
-  const md=await r.text();
-  const date=(md.match(/^# .*?—\s*(.+)$/m)||[])[1]||"";
-  const rows=md.split("\n").filter(l=>/^\|\s*\d+\s*\|/.test(l));
-  const picks=rows.slice(0,5).map(l=>{
-   // Opportunity text may itself contain "|", so peel known columns off both ends.
-   const p=l.split("|"); // ["", rank, fit, effort, ...opportunity..., value, why, next, ""]
-   const rank=p[1].trim(), fit=p[2].trim();
-   const next=p[p.length-2].trim(), why=p[p.length-3].trim(), val=p[p.length-4].trim();
-   const title=p.slice(4,p.length-4).join("|").trim();
-   const m=title.match(/\[(.*)\]\((.*?)\)/);
-   return {rank,fit,name:m?m[1]:title,url:m?m[2]:"#",val,why,next};
-  });
-  if(!picks.length) throw 0;
-  head.innerHTML=`Research picks <span class="tag t-purple">${date}</span> `+
-   `<a href="research.md" style="font-size:11px;color:var(--cyan);text-transform:none;letter-spacing:0">full brief →</a>`;
-  tb.innerHTML=picks.map(o=>
-   `<tr><td>${o.rank}</td>`+
-   `<td><a href="${o.url}" target="_blank" rel="noopener">${o.name}</a> <span class="tag t-dim">fit ${o.fit}</span></td>`+
-   `<td>${o.val}</td><td>${o.why}</td><td style="color:var(--dim)">${o.next}</td></tr>`).join("");
- }catch(e){
-  tb.innerHTML=`<tr><td colspan="5" class="empty">research.md not available yet — it lands with the daily 13:17 UTC Action run, with a 13:47 UTC backup.</td></tr>`;
- }
-}
-loadResearch();
-
-// Draft packs — written daily by draft.py
-async function loadDrafts(){
- const el=document.getElementById("drafts");
- try{
-  const r=await fetch("drafts/index.json",{cache:"no-store"});
-  if(!r.ok) throw 0;
-  const ds=await r.json();
-  if(!ds.length) throw 0;
-  el.innerHTML=ds.map(d=>
-   `<li><b><a href="${d.file}">${d.title}</a></b>`+
-   `<time>${d.days_left==null?"—":Math.round(d.days_left)+"d left"}</time><br>`+
-   `$${Number(d.value_usd).toLocaleString()} ${d.token} · fit ${Math.round(d.fit).toLocaleString()} · `+
-   `<span class="tag t-dim">${d.kind}</span> `+
-   `<a href="${d.url}" target="_blank" rel="noopener" style="color:var(--cyan)">listing ↗</a></li>`).join("");
- }catch(e){el.innerHTML=`<li>No draft packs yet — generated by the daily Action.</li>`;}
-}
-loadDrafts();
-
-// Executable queue — written daily by hunter.py
-async function loadExecutableQueue(){
- const el=document.getElementById("queue");
- const head=document.getElementById("queuehead");
- try{
-  const r=await fetch("executable_queue.json",{cache:"no-store"});
-  if(!r.ok) throw 0;
-  const q=await r.json();
-  const items=Array.isArray(q)?q:(q.items||[]);
-  if(!items.length) throw 0;
-  const generated=q.generated?new Date(q.generated):null;
-  const stamp=generated&&!Number.isNaN(generated)?generated.toISOString().slice(0,16).replace("T"," ")+" UTC":"live";
-  head.innerHTML=`Executable queue <span class="tag t-green">${items.length} ready</span> <span class="tag t-dim">${stamp}</span>`;
-  el.innerHTML=items.slice(0,8).map(item=>{
-   const lane=item.lane==="github_pr"?"GitHub PR":"Listing";
-   const repo=item.repo?` · ${item.repo}`:"";
-   const due=item.days_left==null?"":` · ${Math.round(item.days_left)}d left`;
-   const value=item.value_usd?`$${Number(item.value_usd).toLocaleString()} ${item.token||"USD"}`:"value TBD";
-   const small=item.small?` <span class="tag t-green">small</span>`:"";
-   return `<li><b><a href="${item.url}" target="_blank" rel="noopener">${item.title}</a></b>`+
-    `<time>${value}</time><br><span class="tag t-purple">${lane}</span>${small}`+
-    `<span style="color:var(--dim)">${repo}${due}</span></li>`;
-  }).join("");
- }catch(e){
-  el.innerHTML=`<li>Executable queue lands with the next successful daily Action run.</li>`;
- }
-}
-loadExecutableQueue();
-
-// Pipeline history — appended daily by stats.py
-async function loadHistory(){
- const el=document.getElementById("history");
- try{
-  const r=await fetch("stats.csv",{cache:"no-store"});
-  if(!r.ok) throw 0;
-  const rows=(await r.text()).trim().split("\n").slice(1).map(l=>l.split(","));
-  if(!rows.length) throw 0;
-  const last=rows.slice(-14);
-  const mx=Math.max(...last.map(r=>+r[1]),1);
-  el.innerHTML=last.map(r=>
-   `<div class="bar" style="height:${Math.max(4,Math.round(+r[1]/mx*100))}%" title="$${Number(r[2]).toLocaleString()} face value">`+
-   `<span>${r[1]}</span><em>${r[0].slice(5)}</em></div>`).join("");
- }catch(e){el.innerHTML=`<div class="empty">History starts accruing with the next daily run.</div>`;}
-}
-loadHistory();
-
-async function boot(){
- let opps=[];
- let queueMeta=null;
- let publicStateUrl="oracle.json";
- try{
-  const r=await fetch("opportunities.json",{cache:"no-store"});
-  if(r.ok) opps=await r.json();
- }catch(e){}
- try{
-  const r=await fetch("executable_queue.json",{cache:"no-store"});
-  if(r.ok) queueMeta=await r.json();
- }catch(e){}
- try{
-  const beacon=await fetch("oracle.json",{cache:"no-store"}).then(r=>r.json());
-  if(beacon.docs?.publicState) publicStateUrl=beacon.docs.publicState;
- }catch(e){}
- const generated=queueMeta&&queueMeta.generated;
- const freshness=ageLabel(generated);
- const revenueLink=`<a href="${publicStateUrl}" target="_blank" rel="noopener" style="color:var(--cyan)">public state</a>`;
-
- // KPIs — all computed from real data
- const agentOk=opps.filter(o=>o.agent_access==="AGENT_ALLOWED");
- const fresh=opps.filter(o=>o.is_new);
- const face=opps.reduce((s,o)=>s+(o.value_usd||0),0);
- const soon=opps.filter(o=>o.days_left!=null&&o.days_left<=3).length;
- const kpis=[
-  ["Open opportunities",opps.length,"across live sources"],
-  ["Pipeline face value",fmt(face),"total prizes/rewards listed"],
-  ["Data freshness",freshness.label,generated||"latest sweep timestamp unavailable"],
-  ["Agent-eligible 🤖",agentOk.length,"flagged AGENT_ALLOWED"],
-  ["New this sweep",fresh.length,"first seen in latest run"],
-  ["Closing ≤3 days",soon,"act-now window"],
-  ["Verified revenue",revenueLink,"confirmed settlements only"]
- ];
- document.getElementById("kpis").innerHTML=kpis.map(([l,v,d])=>
-  `<div class="card kpi"><div class="label">${l}</div><div class="value">${v}</div><div class="delta">${d}</div></div>`).join("");
- document.getElementById("status").innerHTML=opps.length
-  ?(freshness.stale
-    ?`Scout <b style="color:var(--amber)">stale</b> · ${freshness.label}`
-    :`Scout <b>operational</b> · ${opps.length} live listings`)
-  :`Awaiting first sweep`;
-
- // Top-by-value bars
- const top=[...opps].sort((a,b)=>b.value_usd-a.value_usd).slice(0,6);
- const mx=Math.max(...top.map(o=>o.value_usd),1);
- document.getElementById("topbars").innerHTML=top.map(o=>
-  `<div class="bar" style="height:${Math.max(4,Math.round(o.value_usd/mx*100))}%"><span>${fmt(o.value_usd)}</span><em>${o.title}</em></div>`).join("")
-  ||`<div class="empty">No data yet.</div>`;
-
- // Pipeline
- document.getElementById("pipehead").innerHTML=`Opportunity pipeline <span class="tag t-green">LIVE · ${opps.length} open</span>`;
- document.querySelector("#pipeline tbody").innerHTML=opps.slice(0,15).map(o=>{
-  const dl=o.days_left==null?"—":Math.round(o.days_left)+"d";
-  const agent=o.agent_access==="AGENT_ALLOWED"?" 🤖":"";
-  return `<tr><td><a href="${o.url}" target="_blank" rel="noopener">${o.title}${agent}</a></td>`+
-   `<td>${o.type}</td><td>${fmt(o.value_usd)} ${o.token}</td>`+
-   `<td><span class="tag t-purple">${Number(o.score).toLocaleString()}</span></td><td>${dl}</td></tr>`;
- }).join("")||`<tr><td colspan="5" class="empty">First sweep lands at 13:17 UTC, with a 13:47 UTC backup.</td></tr>`;
-
- // Real activity: public commit history
- try{
-  const c=await fetch(`https://api.github.com/repos/${REPO}/commits?per_page=8`).then(r=>r.json());
-  document.getElementById("feed").innerHTML=c.map(x=>{
-   const when=new Date(x.commit.author.date);
-   const ago=Math.round((Date.now()-when)/36e5);
-   return `<li><b>${x.commit.author.name}</b> ${x.commit.message.split("\n")[0]}<time>${ago<24?ago+"h":Math.round(ago/24)+"d"} ago</time></li>`;
-  }).join("");
- }catch(e){document.getElementById("feed").innerHTML="<li>Commit feed unavailable.</li>";}
-
- // Honest flock status
- const flock=[
-  ["Opportunity Scout","g|operational — daily GitHub Action"],
-  ["Research","g|operational — deterministic triage (research.py)"],
-  ["Reporting","g|operational — daily Telegram + ntfy brief"],
-  ["Content","g|operational — draft packs (draft.py)"],
-  ["Analytics","g|operational — pipeline history (stats.py)"]
- ];
- flock.push(["Bounty Hunter","g|operational — executable queue (hunter.py)"]);
- ["Grant Hunter","Partnership","Sales","Builder",
-  "Automation","Treasury","Memory","Experimentation","Scheduler",
-  "Operator Interface"].forEach(n=>flock.push([n,"i|not built yet"]));
- document.getElementById("agents").innerHTML=flock.map(([n,s])=>{
-  const[st,msg]=s.split("|");
-  return `<div class="agent"><div class="nm">${n}</div><div class="st"><span class="dot ${st==="g"?"d-g":"d-i"}"></span>${msg}</div></div>`;
- }).join("");
-}
-boot();
+  (function () {
+    var btn = document.getElementById('themeBtn');
+    function current() {
+      var t = document.documentElement.getAttribute('data-theme');
+      if (t) return t;
+      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      try { localStorage.setItem('crow-theme', next); } catch (e) {}
+    });
+    try { var s = localStorage.getItem('crow-theme'); if (s) document.documentElement.setAttribute('data-theme', s); } catch (e) {}
+  })();
+  (function () {
+    var clock = document.getElementById('clock'), foot = document.getElementById('foot-updated');
+    function tick() {
+      var t = new Date().toLocaleTimeString([], { hour:'2-digit', minute:'2-digit' });
+      if (clock) clock.textContent = t;
+      if (foot) foot.textContent = 'Local time ' + t;
+    }
+    tick(); setInterval(tick, 30000);
+  })();
 </script>
 </body>
 </html>
