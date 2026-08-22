@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22 13:43 UTC",
+  "generated_at": "2026-08-22 14:00 UTC",
   "reviewed": 37,
   "agent_allowed": 3,
   "recommendations": [
@@ -45,7 +45,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 16.6,
+      "days_left": 16.5,
       "competition": 1,
       "deadline": "2026-09-08T02:59:59.000Z",
       "source": "superteam-earn",
@@ -168,25 +168,25 @@
     {
       "title": "Reverie Hacks 2026",
       "url": "https://reverie-hacks-2026.devpost.com/",
-      "competition": 1972,
+      "competition": 1975,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 19317,
+      "competition": 19320,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "All Things Agentic Hackathon",
       "url": "https://allthingsagentichackathon.devpost.com/",
-      "competition": 6856,
+      "competition": 6861,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agentic Cinema: The Blockbuster Hackathon",
       "url": "https://agentic-cinema.devpost.com/",
-      "competition": 7447,
+      "competition": 7454,
       "reason": "huge pool, but high visible competition"
     },
     {

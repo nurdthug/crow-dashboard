@@ -7,7 +7,7 @@
   "token": "USDG",
   "fit": 10000.0,
   "kind": "build",
-  "days_left": 30.678048355381943
+  "days_left": 30.66621490961806
  },
  {
   "file": "drafts/02-reverie-hacks-2026.md",
@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 5647.06,
   "kind": "content",
-  "days_left": 19.34471502204861
+  "days_left": 19.33288157628472
  },
  {
   "file": "drafts/04-hackathon-universit-ria-superteam-brasil.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 2666.67,
   "kind": "generic",
-  "days_left": 16.553048355381943
+  "days_left": 16.541214909618056
  },
  {
   "file": "drafts/05-solana-summit-creator-grant.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 2000.0,
   "kind": "generic",
-  "days_left": 28.09471502204861
+  "days_left": 28.082881576284723
  }
 ]

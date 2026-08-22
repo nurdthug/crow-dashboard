@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-22T13:43:38+00:00",
+ "generated": "2026-08-22T14:00:40+00:00",
  "count": 8,
  "items": [
   {
@@ -8,7 +8,7 @@
    "url": "https://earn.superteam.fun/listings/ugc-for-fomo-rush",
    "value_usd": 5000.0,
    "token": "USDC",
-   "days_left": 1.3030483553819445,
+   "days_left": 1.2912149096180556,
    "small": true
   },
   {
@@ -58,7 +58,7 @@
    "url": "https://earn.superteam.fun/listings/zns-sol",
    "value_usd": 500.0,
    "token": "USDC",
-   "days_left": 18.344726584548614,
+   "days_left": 18.332893138784723,
    "small": true
   },
   {
@@ -67,15 +67,15 @@
    "url": "https://earn.superteam.fun/listings/twitter-post-about-nft-locks-on-streamflow",
    "value_usd": 500.0,
    "token": "USDC",
-   "days_left": 6.344715022048611,
+   "days_left": 6.332881576284723,
    "small": true
   },
   {
    "lane": "github_pr",
-   "title": "Add JSDoc to userService",
-   "url": "https://github.com/xevrion-v2/agent-playground/issues/1",
+   "title": "Fix typo in README",
+   "url": "https://github.com/xevrion-v2/agent-playground/issues/2",
    "repo": "xevrion-v2/agent-playground",
-   "issue_number": 1,
+   "issue_number": 2,
    "value_usd": 50,
    "labels": [
     "good first issue",
@@ -89,10 +89,10 @@
   },
   {
    "lane": "github_pr",
-   "title": "Fix typo in README",
-   "url": "https://github.com/xevrion-v2/agent-playground/issues/2",
+   "title": "Add JSDoc to userService",
+   "url": "https://github.com/xevrion-v2/agent-playground/issues/1",
    "repo": "xevrion-v2/agent-playground",
-   "issue_number": 2,
+   "issue_number": 1,
    "value_usd": 50,
    "labels": [
     "good first issue",
