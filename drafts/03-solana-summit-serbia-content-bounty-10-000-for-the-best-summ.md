@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/solana-summit-serbia-content
 - Value: $10,000 USDG
-- Deadline: 18 days left (as of 2026-08-23 13:44 UTC)
+- Deadline: 18 days left (as of 2026-08-23 14:02 UTC)
 - Fit score: 4,800 — verified sponsor
 - First action: Draft script/angle and collect required brand/rule links.
 
