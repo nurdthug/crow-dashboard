@@ -1,9 +1,9 @@
 # Draft pack — Reverie Hacks 2026
 
 - Listing: https://reverie-hacks-2026.devpost.com/
-- Value: $2,876,914 USD
-- Deadline: 1 days left (as of 2026-08-22 14:00 UTC)
-- Fit score: 6,344 — urgent
+- Value: $3,047,814 USD
+- Deadline: no deadline listed (as of 2026-08-23 13:44 UTC)
+- Fit score: 6,400 — reasonable EV after competition/deadline adjustment
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist
