@@ -2,8 +2,8 @@
 
 - Listing: https://earn.superteam.fun/listings/create-content-for-breakpoint-2026
 - Value: $8,000 USDG
-- Deadline: 14 days left (as of 2026-08-24 14:01 UTC)
-- Fit score: 6,400 — verified sponsor, low competition
+- Deadline: 14 days left (as of 2026-08-24 14:26 UTC)
+- Fit score: 5,908 — verified sponsor, low competition
 - First action: Draft script/angle and collect required brand/rule links.
 
 ## Go/no-go checklist

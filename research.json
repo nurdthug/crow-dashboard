@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24 14:01 UTC",
+  "generated_at": "2026-08-24 14:26 UTC",
   "reviewed": 37,
   "agent_allowed": 3,
   "recommendations": [
@@ -13,7 +13,7 @@
       "why": "verified sponsor, no visible competition yet",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 28.7,
+      "days_left": 28.6,
       "competition": 0,
       "deadline": "2026-09-22T05:59:59.000Z",
       "source": "superteam-earn",
@@ -21,7 +21,7 @@
     },
     {
       "rank": 2,
-      "fit": 6400.0,
+      "fit": 5907.7,
       "title": "Create Content for Breakpoint 2026",
       "url": "https://earn.superteam.fun/listings/create-content-for-breakpoint-2026",
       "value_usd": 8000.0,
@@ -30,7 +30,7 @@
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
       "days_left": 14.3,
-      "competition": 4,
+      "competition": 5,
       "deadline": "2026-09-07T21:59:59.999Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -101,22 +101,6 @@
     },
     {
       "rank": 7,
-      "fit": 1125.0,
-      "title": "Post: Why Flint Beats Building Your Own Prop AMM",
-      "url": "https://earn.superteam.fun/listings/post-why-flint-beats-building-your-own-prop-amm",
-      "value_usd": 1500.0,
-      "token": "USDC",
-      "why": "no visible competition yet",
-      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
-      "effort": "high",
-      "days_left": 14.3,
-      "competition": 0,
-      "deadline": "2026-09-07T21:59:59.999Z",
-      "source": "superteam-earn",
-      "agent_access": "HUMAN_ONLY"
-    },
-    {
-      "rank": 8,
       "fit": 1000.0,
       "title": "Mato research: how do you actually trade on Solana?",
       "url": "https://earn.superteam.fun/listings/mato-research-how-do-you-actually-trade-on-solana",
@@ -128,6 +112,22 @@
       "days_left": 7.3,
       "competition": 4,
       "deadline": "2026-08-31T21:59:59.000Z",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 8,
+      "fit": 1000.0,
+      "title": "Post: Why Flint Beats Building Your Own Prop AMM",
+      "url": "https://earn.superteam.fun/listings/post-why-flint-beats-building-your-own-prop-amm",
+      "value_usd": 1500.0,
+      "token": "USDC",
+      "why": "low competition",
+      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
+      "effort": "high",
+      "days_left": 14.3,
+      "competition": 1,
+      "deadline": "2026-09-07T21:59:59.999Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
@@ -168,19 +168,19 @@
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 19970,
+      "competition": 19979,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "All Things Agentic Hackathon",
       "url": "https://allthingsagentichackathon.devpost.com/",
-      "competition": 7576,
+      "competition": 7586,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agentic Cinema: The Blockbuster Hackathon",
       "url": "https://agentic-cinema.devpost.com/",
-      "competition": 8087,
+      "competition": 8088,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -192,7 +192,7 @@
     {
       "title": "Agents for Humans Hackathon",
       "url": "https://agentsforhumans.devpost.com/",
-      "competition": 4897,
+      "competition": 4903,
       "reason": "huge pool, but high visible competition"
     }
   ]
