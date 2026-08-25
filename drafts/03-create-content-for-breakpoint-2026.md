@@ -1,9 +1,9 @@
-# Draft pack — Solana Summit Serbia Content Bounty: $10,000 for the best summit content
+# Draft pack — Create Content for Breakpoint 2026
 
-- Listing: https://earn.superteam.fun/listings/solana-summit-serbia-content
-- Value: $10,000 USDG
-- Deadline: 17 days left (as of 2026-08-24 14:26 UTC)
-- Fit score: 4,571 — verified sponsor
+- Listing: https://earn.superteam.fun/listings/create-content-for-breakpoint-2026
+- Value: $8,000 USDG
+- Deadline: 13 days left (as of 2026-08-25 14:02 UTC)
+- Fit score: 2,954 — verified sponsor
 - First action: Draft script/angle and collect required brand/rule links.
 
 ## Go/no-go checklist
