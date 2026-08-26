@@ -7,7 +7,7 @@
   "token": "USDG",
   "fit": 8888.89,
   "kind": "build",
-  "days_left": 27.646400015462962
+  "days_left": 26.664674339490738
  },
  {
   "file": "drafts/02-solana-summit-serbia-content-bounty-10-000-for-the-best-summ.md",
@@ -15,29 +15,29 @@
   "url": "https://earn.superteam.fun/listings/solana-summit-serbia-content",
   "value_usd": 10000.0,
   "token": "USDG",
-  "fit": 4363.63,
+  "fit": 4000.0,
   "kind": "content",
-  "days_left": 16.313066682129627
+  "days_left": 15.331341006157409
  },
  {
-  "file": "drafts/03-create-content-for-breakpoint-2026.md",
-  "title": "Create Content for Breakpoint 2026",
-  "url": "https://earn.superteam.fun/listings/create-content-for-breakpoint-2026",
-  "value_usd": 8000.0,
-  "token": "USDG",
-  "fit": 2953.85,
-  "kind": "content",
-  "days_left": 13.31307824462963
- },
- {
-  "file": "drafts/04-hackathon-universit-ria-superteam-brasil.md",
+  "file": "drafts/03-hackathon-universit-ria-superteam-brasil.md",
   "title": "Hackathon Universit\u00e1ria Superteam Brasil",
   "url": "https://earn.superteam.fun/listings/hackathon-universitaria-superteam-brasil-1",
   "value_usd": 3000.0,
   "token": "USDG",
   "fit": 2666.67,
   "kind": "generic",
-  "days_left": 13.521400015462962
+  "days_left": 12.539674339490741
+ },
+ {
+  "file": "drafts/04-create-content-for-breakpoint-2026.md",
+  "title": "Create Content for Breakpoint 2026",
+  "url": "https://earn.superteam.fun/listings/create-content-for-breakpoint-2026",
+  "value_usd": 8000.0,
+  "token": "USDG",
+  "fit": 2021.05,
+  "kind": "content",
+  "days_left": 12.331352568657406
  },
  {
   "file": "drafts/05-solana-summit-creator-grant.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 2000.0,
   "kind": "generic",
-  "days_left": 25.063066682129627
+  "days_left": 24.08134100615741
  }
 ]
