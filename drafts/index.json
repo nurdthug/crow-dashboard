@@ -7,7 +7,7 @@
   "token": "USDG",
   "fit": 8888.89,
   "kind": "build",
-  "days_left": 26.664674339490738
+  "days_left": 26.64681179925926
  },
  {
   "file": "drafts/02-solana-summit-serbia-content-bounty-10-000-for-the-best-summ.md",
@@ -17,7 +17,7 @@
   "token": "USDG",
   "fit": 4000.0,
   "kind": "content",
-  "days_left": 15.331341006157409
+  "days_left": 15.313478465925927
  },
  {
   "file": "drafts/03-hackathon-universit-ria-superteam-brasil.md",
@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 2666.67,
   "kind": "generic",
-  "days_left": 12.539674339490741
+  "days_left": 12.521811799259261
  },
  {
   "file": "drafts/04-create-content-for-breakpoint-2026.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 2021.05,
   "kind": "content",
-  "days_left": 12.331352568657406
+  "days_left": 12.313490028425925
  },
  {
   "file": "drafts/05-solana-summit-creator-grant.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 2000.0,
   "kind": "generic",
-  "days_left": 24.08134100615741
+  "days_left": 24.063478465925925
  }
 ]
