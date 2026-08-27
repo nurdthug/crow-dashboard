@@ -1,9 +1,9 @@
-# Draft pack — Solana Summit Creator Grant
+# Draft pack — Hackathon Universitária Superteam Brasil
 
-- Listing: https://earn.superteam.fun/listings/solana-summit-creator-grant
-- Value: $2,000 USDG
-- Deadline: 23 days left (as of 2026-08-27 22:57 UTC)
-- Fit score: 2,000 — verified sponsor, no visible competition yet
+- Listing: https://earn.superteam.fun/listings/hackathon-universitaria-superteam-brasil-1
+- Value: $3,000 USDG
+- Deadline: 11 days left (as of 2026-08-27 22:57 UTC)
+- Fit score: 2,667 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
