@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27 22:57 UTC",
+  "generated_at": "2026-08-27 23:13 UTC",
   "reviewed": 42,
   "agent_allowed": 3,
   "recommendations": [
@@ -29,7 +29,7 @@
       "why": "verified sponsor",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 14.0,
+      "days_left": 13.9,
       "competition": 18,
       "deadline": "2026-09-10T21:59:59.000Z",
       "source": "superteam-earn",
@@ -45,7 +45,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 10.0,
+      "days_left": 9.9,
       "competition": 1,
       "deadline": "2026-09-06T21:59:59.000Z",
       "source": "superteam-earn",
@@ -93,7 +93,7 @@
       "why": "verified sponsor",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 11.0,
+      "days_left": 10.9,
       "competition": 35,
       "deadline": "2026-09-07T21:59:59.999Z",
       "source": "superteam-earn",
@@ -141,7 +141,7 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 8.8,
+      "days_left": 8.7,
       "competition": 15,
       "deadline": "2026-09-05T16:59:59.999Z",
       "source": "superteam-earn",
@@ -168,13 +168,13 @@
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 21030,
+      "competition": 21034,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "All Things Agentic Hackathon",
       "url": "https://allthingsagentichackathon.devpost.com/",
-      "competition": 10591,
+      "competition": 10593,
       "reason": "huge pool, but high visible competition"
     },
     {
