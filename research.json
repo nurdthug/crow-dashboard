@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28 23:01 UTC",
+  "generated_at": "2026-08-28 23:13 UTC",
   "reviewed": 41,
   "agent_allowed": 2,
   "recommendations": [
@@ -29,7 +29,7 @@
       "why": "verified sponsor",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 13.0,
+      "days_left": 12.9,
       "competition": 20,
       "deadline": "2026-09-10T21:59:59.000Z",
       "source": "superteam-earn",
@@ -45,7 +45,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 9.0,
+      "days_left": 8.9,
       "competition": 1,
       "deadline": "2026-09-06T21:59:59.000Z",
       "source": "superteam-earn",
@@ -109,7 +109,7 @@
       "why": "verified sponsor",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 10.0,
+      "days_left": 9.9,
       "competition": 39,
       "deadline": "2026-09-07T21:59:59.999Z",
       "source": "superteam-earn",
@@ -168,13 +168,13 @@
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 21310,
+      "competition": 21311,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "All Things Agentic Hackathon",
       "url": "https://allthingsagentichackathon.devpost.com/",
-      "competition": 11166,
+      "competition": 11168,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -192,7 +192,7 @@
     {
       "title": "Agents for Humans Hackathon",
       "url": "https://agentsforhumans.devpost.com/",
-      "competition": 5784,
+      "competition": 5785,
       "reason": "huge pool, but high visible competition"
     }
   ]
