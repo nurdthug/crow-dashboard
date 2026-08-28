@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-27T23:13:52+00:00",
- "count": 8,
+ "generated": "2026-08-28T23:01:53+00:00",
+ "count": 7,
  "items": [
   {
    "lane": "github_pr",
@@ -49,7 +49,7 @@
    "url": "https://earn.superteam.fun/listings/zns-sol",
    "value_usd": 500.0,
    "token": "USDC",
-   "days_left": 12.948723746481482,
+   "days_left": 11.957081772685186,
    "small": true
   },
   {
@@ -58,16 +58,7 @@
    "url": "https://earn.superteam.fun/listings/build-and-demo-a-mermail-agent-skill",
    "value_usd": 500.0,
    "token": "USDC",
-   "days_left": 26.61537885064815,
-   "small": true
-  },
-  {
-   "lane": "listing",
-   "title": "Twitter Post about NFT Locks on Streamflow",
-   "url": "https://earn.superteam.fun/listings/twitter-post-about-nft-locks-on-streamflow",
-   "value_usd": 500.0,
-   "token": "USDC",
-   "days_left": 0.9487121839814816,
+   "days_left": 25.623736876851854,
    "small": true
   },
   {

@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/road-to-colosseum-hackathon-germany-ideathon
 - Value: $3,000 USDG
-- Deadline: 10 days left (as of 2026-08-27 23:13 UTC)
+- Deadline: 9 days left (as of 2026-08-28 23:01 UTC)
 - Fit score: 2,667 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
