@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-28 23:13 UTC",
-  "reviewed": 41,
+  "generated_at": "2026-08-29 17:07 UTC",
+  "reviewed": 40,
   "agent_allowed": 2,
   "recommendations": [
     {
@@ -13,7 +13,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 24.3,
+      "days_left": 23.5,
       "competition": 2,
       "deadline": "2026-09-22T05:59:59.000Z",
       "source": "superteam-earn",
@@ -21,7 +21,7 @@
     },
     {
       "rank": 2,
-      "fit": 3428.57,
+      "fit": 3200.0,
       "title": "Solana Summit Serbia Content Bounty: $10,000 for the best summit content",
       "url": "https://earn.superteam.fun/listings/solana-summit-serbia-content",
       "value_usd": 10000.0,
@@ -29,30 +29,14 @@
       "why": "verified sponsor",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 12.9,
-      "competition": 20,
+      "days_left": 12.2,
+      "competition": 22,
       "deadline": "2026-09-10T21:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
     {
       "rank": 3,
-      "fit": 2666.67,
-      "title": "Road to Colosseum Hackathon: Germany Ideathon",
-      "url": "https://earn.superteam.fun/listings/road-to-colosseum-hackathon-germany-ideathon",
-      "value_usd": 3000.0,
-      "token": "USDG",
-      "why": "verified sponsor, low competition",
-      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
-      "effort": "medium",
-      "days_left": 8.9,
-      "competition": 1,
-      "deadline": "2026-09-06T21:59:59.000Z",
-      "source": "superteam-earn",
-      "agent_access": "HUMAN_ONLY"
-    },
-    {
-      "rank": 4,
       "fit": 2666.67,
       "title": "Hackathon Universit\u00e1ria Superteam Brasil",
       "url": "https://earn.superteam.fun/listings/hackathon-universitaria-superteam-brasil-1",
@@ -61,9 +45,25 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 10.2,
+      "days_left": 9.4,
       "competition": 1,
       "deadline": "2026-09-08T02:59:59.000Z",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 4,
+      "fit": 2400.0,
+      "title": "Road to Colosseum Hackathon: Germany Ideathon",
+      "url": "https://earn.superteam.fun/listings/road-to-colosseum-hackathon-germany-ideathon",
+      "value_usd": 3000.0,
+      "token": "USDG",
+      "why": "verified sponsor, low competition",
+      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
+      "effort": "medium",
+      "days_left": 8.2,
+      "competition": 2,
+      "deadline": "2026-09-06T21:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
@@ -77,7 +77,7 @@
       "why": "verified sponsor, no visible competition yet",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 21.7,
+      "days_left": 21.0,
       "competition": 0,
       "deadline": "2026-09-19T15:59:59.000Z",
       "source": "superteam-earn",
@@ -93,7 +93,7 @@
       "why": "verified sponsor, no visible competition yet",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 47.9,
+      "days_left": 47.2,
       "competition": 0,
       "deadline": "2026-10-15T20:59:59.000Z",
       "source": "superteam-earn",
@@ -101,7 +101,7 @@
     },
     {
       "rank": 7,
-      "fit": 1634.04,
+      "fit": 1600.0,
       "title": "Create Content for Breakpoint 2026",
       "url": "https://earn.superteam.fun/listings/create-content-for-breakpoint-2026",
       "value_usd": 8000.0,
@@ -109,8 +109,8 @@
       "why": "verified sponsor",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 9.9,
-      "competition": 39,
+      "days_left": 9.2,
+      "competition": 40,
       "deadline": "2026-09-07T21:59:59.999Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -125,7 +125,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 9.9,
+      "days_left": 9.2,
       "competition": 1,
       "deadline": "2026-09-07T20:59:59.000Z",
       "source": "superteam-earn",
@@ -134,22 +134,22 @@
     {
       "rank": 9,
       "fit": 800.0,
-      "title": "Provide a Report on Solana Communities Based on Direct Engagement",
-      "url": "https://earn.superteam.fun/listings/provide-a-report-on-solana-communities-based-on-direct-engagement",
-      "value_usd": 1000.0,
+      "title": "Pitch & Demo Your Product at Online Demo Day",
+      "url": "https://earn.superteam.fun/listings/pitch-and-demo-your-product-at-online-demo-day",
+      "value_usd": 800.0,
       "token": "USDG",
-      "why": "verified sponsor, low competition",
+      "why": "verified sponsor, no visible competition yet",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 3.2,
-      "competition": 2,
-      "deadline": "2026-09-01T03:59:59.000Z",
+      "days_left": 47.2,
+      "competition": 0,
+      "deadline": "2026-10-15T20:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
     {
       "rank": 10,
-      "fit": 800.0,
+      "fit": 727.27,
       "title": "IDEATHON | Submit Innovative Ideas for the Hackathon",
       "url": "https://earn.superteam.fun/listings/ideathon-submit-innovative-ideas-for-the-hackathon",
       "value_usd": 1000.0,
@@ -157,8 +157,8 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 17.9,
-      "competition": 2,
+      "days_left": 17.2,
+      "competition": 3,
       "deadline": "2026-09-15T20:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -168,31 +168,31 @@
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 21311,
+      "competition": 21520,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "All Things Agentic Hackathon",
       "url": "https://allthingsagentichackathon.devpost.com/",
-      "competition": 11168,
+      "competition": 11468,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agentic Cinema: The Blockbuster Hackathon",
       "url": "https://agentic-cinema.devpost.com/",
-      "competition": 8645,
+      "competition": 8712,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "VoltHacks",
       "url": "https://volthacks.devpost.com/",
-      "competition": 1791,
+      "competition": 1807,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agents for Humans Hackathon",
       "url": "https://agentsforhumans.devpost.com/",
-      "competition": 5785,
+      "competition": 5939,
       "reason": "huge pool, but high visible competition"
     }
   ]
