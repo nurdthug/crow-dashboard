@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29 17:24 UTC",
+  "generated_at": "2026-08-30 17:28 UTC",
   "reviewed": 40,
-  "agent_allowed": 2,
+  "agent_allowed": 1,
   "recommendations": [
     {
       "rank": 1,
@@ -13,7 +13,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 23.5,
+      "days_left": 22.5,
       "competition": 2,
       "deadline": "2026-09-22T05:59:59.000Z",
       "source": "superteam-earn",
@@ -21,7 +21,7 @@
     },
     {
       "rank": 2,
-      "fit": 3200.0,
+      "fit": 3000.0,
       "title": "Solana Summit Serbia Content Bounty: $10,000 for the best summit content",
       "url": "https://earn.superteam.fun/listings/solana-summit-serbia-content",
       "value_usd": 10000.0,
@@ -29,8 +29,8 @@
       "why": "verified sponsor",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 12.2,
-      "competition": 22,
+      "days_left": 11.2,
+      "competition": 24,
       "deadline": "2026-09-10T21:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -45,7 +45,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 9.4,
+      "days_left": 8.4,
       "competition": 1,
       "deadline": "2026-09-08T02:59:59.000Z",
       "source": "superteam-earn",
@@ -61,7 +61,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 8.2,
+      "days_left": 7.2,
       "competition": 2,
       "deadline": "2026-09-06T21:59:59.000Z",
       "source": "superteam-earn",
@@ -77,7 +77,7 @@
       "why": "verified sponsor, no visible competition yet",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 20.9,
+      "days_left": 19.9,
       "competition": 0,
       "deadline": "2026-09-19T15:59:59.000Z",
       "source": "superteam-earn",
@@ -93,7 +93,7 @@
       "why": "verified sponsor, no visible competition yet",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 47.1,
+      "days_left": 46.1,
       "competition": 0,
       "deadline": "2026-10-15T20:59:59.000Z",
       "source": "superteam-earn",
@@ -101,7 +101,7 @@
     },
     {
       "rank": 7,
-      "fit": 1600.0,
+      "fit": 1422.23,
       "title": "Create Content for Breakpoint 2026",
       "url": "https://earn.superteam.fun/listings/create-content-for-breakpoint-2026",
       "value_usd": 8000.0,
@@ -109,8 +109,8 @@
       "why": "verified sponsor",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 9.2,
-      "competition": 40,
+      "days_left": 8.2,
+      "competition": 46,
       "deadline": "2026-09-07T21:59:59.999Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -125,7 +125,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 9.1,
+      "days_left": 8.1,
       "competition": 1,
       "deadline": "2026-09-07T20:59:59.000Z",
       "source": "superteam-earn",
@@ -141,7 +141,7 @@
       "why": "verified sponsor, no visible competition yet",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 47.1,
+      "days_left": 46.1,
       "competition": 0,
       "deadline": "2026-10-15T20:59:59.000Z",
       "source": "superteam-earn",
@@ -157,7 +157,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 17.1,
+      "days_left": 16.1,
       "competition": 3,
       "deadline": "2026-09-15T20:59:59.000Z",
       "source": "superteam-earn",
@@ -168,31 +168,31 @@
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 21521,
+      "competition": 21732,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "All Things Agentic Hackathon",
       "url": "https://allthingsagentichackathon.devpost.com/",
-      "competition": 11474,
+      "competition": 11826,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agentic Cinema: The Blockbuster Hackathon",
       "url": "https://agentic-cinema.devpost.com/",
-      "competition": 8712,
+      "competition": 8824,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "VoltHacks",
       "url": "https://volthacks.devpost.com/",
-      "competition": 1807,
+      "competition": 1821,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agents for Humans Hackathon",
       "url": "https://agentsforhumans.devpost.com/",
-      "competition": 5941,
+      "competition": 6267,
       "reason": "huge pool, but high visible competition"
     }
   ]

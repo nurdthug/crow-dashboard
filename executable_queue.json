@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-29T17:24:12+00:00",
- "count": 7,
+ "generated": "2026-08-30T17:28:16+00:00",
+ "count": 6,
  "items": [
   {
    "lane": "github_pr",
@@ -49,24 +49,15 @@
    "url": "https://earn.superteam.fun/listings/zns-sol",
    "value_usd": 500.0,
    "token": "USDC",
-   "days_left": 11.191555361481482,
-   "small": true
-  },
-  {
-   "lane": "listing",
-   "title": "Build and Demo a Mermail Agent Skill",
-   "url": "https://earn.superteam.fun/listings/build-and-demo-a-mermail-agent-skill",
-   "value_usd": 500.0,
-   "token": "USDC",
-   "days_left": 24.85821046564815,
+   "days_left": 10.188733218518518,
    "small": true
   },
   {
    "lane": "github_pr",
-   "title": "Fix typo in README",
-   "url": "https://github.com/xevrion-v2/agent-playground/issues/2",
+   "title": "Add JSDoc to userService",
+   "url": "https://github.com/xevrion-v2/agent-playground/issues/1",
    "repo": "xevrion-v2/agent-playground",
-   "issue_number": 2,
+   "issue_number": 1,
    "value_usd": 50,
    "labels": [
     "good first issue",
@@ -80,10 +71,10 @@
   },
   {
    "lane": "github_pr",
-   "title": "Add JSDoc to userService",
-   "url": "https://github.com/xevrion-v2/agent-playground/issues/1",
+   "title": "Fix typo in README",
+   "url": "https://github.com/xevrion-v2/agent-playground/issues/2",
    "repo": "xevrion-v2/agent-playground",
-   "issue_number": 1,
+   "issue_number": 2,
    "value_usd": 50,
    "labels": [
     "good first issue",
