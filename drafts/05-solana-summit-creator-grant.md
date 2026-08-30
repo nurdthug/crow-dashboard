@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/solana-summit-creator-grant
 - Value: $2,000 USDG
-- Deadline: 20 days left (as of 2026-08-30 17:28 UTC)
+- Deadline: 20 days left (as of 2026-08-30 17:47 UTC)
 - Fit score: 2,000 — verified sponsor, no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 

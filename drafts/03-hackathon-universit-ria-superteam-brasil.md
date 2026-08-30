@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/hackathon-universitaria-superteam-brasil-1
 - Value: $3,000 USDG
-- Deadline: 8 days left (as of 2026-08-30 17:28 UTC)
+- Deadline: 8 days left (as of 2026-08-30 17:47 UTC)
 - Fit score: 2,667 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
