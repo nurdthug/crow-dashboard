@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://examples-erp-nil-murray.trycloudflare.com",
+    "baseUrl": "https://privacy-pour-fantastic-alliance.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://examples-erp-nil-murray.trycloudflare.com/healthz",
+    "health": "https://privacy-pour-fantastic-alliance.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://examples-erp-nil-murray.trycloudflare.com/catalog.json",
-    "openapi": "https://examples-erp-nil-murray.trycloudflare.com/openapi.json",
-    "llms": "https://examples-erp-nil-murray.trycloudflare.com/llms.txt",
-    "freeSample": "https://examples-erp-nil-murray.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://examples-erp-nil-murray.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://examples-erp-nil-murray.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://examples-erp-nil-murray.trycloudflare.com/state"
+    "catalog": "https://privacy-pour-fantastic-alliance.trycloudflare.com/catalog.json",
+    "openapi": "https://privacy-pour-fantastic-alliance.trycloudflare.com/openapi.json",
+    "llms": "https://privacy-pour-fantastic-alliance.trycloudflare.com/llms.txt",
+    "freeSample": "https://privacy-pour-fantastic-alliance.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://privacy-pour-fantastic-alliance.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://privacy-pour-fantastic-alliance.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://privacy-pour-fantastic-alliance.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://examples-erp-nil-murray.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://privacy-pour-fantastic-alliance.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://examples-erp-nil-murray.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://privacy-pour-fantastic-alliance.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
