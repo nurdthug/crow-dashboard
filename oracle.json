@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://systematic-privileges-widespread-northeast.trycloudflare.com",
+    "baseUrl": "https://diamond-smilies-behind-dawn.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://systematic-privileges-widespread-northeast.trycloudflare.com/healthz",
+    "health": "https://diamond-smilies-behind-dawn.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://systematic-privileges-widespread-northeast.trycloudflare.com/catalog.json",
-    "openapi": "https://systematic-privileges-widespread-northeast.trycloudflare.com/openapi.json",
-    "llms": "https://systematic-privileges-widespread-northeast.trycloudflare.com/llms.txt",
-    "freeSample": "https://systematic-privileges-widespread-northeast.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://systematic-privileges-widespread-northeast.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://systematic-privileges-widespread-northeast.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://systematic-privileges-widespread-northeast.trycloudflare.com/state"
+    "catalog": "https://diamond-smilies-behind-dawn.trycloudflare.com/catalog.json",
+    "openapi": "https://diamond-smilies-behind-dawn.trycloudflare.com/openapi.json",
+    "llms": "https://diamond-smilies-behind-dawn.trycloudflare.com/llms.txt",
+    "freeSample": "https://diamond-smilies-behind-dawn.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://diamond-smilies-behind-dawn.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://diamond-smilies-behind-dawn.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://diamond-smilies-behind-dawn.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://systematic-privileges-widespread-northeast.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://diamond-smilies-behind-dawn.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://systematic-privileges-widespread-northeast.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://diamond-smilies-behind-dawn.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
