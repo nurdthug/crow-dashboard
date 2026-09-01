@@ -7,7 +7,7 @@
   "token": "USDG",
   "fit": 6153.85,
   "kind": "build",
-  "days_left": 20.528384571145832
+  "days_left": 20.522444351712963
  },
  {
   "file": "drafts/02-hackathon-universit-ria-superteam-brasil.md",
@@ -17,7 +17,7 @@
   "token": "USDG",
   "fit": 2666.67,
   "kind": "generic",
-  "days_left": 6.403384571145833
+  "days_left": 6.397444351712962
  },
  {
   "file": "drafts/03-solana-summit-serbia-content-bounty-10-000-for-the-best-summ.md",
@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 2232.56,
   "kind": "content",
-  "days_left": 9.1950512378125
+  "days_left": 9.189111018379629
  },
  {
   "file": "drafts/04-solana-summit-creator-grant.md",
@@ -37,16 +37,16 @@
   "token": "USDG",
   "fit": 2000.0,
   "kind": "generic",
-  "days_left": 17.9450512378125
+  "days_left": 17.93911101837963
  },
  {
-  "file": "drafts/05-pitch-demo-your-project-at-demo-day-in-kyiv.md",
-  "title": "Pitch & Demo Your Project at Demo Day in Kyiv",
-  "url": "https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv",
-  "value_usd": 1700.0,
-  "token": "USDG",
-  "fit": 1700.0,
-  "kind": "generic",
-  "days_left": 44.153384571145835
+  "file": "drafts/05-revenuecat-shipaton-2026.md",
+  "title": "RevenueCat Shipaton 2026",
+  "url": "https://revenuecat-shipaton-2026.devpost.com/",
+  "value_usd": 740000.0,
+  "token": "USD",
+  "fit": 1942.5,
+  "kind": "build",
+  "days_left": 30.0
  }
 ]

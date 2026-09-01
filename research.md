@@ -1,8 +1,8 @@
-# Crow Research Brief — 2026-09-01 17:19 UTC
+# Crow Research Brief — 2026-09-01 17:27 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
-**Reviewed:** 29 opportunities · **Agent-allowed:** 1 · **Recommended focus:** top 3 below
+**Reviewed:** 38 opportunities · **Agent-allowed:** 1 · **Recommended focus:** top 3 below
 
 | # | Fit | Effort | Opportunity | Value | Why | Next step |
 |---|---:|---|---|---:|---|---|
@@ -18,3 +18,9 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 | 10 | 864 | low-medium | [Create Content to Engage New Builders for the Hackathon](https://earn.superteam.fun/listings/create-content-to-engage-new-builders-for-the-hackathon) | $900 USDG | verified sponsor, low competition | Draft script/angle and collect required brand/rule links. |
 
 ## Do Not Chase First
+
+- [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/): huge pool, but competition is already 22,275.
+- [Nebius x NVIDIA Global AI Hackathon](https://nebiusglobalaihackathon.devpost.com/): huge pool, but competition is already 1,626.
+- [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/): huge pool, but competition is already 9,092.
+- [VoltHacks](https://volthacks.devpost.com/): huge pool, but competition is already 1,866.
+- [Agents for Humans Hackathon](https://agentsforhumans.devpost.com/): huge pool, but competition is already 6,796.
