@@ -1,9 +1,9 @@
-# Draft pack — Road to Colosseum Hackathon: Germany Ideathon
+# Draft pack — Solana Summit Creator Grant
 
-- Listing: https://earn.superteam.fun/listings/road-to-colosseum-hackathon-germany-ideathon
-- Value: $3,000 USDG
-- Deadline: 6 days left (as of 2026-08-31 19:42 UTC)
-- Fit score: 2,000 — verified sponsor, low competition
+- Listing: https://earn.superteam.fun/listings/solana-summit-creator-grant
+- Value: $2,000 USDG
+- Deadline: 18 days left (as of 2026-09-01 17:19 UTC)
+- Fit score: 2,000 — verified sponsor, no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist

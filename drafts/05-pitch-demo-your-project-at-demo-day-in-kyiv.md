@@ -1,9 +1,9 @@
-# Draft pack — Solana Summit Creator Grant
+# Draft pack — Pitch & Demo Your Project at Demo Day in Kyiv
 
-- Listing: https://earn.superteam.fun/listings/solana-summit-creator-grant
-- Value: $2,000 USDG
-- Deadline: 19 days left (as of 2026-08-31 19:42 UTC)
-- Fit score: 2,000 — verified sponsor, no visible competition yet
+- Listing: https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv
+- Value: $1,700 USDG
+- Deadline: 44 days left (as of 2026-09-01 17:19 UTC)
+- Fit score: 1,700 — verified sponsor, no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
