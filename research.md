@@ -1,4 +1,4 @@
-# Crow Research Brief — 2026-09-02 17:09 UTC
+# Crow Research Brief — 2026-09-02 17:24 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
@@ -6,7 +6,7 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 
 | # | Fit | Effort | Opportunity | Value | Why | Next step |
 |---|---:|---|---|---:|---|---|
-| 1 | 5,714 | medium | [Solana Summit Canada Creator Challenge - part 1](https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-1) | $10,000 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
+| 1 | 5,333 | medium | [Solana Summit Canada Creator Challenge - part 1](https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-1) | $10,000 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 2 | 2,667 | medium | [Hackathon Universitária Superteam Brasil](https://earn.superteam.fun/listings/hackathon-universitaria-superteam-brasil-1) | $3,000 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 3 | 2,000 | medium | [Solana Summit Creator Grant](https://earn.superteam.fun/listings/solana-summit-creator-grant) | $2,000 USDG | verified sponsor, no visible competition yet | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 4 | 1,959 | low-medium | [Solana Summit Serbia Content Bounty: $10,000 for the best summit content](https://earn.superteam.fun/listings/solana-summit-serbia-content) | $10,000 USDG | verified sponsor | Draft script/angle and collect required brand/rule links. |
@@ -19,8 +19,8 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 
 ## Do Not Chase First
 
-- [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/): huge pool, but competition is already 22,675.
-- [Nebius x NVIDIA Global AI Hackathon](https://nebiusglobalaihackathon.devpost.com/): huge pool, but competition is already 1,869.
-- [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/): huge pool, but competition is already 9,206.
+- [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/): huge pool, but competition is already 22,680.
+- [Nebius x NVIDIA Global AI Hackathon](https://nebiusglobalaihackathon.devpost.com/): huge pool, but competition is already 1,875.
+- [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/): huge pool, but competition is already 9,207.
 - [VoltHacks](https://volthacks.devpost.com/): huge pool, but competition is already 1,887.
-- [Agents for Humans Hackathon](https://agentsforhumans.devpost.com/): huge pool, but competition is already 6,951.
+- [Agents for Humans Hackathon](https://agentsforhumans.devpost.com/): huge pool, but competition is already 6,952.

@@ -5,9 +5,9 @@
   "url": "https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-1",
   "value_usd": 10000.0,
   "token": "USDG",
-  "fit": 5714.29,
+  "fit": 5333.33,
   "kind": "build",
-  "days_left": 19.53496556540509
+  "days_left": 19.52460983121528
  },
  {
   "file": "drafts/02-hackathon-universit-ria-superteam-brasil.md",
@@ -17,7 +17,7 @@
   "token": "USDG",
   "fit": 2666.67,
   "kind": "generic",
-  "days_left": 5.409965565405092
+  "days_left": 5.399609831215278
  },
  {
   "file": "drafts/03-solana-summit-creator-grant.md",
@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 2000.0,
   "kind": "generic",
-  "days_left": 16.95163223207176
+  "days_left": 16.941276497881944
  },
  {
   "file": "drafts/04-solana-summit-serbia-content-bounty-10-000-for-the-best-summ.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 1959.18,
   "kind": "content",
-  "days_left": 8.20163223207176
+  "days_left": 8.191276497881944
  },
  {
   "file": "drafts/05-revenuecat-shipaton-2026.md",
