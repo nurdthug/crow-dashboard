@@ -5,9 +5,9 @@
   "url": "https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-1",
   "value_usd": 10000.0,
   "token": "USDG",
-  "fit": 5333.33,
+  "fit": 4705.88,
   "kind": "build",
-  "days_left": 19.52460983121528
+  "days_left": 18.540093293842595
  },
  {
   "file": "drafts/02-hackathon-universit-ria-superteam-brasil.md",
@@ -17,17 +17,17 @@
   "token": "USDG",
   "fit": 2666.67,
   "kind": "generic",
-  "days_left": 5.399609831215278
+  "days_left": 4.415093293842593
  },
  {
-  "file": "drafts/03-solana-summit-creator-grant.md",
-  "title": "Solana Summit Creator Grant",
-  "url": "https://earn.superteam.fun/listings/solana-summit-creator-grant",
-  "value_usd": 2000.0,
-  "token": "USDG",
-  "fit": 2000.0,
-  "kind": "generic",
-  "days_left": 16.941276497881944
+  "file": "drafts/03-revenuecat-shipaton-2026.md",
+  "title": "RevenueCat Shipaton 2026",
+  "url": "https://revenuecat-shipaton-2026.devpost.com/",
+  "value_usd": 740000.0,
+  "token": "USD",
+  "fit": 1942.5,
+  "kind": "build",
+  "days_left": 28.0
  },
  {
   "file": "drafts/04-solana-summit-serbia-content-bounty-10-000-for-the-best-summ.md",
@@ -35,18 +35,18 @@
   "url": "https://earn.superteam.fun/listings/solana-summit-serbia-content",
   "value_usd": 10000.0,
   "token": "USDG",
-  "fit": 1959.18,
+  "fit": 1714.28,
   "kind": "content",
-  "days_left": 8.191276497881944
+  "days_left": 7.20675996050926
  },
  {
-  "file": "drafts/05-revenuecat-shipaton-2026.md",
-  "title": "RevenueCat Shipaton 2026",
-  "url": "https://revenuecat-shipaton-2026.devpost.com/",
-  "value_usd": 740000.0,
-  "token": "USD",
-  "fit": 1942.5,
-  "kind": "build",
-  "days_left": 29.0
+  "file": "drafts/05-pitch-demo-your-project-at-demo-day-in-kyiv.md",
+  "title": "Pitch & Demo Your Project at Demo Day in Kyiv",
+  "url": "https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv",
+  "value_usd": 1700.0,
+  "token": "USDG",
+  "fit": 1700.0,
+  "kind": "generic",
+  "days_left": 42.16509329384259
  }
 ]

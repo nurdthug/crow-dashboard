@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-02T17:24:36+00:00",
- "count": 6,
+ "generated": "2026-09-03T17:02:17+00:00",
+ "count": 7,
  "items": [
   {
    "lane": "github_pr",
@@ -45,11 +45,20 @@
   },
   {
    "lane": "listing",
+   "title": "Steve Agent Arena: Launch Your Agent & Win 500 USDC",
+   "url": "https://earn.superteam.fun/listings/steve-agent-arena-launch-your-agent-and-win-500-usdc",
+   "value_usd": 500.0,
+   "token": "USDC",
+   "days_left": 13.206759960509261,
+   "small": true
+  },
+  {
+   "lane": "listing",
    "title": "\ud83d\udfe2 ZNS Solana Creator Challenge",
    "url": "https://earn.superteam.fun/listings/zns-sol",
    "value_usd": 500.0,
    "token": "USDC",
-   "days_left": 7.191288060381944,
+   "days_left": 6.206771523009259,
    "small": true
   },
   {
