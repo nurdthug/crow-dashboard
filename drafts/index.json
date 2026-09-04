@@ -7,7 +7,7 @@
   "token": "USDC",
   "fit": 5250.0,
   "kind": "generic",
-  "days_left": 17.589090866979166
+  "days_left": 17.57777053690972
  },
  {
   "file": "drafts/02-solana-summit-canada-creator-challenge-part-1.md",
@@ -17,7 +17,7 @@
   "token": "USDG",
   "fit": 4210.53,
   "kind": "build",
-  "days_left": 17.547424200312502
+  "days_left": 17.536103870243057
  },
  {
   "file": "drafts/03-vibeathon-superteam-x-replit.md",
@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 3000.0,
   "kind": "generic",
-  "days_left": 8.4224242003125
+  "days_left": 8.411103870243055
  },
  {
   "file": "drafts/04-hackathon-universit-ria-superteam-brasil.md",
@@ -35,9 +35,9 @@
   "url": "https://earn.superteam.fun/listings/hackathon-universitaria-superteam-brasil-1",
   "value_usd": 3000.0,
   "token": "USDG",
-  "fit": 2666.67,
+  "fit": 2400.0,
   "kind": "generic",
-  "days_left": 3.4224242003125
+  "days_left": 3.4111038702430556
  },
  {
   "file": "drafts/05-revenuecat-shipaton-2026.md",

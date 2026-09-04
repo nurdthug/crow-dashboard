@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04 16:51 UTC",
-  "reviewed": 40,
+  "generated_at": "2026-09-04 17:08 UTC",
+  "reviewed": 39,
   "agent_allowed": 2,
   "recommendations": [
     {
@@ -53,7 +53,7 @@
     },
     {
       "rank": 4,
-      "fit": 2666.67,
+      "fit": 2400.0,
       "title": "Hackathon Universit\u00e1ria Superteam Brasil",
       "url": "https://earn.superteam.fun/listings/hackathon-universitaria-superteam-brasil-1",
       "value_usd": 3000.0,
@@ -62,7 +62,7 @@
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
       "days_left": 3.4,
-      "competition": 1,
+      "competition": 2,
       "deadline": "2026-09-08T02:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -168,31 +168,31 @@
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 23303,
+      "competition": 23309,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 1705,
+      "competition": 1710,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agentic Cinema: The Blockbuster Hackathon",
       "url": "https://agentic-cinema.devpost.com/",
-      "competition": 9455,
+      "competition": 9460,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 2286,
+      "competition": 2289,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agents for Humans Hackathon",
       "url": "https://agentsforhumans.devpost.com/",
-      "competition": 7555,
+      "competition": 7556,
       "reason": "huge pool, but high visible competition"
     }
   ]

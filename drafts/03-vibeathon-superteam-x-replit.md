@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/vibeathon-superteam-x-replit
 - Value: $3,000 USDG
-- Deadline: 8 days left (as of 2026-09-04 16:51 UTC)
+- Deadline: 8 days left (as of 2026-09-04 17:08 UTC)
 - Fit score: 3,000 — verified sponsor, no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 

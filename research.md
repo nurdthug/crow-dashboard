@@ -1,15 +1,15 @@
-# Crow Research Brief — 2026-09-04 16:51 UTC
+# Crow Research Brief — 2026-09-04 17:08 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
-**Reviewed:** 40 opportunities · **Agent-allowed:** 2 · **Recommended focus:** top 3 below
+**Reviewed:** 39 opportunities · **Agent-allowed:** 2 · **Recommended focus:** top 3 below
 
 | # | Fit | Effort | Opportunity | Value | Why | Next step |
 |---|---:|---|---|---:|---|---|
 | 1 | 5,250 | medium | [BAXUS Creators: Film Real Vending Machine Spins](https://earn.superteam.fun/listings/baxus-creators-film-real-vending-machine-spins) | $7,000 USDC | no visible competition yet | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 2 | 4,211 | medium | [Solana Summit Canada Creator Challenge - part 1](https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-1) | $10,000 USDG | verified sponsor | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 3 | 3,000 | medium | [Vibeathon Superteam x Replit](https://earn.superteam.fun/listings/vibeathon-superteam-x-replit) | $3,000 USDG | verified sponsor, no visible competition yet | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
-| 4 | 2,667 | medium | [Hackathon Universitária Superteam Brasil](https://earn.superteam.fun/listings/hackathon-universitaria-superteam-brasil-1) | $3,000 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
+| 4 | 2,400 | medium | [Hackathon Universitária Superteam Brasil](https://earn.superteam.fun/listings/hackathon-universitaria-superteam-brasil-1) | $3,000 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 5 | 1,700 | medium | [Pitch & Demo Your Project at Demo Day in Kyiv](https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv) | $1,700 USDG | verified sponsor, no visible competition yet | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 6 | 1,627 | low-medium | [Solana Summit Serbia Content Bounty: $10,000 for the best summit content](https://earn.superteam.fun/listings/solana-summit-serbia-content) | $10,000 USDG | verified sponsor | Draft script/angle and collect required brand/rule links. |
 | 7 | 1,500 | medium | [Road to Colosseum Hackathon: Germany Ideathon](https://earn.superteam.fun/listings/road-to-colosseum-hackathon-germany-ideathon) | $3,000 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
@@ -19,8 +19,8 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 
 ## Do Not Chase First
 
-- [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/): huge pool, but competition is already 23,303.
-- [Build, Ship, Shape: Amazon Developer Hackathon](https://amazonappdev2026.devpost.com/): huge pool, but competition is already 1,705.
-- [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/): huge pool, but competition is already 9,455.
-- [Nebius x NVIDIA Global AI Hackathon](https://nebiusglobalaihackathon.devpost.com/): huge pool, but competition is already 2,286.
-- [Agents for Humans Hackathon](https://agentsforhumans.devpost.com/): huge pool, but competition is already 7,555.
+- [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/): huge pool, but competition is already 23,309.
+- [Build, Ship, Shape: Amazon Developer Hackathon](https://amazonappdev2026.devpost.com/): huge pool, but competition is already 1,710.
+- [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/): huge pool, but competition is already 9,460.
+- [Nebius x NVIDIA Global AI Hackathon](https://nebiusglobalaihackathon.devpost.com/): huge pool, but competition is already 2,289.
+- [Agents for Humans Hackathon](https://agentsforhumans.devpost.com/): huge pool, but competition is already 7,556.
