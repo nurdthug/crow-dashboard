@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://perth-equality-routine-traffic.trycloudflare.com",
+    "baseUrl": "https://aging-village-velvet-trackbacks.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://perth-equality-routine-traffic.trycloudflare.com/healthz",
+    "health": "https://aging-village-velvet-trackbacks.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://perth-equality-routine-traffic.trycloudflare.com/catalog.json",
-    "openapi": "https://perth-equality-routine-traffic.trycloudflare.com/openapi.json",
-    "llms": "https://perth-equality-routine-traffic.trycloudflare.com/llms.txt",
-    "freeSample": "https://perth-equality-routine-traffic.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://perth-equality-routine-traffic.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://perth-equality-routine-traffic.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://perth-equality-routine-traffic.trycloudflare.com/state"
+    "catalog": "https://aging-village-velvet-trackbacks.trycloudflare.com/catalog.json",
+    "openapi": "https://aging-village-velvet-trackbacks.trycloudflare.com/openapi.json",
+    "llms": "https://aging-village-velvet-trackbacks.trycloudflare.com/llms.txt",
+    "freeSample": "https://aging-village-velvet-trackbacks.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://aging-village-velvet-trackbacks.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://aging-village-velvet-trackbacks.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://aging-village-velvet-trackbacks.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://perth-equality-routine-traffic.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://aging-village-velvet-trackbacks.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://perth-equality-routine-traffic.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://aging-village-velvet-trackbacks.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
