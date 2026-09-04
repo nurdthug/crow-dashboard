@@ -1,9 +1,9 @@
-# Draft pack — Pitch & Demo Your Project at Demo Day in Kyiv
+# Draft pack — BAXUS Creators: Film Real Vending Machine Spins
 
-- Listing: https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv
-- Value: $1,700 USDG
-- Deadline: 42 days left (as of 2026-09-03 17:17 UTC)
-- Fit score: 1,700 — verified sponsor, no visible competition yet
+- Listing: https://earn.superteam.fun/listings/baxus-creators-film-real-vending-machine-spins
+- Value: $7,000 USDC
+- Deadline: 18 days left (as of 2026-09-04 16:51 UTC)
+- Fit score: 5,250 — no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist

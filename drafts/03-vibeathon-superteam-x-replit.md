@@ -1,9 +1,9 @@
-# Draft pack — Hackathon Universitária Superteam Brasil
+# Draft pack — Vibeathon Superteam x Replit
 
-- Listing: https://earn.superteam.fun/listings/hackathon-universitaria-superteam-brasil-1
+- Listing: https://earn.superteam.fun/listings/vibeathon-superteam-x-replit
 - Value: $3,000 USDG
-- Deadline: 4 days left (as of 2026-09-03 17:17 UTC)
-- Fit score: 2,667 — verified sponsor, low competition
+- Deadline: 8 days left (as of 2026-09-04 16:51 UTC)
+- Fit score: 3,000 — verified sponsor, no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
