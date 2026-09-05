@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://christopher-los-cornwall-board.trycloudflare.com",
+    "baseUrl": "https://friend-interfaces-passes-beast.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://christopher-los-cornwall-board.trycloudflare.com/healthz",
+    "health": "https://friend-interfaces-passes-beast.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://christopher-los-cornwall-board.trycloudflare.com/catalog.json",
-    "openapi": "https://christopher-los-cornwall-board.trycloudflare.com/openapi.json",
-    "llms": "https://christopher-los-cornwall-board.trycloudflare.com/llms.txt",
-    "freeSample": "https://christopher-los-cornwall-board.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://christopher-los-cornwall-board.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://christopher-los-cornwall-board.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://christopher-los-cornwall-board.trycloudflare.com/state"
+    "catalog": "https://friend-interfaces-passes-beast.trycloudflare.com/catalog.json",
+    "openapi": "https://friend-interfaces-passes-beast.trycloudflare.com/openapi.json",
+    "llms": "https://friend-interfaces-passes-beast.trycloudflare.com/llms.txt",
+    "freeSample": "https://friend-interfaces-passes-beast.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://friend-interfaces-passes-beast.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://friend-interfaces-passes-beast.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://friend-interfaces-passes-beast.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://christopher-los-cornwall-board.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://friend-interfaces-passes-beast.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://christopher-los-cornwall-board.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://friend-interfaces-passes-beast.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
