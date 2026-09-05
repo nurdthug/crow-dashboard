@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://communications-locator-operated-clan.trycloudflare.com",
+    "baseUrl": "https://sophisticated-modem-dangerous-its.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://communications-locator-operated-clan.trycloudflare.com/healthz",
+    "health": "https://sophisticated-modem-dangerous-its.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://communications-locator-operated-clan.trycloudflare.com/catalog.json",
-    "openapi": "https://communications-locator-operated-clan.trycloudflare.com/openapi.json",
-    "llms": "https://communications-locator-operated-clan.trycloudflare.com/llms.txt",
-    "freeSample": "https://communications-locator-operated-clan.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://communications-locator-operated-clan.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://communications-locator-operated-clan.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://communications-locator-operated-clan.trycloudflare.com/state"
+    "catalog": "https://sophisticated-modem-dangerous-its.trycloudflare.com/catalog.json",
+    "openapi": "https://sophisticated-modem-dangerous-its.trycloudflare.com/openapi.json",
+    "llms": "https://sophisticated-modem-dangerous-its.trycloudflare.com/llms.txt",
+    "freeSample": "https://sophisticated-modem-dangerous-its.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://sophisticated-modem-dangerous-its.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://sophisticated-modem-dangerous-its.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://sophisticated-modem-dangerous-its.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://communications-locator-operated-clan.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://sophisticated-modem-dangerous-its.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://communications-locator-operated-clan.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://sophisticated-modem-dangerous-its.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
