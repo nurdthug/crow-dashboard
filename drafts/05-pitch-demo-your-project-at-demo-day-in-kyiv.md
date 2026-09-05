@@ -1,9 +1,9 @@
-# Draft pack — Hackathon Universitária Superteam Brasil
+# Draft pack — Pitch & Demo Your Project at Demo Day in Kyiv
 
-- Listing: https://earn.superteam.fun/listings/hackathon-universitaria-superteam-brasil-1
-- Value: $3,000 USDG
-- Deadline: 3 days left (as of 2026-09-04 17:08 UTC)
-- Fit score: 2,400 — verified sponsor, low competition
+- Listing: https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv
+- Value: $1,700 USDG
+- Deadline: 40 days left (as of 2026-09-05 16:03 UTC)
+- Fit score: 1,700 — verified sponsor, no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist

@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-04T17:08:02+00:00",
+ "generated": "2026-09-05T16:03:53+00:00",
  "count": 7,
  "items": [
   {
@@ -49,7 +49,7 @@
    "url": "https://earn.superteam.fun/listings/steve-agent-arena-launch-your-agent-and-win-500-usdc",
    "value_usd": 500.0,
    "token": "USDC",
-   "days_left": 16.20277053690972,
+   "days_left": 15.247312276956018,
    "small": true
   },
   {
@@ -58,15 +58,15 @@
    "url": "https://earn.superteam.fun/listings/zns-sol",
    "value_usd": 500.0,
    "token": "USDC",
-   "days_left": 5.202782099409722,
+   "days_left": 4.247323839456018,
    "small": true
   },
   {
    "lane": "github_pr",
-   "title": "Add JSDoc to userService",
-   "url": "https://github.com/xevrion-v2/agent-playground/issues/1",
+   "title": "Fix typo in README",
+   "url": "https://github.com/xevrion-v2/agent-playground/issues/2",
    "repo": "xevrion-v2/agent-playground",
-   "issue_number": 1,
+   "issue_number": 2,
    "value_usd": 50,
    "labels": [
     "good first issue",
@@ -80,10 +80,10 @@
   },
   {
    "lane": "github_pr",
-   "title": "Fix typo in README",
-   "url": "https://github.com/xevrion-v2/agent-playground/issues/2",
+   "title": "Add JSDoc to userService",
+   "url": "https://github.com/xevrion-v2/agent-playground/issues/1",
    "repo": "xevrion-v2/agent-playground",
-   "issue_number": 2,
+   "issue_number": 1,
    "value_usd": 50,
    "labels": [
     "good first issue",
