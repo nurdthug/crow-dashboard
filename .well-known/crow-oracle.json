@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://finder-salt-contributed-austin.trycloudflare.com",
+    "baseUrl": "https://communications-locator-operated-clan.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://finder-salt-contributed-austin.trycloudflare.com/healthz",
+    "health": "https://communications-locator-operated-clan.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://finder-salt-contributed-austin.trycloudflare.com/catalog.json",
-    "openapi": "https://finder-salt-contributed-austin.trycloudflare.com/openapi.json",
-    "llms": "https://finder-salt-contributed-austin.trycloudflare.com/llms.txt",
-    "freeSample": "https://finder-salt-contributed-austin.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://finder-salt-contributed-austin.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://finder-salt-contributed-austin.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://finder-salt-contributed-austin.trycloudflare.com/state"
+    "catalog": "https://communications-locator-operated-clan.trycloudflare.com/catalog.json",
+    "openapi": "https://communications-locator-operated-clan.trycloudflare.com/openapi.json",
+    "llms": "https://communications-locator-operated-clan.trycloudflare.com/llms.txt",
+    "freeSample": "https://communications-locator-operated-clan.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://communications-locator-operated-clan.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://communications-locator-operated-clan.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://communications-locator-operated-clan.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://finder-salt-contributed-austin.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://communications-locator-operated-clan.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://finder-salt-contributed-austin.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://communications-locator-operated-clan.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
