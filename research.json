@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05 16:03 UTC",
+  "generated_at": "2026-09-05 16:17 UTC",
   "reviewed": 39,
   "agent_allowed": 2,
   "recommendations": [
@@ -45,7 +45,7 @@
       "why": "verified sponsor, no visible competition yet",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 7.5,
+      "days_left": 7.4,
       "competition": 0,
       "deadline": "2026-09-13T02:59:59.000Z",
       "source": "superteam-earn",
@@ -109,7 +109,7 @@
       "why": "verified sponsor, low competition, urgent",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 2.5,
+      "days_left": 2.4,
       "competition": 3,
       "deadline": "2026-09-08T02:59:59.000Z",
       "source": "superteam-earn",
@@ -168,19 +168,19 @@
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 23591,
+      "competition": 23598,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 1982,
+      "competition": 1986,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agentic Cinema: The Blockbuster Hackathon",
       "url": "https://agentic-cinema.devpost.com/",
-      "competition": 9565,
+      "competition": 9566,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -192,7 +192,7 @@
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 2461,
+      "competition": 2465,
       "reason": "huge pool, but high visible competition"
     }
   ]

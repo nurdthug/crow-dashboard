@@ -7,7 +7,7 @@
   "token": "USDC",
   "fit": 5250.0,
   "kind": "generic",
-  "days_left": 16.62231227695602
+  "days_left": 16.612962901724536
  },
  {
   "file": "drafts/02-solana-summit-canada-creator-challenge-part-1.md",
@@ -17,7 +17,7 @@
   "token": "USDG",
   "fit": 4210.53,
   "kind": "build",
-  "days_left": 16.580645610289352
+  "days_left": 16.57129623505787
  },
  {
   "file": "drafts/03-vibeathon-superteam-x-replit.md",
@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 3000.0,
   "kind": "generic",
-  "days_left": 7.455645610289352
+  "days_left": 7.44629623505787
  },
  {
   "file": "drafts/04-revenuecat-shipaton-2026.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 1700.0,
   "kind": "generic",
-  "days_left": 40.20564561028935
+  "days_left": 40.19629623505787
  }
 ]
