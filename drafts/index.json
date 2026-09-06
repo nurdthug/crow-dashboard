@@ -5,9 +5,9 @@
   "url": "https://earn.superteam.fun/listings/baxus-creators-film-real-vending-machine-spins",
   "value_usd": 7000.0,
   "token": "USDC",
-  "fit": 5250.0,
+  "fit": 4666.67,
   "kind": "generic",
-  "days_left": 16.612962901724536
+  "days_left": 15.613869799259259
  },
  {
   "file": "drafts/02-solana-summit-canada-creator-challenge-part-1.md",
@@ -15,9 +15,9 @@
   "url": "https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-1",
   "value_usd": 10000.0,
   "token": "USDG",
-  "fit": 4210.53,
+  "fit": 3809.52,
   "kind": "build",
-  "days_left": 16.57129623505787
+  "days_left": 15.572203132592593
  },
  {
   "file": "drafts/03-vibeathon-superteam-x-replit.md",
@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 3000.0,
   "kind": "generic",
-  "days_left": 7.44629623505787
+  "days_left": 6.447203132592592
  },
  {
   "file": "drafts/04-revenuecat-shipaton-2026.md",
@@ -37,7 +37,7 @@
   "token": "USD",
   "fit": 1942.5,
   "kind": "build",
-  "days_left": 26.0
+  "days_left": 25.0
  },
  {
   "file": "drafts/05-pitch-demo-your-project-at-demo-day-in-kyiv.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 1700.0,
   "kind": "generic",
-  "days_left": 40.19629623505787
+  "days_left": 39.19720313259259
  }
 ]
