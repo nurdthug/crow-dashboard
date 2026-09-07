@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07 18:15 UTC",
+  "generated_at": "2026-09-07 18:25 UTC",
   "reviewed": 36,
   "agent_allowed": 2,
   "recommendations": [
@@ -61,7 +61,7 @@
       "why": "verified sponsor",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 3.2,
+      "days_left": 3.1,
       "competition": 57,
       "deadline": "2026-09-10T21:59:59.000Z",
       "source": "superteam-earn",
@@ -109,7 +109,7 @@
       "why": "explicitly agent-allowed, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 13.2,
+      "days_left": 13.1,
       "competition": 9,
       "deadline": "2026-09-20T21:59:59.000Z",
       "source": "superteam-earn",
@@ -133,7 +133,7 @@
     },
     {
       "rank": 9,
-      "fit": 327.28,
+      "fit": 300.0,
       "title": "Show the world SOLARA \u2014 Content + Seeker dApp reviews",
       "url": "https://earn.superteam.fun/listings/show-the-world-solara-content-seeker-dapp-reviews-1",
       "value_usd": 500.0,
@@ -142,7 +142,7 @@
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
       "days_left": 13.9,
-      "competition": 3,
+      "competition": 4,
       "deadline": "2026-09-21T16:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -168,31 +168,31 @@
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 24202,
+      "competition": 24205,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 2902,
+      "competition": 2904,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 2865,
+      "competition": 2869,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agents for Humans Hackathon",
       "url": "https://agentsforhumans.devpost.com/",
-      "competition": 8067,
+      "competition": 8070,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agentic Cinema: The Blockbuster Hackathon",
       "url": "https://agentic-cinema.devpost.com/",
-      "competition": 9858,
+      "competition": 9859,
       "reason": "huge pool, but high visible competition"
     }
   ]

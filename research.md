@@ -1,4 +1,4 @@
-# Crow Research Brief — 2026-09-07 18:15 UTC
+# Crow Research Brief — 2026-09-07 18:25 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
@@ -14,13 +14,13 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 | 6 | 640 | medium | [Pitch & Demo Your Product at Online Demo Day](https://earn.superteam.fun/listings/pitch-and-demo-your-product-at-online-demo-day) | $800 USDG | verified sponsor, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 7 | 529 | medium | [Steve Agent Arena: Launch Your Agent & Win 500 USDC](https://earn.superteam.fun/listings/steve-agent-arena-launch-your-agent-and-win-500-usdc) | $500 USDC | explicitly agent-allowed, low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 8 | 444 | medium | [IDEATHON | Submit Innovative Ideas for the Hackathon](https://earn.superteam.fun/listings/ideathon-submit-innovative-ideas-for-the-hackathon) | $1,000 USDG | verified sponsor | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
-| 9 | 327 | low-medium | [Show the world SOLARA — Content + Seeker dApp reviews](https://earn.superteam.fun/listings/show-the-world-solara-content-seeker-dapp-reviews-1) | $500 USDC | low competition | Draft script/angle and collect required brand/rule links. |
+| 9 | 300 | low-medium | [Show the world SOLARA — Content + Seeker dApp reviews](https://earn.superteam.fun/listings/show-the-world-solara-content-seeker-dapp-reviews-1) | $500 USDC | low competition | Draft script/angle and collect required brand/rule links. |
 | 10 | 231 | medium | [Trade, Tweet & Earn](https://earn.superteam.fun/listings/trade-tweet-and-earn-1) | $500 USDC | low competition | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 
 ## Do Not Chase First
 
-- [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/): huge pool, but competition is already 24,202.
-- [Build, Ship, Shape: Amazon Developer Hackathon](https://amazonappdev2026.devpost.com/): huge pool, but competition is already 2,902.
-- [Nebius x NVIDIA Global AI Hackathon](https://nebiusglobalaihackathon.devpost.com/): huge pool, but competition is already 2,865.
-- [Agents for Humans Hackathon](https://agentsforhumans.devpost.com/): huge pool, but competition is already 8,067.
-- [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/): huge pool, but competition is already 9,858.
+- [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/): huge pool, but competition is already 24,205.
+- [Build, Ship, Shape: Amazon Developer Hackathon](https://amazonappdev2026.devpost.com/): huge pool, but competition is already 2,904.
+- [Nebius x NVIDIA Global AI Hackathon](https://nebiusglobalaihackathon.devpost.com/): huge pool, but competition is already 2,869.
+- [Agents for Humans Hackathon](https://agentsforhumans.devpost.com/): huge pool, but competition is already 8,070.
+- [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/): huge pool, but competition is already 9,859.
