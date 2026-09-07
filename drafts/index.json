@@ -5,9 +5,9 @@
   "url": "https://earn.superteam.fun/listings/baxus-creators-film-real-vending-machine-spins",
   "value_usd": 7000.0,
   "token": "USDC",
-  "fit": 4666.67,
+  "fit": 4200.0,
   "kind": "generic",
-  "days_left": 15.606099723449073
+  "days_left": 14.531215186018517
  },
  {
   "file": "drafts/02-solana-summit-canada-creator-challenge-part-1.md",
@@ -17,36 +17,36 @@
   "token": "USDG",
   "fit": 3809.52,
   "kind": "build",
-  "days_left": 15.564433056782407
+  "days_left": 14.489548519351851
  },
  {
-  "file": "drafts/03-vibeathon-superteam-x-replit.md",
-  "title": "Vibeathon Superteam x Replit",
-  "url": "https://earn.superteam.fun/listings/vibeathon-superteam-x-replit",
-  "value_usd": 3000.0,
-  "token": "USDG",
-  "fit": 3000.0,
-  "kind": "generic",
-  "days_left": 6.439433056782408
- },
- {
-  "file": "drafts/04-revenuecat-shipaton-2026.md",
+  "file": "drafts/03-revenuecat-shipaton-2026.md",
   "title": "RevenueCat Shipaton 2026",
   "url": "https://revenuecat-shipaton-2026.devpost.com/",
   "value_usd": 740000.0,
   "token": "USD",
   "fit": 1942.5,
   "kind": "build",
-  "days_left": 25.0
+  "days_left": 24.0
  },
  {
-  "file": "drafts/05-pitch-demo-your-project-at-demo-day-in-kyiv.md",
+  "file": "drafts/04-pitch-demo-your-project-at-demo-day-in-kyiv.md",
   "title": "Pitch & Demo Your Project at Demo Day in Kyiv",
   "url": "https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv",
   "value_usd": 1700.0,
   "token": "USDG",
   "fit": 1700.0,
   "kind": "generic",
-  "days_left": 39.18943305678241
+  "days_left": 38.11454851935186
+ },
+ {
+  "file": "drafts/05-solana-summit-serbia-content-bounty-10-000-for-the-best-summ.md",
+  "title": "Solana Summit Serbia Content Bounty: $10,000 for the best summit content",
+  "url": "https://earn.superteam.fun/listings/solana-summit-serbia-content",
+  "value_usd": 10000.0,
+  "token": "USDG",
+  "fit": 1476.92,
+  "kind": "content",
+  "days_left": 3.1562151860185184
  }
 ]

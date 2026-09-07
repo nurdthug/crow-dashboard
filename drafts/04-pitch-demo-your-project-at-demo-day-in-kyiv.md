@@ -1,9 +1,9 @@
-# Draft pack — Vibeathon Superteam x Replit
+# Draft pack — Pitch & Demo Your Project at Demo Day in Kyiv
 
-- Listing: https://earn.superteam.fun/listings/vibeathon-superteam-x-replit
-- Value: $3,000 USDG
-- Deadline: 6 days left (as of 2026-09-06 16:27 UTC)
-- Fit score: 3,000 — verified sponsor, no visible competition yet
+- Listing: https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv
+- Value: $1,700 USDG
+- Deadline: 38 days left (as of 2026-09-07 18:15 UTC)
+- Fit score: 1,700 — verified sponsor, no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
