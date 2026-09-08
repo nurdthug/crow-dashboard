@@ -1,9 +1,9 @@
-# Draft pack — BAXUS Creators: Film Real Vending Machine Spins
+# Draft pack — Trade on KriptoK League and Share Your Round Experience | $2,000 USDC
 
-- Listing: https://earn.superteam.fun/listings/baxus-creators-film-real-vending-machine-spins
-- Value: $7,000 USDC
-- Deadline: 14 days left (as of 2026-09-08 17:14 UTC)
-- Fit score: 4,200 — low competition
+- Listing: https://earn.superteam.fun/listings/kriptok-league-trading-experience-bounty
+- Value: $2,000 USDC
+- Deadline: 9 days left (as of 2026-09-08 17:14 UTC)
+- Fit score: 1,200 — low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
