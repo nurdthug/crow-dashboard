@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09 17:09 UTC",
+  "generated_at": "2026-09-09 17:19 UTC",
   "reviewed": 29,
   "agent_allowed": 2,
   "recommendations": [
@@ -101,22 +101,6 @@
     },
     {
       "rank": 7,
-      "fit": 530.53,
-      "title": "Solana Summit Serbia Content Bounty: $10,000 for the best summit content",
-      "url": "https://earn.superteam.fun/listings/solana-summit-serbia-content",
-      "value_usd": 10000.0,
-      "token": "USDG",
-      "why": "verified sponsor, urgent",
-      "next_step": "Draft script/angle and collect required brand/rule links.",
-      "effort": "low-medium",
-      "days_left": 1.2,
-      "competition": 68,
-      "deadline": "2026-09-10T21:59:59.000Z",
-      "source": "superteam-earn",
-      "agent_access": "HUMAN_ONLY"
-    },
-    {
-      "rank": 8,
       "fit": 529.42,
       "title": "Steve Agent Arena: Launch Your Agent & Win 500 USDC",
       "url": "https://earn.superteam.fun/listings/steve-agent-arena-launch-your-agent-and-win-500-usdc",
@@ -130,6 +114,22 @@
       "deadline": "2026-09-20T21:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "AGENT_ALLOWED"
+    },
+    {
+      "rank": 8,
+      "fit": 516.92,
+      "title": "Solana Summit Serbia Content Bounty: $10,000 for the best summit content",
+      "url": "https://earn.superteam.fun/listings/solana-summit-serbia-content",
+      "value_usd": 10000.0,
+      "token": "USDG",
+      "why": "verified sponsor, urgent",
+      "next_step": "Draft script/angle and collect required brand/rule links.",
+      "effort": "low-medium",
+      "days_left": 1.2,
+      "competition": 70,
+      "deadline": "2026-09-10T21:59:59.000Z",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
     },
     {
       "rank": 9,
@@ -168,13 +168,13 @@
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 24733,
+      "competition": 24736,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 3644,
+      "competition": 3647,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -186,13 +186,13 @@
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 3226,
+      "competition": 3227,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agents for Humans Hackathon",
       "url": "https://agentsforhumans.devpost.com/",
-      "competition": 8811,
+      "competition": 8813,
       "reason": "huge pool, but high visible competition"
     }
   ]

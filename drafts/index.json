@@ -7,7 +7,7 @@
   "token": "USDC",
   "fit": 4200.0,
   "kind": "generic",
-  "days_left": 12.577055131168983
+  "days_left": 12.569861917777779
  },
  {
   "file": "drafts/02-solana-summit-canada-creator-challenge-part-1.md",
@@ -17,7 +17,7 @@
   "token": "USDG",
   "fit": 3809.52,
   "kind": "build",
-  "days_left": 12.535388464502315
+  "days_left": 12.528195251111113
  },
  {
   "file": "drafts/03-revenuecat-shipaton-2026.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 1700.0,
   "kind": "generic",
-  "days_left": 36.16038846450232
+  "days_left": 36.15319525111111
  },
  {
   "file": "drafts/05-trade-on-kriptok-league-and-share-your-round-experience-2-00.md",
@@ -47,6 +47,6 @@
   "token": "USDC",
   "fit": 1200.0,
   "kind": "generic",
-  "days_left": 8.160388464502315
+  "days_left": 8.15319525111111
  }
 ]
