@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/kriptok-league-trading-experience-bounty
 - Value: $2,000 USDC
-- Deadline: 9 days left (as of 2026-09-08 17:33 UTC)
+- Deadline: 8 days left (as of 2026-09-09 17:09 UTC)
 - Fit score: 1,200 — low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
