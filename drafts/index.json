@@ -17,7 +17,7 @@
   "token": "USDC",
   "fit": 3818.18,
   "kind": "generic",
-  "days_left": 11.583886214548611
+  "days_left": 11.572134976921296
  },
  {
   "file": "drafts/03-solana-summit-canada-creator-challenge-part-1.md",
@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 3636.36,
   "kind": "build",
-  "days_left": 11.542219547881944
+  "days_left": 11.53046831025463
  },
  {
   "file": "drafts/04-revenuecat-shipaton-2026.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 1700.0,
   "kind": "generic",
-  "days_left": 35.16721954788194
+  "days_left": 35.155468310254626
  }
 ]

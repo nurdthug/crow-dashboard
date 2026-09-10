@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10 16:59 UTC",
+  "generated_at": "2026-09-10 17:16 UTC",
   "reviewed": 29,
   "agent_allowed": 1,
   "recommendations": [
@@ -109,7 +109,7 @@
       "why": "low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 13.3,
+      "days_left": 13.2,
       "competition": 5,
       "deadline": "2026-09-23T22:59:59.000Z",
       "source": "superteam-earn",
@@ -157,7 +157,7 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 4.3,
+      "days_left": 4.2,
       "competition": 23,
       "deadline": "2026-09-14T22:59:59.000Z",
       "source": "superteam-earn",
@@ -168,13 +168,13 @@
     {
       "title": "GatewayHacks 2026 | Software & AI ",
       "url": "https://gatewayhacks-2026.devpost.com/",
-      "competition": 1151,
+      "competition": 1152,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 24998,
+      "competition": 25004,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -186,13 +186,13 @@
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 3386,
+      "competition": 3390,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agents for Humans Hackathon",
       "url": "https://agentsforhumans.devpost.com/",
-      "competition": 9102,
+      "competition": 9107,
       "reason": "huge pool, but high visible competition"
     }
   ]
