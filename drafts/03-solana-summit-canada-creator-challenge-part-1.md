@@ -1,10 +1,10 @@
-# Draft pack — RevenueCat Shipaton 2026
+# Draft pack — Solana Summit Canada Creator Challenge - part 1
 
-- Listing: https://revenuecat-shipaton-2026.devpost.com/
-- Value: $740,000 USD
-- Deadline: 22 days left (as of 2026-09-09 17:19 UTC)
-- Fit score: 1,942 — reasonable EV after competition/deadline adjustment
-- First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
+- Listing: https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-1
+- Value: $10,000 USDG
+- Deadline: 12 days left (as of 2026-09-10 16:59 UTC)
+- Fit score: 3,636 — verified sponsor
+- First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
 - [ ] Read full rules & eligibility (region, KYC, team size)

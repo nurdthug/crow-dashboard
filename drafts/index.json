@@ -1,52 +1,52 @@
 [
  {
-  "file": "drafts/01-baxus-creators-film-real-vending-machine-spins.md",
+  "file": "drafts/01-gatewayhacks-2026-software-ai.md",
+  "title": "GatewayHacks 2026 | Software & AI ",
+  "url": "https://gatewayhacks-2026.devpost.com/",
+  "value_usd": 1007085.0,
+  "token": "USD",
+  "fit": 5287.2,
+  "kind": "build",
+  "days_left": 21.0
+ },
+ {
+  "file": "drafts/02-baxus-creators-film-real-vending-machine-spins.md",
   "title": "BAXUS Creators: Film Real Vending Machine Spins",
   "url": "https://earn.superteam.fun/listings/baxus-creators-film-real-vending-machine-spins",
   "value_usd": 7000.0,
   "token": "USDC",
-  "fit": 4200.0,
+  "fit": 3818.18,
   "kind": "generic",
-  "days_left": 12.569861917777779
+  "days_left": 11.583886214548611
  },
  {
-  "file": "drafts/02-solana-summit-canada-creator-challenge-part-1.md",
+  "file": "drafts/03-solana-summit-canada-creator-challenge-part-1.md",
   "title": "Solana Summit Canada Creator Challenge - part 1",
   "url": "https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-1",
   "value_usd": 10000.0,
   "token": "USDG",
-  "fit": 3809.52,
+  "fit": 3636.36,
   "kind": "build",
-  "days_left": 12.528195251111113
+  "days_left": 11.542219547881944
  },
  {
-  "file": "drafts/03-revenuecat-shipaton-2026.md",
+  "file": "drafts/04-revenuecat-shipaton-2026.md",
   "title": "RevenueCat Shipaton 2026",
   "url": "https://revenuecat-shipaton-2026.devpost.com/",
   "value_usd": 740000.0,
   "token": "USD",
   "fit": 1942.5,
   "kind": "build",
-  "days_left": 22.0
+  "days_left": 21.0
  },
  {
-  "file": "drafts/04-pitch-demo-your-project-at-demo-day-in-kyiv.md",
+  "file": "drafts/05-pitch-demo-your-project-at-demo-day-in-kyiv.md",
   "title": "Pitch & Demo Your Project at Demo Day in Kyiv",
   "url": "https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv",
   "value_usd": 1700.0,
   "token": "USDG",
   "fit": 1700.0,
   "kind": "generic",
-  "days_left": 36.15319525111111
- },
- {
-  "file": "drafts/05-trade-on-kriptok-league-and-share-your-round-experience-2-00.md",
-  "title": "Trade on KriptoK League and Share Your Round Experience | $2,000 USDC",
-  "url": "https://earn.superteam.fun/listings/kriptok-league-trading-experience-bounty",
-  "value_usd": 2000.0,
-  "token": "USDC",
-  "fit": 1200.0,
-  "kind": "generic",
-  "days_left": 8.15319525111111
+  "days_left": 35.16721954788194
  }
 ]
