@@ -1,9 +1,9 @@
-# Draft pack — GatewayHacks 2026 | Software & AI 
+# Draft pack — Global Innovation Build Challenge V2
 
-- Listing: https://gatewayhacks-2026.devpost.com/
-- Value: $1,007,085 USD
-- Deadline: 21 days left (as of 2026-09-10 17:16 UTC)
-- Fit score: 5,287 — reasonable EV after competition/deadline adjustment
+- Listing: https://gibc-v2.devpost.com/
+- Value: $156,525 USD
+- Deadline: 20 days left (as of 2026-09-11 17:01 UTC)
+- Fit score: 1,526 — reasonable EV after competition/deadline adjustment
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist

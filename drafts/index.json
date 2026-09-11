@@ -1,52 +1,52 @@
 [
  {
-  "file": "drafts/01-gatewayhacks-2026-software-ai.md",
-  "title": "GatewayHacks 2026 | Software & AI ",
-  "url": "https://gatewayhacks-2026.devpost.com/",
-  "value_usd": 1007085.0,
-  "token": "USD",
-  "fit": 5287.2,
-  "kind": "build",
-  "days_left": 21.0
- },
- {
-  "file": "drafts/02-baxus-creators-film-real-vending-machine-spins.md",
+  "file": "drafts/01-baxus-creators-film-real-vending-machine-spins.md",
   "title": "BAXUS Creators: Film Real Vending Machine Spins",
   "url": "https://earn.superteam.fun/listings/baxus-creators-film-real-vending-machine-spins",
   "value_usd": 7000.0,
   "token": "USDC",
   "fit": 3818.18,
   "kind": "generic",
-  "days_left": 11.572134976921296
+  "days_left": 10.582613919699075
  },
  {
-  "file": "drafts/03-solana-summit-canada-creator-challenge-part-1.md",
+  "file": "drafts/02-solana-summit-canada-creator-challenge-part-1.md",
   "title": "Solana Summit Canada Creator Challenge - part 1",
   "url": "https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-1",
   "value_usd": 10000.0,
   "token": "USDG",
-  "fit": 3636.36,
+  "fit": 3478.26,
   "kind": "build",
-  "days_left": 11.53046831025463
+  "days_left": 10.540947253032407
  },
  {
-  "file": "drafts/04-revenuecat-shipaton-2026.md",
+  "file": "drafts/03-revenuecat-shipaton-2026.md",
   "title": "RevenueCat Shipaton 2026",
   "url": "https://revenuecat-shipaton-2026.devpost.com/",
   "value_usd": 740000.0,
   "token": "USD",
   "fit": 1942.5,
   "kind": "build",
-  "days_left": 21.0
+  "days_left": 20.0
  },
  {
-  "file": "drafts/05-pitch-demo-your-project-at-demo-day-in-kyiv.md",
+  "file": "drafts/04-pitch-demo-your-project-at-demo-day-in-kyiv.md",
   "title": "Pitch & Demo Your Project at Demo Day in Kyiv",
   "url": "https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv",
   "value_usd": 1700.0,
   "token": "USDG",
   "fit": 1700.0,
   "kind": "generic",
-  "days_left": 35.155468310254626
+  "days_left": 34.16594725303241
+ },
+ {
+  "file": "drafts/05-global-innovation-build-challenge-v2.md",
+  "title": "Global Innovation Build Challenge V2",
+  "url": "https://gibc-v2.devpost.com/",
+  "value_usd": 156525.0,
+  "token": "USD",
+  "fit": 1526.12,
+  "kind": "build",
+  "days_left": 20.0
  }
 ]
