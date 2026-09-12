@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12 16:18 UTC",
+  "generated_at": "2026-09-12 16:31 UTC",
   "reviewed": 33,
   "agent_allowed": 1,
   "recommendations": [
@@ -62,7 +62,7 @@
       "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
       "effort": "high",
       "days_left": 19.0,
-      "competition": 952,
+      "competition": 953,
       "deadline": null,
       "source": "devpost",
       "agent_access": "HUMAN_ONLY"
@@ -168,19 +168,19 @@
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 25456,
+      "competition": 25459,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 4550,
+      "competition": 4553,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 3795,
+      "competition": 3797,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -192,7 +192,7 @@
     {
       "title": "AI Builders Hackathon",
       "url": "https://ai-builders-hackathon-2026.devpost.com/",
-      "competition": 3190,
+      "competition": 3192,
       "reason": "huge pool, but high visible competition"
     }
   ]

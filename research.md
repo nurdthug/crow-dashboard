@@ -1,4 +1,4 @@
-# Crow Research Brief — 2026-09-12 16:18 UTC
+# Crow Research Brief — 2026-09-12 16:31 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
@@ -19,8 +19,8 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 
 ## Do Not Chase First
 
-- [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/): huge pool, but competition is already 25,456.
-- [Build, Ship, Shape: Amazon Developer Hackathon](https://amazonappdev2026.devpost.com/): huge pool, but competition is already 4,550.
-- [Nebius x NVIDIA Global AI Hackathon](https://nebiusglobalaihackathon.devpost.com/): huge pool, but competition is already 3,795.
+- [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/): huge pool, but competition is already 25,459.
+- [Build, Ship, Shape: Amazon Developer Hackathon](https://amazonappdev2026.devpost.com/): huge pool, but competition is already 4,553.
+- [Nebius x NVIDIA Global AI Hackathon](https://nebiusglobalaihackathon.devpost.com/): huge pool, but competition is already 3,797.
 - [OpenCV AI Competition 2026, powered by AWS](https://opencv26.devpost.com/): huge pool, but competition is already 1,522.
-- [AI Builders Hackathon](https://ai-builders-hackathon-2026.devpost.com/): huge pool, but competition is already 3,190.
+- [AI Builders Hackathon](https://ai-builders-hackathon-2026.devpost.com/): huge pool, but competition is already 3,192.
