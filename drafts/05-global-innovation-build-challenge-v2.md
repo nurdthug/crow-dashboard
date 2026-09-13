@@ -2,7 +2,7 @@
 
 - Listing: https://gibc-v2.devpost.com/
 - Value: $156,525 USD
-- Deadline: 18 days left (as of 2026-09-13 16:57 UTC)
+- Deadline: 18 days left (as of 2026-09-13 17:04 UTC)
 - Fit score: 1,526 — reasonable EV after competition/deadline adjustment
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 

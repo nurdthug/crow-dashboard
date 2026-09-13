@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13 16:57 UTC",
+  "generated_at": "2026-09-13 17:04 UTC",
   "reviewed": 31,
   "agent_allowed": 1,
   "recommendations": [
@@ -109,7 +109,7 @@
       "why": "verified sponsor, no visible competition yet",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 11.3,
+      "days_left": 11.2,
       "competition": 0,
       "deadline": "2026-09-24T22:59:59.000Z",
       "source": "superteam-earn",
@@ -174,13 +174,13 @@
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 5638,
+      "competition": 5641,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 4854,
+      "competition": 4864,
       "reason": "huge pool, but high visible competition"
     },
     {
