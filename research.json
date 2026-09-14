@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14 18:37 UTC",
+  "generated_at": "2026-09-14 18:53 UTC",
   "reviewed": 32,
   "agent_allowed": 1,
   "recommendations": [
@@ -21,7 +21,7 @@
     },
     {
       "rank": 2,
-      "fit": 3076.92,
+      "fit": 2962.96,
       "title": "Solana Summit Canada Creator Challenge - part 1",
       "url": "https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-1",
       "value_usd": 10000.0,
@@ -30,7 +30,7 @@
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
       "days_left": 7.5,
-      "competition": 18,
+      "competition": 19,
       "deadline": "2026-09-22T05:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -53,7 +53,7 @@
     },
     {
       "rank": 4,
-      "fit": 800.0,
+      "fit": 750.0,
       "title": "Trade on KriptoK League and Share Your Round Experience | $2,000 USDC",
       "url": "https://earn.superteam.fun/listings/kriptok-league-trading-experience-bounty",
       "value_usd": 2000.0,
@@ -62,7 +62,7 @@
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
       "days_left": 7.1,
-      "competition": 7,
+      "competition": 8,
       "deadline": "2026-09-21T20:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -168,31 +168,31 @@
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 25843,
+      "competition": 25849,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Global Innovation Build Challenge V2",
       "url": "https://gibc-v2.devpost.com/",
-      "competition": 1023,
+      "competition": 1024,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 6534,
+      "competition": 6549,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 5401,
+      "competition": 5404,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Agents for Humans Hackathon",
       "url": "https://agentsforhumans.devpost.com/",
-      "competition": 9879,
+      "competition": 9880,
       "reason": "huge pool, but high visible competition"
     }
   ]
