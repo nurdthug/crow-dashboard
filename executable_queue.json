@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-14T18:53:29+00:00",
- "count": 6,
+ "generated": "2026-09-15T17:39:58+00:00",
+ "count": 7,
  "items": [
   {
    "lane": "github_pr",
@@ -18,6 +18,15 @@
    ],
    "small": true,
    "created": "2026-06-03T05:56:26Z"
+  },
+  {
+   "lane": "listing",
+   "title": "Road to Colosseum | Builders Reflect & Share",
+   "url": "https://earn.superteam.fun/listings/road-to-colosseum-builders-reflect-and-share",
+   "value_usd": 1000.0,
+   "token": "USDC",
+   "days_left": 26.971581724328704,
+   "small": true
   },
   {
    "lane": "github_pr",
@@ -49,15 +58,15 @@
    "url": "https://earn.superteam.fun/listings/steve-agent-arena-launch-your-agent-and-win-500-usdc",
    "value_usd": 500.0,
    "token": "USDC",
-   "days_left": 6.129565016724538,
+   "days_left": 5.180597928032407,
    "small": true
   },
   {
    "lane": "github_pr",
-   "title": "Fix typo in README",
-   "url": "https://github.com/xevrion-v2/agent-playground/issues/2",
+   "title": "Add JSDoc to userService",
+   "url": "https://github.com/xevrion-v2/agent-playground/issues/1",
    "repo": "xevrion-v2/agent-playground",
-   "issue_number": 2,
+   "issue_number": 1,
    "value_usd": 50,
    "labels": [
     "good first issue",
@@ -71,10 +80,10 @@
   },
   {
    "lane": "github_pr",
-   "title": "Add JSDoc to userService",
-   "url": "https://github.com/xevrion-v2/agent-playground/issues/1",
+   "title": "Fix typo in README",
+   "url": "https://github.com/xevrion-v2/agent-playground/issues/2",
    "repo": "xevrion-v2/agent-playground",
-   "issue_number": 1,
+   "issue_number": 2,
    "value_usd": 50,
    "labels": [
     "good first issue",

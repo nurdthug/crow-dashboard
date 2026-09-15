@@ -1,26 +1,46 @@
 [
  {
-  "file": "drafts/01-baxus-creators-film-real-vending-machine-spins.md",
+  "file": "drafts/01-create-a-short-video-explainer-for-hisa-5000-up-for-grabs.md",
+  "title": "Create a Short Video Explainer for Hisa: $5000 up for grabs.",
+  "url": "https://earn.superteam.fun/listings/create-a-short-video-explainer-for-hisa-dollar5000-up-for-grabs",
+  "value_usd": 5002.0,
+  "token": "USDG",
+  "fit": 3601.44,
+  "kind": "content",
+  "days_left": 10.222264594699073
+ },
+ {
+  "file": "drafts/02-baxus-creators-film-real-vending-machine-spins.md",
   "title": "BAXUS Creators: Film Real Vending Machine Spins",
   "url": "https://earn.superteam.fun/listings/baxus-creators-film-real-vending-machine-spins",
   "value_usd": 7000.0,
   "token": "USDC",
   "fit": 3500.0,
   "kind": "generic",
-  "days_left": 7.504565016724538
+  "days_left": 6.555597928032407
  },
  {
-  "file": "drafts/02-solana-summit-canada-creator-challenge-part-1.md",
+  "file": "drafts/03-solana-summit-canada-creator-challenge-part-1.md",
   "title": "Solana Summit Canada Creator Challenge - part 1",
   "url": "https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-1",
   "value_usd": 10000.0,
   "token": "USDG",
-  "fit": 2962.96,
+  "fit": 2500.0,
   "kind": "build",
-  "days_left": 7.462898350057871
+  "days_left": 6.51393126136574
  },
  {
-  "file": "drafts/03-revenuecat-shipaton-2026.md",
+  "file": "drafts/04-road-to-colosseum-builders-reflect-share.md",
+  "title": "Road to Colosseum | Builders Reflect & Share",
+  "url": "https://earn.superteam.fun/listings/road-to-colosseum-builders-reflect-and-share",
+  "value_usd": 1000.0,
+  "token": "USDC",
+  "fit": 2181.82,
+  "kind": "build",
+  "days_left": 26.971581724328704
+ },
+ {
+  "file": "drafts/05-revenuecat-shipaton-2026.md",
   "title": "RevenueCat Shipaton 2026",
   "url": "https://revenuecat-shipaton-2026.devpost.com/",
   "value_usd": 740000.0,
@@ -28,25 +48,5 @@
   "fit": 1942.5,
   "kind": "build",
   "days_left": 16.0
- },
- {
-  "file": "drafts/04-pitch-demo-your-project-at-demo-day-in-kyiv.md",
-  "title": "Pitch & Demo Your Project at Demo Day in Kyiv",
-  "url": "https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv",
-  "value_usd": 1700.0,
-  "token": "USDG",
-  "fit": 1700.0,
-  "kind": "generic",
-  "days_left": 31.087898350057866
- },
- {
-  "file": "drafts/05-global-innovation-build-challenge-v2.md",
-  "title": "Global Innovation Build Challenge V2",
-  "url": "https://gibc-v2.devpost.com/",
-  "value_usd": 156525.0,
-  "token": "USD",
-  "fit": 821.76,
-  "kind": "build",
-  "days_left": 17.0
  }
 ]
