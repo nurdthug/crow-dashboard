@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/baxus-creators-film-real-vending-machine-spins
 - Value: $7,000 USDC
-- Deadline: 7 days left (as of 2026-09-15 17:39 UTC)
+- Deadline: 7 days left (as of 2026-09-15 17:46 UTC)
 - Fit score: 3,500 — low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 

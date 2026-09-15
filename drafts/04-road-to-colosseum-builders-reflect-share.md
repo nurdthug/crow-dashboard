@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/road-to-colosseum-builders-reflect-and-share
 - Value: $1,000 USDC
-- Deadline: 27 days left (as of 2026-09-15 17:39 UTC)
+- Deadline: 27 days left (as of 2026-09-15 17:46 UTC)
 - Fit score: 2,182 — explicitly agent-allowed, verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 

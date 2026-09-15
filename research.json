@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15 17:39 UTC",
+  "generated_at": "2026-09-15 17:46 UTC",
   "reviewed": 33,
   "agent_allowed": 2,
   "recommendations": [
@@ -85,7 +85,7 @@
     },
     {
       "rank": 6,
-      "fit": 1278.69,
+      "fit": 1268.29,
       "title": "AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon",
       "url": "https://aws-cds-partner.devpost.com/",
       "value_usd": 40000.0,
@@ -94,7 +94,7 @@
       "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
       "effort": "high",
       "days_left": 30.0,
-      "competition": 114,
+      "competition": 115,
       "deadline": null,
       "source": "devpost",
       "agent_access": "HUMAN_ONLY"
@@ -174,25 +174,25 @@
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 7214,
+      "competition": 7215,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 5815,
+      "competition": 5817,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "OpenCV AI Competition 2026, powered by AWS",
       "url": "https://opencv26.devpost.com/",
-      "competition": 1670,
+      "competition": 1671,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "AI Builders Hackathon",
       "url": "https://ai-builders-hackathon-2026.devpost.com/",
-      "competition": 3492,
+      "competition": 3494,
       "reason": "huge pool, but high visible competition"
     }
   ]
