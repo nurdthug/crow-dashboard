@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://organized-barnes-legendary-imagine.trycloudflare.com",
+    "baseUrl": "https://sharon-lexmark-locally-aqua.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://organized-barnes-legendary-imagine.trycloudflare.com/healthz",
+    "health": "https://sharon-lexmark-locally-aqua.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://organized-barnes-legendary-imagine.trycloudflare.com/catalog.json",
-    "openapi": "https://organized-barnes-legendary-imagine.trycloudflare.com/openapi.json",
-    "llms": "https://organized-barnes-legendary-imagine.trycloudflare.com/llms.txt",
-    "freeSample": "https://organized-barnes-legendary-imagine.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://organized-barnes-legendary-imagine.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://organized-barnes-legendary-imagine.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://organized-barnes-legendary-imagine.trycloudflare.com/state"
+    "catalog": "https://sharon-lexmark-locally-aqua.trycloudflare.com/catalog.json",
+    "openapi": "https://sharon-lexmark-locally-aqua.trycloudflare.com/openapi.json",
+    "llms": "https://sharon-lexmark-locally-aqua.trycloudflare.com/llms.txt",
+    "freeSample": "https://sharon-lexmark-locally-aqua.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://sharon-lexmark-locally-aqua.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://sharon-lexmark-locally-aqua.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://sharon-lexmark-locally-aqua.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://organized-barnes-legendary-imagine.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://sharon-lexmark-locally-aqua.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://organized-barnes-legendary-imagine.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://sharon-lexmark-locally-aqua.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
