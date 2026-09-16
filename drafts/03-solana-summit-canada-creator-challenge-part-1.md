@@ -2,8 +2,8 @@
 
 - Listing: https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-1
 - Value: $10,000 USDG
-- Deadline: 7 days left (as of 2026-09-15 17:46 UTC)
-- Fit score: 2,500 — verified sponsor
+- Deadline: 6 days left (as of 2026-09-16 17:37 UTC)
+- Fit score: 2,353 — verified sponsor
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist

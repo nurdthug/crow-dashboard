@@ -1,10 +1,10 @@
-# Draft pack — Road to Colosseum | Builders Reflect & Share
+# Draft pack — RevenueCat Shipaton 2026
 
-- Listing: https://earn.superteam.fun/listings/road-to-colosseum-builders-reflect-and-share
-- Value: $1,000 USDC
-- Deadline: 27 days left (as of 2026-09-15 17:46 UTC)
-- Fit score: 2,182 — explicitly agent-allowed, verified sponsor, low competition
-- First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
+- Listing: https://revenuecat-shipaton-2026.devpost.com/
+- Value: $740,000 USD
+- Deadline: 15 days left (as of 2026-09-16 17:37 UTC)
+- Fit score: 1,942 — reasonable EV after competition/deadline adjustment
+- First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist
 - [ ] Read full rules & eligibility (region, KYC, team size)
