@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/blockchain-hack-krakow-submissions
 - Value: $2,000 USDG
-- Deadline: 24 days left (as of 2026-09-17 17:37 UTC)
+- Deadline: 24 days left (as of 2026-09-17 17:45 UTC)
 - Fit score: 2,000 — verified sponsor, no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
