@@ -1,21 +1,21 @@
-# Crow Scout Digest — 2026-09-18 17:04 UTC
+# Crow Scout Digest — 2026-09-18 17:15 UTC
 
-**39 open opportunities** · 1 new since last run · 2 flagged AGENT_ALLOWED · total face value $1,045,046
+**39 open opportunities** · 0 new since last run · 2 flagged AGENT_ALLOWED · total face value $1,045,046
 
 | # | Score | Title | Value | Type | Source | Days left | Competition | Agent? |
 |---|---|---|---|---|---|---|---|---|
-| 1 | 11,100 | [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/) | $740,000 USD | hackathon | devpost | 13 | 26527 |  |
+| 1 | 11,100 | [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/) | $740,000 USD | hackathon | devpost | 13 | 26528 |  |
 | 2 | 6,400 | [Road to Colosseum Hackathon: Build your MVP](https://earn.superteam.fun/listings/road-to-colosseum-hackathon-build-your-mvp) | $8,000 USDG | bounty | superteam-earn | 14 | 2 |  |
 | 3 | 3,500 | [BAXUS Creators: Film Real Vending Machine Spins](https://earn.superteam.fun/listings/baxus-creators-film-real-vending-machine-spins) | $7,000 USDC | bounty | superteam-earn | 4 | 4 |  |
-| 4 | 2,760 | [Build, Ship, Shape: Amazon Developer Hackathon](https://amazonappdev2026.devpost.com/) | $138,000 USD | hackathon | devpost | 30 | 9144 |  |
+| 4 | 2,760 | [Build, Ship, Shape: Amazon Developer Hackathon](https://amazonappdev2026.devpost.com/) | $138,000 USD | hackathon | devpost | 30 | 9146 |  |
 | 5 | 2,000 | [Blockchain Hack Warsaw - Submissions](https://earn.superteam.fun/listings/blockchain-hack-warsaw-submissions) | $2,000 USDG | bounty | superteam-earn | 23 | 0 |  |
 | 6 | 2,000 | [Blockchain Hack Kraków - Submissions](https://earn.superteam.fun/listings/blockchain-hack-krakow-submissions) | $2,000 USDG | bounty | superteam-earn | 23 | 0 |  |
 | 7 | 1,905 | [Solana Summit Canada Creator Challenge - part 1](https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-1) | $10,000 USDG | bounty | superteam-earn | 4 | 34 |  |
 | 8 | 1,876 | [Create a Short Video Explainer for Hisa: $5000 up for grabs.](https://earn.superteam.fun/listings/create-a-short-video-explainer-for-hisa-dollar5000-up-for-grabs) | $5,002 USDG | bounty | superteam-earn | 12 | 8 |  |
 | 9 | 1,511 | [Pitch & Demo Your Project at Demo Day in Kyiv](https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv) | $1,700 USDG | bounty | superteam-earn | 27 | 1 |  |
-| 10 | 1,500 | [Colosseum: Show Us What You Got](https://earn.superteam.fun/listings/colosseum-show-us-what-got) 🆕 | $1,500 USDG | bounty | superteam-earn | 16 | 0 |  |
+| 10 | 1,500 | [Colosseum: Show Us What You Got](https://earn.superteam.fun/listings/colosseum-show-us-what-got) | $1,500 USDG | bounty | superteam-earn | 16 | 0 |  |
 | 11 | 1,039 | [AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon](https://aws-cds-partner.devpost.com/) | $40,000 USD | hackathon | devpost | 30 | 223 |  |
-| 12 | 1,000 | [Nebius x NVIDIA Global AI Hackathon](https://nebiusglobalaihackathon.devpost.com/) | $50,000 USD | hackathon | devpost | 30 | 7707 |  |
+| 12 | 1,000 | [Nebius x NVIDIA Global AI Hackathon](https://nebiusglobalaihackathon.devpost.com/) | $50,000 USD | hackathon | devpost | 30 | 7717 |  |
 | 13 | 706 | [Trade on KriptoK League and Share Your Round Experience | $2,000 USDC](https://earn.superteam.fun/listings/kriptok-league-trading-experience-bounty) | $2,000 USDC | bounty | superteam-earn | 3 | 9 |  |
 | 14 | 500 | [Anti Brain Drain Content Bounty - Colosseum Push](https://earn.superteam.fun/listings/anti-brain-drain-content-bounty-colosseum-push) | $500 USDC | bounty | superteam-earn | 12 | 0 |  |
 | 15 | 492 | [Pitch & Demo Your Product at Online Demo Day](https://earn.superteam.fun/listings/pitch-and-demo-your-product-at-online-demo-day) | $800 USDG | bounty | superteam-earn | 27 | 5 |  |

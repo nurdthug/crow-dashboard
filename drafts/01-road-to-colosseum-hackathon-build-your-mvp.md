@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/road-to-colosseum-hackathon-build-your-mvp
 - Value: $8,000 USDG
-- Deadline: 14 days left (as of 2026-09-18 17:04 UTC)
+- Deadline: 14 days left (as of 2026-09-18 17:15 UTC)
 - Fit score: 6,400 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
