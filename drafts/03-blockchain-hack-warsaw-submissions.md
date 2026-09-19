@@ -1,9 +1,9 @@
-# Draft pack — BAXUS Creators: Film Real Vending Machine Spins
+# Draft pack — Blockchain Hack Warsaw - Submissions
 
-- Listing: https://earn.superteam.fun/listings/baxus-creators-film-real-vending-machine-spins
-- Value: $7,000 USDC
-- Deadline: 4 days left (as of 2026-09-18 17:15 UTC)
-- Fit score: 3,500 — low competition
+- Listing: https://earn.superteam.fun/listings/blockchain-hack-warsaw-submissions
+- Value: $2,000 USDG
+- Deadline: 22 days left (as of 2026-09-19 16:29 UTC)
+- Fit score: 2,000 — verified sponsor, no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist

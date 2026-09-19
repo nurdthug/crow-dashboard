@@ -7,46 +7,46 @@
   "token": "USDG",
   "fit": 6400.0,
   "kind": "build",
-  "days_left": 14.197451276550925
+  "days_left": 13.2296747909375
  },
  {
-  "file": "drafts/02-baxus-creators-film-real-vending-machine-spins.md",
-  "title": "BAXUS Creators: Film Real Vending Machine Spins",
-  "url": "https://earn.superteam.fun/listings/baxus-creators-film-real-vending-machine-spins",
-  "value_usd": 7000.0,
-  "token": "USDC",
-  "fit": 3500.0,
-  "kind": "generic",
-  "days_left": 3.572451276550926
- },
- {
-  "file": "drafts/03-create-a-short-video-explainer-for-hisa-5000-up-for-grabs.md",
+  "file": "drafts/02-create-a-short-video-explainer-for-hisa-5000-up-for-grabs.md",
   "title": "Create a Short Video Explainer for Hisa: $5000 up for grabs.",
   "url": "https://earn.superteam.fun/listings/create-a-short-video-explainer-for-hisa-dollar5000-up-for-grabs",
   "value_usd": 5002.0,
   "token": "USDG",
-  "fit": 2250.9,
+  "fit": 2000.8,
   "kind": "content",
-  "days_left": 12.239117943217591
+  "days_left": 11.271341457604166
  },
  {
-  "file": "drafts/04-blockchain-hack-warsaw-submissions.md",
+  "file": "drafts/03-blockchain-hack-warsaw-submissions.md",
   "title": "Blockchain Hack Warsaw - Submissions",
   "url": "https://earn.superteam.fun/listings/blockchain-hack-warsaw-submissions",
   "value_usd": 2000.0,
   "token": "USDG",
   "fit": 2000.0,
   "kind": "generic",
-  "days_left": 23.197451276550925
+  "days_left": 22.2296747909375
  },
  {
-  "file": "drafts/05-blockchain-hack-krak-w-submissions.md",
+  "file": "drafts/04-blockchain-hack-krak-w-submissions.md",
   "title": "Blockchain Hack Krak\u00f3w - Submissions",
   "url": "https://earn.superteam.fun/listings/blockchain-hack-krakow-submissions",
   "value_usd": 2000.0,
   "token": "USDG",
   "fit": 2000.0,
   "kind": "generic",
-  "days_left": 23.197451276550925
+  "days_left": 22.2296747909375
+ },
+ {
+  "file": "drafts/05-revenuecat-shipaton-2026.md",
+  "title": "RevenueCat Shipaton 2026",
+  "url": "https://revenuecat-shipaton-2026.devpost.com/",
+  "value_usd": 740000.0,
+  "token": "USD",
+  "fit": 1942.5,
+  "kind": "build",
+  "days_left": 12.0
  }
 ]
