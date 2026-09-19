@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/create-a-short-video-explainer-for-hisa-dollar5000-up-for-grabs
 - Value: $5,002 USDG
-- Deadline: 11 days left (as of 2026-09-19 16:29 UTC)
+- Deadline: 11 days left (as of 2026-09-19 16:49 UTC)
 - Fit score: 2,001 — reasonable EV after competition/deadline adjustment
 - First action: Draft script/angle and collect required brand/rule links.
 
