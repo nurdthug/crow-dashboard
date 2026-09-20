@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20 16:47 UTC",
+  "generated_at": "2026-09-20 17:01 UTC",
   "reviewed": 38,
   "agent_allowed": 2,
   "recommendations": [
@@ -61,7 +61,7 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 10.3,
+      "days_left": 10.2,
       "competition": 15,
       "deadline": "2026-09-30T22:59:59.000Z",
       "source": "superteam-earn",
@@ -141,7 +141,7 @@
       "why": "verified sponsor, urgent",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 1.6,
+      "days_left": 1.5,
       "competition": 39,
       "deadline": "2026-09-22T05:59:59.000Z",
       "source": "superteam-earn",
@@ -168,25 +168,25 @@
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 26778,
+      "competition": 26780,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 10227,
+      "competition": 10228,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 8805,
+      "competition": 8812,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "OpenCV AI Competition 2026, powered by AWS",
       "url": "https://opencv26.devpost.com/",
-      "competition": 2064,
+      "competition": 2067,
       "reason": "huge pool, but high visible competition"
     },
     {

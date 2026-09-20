@@ -7,7 +7,7 @@
   "token": "USDG",
   "fit": 10000.0,
   "kind": "build",
-  "days_left": 10.467250254837964
+  "days_left": 10.457322810266204
  },
  {
   "file": "drafts/02-road-to-colosseum-hackathon-build-your-mvp.md",
@@ -17,7 +17,7 @@
   "token": "USDG",
   "fit": 6400.0,
   "kind": "build",
-  "days_left": 12.217250254837962
+  "days_left": 12.207322810266204
  },
  {
   "file": "drafts/03-revenuecat-shipaton-2026.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 1777.78,
   "kind": "generic",
-  "days_left": 21.21725025483796
+  "days_left": 21.207322810266206
  },
  {
   "file": "drafts/05-create-a-short-video-explainer-for-hisa-5000-up-for-grabs.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 1565.84,
   "kind": "content",
-  "days_left": 10.25891692150463
+  "days_left": 10.24898947693287
  }
 ]
