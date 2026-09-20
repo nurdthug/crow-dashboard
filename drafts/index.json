@@ -1,52 +1,52 @@
 [
  {
-  "file": "drafts/01-road-to-colosseum-hackathon-build-your-mvp.md",
+  "file": "drafts/01-solana-summit-canada-creator-challenge-part-2.md",
+  "title": "Solana Summit Canada Creator Challenge - part 2",
+  "url": "https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-2",
+  "value_usd": 10000.0,
+  "token": "USDG",
+  "fit": 10000.0,
+  "kind": "build",
+  "days_left": 10.467250254837964
+ },
+ {
+  "file": "drafts/02-road-to-colosseum-hackathon-build-your-mvp.md",
   "title": "Road to Colosseum Hackathon: Build your MVP",
   "url": "https://earn.superteam.fun/listings/road-to-colosseum-hackathon-build-your-mvp",
   "value_usd": 8000.0,
   "token": "USDG",
   "fit": 6400.0,
   "kind": "build",
-  "days_left": 13.215721374016203
+  "days_left": 12.217250254837962
  },
  {
-  "file": "drafts/02-create-a-short-video-explainer-for-hisa-5000-up-for-grabs.md",
-  "title": "Create a Short Video Explainer for Hisa: $5000 up for grabs.",
-  "url": "https://earn.superteam.fun/listings/create-a-short-video-explainer-for-hisa-dollar5000-up-for-grabs",
-  "value_usd": 5002.0,
-  "token": "USDG",
-  "fit": 2000.8,
-  "kind": "content",
-  "days_left": 11.25738804068287
- },
- {
-  "file": "drafts/03-blockchain-hack-warsaw-submissions.md",
-  "title": "Blockchain Hack Warsaw - Submissions",
-  "url": "https://earn.superteam.fun/listings/blockchain-hack-warsaw-submissions",
-  "value_usd": 2000.0,
-  "token": "USDG",
-  "fit": 2000.0,
-  "kind": "generic",
-  "days_left": 22.215721374016205
- },
- {
-  "file": "drafts/04-blockchain-hack-krak-w-submissions.md",
-  "title": "Blockchain Hack Krak\u00f3w - Submissions",
-  "url": "https://earn.superteam.fun/listings/blockchain-hack-krakow-submissions",
-  "value_usd": 2000.0,
-  "token": "USDG",
-  "fit": 2000.0,
-  "kind": "generic",
-  "days_left": 22.215721374016205
- },
- {
-  "file": "drafts/05-revenuecat-shipaton-2026.md",
+  "file": "drafts/03-revenuecat-shipaton-2026.md",
   "title": "RevenueCat Shipaton 2026",
   "url": "https://revenuecat-shipaton-2026.devpost.com/",
   "value_usd": 740000.0,
   "token": "USD",
   "fit": 1942.5,
   "kind": "build",
-  "days_left": 12.0
+  "days_left": 11.0
+ },
+ {
+  "file": "drafts/04-blockchain-hack-warsaw-submissions.md",
+  "title": "Blockchain Hack Warsaw - Submissions",
+  "url": "https://earn.superteam.fun/listings/blockchain-hack-warsaw-submissions",
+  "value_usd": 2000.0,
+  "token": "USDG",
+  "fit": 1777.78,
+  "kind": "generic",
+  "days_left": 21.21725025483796
+ },
+ {
+  "file": "drafts/05-create-a-short-video-explainer-for-hisa-5000-up-for-grabs.md",
+  "title": "Create a Short Video Explainer for Hisa: $5000 up for grabs.",
+  "url": "https://earn.superteam.fun/listings/create-a-short-video-explainer-for-hisa-dollar5000-up-for-grabs",
+  "value_usd": 5002.0,
+  "token": "USDG",
+  "fit": 1565.84,
+  "kind": "content",
+  "days_left": 10.25891692150463
  }
 ]
