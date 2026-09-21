@@ -5,9 +5,9 @@
   "url": "https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-2",
   "value_usd": 10000.0,
   "token": "USDG",
-  "fit": 10000.0,
+  "fit": 8888.89,
   "kind": "build",
-  "days_left": 10.457322810266204
+  "days_left": 9.3881078978125
  },
  {
   "file": "drafts/02-road-to-colosseum-hackathon-build-your-mvp.md",
@@ -17,7 +17,7 @@
   "token": "USDG",
   "fit": 6400.0,
   "kind": "build",
-  "days_left": 12.207322810266204
+  "days_left": 11.1381078978125
  },
  {
   "file": "drafts/03-revenuecat-shipaton-2026.md",
@@ -27,7 +27,7 @@
   "token": "USD",
   "fit": 1942.5,
   "kind": "build",
-  "days_left": 11.0
+  "days_left": 10.0
  },
  {
   "file": "drafts/04-blockchain-hack-warsaw-submissions.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 1777.78,
   "kind": "generic",
-  "days_left": 21.207322810266206
+  "days_left": 20.1381078978125
  },
  {
   "file": "drafts/05-create-a-short-video-explainer-for-hisa-5000-up-for-grabs.md",
@@ -45,8 +45,8 @@
   "url": "https://earn.superteam.fun/listings/create-a-short-video-explainer-for-hisa-dollar5000-up-for-grabs",
   "value_usd": 5002.0,
   "token": "USDG",
-  "fit": 1565.84,
+  "fit": 1385.17,
   "kind": "content",
-  "days_left": 10.24898947693287
+  "days_left": 9.179774564479168
  }
 ]
