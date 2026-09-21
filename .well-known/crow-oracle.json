@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://threatened-giving-slow-lawsuit.trycloudflare.com",
+    "baseUrl": "https://excellence-advise-protective-modelling.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://threatened-giving-slow-lawsuit.trycloudflare.com/healthz",
+    "health": "https://excellence-advise-protective-modelling.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://threatened-giving-slow-lawsuit.trycloudflare.com/catalog.json",
-    "openapi": "https://threatened-giving-slow-lawsuit.trycloudflare.com/openapi.json",
-    "llms": "https://threatened-giving-slow-lawsuit.trycloudflare.com/llms.txt",
-    "freeSample": "https://threatened-giving-slow-lawsuit.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://threatened-giving-slow-lawsuit.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://threatened-giving-slow-lawsuit.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://threatened-giving-slow-lawsuit.trycloudflare.com/state"
+    "catalog": "https://excellence-advise-protective-modelling.trycloudflare.com/catalog.json",
+    "openapi": "https://excellence-advise-protective-modelling.trycloudflare.com/openapi.json",
+    "llms": "https://excellence-advise-protective-modelling.trycloudflare.com/llms.txt",
+    "freeSample": "https://excellence-advise-protective-modelling.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://excellence-advise-protective-modelling.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://excellence-advise-protective-modelling.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://excellence-advise-protective-modelling.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://threatened-giving-slow-lawsuit.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://excellence-advise-protective-modelling.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://threatened-giving-slow-lawsuit.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://excellence-advise-protective-modelling.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
