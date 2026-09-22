@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/blockchain-hack-warsaw-submissions
 - Value: $2,000 USDG
-- Deadline: 19 days left (as of 2026-09-22 17:37 UTC)
+- Deadline: 19 days left (as of 2026-09-22 17:46 UTC)
 - Fit score: 1,778 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 

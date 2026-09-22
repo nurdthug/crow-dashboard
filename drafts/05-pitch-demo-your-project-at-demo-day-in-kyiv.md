@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv
 - Value: $1,700 USDG
-- Deadline: 23 days left (as of 2026-09-22 17:37 UTC)
+- Deadline: 23 days left (as of 2026-09-22 17:46 UTC)
 - Fit score: 1,360 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
