@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-21 18:54 UTC",
-  "reviewed": 36,
+  "generated_at": "2026-09-22 17:37 UTC",
+  "reviewed": 32,
   "agent_allowed": 1,
   "recommendations": [
     {
       "rank": 1,
-      "fit": 8888.89,
+      "fit": 8000.0,
       "title": "Solana Summit Canada Creator Challenge - part 2",
       "url": "https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-2",
       "value_usd": 10000.0,
@@ -13,8 +13,8 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 9.4,
-      "competition": 1,
+      "days_left": 8.4,
+      "competition": 2,
       "deadline": "2026-10-01T03:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -29,7 +29,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "high",
-      "days_left": 11.1,
+      "days_left": 10.2,
       "competition": 2,
       "deadline": "2026-10-02T21:59:59.000Z",
       "source": "superteam-earn",
@@ -45,7 +45,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 20.1,
+      "days_left": 19.2,
       "competition": 1,
       "deadline": "2026-10-11T21:59:59.000Z",
       "source": "superteam-earn",
@@ -53,22 +53,6 @@
     },
     {
       "rank": 4,
-      "fit": 1385.17,
-      "title": "Create a Short Video Explainer for Hisa: $5000 up for grabs.",
-      "url": "https://earn.superteam.fun/listings/create-a-short-video-explainer-for-hisa-dollar5000-up-for-grabs",
-      "value_usd": 5002.0,
-      "token": "USDG",
-      "why": "reasonable EV after competition/deadline adjustment",
-      "next_step": "Draft script/angle and collect required brand/rule links.",
-      "effort": "low-medium",
-      "days_left": 9.2,
-      "competition": 18,
-      "deadline": "2026-09-30T22:59:59.000Z",
-      "source": "superteam-earn",
-      "agent_access": "HUMAN_ONLY"
-    },
-    {
-      "rank": 5,
       "fit": 1360.0,
       "title": "Pitch & Demo Your Project at Demo Day in Kyiv",
       "url": "https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv",
@@ -77,14 +61,14 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 24.1,
+      "days_left": 23.1,
       "competition": 2,
       "deadline": "2026-10-15T20:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
     {
-      "rank": 6,
+      "rank": 5,
       "fit": 1333.33,
       "title": "Blockchain Hack Krak\u00f3w - Submissions",
       "url": "https://earn.superteam.fun/listings/blockchain-hack-krakow-submissions",
@@ -93,9 +77,25 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 20.1,
+      "days_left": 19.2,
       "competition": 4,
       "deadline": "2026-10-11T21:59:59.000Z",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 6,
+      "fit": 1200.48,
+      "title": "Create a Short Video Explainer for Hisa: $5000 up for grabs.",
+      "url": "https://earn.superteam.fun/listings/create-a-short-video-explainer-for-hisa-dollar5000-up-for-grabs",
+      "value_usd": 5002.0,
+      "token": "USDG",
+      "why": "reasonable EV after competition/deadline adjustment",
+      "next_step": "Draft script/angle and collect required brand/rule links.",
+      "effort": "low-medium",
+      "days_left": 8.2,
+      "competition": 22,
+      "deadline": "2026-09-30T22:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
@@ -109,7 +109,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 13.1,
+      "days_left": 12.1,
       "competition": 2,
       "deadline": "2026-10-04T20:59:59.000Z",
       "source": "superteam-earn",
@@ -125,7 +125,7 @@
       "why": "verified sponsor, no visible competition yet",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 9.0,
+      "days_left": 8.0,
       "competition": 0,
       "deadline": "2026-09-30T18:14:59.000Z",
       "source": "superteam-earn",
@@ -133,22 +133,6 @@
     },
     {
       "rank": 9,
-      "fit": 503.22,
-      "title": "AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon",
-      "url": "https://aws-cds-partner.devpost.com/",
-      "value_usd": 40000.0,
-      "token": "USD",
-      "why": "reasonable EV after competition/deadline adjustment",
-      "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
-      "effort": "high",
-      "days_left": 30.0,
-      "competition": 302,
-      "deadline": null,
-      "source": "devpost",
-      "agent_access": "HUMAN_ONLY"
-    },
-    {
-      "rank": 10,
       "fit": 457.14,
       "title": "Pitch & Demo Your Product at Online Demo Day",
       "url": "https://earn.superteam.fun/listings/pitch-and-demo-your-product-at-online-demo-day",
@@ -157,10 +141,26 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 24.1,
+      "days_left": 23.1,
       "competition": 6,
       "deadline": "2026-10-15T20:59:59.000Z",
       "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 10,
+      "fit": 443.18,
+      "title": "AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon",
+      "url": "https://aws-cds-partner.devpost.com/",
+      "value_usd": 40000.0,
+      "token": "USD",
+      "why": "reasonable EV after competition/deadline adjustment",
+      "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
+      "effort": "high",
+      "days_left": 30.0,
+      "competition": 344,
+      "deadline": null,
+      "source": "devpost",
       "agent_access": "HUMAN_ONLY"
     }
   ],
@@ -168,31 +168,31 @@
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 26941,
+      "competition": 27095,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 10795,
+      "competition": 11450,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 9519,
+      "competition": 10301,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "OpenCV AI Competition 2026, powered by AWS",
       "url": "https://opencv26.devpost.com/",
-      "competition": 2211,
+      "competition": 2354,
       "reason": "huge pool, but high visible competition"
     },
     {
-      "title": "Global Innovation Build Challenge V2",
-      "url": "https://gibc-v2.devpost.com/",
-      "competition": 1386,
+      "title": "Beginner's Paradise - FirstCommit",
+      "url": "https://firstcommit.devpost.com/",
+      "competition": 1046,
       "reason": "huge pool, but high visible competition"
     }
   ]

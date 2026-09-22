@@ -1,9 +1,9 @@
-# Draft pack — Blockchain Hack Warsaw - Submissions
+# Draft pack — Pitch & Demo Your Project at Demo Day in Kyiv
 
-- Listing: https://earn.superteam.fun/listings/blockchain-hack-warsaw-submissions
-- Value: $2,000 USDG
-- Deadline: 19 days left (as of 2026-09-22 17:37 UTC)
-- Fit score: 1,778 — verified sponsor, low competition
+- Listing: https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv
+- Value: $1,700 USDG
+- Deadline: 23 days left (as of 2026-09-22 17:37 UTC)
+- Fit score: 1,360 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
