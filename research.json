@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23 17:51 UTC",
+  "generated_at": "2026-09-23 17:58 UTC",
   "reviewed": 31,
   "agent_allowed": 1,
   "recommendations": [
@@ -101,7 +101,7 @@
     },
     {
       "rank": 7,
-      "fit": 1000.4,
+      "fit": 973.37,
       "title": "Create a Short Video Explainer for Hisa: $5000 up for grabs.",
       "url": "https://earn.superteam.fun/listings/create-a-short-video-explainer-for-hisa-dollar5000-up-for-grabs",
       "value_usd": 5002.0,
@@ -110,7 +110,7 @@
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
       "days_left": 7.2,
-      "competition": 28,
+      "competition": 29,
       "deadline": "2026-09-30T22:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -174,13 +174,13 @@
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 12215,
+      "competition": 12220,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 10825,
+      "competition": 10828,
       "reason": "huge pool, but high visible competition"
     },
     {
