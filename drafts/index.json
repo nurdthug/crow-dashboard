@@ -5,9 +5,9 @@
   "url": "https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-2",
   "value_usd": 10000.0,
   "token": "USDG",
-  "fit": 8000.0,
+  "fit": 6666.67,
   "kind": "build",
-  "days_left": 8.426220856469907
+  "days_left": 7.4228702676273155
  },
  {
   "file": "drafts/02-road-to-colosseum-hackathon-build-your-mvp.md",
@@ -15,9 +15,9 @@
   "url": "https://earn.superteam.fun/listings/road-to-colosseum-hackathon-build-your-mvp",
   "value_usd": 8000.0,
   "token": "USDG",
-  "fit": 6400.0,
+  "fit": 5818.18,
   "kind": "build",
-  "days_left": 10.176220856469907
+  "days_left": 9.172870267627315
  },
  {
   "file": "drafts/03-revenuecat-shipaton-2026.md",
@@ -27,7 +27,7 @@
   "token": "USD",
   "fit": 1942.5,
   "kind": "build",
-  "days_left": 9.0
+  "days_left": 8.0
  },
  {
   "file": "drafts/04-blockchain-hack-warsaw-submissions.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 1777.78,
   "kind": "generic",
-  "days_left": 19.176220856469907
+  "days_left": 18.172870267627314
  },
  {
   "file": "drafts/05-pitch-demo-your-project-at-demo-day-in-kyiv.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 1360.0,
   "kind": "generic",
-  "days_left": 23.134554189803243
+  "days_left": 22.131203600960646
  }
 ]
