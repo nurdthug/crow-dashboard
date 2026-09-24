@@ -1,9 +1,9 @@
-# Draft pack — Blockchain Hack Warsaw - Submissions
+# Draft pack — Breakpoint London Starter Pack
 
-- Listing: https://earn.superteam.fun/listings/blockchain-hack-warsaw-submissions
-- Value: $2,000 USDG
-- Deadline: 18 days left (as of 2026-09-23 17:58 UTC)
-- Fit score: 1,778 — verified sponsor, low competition
+- Listing: https://earn.superteam.fun/listings/breakpoint-london-starter-pack
+- Value: $5,500 USDC
+- Deadline: 7 days left (as of 2026-09-24 17:51 UTC)
+- Fit score: 5,500 — verified sponsor, no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist

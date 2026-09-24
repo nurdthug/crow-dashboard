@@ -1,52 +1,52 @@
 [
  {
-  "file": "drafts/01-solana-summit-canada-creator-challenge-part-2.md",
-  "title": "Solana Summit Canada Creator Challenge - part 2",
-  "url": "https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-2",
-  "value_usd": 10000.0,
-  "token": "USDG",
-  "fit": 6666.67,
-  "kind": "build",
-  "days_left": 7.417489642546297
+  "file": "drafts/01-hype-video-for-breakpoint-london.md",
+  "title": "Hype Video for Breakpoint London",
+  "url": "https://earn.superteam.fun/listings/hype-video-for-breakpoint-london",
+  "value_usd": 5500.0,
+  "token": "USDC",
+  "fit": 6600.0,
+  "kind": "content",
+  "days_left": 7.026672741898148
  },
  {
-  "file": "drafts/02-road-to-colosseum-hackathon-build-your-mvp.md",
+  "file": "drafts/02-show-tokenization-in-2050-via-x-post-thread-or-short-video.md",
+  "title": "Show Tokenization in 2050 via X Post, Thread, or Short Video",
+  "url": "https://earn.superteam.fun/listings/show-tokenization-in-2050-via-x-post-thread-or-short-video",
+  "value_usd": 5500.0,
+  "token": "USDC",
+  "fit": 5866.67,
+  "kind": "content",
+  "days_left": 7.026672741898148
+ },
+ {
+  "file": "drafts/03-road-to-colosseum-hackathon-build-your-mvp.md",
   "title": "Road to Colosseum Hackathon: Build your MVP",
   "url": "https://earn.superteam.fun/listings/road-to-colosseum-hackathon-build-your-mvp",
   "value_usd": 8000.0,
   "token": "USDG",
   "fit": 5818.18,
   "kind": "build",
-  "days_left": 9.167489642546297
+  "days_left": 8.17249451273148
  },
  {
-  "file": "drafts/03-revenuecat-shipaton-2026.md",
-  "title": "RevenueCat Shipaton 2026",
-  "url": "https://revenuecat-shipaton-2026.devpost.com/",
-  "value_usd": 740000.0,
-  "token": "USD",
-  "fit": 1942.5,
+  "file": "drafts/04-solana-summit-canada-creator-challenge-part-2.md",
+  "title": "Solana Summit Canada Creator Challenge - part 2",
+  "url": "https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-2",
+  "value_usd": 10000.0,
+  "token": "USDG",
+  "fit": 5714.29,
   "kind": "build",
-  "days_left": 8.0
+  "days_left": 6.422494512731482
  },
  {
-  "file": "drafts/04-blockchain-hack-warsaw-submissions.md",
-  "title": "Blockchain Hack Warsaw - Submissions",
-  "url": "https://earn.superteam.fun/listings/blockchain-hack-warsaw-submissions",
-  "value_usd": 2000.0,
-  "token": "USDG",
-  "fit": 1777.78,
+  "file": "drafts/05-breakpoint-london-starter-pack.md",
+  "title": "Breakpoint London Starter Pack",
+  "url": "https://earn.superteam.fun/listings/breakpoint-london-starter-pack",
+  "value_usd": 5500.0,
+  "token": "USDC",
+  "fit": 5500.0,
   "kind": "generic",
-  "days_left": 18.167489642546297
- },
- {
-  "file": "drafts/05-pitch-demo-your-project-at-demo-day-in-kyiv.md",
-  "title": "Pitch & Demo Your Project at Demo Day in Kyiv",
-  "url": "https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv",
-  "value_usd": 1700.0,
-  "token": "USDG",
-  "fit": 1360.0,
-  "kind": "generic",
-  "days_left": 22.12582297587963
+  "days_left": 7.026672741898148
  }
 ]
