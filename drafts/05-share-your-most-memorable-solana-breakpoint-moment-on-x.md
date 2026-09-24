@@ -1,9 +1,9 @@
-# Draft pack — Breakpoint London Starter Pack
+# Draft pack — Share Your Most Memorable Solana Breakpoint Moment on X
 
-- Listing: https://earn.superteam.fun/listings/breakpoint-london-starter-pack
+- Listing: https://earn.superteam.fun/listings/share-your-most-memorable-solana-breakpoint-moment-on-x
 - Value: $5,500 USDC
-- Deadline: 7 days left (as of 2026-09-24 17:51 UTC)
-- Fit score: 5,500 — verified sponsor, no visible competition yet
+- Deadline: 7 days left (as of 2026-09-24 17:58 UTC)
+- Fit score: 4,889 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist

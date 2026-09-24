@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/show-tokenization-in-2050-via-x-post-thread-or-short-video
 - Value: $5,500 USDC
-- Deadline: 7 days left (as of 2026-09-24 17:51 UTC)
+- Deadline: 7 days left (as of 2026-09-24 17:58 UTC)
 - Fit score: 5,867 — verified sponsor, low competition
 - First action: Draft script/angle and collect required brand/rule links.
 

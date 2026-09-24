@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24 17:51 UTC",
+  "generated_at": "2026-09-24 17:58 UTC",
   "reviewed": 36,
   "agent_allowed": 1,
   "recommendations": [
@@ -69,16 +69,16 @@
     },
     {
       "rank": 5,
-      "fit": 5500.0,
-      "title": "Breakpoint London Starter Pack",
-      "url": "https://earn.superteam.fun/listings/breakpoint-london-starter-pack",
+      "fit": 4888.89,
+      "title": "Share Your Most Memorable Solana Breakpoint Moment on X",
+      "url": "https://earn.superteam.fun/listings/share-your-most-memorable-solana-breakpoint-moment-on-x",
       "value_usd": 5500.0,
       "token": "USDC",
-      "why": "verified sponsor, no visible competition yet",
+      "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
       "days_left": 7.0,
-      "competition": 0,
+      "competition": 1,
       "deadline": "2026-10-01T18:29:59.999Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -86,8 +86,8 @@
     {
       "rank": 6,
       "fit": 4888.89,
-      "title": "Share Your Most Memorable Solana Breakpoint Moment on X",
-      "url": "https://earn.superteam.fun/listings/share-your-most-memorable-solana-breakpoint-moment-on-x",
+      "title": "Breakpoint London Starter Pack",
+      "url": "https://earn.superteam.fun/listings/breakpoint-london-starter-pack",
       "value_usd": 5500.0,
       "token": "USDC",
       "why": "verified sponsor, low competition",
@@ -174,13 +174,13 @@
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 13338,
+      "competition": 13345,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 11286,
+      "competition": 11287,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -192,7 +192,7 @@
     {
       "title": "OneAquaHealth IEEE Global Hackathon",
       "url": "https://oneaquahealth-ieee-hackathon.devpost.com/",
-      "competition": 1034,
+      "competition": 1035,
       "reason": "huge pool, but high visible competition"
     }
   ]
