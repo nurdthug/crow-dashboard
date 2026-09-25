@@ -1,9 +1,9 @@
-# Draft pack — Show Tokenization in 2050 via X Post, Thread, or Short Video
+# Draft pack — Hype Video for Breakpoint London
 
-- Listing: https://earn.superteam.fun/listings/show-tokenization-in-2050-via-x-post-thread-or-short-video
+- Listing: https://earn.superteam.fun/listings/hype-video-for-breakpoint-london
 - Value: $5,500 USDC
-- Deadline: 7 days left (as of 2026-09-24 17:58 UTC)
-- Fit score: 5,867 — verified sponsor, low competition
+- Deadline: 6 days left (as of 2026-09-25 17:56 UTC)
+- Fit score: 4,400 — verified sponsor, low competition
 - First action: Draft script/angle and collect required brand/rule links.
 
 ## Go/no-go checklist

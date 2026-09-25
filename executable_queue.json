@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-24T17:58:39+00:00",
- "count": 4,
+ "generated": "2026-09-25T17:56:49+00:00",
+ "count": 5,
  "items": [
   {
    "lane": "github_pr",
@@ -49,11 +49,20 @@
   },
   {
    "lane": "listing",
+   "title": "Create twitter Post about the STREAM burn",
+   "url": "https://earn.superteam.fun/listings/create-twitter-post-about-the-stream-burn",
+   "value_usd": 500.0,
+   "token": "USDC",
+   "days_left": 14.168905943668983,
+   "small": true
+  },
+  {
+   "lane": "listing",
    "title": "Steve Agent Arena: Launch Your Agent & Win 500 USDC",
    "url": "https://earn.superteam.fun/listings/steve-agent-arena-launch-your-agent-and-win-500-usdc",
    "value_usd": 500.0,
    "token": "USDC",
-   "days_left": 7.167620940543982,
+   "days_left": 6.168894381168982,
    "small": true
   },
   {

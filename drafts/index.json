@@ -1,52 +1,52 @@
 [
  {
-  "file": "drafts/01-hype-video-for-breakpoint-london.md",
-  "title": "Hype Video for Breakpoint London",
-  "url": "https://earn.superteam.fun/listings/hype-video-for-breakpoint-london",
-  "value_usd": 5500.0,
-  "token": "USDC",
-  "fit": 6600.0,
-  "kind": "content",
-  "days_left": 7.021799169710648
- },
- {
-  "file": "drafts/02-show-tokenization-in-2050-via-x-post-thread-or-short-video.md",
-  "title": "Show Tokenization in 2050 via X Post, Thread, or Short Video",
-  "url": "https://earn.superteam.fun/listings/show-tokenization-in-2050-via-x-post-thread-or-short-video",
-  "value_usd": 5500.0,
-  "token": "USDC",
-  "fit": 5866.67,
-  "kind": "content",
-  "days_left": 7.021799169710648
- },
- {
-  "file": "drafts/03-road-to-colosseum-hackathon-build-your-mvp.md",
+  "file": "drafts/01-road-to-colosseum-hackathon-build-your-mvp.md",
   "title": "Road to Colosseum Hackathon: Build your MVP",
   "url": "https://earn.superteam.fun/listings/road-to-colosseum-hackathon-build-your-mvp",
   "value_usd": 8000.0,
   "token": "USDG",
-  "fit": 5818.18,
+  "fit": 5333.33,
   "kind": "build",
-  "days_left": 8.167620940543982
+  "days_left": 7.168894381168982
  },
  {
-  "file": "drafts/04-solana-summit-canada-creator-challenge-part-2.md",
+  "file": "drafts/02-hype-video-for-breakpoint-london.md",
+  "title": "Hype Video for Breakpoint London",
+  "url": "https://earn.superteam.fun/listings/hype-video-for-breakpoint-london",
+  "value_usd": 5500.0,
+  "token": "USDC",
+  "fit": 4400.0,
+  "kind": "content",
+  "days_left": 6.023072610335648
+ },
+ {
+  "file": "drafts/03-solana-summit-canada-creator-challenge-part-2.md",
   "title": "Solana Summit Canada Creator Challenge - part 2",
   "url": "https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-2",
   "value_usd": 10000.0,
   "token": "USDG",
-  "fit": 5714.29,
+  "fit": 3809.52,
   "kind": "build",
-  "days_left": 6.417620940543982
+  "days_left": 5.418894381168982
  },
  {
-  "file": "drafts/05-share-your-most-memorable-solana-breakpoint-moment-on-x.md",
+  "file": "drafts/04-share-your-most-memorable-solana-breakpoint-moment-on-x.md",
   "title": "Share Your Most Memorable Solana Breakpoint Moment on X",
   "url": "https://earn.superteam.fun/listings/share-your-most-memorable-solana-breakpoint-moment-on-x",
   "value_usd": 5500.0,
   "token": "USDC",
-  "fit": 4888.89,
+  "fit": 3666.67,
   "kind": "generic",
-  "days_left": 7.021799169710648
+  "days_left": 6.023072610335648
+ },
+ {
+  "file": "drafts/05-show-tokenization-in-2050-via-x-post-thread-or-short-video.md",
+  "title": "Show Tokenization in 2050 via X Post, Thread, or Short Video",
+  "url": "https://earn.superteam.fun/listings/show-tokenization-in-2050-via-x-post-thread-or-short-video",
+  "value_usd": 5500.0,
+  "token": "USDC",
+  "fit": 3520.0,
+  "kind": "content",
+  "days_left": 6.023072610335648
  }
 ]
