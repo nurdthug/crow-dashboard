@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/share-your-most-memorable-solana-breakpoint-moment-on-x
 - Value: $5,500 USDC
-- Deadline: 6 days left (as of 2026-09-25 17:56 UTC)
+- Deadline: 6 days left (as of 2026-09-25 18:05 UTC)
 - Fit score: 3,667 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
