@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26 17:09 UTC",
+  "generated_at": "2026-09-26 17:23 UTC",
   "reviewed": 35,
   "agent_allowed": 2,
   "recommendations": [
@@ -29,7 +29,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 5.1,
+      "days_left": 5.0,
       "competition": 5,
       "deadline": "2026-10-01T18:29:59.999Z",
       "source": "superteam-earn",
@@ -45,7 +45,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 5.1,
+      "days_left": 5.0,
       "competition": 9,
       "deadline": "2026-10-01T18:29:59.999Z",
       "source": "superteam-earn",
@@ -61,7 +61,7 @@
       "why": "verified sponsor",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 4.5,
+      "days_left": 4.4,
       "competition": 26,
       "deadline": "2026-10-01T03:59:59.000Z",
       "source": "superteam-earn",
@@ -77,7 +77,7 @@
       "why": "verified sponsor",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 5.1,
+      "days_left": 5.0,
       "competition": 16,
       "deadline": "2026-10-01T18:29:59.999Z",
       "source": "superteam-earn",
@@ -93,7 +93,7 @@
       "why": "verified sponsor",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 5.1,
+      "days_left": 5.0,
       "competition": 14,
       "deadline": "2026-10-01T18:29:59.999Z",
       "source": "superteam-earn",
@@ -109,7 +109,7 @@
       "why": "verified sponsor",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 5.1,
+      "days_left": 5.0,
       "competition": 16,
       "deadline": "2026-10-01T18:29:59.999Z",
       "source": "superteam-earn",
@@ -141,7 +141,7 @@
       "why": "verified sponsor",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 5.1,
+      "days_left": 5.0,
       "competition": 18,
       "deadline": "2026-10-01T18:29:59.999Z",
       "source": "superteam-earn",
@@ -168,25 +168,25 @@
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 27654,
+      "competition": 27656,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 15006,
+      "competition": 15010,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 12281,
+      "competition": 12288,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "OpenCV AI Competition 2026, powered by AWS",
       "url": "https://opencv26.devpost.com/",
-      "competition": 2783,
+      "competition": 2785,
       "reason": "huge pool, but high visible competition"
     },
     {
