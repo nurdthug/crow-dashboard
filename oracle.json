@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://savings-teacher-anthony-halifax.trycloudflare.com",
+    "baseUrl": "https://mason-autumn-printed-functioning.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://savings-teacher-anthony-halifax.trycloudflare.com/healthz",
+    "health": "https://mason-autumn-printed-functioning.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://savings-teacher-anthony-halifax.trycloudflare.com/catalog.json",
-    "openapi": "https://savings-teacher-anthony-halifax.trycloudflare.com/openapi.json",
-    "llms": "https://savings-teacher-anthony-halifax.trycloudflare.com/llms.txt",
-    "freeSample": "https://savings-teacher-anthony-halifax.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://savings-teacher-anthony-halifax.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://savings-teacher-anthony-halifax.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://savings-teacher-anthony-halifax.trycloudflare.com/state"
+    "catalog": "https://mason-autumn-printed-functioning.trycloudflare.com/catalog.json",
+    "openapi": "https://mason-autumn-printed-functioning.trycloudflare.com/openapi.json",
+    "llms": "https://mason-autumn-printed-functioning.trycloudflare.com/llms.txt",
+    "freeSample": "https://mason-autumn-printed-functioning.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://mason-autumn-printed-functioning.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://mason-autumn-printed-functioning.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://mason-autumn-printed-functioning.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://savings-teacher-anthony-halifax.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://mason-autumn-printed-functioning.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://savings-teacher-anthony-halifax.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://mason-autumn-printed-functioning.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
