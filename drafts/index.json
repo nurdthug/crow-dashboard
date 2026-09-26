@@ -5,9 +5,9 @@
   "url": "https://earn.superteam.fun/listings/road-to-colosseum-hackathon-build-your-mvp",
   "value_usd": 8000.0,
   "token": "USDG",
-  "fit": 5333.33,
+  "fit": 4923.08,
   "kind": "build",
-  "days_left": 7.162753815659722
+  "days_left": 6.201763958425926
  },
  {
   "file": "drafts/02-hype-video-for-breakpoint-london.md",
@@ -15,29 +15,29 @@
   "url": "https://earn.superteam.fun/listings/hype-video-for-breakpoint-london",
   "value_usd": 5500.0,
   "token": "USDC",
-  "fit": 4400.0,
+  "fit": 4061.54,
   "kind": "content",
-  "days_left": 6.016932044826389
+  "days_left": 5.055942187592592
  },
  {
-  "file": "drafts/03-solana-summit-canada-creator-challenge-part-2.md",
-  "title": "Solana Summit Canada Creator Challenge - part 2",
-  "url": "https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-2",
-  "value_usd": 10000.0,
-  "token": "USDG",
-  "fit": 3809.52,
-  "kind": "build",
-  "days_left": 5.412753815659722
- },
- {
-  "file": "drafts/04-share-your-most-memorable-solana-breakpoint-moment-on-x.md",
+  "file": "drafts/03-share-your-most-memorable-solana-breakpoint-moment-on-x.md",
   "title": "Share Your Most Memorable Solana Breakpoint Moment on X",
   "url": "https://earn.superteam.fun/listings/share-your-most-memorable-solana-breakpoint-moment-on-x",
   "value_usd": 5500.0,
   "token": "USDC",
-  "fit": 3666.67,
+  "fit": 2588.24,
   "kind": "generic",
-  "days_left": 6.016932044826389
+  "days_left": 5.055942187592592
+ },
+ {
+  "file": "drafts/04-solana-summit-canada-creator-challenge-part-2.md",
+  "title": "Solana Summit Canada Creator Challenge - part 2",
+  "url": "https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-2",
+  "value_usd": 10000.0,
+  "token": "USDG",
+  "fit": 2352.94,
+  "kind": "build",
+  "days_left": 4.451763958425926
  },
  {
   "file": "drafts/05-show-tokenization-in-2050-via-x-post-thread-or-short-video.md",
@@ -45,8 +45,8 @@
   "url": "https://earn.superteam.fun/listings/show-tokenization-in-2050-via-x-post-thread-or-short-video",
   "value_usd": 5500.0,
   "token": "USDC",
-  "fit": 3520.0,
+  "fit": 2200.0,
   "kind": "content",
-  "days_left": 6.016932044826389
+  "days_left": 5.055942187592592
  }
 ]
