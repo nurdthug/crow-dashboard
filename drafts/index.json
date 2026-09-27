@@ -7,7 +7,7 @@
   "token": "USDG",
   "fit": 4923.08,
   "kind": "build",
-  "days_left": 8.177668758252315
+  "days_left": 8.168946468692129
  },
  {
   "file": "drafts/02-hype-video-for-breakpoint-london.md",
@@ -17,7 +17,7 @@
   "token": "USDC",
   "fit": 3520.0,
   "kind": "content",
-  "days_left": 4.031846987418981
+  "days_left": 4.023124697858797
  },
  {
   "file": "drafts/03-share-your-most-memorable-solana-breakpoint-moment-on-x.md",
@@ -27,7 +27,7 @@
   "token": "USDC",
   "fit": 2200.0,
   "kind": "generic",
-  "days_left": 4.031846987418981
+  "days_left": 4.023124697858797
  },
  {
   "file": "drafts/04-revenuecat-shipaton-2026.md",
@@ -47,6 +47,6 @@
   "token": "USDC",
   "fit": 1913.04,
   "kind": "generic",
-  "days_left": 4.031846987418981
+  "days_left": 4.023124697858797
  }
 ]

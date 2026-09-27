@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27 17:44 UTC",
+  "generated_at": "2026-09-27 17:56 UTC",
   "reviewed": 35,
   "agent_allowed": 2,
   "recommendations": [
@@ -85,7 +85,7 @@
     },
     {
       "rank": 6,
-      "fit": 1427.03,
+      "fit": 1389.47,
       "title": "Show Tokenization in 2050 via X Post, Thread, or Short Video",
       "url": "https://earn.superteam.fun/listings/show-tokenization-in-2050-via-x-post-thread-or-short-video",
       "value_usd": 5500.0,
@@ -94,7 +94,7 @@
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
       "days_left": 4.0,
-      "competition": 29,
+      "competition": 30,
       "deadline": "2026-10-01T18:29:59.999Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -168,31 +168,31 @@
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 27796,
+      "competition": 27797,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 16131,
+      "competition": 16142,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 12835,
+      "competition": 12847,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "OpenCV AI Competition 2026, powered by AWS",
       "url": "https://opencv26.devpost.com/",
-      "competition": 2918,
+      "competition": 2922,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "OneAquaHealth IEEE Global Hackathon",
       "url": "https://oneaquahealth-ieee-hackathon.devpost.com/",
-      "competition": 1112,
+      "competition": 1113,
       "reason": "huge pool, but high visible competition"
     }
   ]

@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/hype-video-for-breakpoint-london
 - Value: $5,500 USDC
-- Deadline: 4 days left (as of 2026-09-27 17:44 UTC)
+- Deadline: 4 days left (as of 2026-09-27 17:56 UTC)
 - Fit score: 3,520 — verified sponsor, low competition
 - First action: Draft script/angle and collect required brand/rule links.
 
