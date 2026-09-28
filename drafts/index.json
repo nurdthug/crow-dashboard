@@ -17,7 +17,7 @@
   "token": "USDG",
   "fit": 4571.43,
   "kind": "build",
-  "days_left": 7.0786215799074075
+  "days_left": 7.072984002222222
  },
  {
   "file": "drafts/03-pitch-demo-your-project-at-demo-day-in-kyiv.md",
@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 1360.0,
   "kind": "generic",
-  "days_left": 17.03695491324074
+  "days_left": 17.031317335555556
  },
  {
   "file": "drafts/04-hype-video-for-breakpoint-london.md",
@@ -37,7 +37,7 @@
   "token": "USDC",
   "fit": 1304.47,
   "kind": "content",
-  "days_left": 2.932799809074074
+  "days_left": 2.927162231388889
  },
  {
   "file": "drafts/05-blockchain-hack-krak-w-submissions.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 1142.86,
   "kind": "generic",
-  "days_left": 13.078621579907407
+  "days_left": 13.072984002222222
  }
 ]
