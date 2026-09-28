@@ -1,9 +1,9 @@
-# Draft pack — Share Your Most Memorable Solana Breakpoint Moment on X
+# Draft pack — Pitch & Demo Your Project at Demo Day in Kyiv
 
-- Listing: https://earn.superteam.fun/listings/share-your-most-memorable-solana-breakpoint-moment-on-x
-- Value: $5,500 USDC
-- Deadline: 4 days left (as of 2026-09-27 17:56 UTC)
-- Fit score: 2,200 — verified sponsor
+- Listing: https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv
+- Value: $1,700 USDG
+- Deadline: 17 days left (as of 2026-09-28 20:06 UTC)
+- Fit score: 1,360 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist

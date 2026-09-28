@@ -1,9 +1,9 @@
-# Draft pack — RevenueCat Shipaton 2026
+# Draft pack — Meta VR Start Developer Competition 2026
 
-- Listing: https://revenuecat-shipaton-2026.devpost.com/
-- Value: $740,000 USD
-- Deadline: 4 days left (as of 2026-09-27 17:56 UTC)
-- Fit score: 1,942 — reasonable EV after competition/deadline adjustment
+- Listing: https://start-developer-competition-26.devpost.com/
+- Value: $1,000,000 USD
+- Deadline: 60 days left (as of 2026-09-28 20:06 UTC)
+- Fit score: 7,000 — verified sponsor
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist
