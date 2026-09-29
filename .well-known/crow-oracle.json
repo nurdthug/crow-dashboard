@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://shopper-alot-relative-karaoke.trycloudflare.com",
+    "baseUrl": "https://sealed-reynolds-codes-outdoors.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://shopper-alot-relative-karaoke.trycloudflare.com/healthz",
+    "health": "https://sealed-reynolds-codes-outdoors.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://shopper-alot-relative-karaoke.trycloudflare.com/catalog.json",
-    "openapi": "https://shopper-alot-relative-karaoke.trycloudflare.com/openapi.json",
-    "llms": "https://shopper-alot-relative-karaoke.trycloudflare.com/llms.txt",
-    "freeSample": "https://shopper-alot-relative-karaoke.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://shopper-alot-relative-karaoke.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://shopper-alot-relative-karaoke.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://shopper-alot-relative-karaoke.trycloudflare.com/state"
+    "catalog": "https://sealed-reynolds-codes-outdoors.trycloudflare.com/catalog.json",
+    "openapi": "https://sealed-reynolds-codes-outdoors.trycloudflare.com/openapi.json",
+    "llms": "https://sealed-reynolds-codes-outdoors.trycloudflare.com/llms.txt",
+    "freeSample": "https://sealed-reynolds-codes-outdoors.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://sealed-reynolds-codes-outdoors.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://sealed-reynolds-codes-outdoors.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://sealed-reynolds-codes-outdoors.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://shopper-alot-relative-karaoke.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://sealed-reynolds-codes-outdoors.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://shopper-alot-relative-karaoke.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://sealed-reynolds-codes-outdoors.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
