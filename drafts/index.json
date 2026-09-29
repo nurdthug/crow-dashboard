@@ -17,7 +17,7 @@
   "token": "USDG",
   "fit": 4571.43,
   "kind": "build",
-  "days_left": 7.072984002222222
+  "days_left": 6.140165619189815
  },
  {
   "file": "drafts/03-pitch-demo-your-project-at-demo-day-in-kyiv.md",
@@ -25,9 +25,9 @@
   "url": "https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv",
   "value_usd": 1700.0,
   "token": "USDG",
-  "fit": 1360.0,
+  "fit": 1236.36,
   "kind": "generic",
-  "days_left": 17.031317335555556
+  "days_left": 16.098498952523148
  },
  {
   "file": "drafts/04-hype-video-for-breakpoint-london.md",
@@ -35,9 +35,9 @@
   "url": "https://earn.superteam.fun/listings/hype-video-for-breakpoint-london",
   "value_usd": 5500.0,
   "token": "USDC",
-  "fit": 1304.47,
+  "fit": 1167.15,
   "kind": "content",
-  "days_left": 2.927162231388889
+  "days_left": 1.9943438483564815
  },
  {
   "file": "drafts/05-blockchain-hack-krak-w-submissions.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 1142.86,
   "kind": "generic",
-  "days_left": 13.072984002222222
+  "days_left": 12.140165619189814
  }
 ]

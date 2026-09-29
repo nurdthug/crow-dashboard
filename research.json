@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-28 20:14 UTC",
-  "reviewed": 38,
+  "generated_at": "2026-09-29 18:38 UTC",
+  "reviewed": 40,
   "agent_allowed": 2,
   "recommendations": [
     {
@@ -13,7 +13,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "high",
-      "days_left": 7.1,
+      "days_left": 6.1,
       "competition": 6,
       "deadline": "2026-10-05T21:59:59.000Z",
       "source": "superteam-earn",
@@ -21,7 +21,7 @@
     },
     {
       "rank": 2,
-      "fit": 1360.0,
+      "fit": 1236.36,
       "title": "Pitch & Demo Your Project at Demo Day in Kyiv",
       "url": "https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv",
       "value_usd": 1700.0,
@@ -29,24 +29,24 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 17.0,
-      "competition": 2,
+      "days_left": 16.1,
+      "competition": 3,
       "deadline": "2026-10-15T20:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
     {
       "rank": 3,
-      "fit": 1304.47,
+      "fit": 1167.15,
       "title": "Hype Video for Breakpoint London",
       "url": "https://earn.superteam.fun/listings/hype-video-for-breakpoint-london",
       "value_usd": 5500.0,
       "token": "USDC",
-      "why": "verified sponsor, low competition, urgent",
+      "why": "verified sponsor, urgent",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 2.9,
-      "competition": 9,
+      "days_left": 2.0,
+      "competition": 11,
       "deadline": "2026-10-01T18:29:59.999Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -61,7 +61,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 13.1,
+      "days_left": 12.1,
       "competition": 6,
       "deadline": "2026-10-11T21:59:59.000Z",
       "source": "superteam-earn",
@@ -77,7 +77,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 6.0,
+      "days_left": 5.1,
       "competition": 3,
       "deadline": "2026-10-04T20:59:59.000Z",
       "source": "superteam-earn",
@@ -93,7 +93,7 @@
       "why": "verified sponsor",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 13.1,
+      "days_left": 12.1,
       "competition": 10,
       "deadline": "2026-10-11T21:59:59.000Z",
       "source": "superteam-earn",
@@ -101,7 +101,7 @@
     },
     {
       "rank": 7,
-      "fit": 660.0,
+      "fit": 637.24,
       "title": "Share Your Most Memorable Solana Breakpoint Moment on X",
       "url": "https://earn.superteam.fun/listings/share-your-most-memorable-solana-breakpoint-moment-on-x",
       "value_usd": 5500.0,
@@ -109,15 +109,15 @@
       "why": "verified sponsor, urgent",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 2.9,
-      "competition": 20,
+      "days_left": 2.0,
+      "competition": 21,
       "deadline": "2026-10-01T18:29:59.999Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
     {
       "rank": 8,
-      "fit": 596.13,
+      "fit": 513.33,
       "title": "Breakpoint London Starter Pack",
       "url": "https://earn.superteam.fun/listings/breakpoint-london-starter-pack",
       "value_usd": 5500.0,
@@ -125,30 +125,14 @@
       "why": "verified sponsor, urgent",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 2.9,
-      "competition": 23,
+      "days_left": 2.0,
+      "competition": 28,
       "deadline": "2026-10-01T18:29:59.999Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
     {
       "rank": 9,
-      "fit": 541.93,
-      "title": "Solana Summit Canada Creator Challenge - part 2",
-      "url": "https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-2",
-      "value_usd": 10000.0,
-      "token": "USDG",
-      "why": "verified sponsor, urgent",
-      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
-      "effort": "medium",
-      "days_left": 2.3,
-      "competition": 54,
-      "deadline": "2026-10-01T03:59:59.000Z",
-      "source": "superteam-earn",
-      "agent_access": "HUMAN_ONLY"
-    },
-    {
-      "rank": 10,
       "fit": 500.0,
       "title": "Drive Attention to Segmento Projects",
       "url": "https://earn.superteam.fun/listings/drive-attention-to-segmento-projects",
@@ -157,9 +141,25 @@
       "why": "verified sponsor, no visible competition yet",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 16.1,
+      "days_left": 15.1,
       "competition": 0,
       "deadline": "2026-10-14T21:59:59.000Z",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 10,
+      "fit": 494.12,
+      "title": "Solana Summit Canada Creator Challenge - part 2",
+      "url": "https://earn.superteam.fun/listings/solana-summit-canada-creator-challenge-part-2",
+      "value_usd": 10000.0,
+      "token": "USDG",
+      "why": "verified sponsor, urgent",
+      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
+      "effort": "medium",
+      "days_left": 1.4,
+      "competition": 60,
+      "deadline": "2026-10-01T03:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     }
@@ -168,31 +168,31 @@
     {
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
-      "competition": 1033,
+      "competition": 1244,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 28013,
+      "competition": 28169,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 17470,
+      "competition": 21186,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 13645,
+      "competition": 14267,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "OpenCV AI Competition 2026, powered by AWS",
       "url": "https://opencv26.devpost.com/",
-      "competition": 3167,
+      "competition": 3291,
       "reason": "huge pool, but high visible competition"
     }
   ]
