@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://attribute-edge-childhood-learners.trycloudflare.com",
+    "baseUrl": "https://hearts-instrument-folks-suspected.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://attribute-edge-childhood-learners.trycloudflare.com/healthz",
+    "health": "https://hearts-instrument-folks-suspected.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://attribute-edge-childhood-learners.trycloudflare.com/catalog.json",
-    "openapi": "https://attribute-edge-childhood-learners.trycloudflare.com/openapi.json",
-    "llms": "https://attribute-edge-childhood-learners.trycloudflare.com/llms.txt",
-    "freeSample": "https://attribute-edge-childhood-learners.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://attribute-edge-childhood-learners.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://attribute-edge-childhood-learners.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://attribute-edge-childhood-learners.trycloudflare.com/state"
+    "catalog": "https://hearts-instrument-folks-suspected.trycloudflare.com/catalog.json",
+    "openapi": "https://hearts-instrument-folks-suspected.trycloudflare.com/openapi.json",
+    "llms": "https://hearts-instrument-folks-suspected.trycloudflare.com/llms.txt",
+    "freeSample": "https://hearts-instrument-folks-suspected.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://hearts-instrument-folks-suspected.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://hearts-instrument-folks-suspected.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://hearts-instrument-folks-suspected.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://attribute-edge-childhood-learners.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://hearts-instrument-folks-suspected.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://attribute-edge-childhood-learners.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://hearts-instrument-folks-suspected.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
