@@ -2,7 +2,7 @@
 
 - Listing: https://start-developer-competition-26.devpost.com/
 - Value: $1,000,000 USD
-- Deadline: 60 days left (as of 2026-09-29 18:38 UTC)
+- Deadline: 60 days left (as of 2026-09-29 18:53 UTC)
 - Fit score: 7,000 — verified sponsor
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
