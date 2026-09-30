@@ -17,7 +17,7 @@
   "token": "USDG",
   "fit": 3764.71,
   "kind": "build",
-  "days_left": 5.148450253668981
+  "days_left": 5.141955181712963
  },
  {
   "file": "drafts/03-revenuecat-shipaton-2026.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 1236.36,
   "kind": "generic",
-  "days_left": 15.106783587002315
+  "days_left": 15.100288515046294
  },
  {
   "file": "drafts/05-blockchain-hack-krak-w-submissions.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 1142.86,
   "kind": "generic",
-  "days_left": 11.148450253668981
+  "days_left": 11.141955181712962
  }
 ]

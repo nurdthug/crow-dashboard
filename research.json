@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30 18:26 UTC",
+  "generated_at": "2026-09-30 18:35 UTC",
   "reviewed": 42,
   "agent_allowed": 2,
   "recommendations": [
@@ -85,38 +85,6 @@
     },
     {
       "rank": 6,
-      "fit": 852.92,
-      "title": "Hype Video for Breakpoint London",
-      "url": "https://earn.superteam.fun/listings/hype-video-for-breakpoint-london",
-      "value_usd": 5500.0,
-      "token": "USDC",
-      "why": "verified sponsor, urgent",
-      "next_step": "Draft script/angle and collect required brand/rule links.",
-      "effort": "low-medium",
-      "days_left": 1.0,
-      "competition": 18,
-      "deadline": "2026-10-01T18:29:59.999Z",
-      "source": "superteam-earn",
-      "agent_access": "HUMAN_ONLY"
-    },
-    {
-      "rank": 7,
-      "fit": 543.53,
-      "title": "Share Your Most Memorable Solana Breakpoint Moment on X",
-      "url": "https://earn.superteam.fun/listings/share-your-most-memorable-solana-breakpoint-moment-on-x",
-      "value_usd": 5500.0,
-      "token": "USDC",
-      "why": "verified sponsor, urgent",
-      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
-      "effort": "medium",
-      "days_left": 1.0,
-      "competition": 26,
-      "deadline": "2026-10-01T18:29:59.999Z",
-      "source": "superteam-earn",
-      "agent_access": "HUMAN_ONLY"
-    },
-    {
-      "rank": 8,
       "fit": 500.0,
       "title": "Drive Attention to Segmento Projects",
       "url": "https://earn.superteam.fun/listings/drive-attention-to-segmento-projects",
@@ -132,7 +100,7 @@
       "agent_access": "HUMAN_ONLY"
     },
     {
-      "rank": 9,
+      "rank": 7,
       "fit": 496.0,
       "title": "Launch & Trade on Daejin: Write a Twitter Thread and Create a Market",
       "url": "https://earn.superteam.fun/listings/launch-and-trade-on-daejin-write-a-twitter-thread-and-create-a-market",
@@ -148,18 +116,50 @@
       "agent_access": "HUMAN_ONLY"
     },
     {
-      "rank": 10,
-      "fit": 410.67,
-      "title": "Breakpoint London Starter Pack",
-      "url": "https://earn.superteam.fun/listings/breakpoint-london-starter-pack",
-      "value_usd": 5500.0,
+      "rank": 8,
+      "fit": 400.0,
+      "title": "Make a Video: Season Zero, Pump the Pool 3 and Social Quests",
+      "url": "https://earn.superteam.fun/listings/make-a-video-season-zero-pump-the-pool-3-and-social-quests",
+      "value_usd": 500.0,
       "token": "USDC",
-      "why": "verified sponsor, urgent",
+      "why": "low competition",
+      "next_step": "Draft script/angle and collect required brand/rule links.",
+      "effort": "low-medium",
+      "days_left": 14.2,
+      "competition": 1,
+      "deadline": "2026-10-14T22:59:59.000Z",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 9,
+      "fit": 390.0,
+      "title": "AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon",
+      "url": "https://aws-cds-partner.devpost.com/",
+      "value_usd": 40000.0,
+      "token": "USD",
+      "why": "reasonable EV after competition/deadline adjustment",
+      "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
+      "effort": "high",
+      "days_left": 28.0,
+      "competition": 557,
+      "deadline": null,
+      "source": "devpost",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 10,
+      "fit": 376.47,
+      "title": "Pitch & Demo Your Product at Online Demo Day",
+      "url": "https://earn.superteam.fun/listings/pitch-and-demo-your-product-at-online-demo-day",
+      "value_usd": 800.0,
+      "token": "USDG",
+      "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 1.0,
-      "competition": 37,
-      "deadline": "2026-10-01T18:29:59.999Z",
+      "days_left": 15.1,
+      "competition": 9,
+      "deadline": "2026-10-15T20:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     }
@@ -168,31 +168,31 @@
     {
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
-      "competition": 1405,
+      "competition": 1409,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "RevenueCat Shipaton 2026",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 28437,
+      "competition": 28435,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Multimodal AI Hackathon 2026",
       "url": "https://multimodal-ai-hackathon-2026-7.devpost.com/",
-      "competition": 1376,
+      "competition": 1381,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 25725,
+      "competition": 25758,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 14843,
+      "competition": 14852,
       "reason": "huge pool, but high visible competition"
     }
   ]
