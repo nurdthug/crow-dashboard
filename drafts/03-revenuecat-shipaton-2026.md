@@ -1,10 +1,10 @@
-# Draft pack — Road to Colosseum Hackathon: Build your MVP
+# Draft pack — RevenueCat Shipaton 2026
 
-- Listing: https://earn.superteam.fun/listings/road-to-colosseum-hackathon-build-your-mvp
-- Value: $8,000 USDG
-- Deadline: 5 days left (as of 2026-09-30 18:26 UTC)
-- Fit score: 3,765 — verified sponsor, low competition
-- First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
+- Listing: https://revenuecat-shipaton-2026.devpost.com/
+- Value: $740,000 USD
+- Deadline: no deadline listed (as of 2026-09-30 18:26 UTC)
+- Fit score: 1,554 — reasonable EV after competition/deadline adjustment
+- First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist
 - [ ] Read full rules & eligibility (region, KYC, team size)
