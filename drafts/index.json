@@ -17,36 +17,36 @@
   "token": "USDG",
   "fit": 3555.56,
   "kind": "build",
-  "days_left": 4.13012695886574
+  "days_left": 4.1225799823032405
  },
  {
-  "file": "drafts/03-revenuecat-shipaton-2026.md",
-  "title": "RevenueCat Shipaton 2026",
-  "url": "https://revenuecat-shipaton-2026.devpost.com/",
-  "value_usd": 740000.0,
-  "token": "USD",
-  "fit": 1554.0,
-  "kind": "build",
-  "days_left": null
- },
- {
-  "file": "drafts/04-pitch-demo-your-project-at-demo-day-in-kyiv.md",
+  "file": "drafts/03-pitch-demo-your-project-at-demo-day-in-kyiv.md",
   "title": "Pitch & Demo Your Project at Demo Day in Kyiv",
   "url": "https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv",
   "value_usd": 1700.0,
   "token": "USDG",
   "fit": 1236.36,
   "kind": "generic",
-  "days_left": 14.088460292199075
+  "days_left": 14.080913315636574
  },
  {
-  "file": "drafts/05-colosseum-show-us-what-you-got.md",
+  "file": "drafts/04-colosseum-show-us-what-you-got.md",
   "title": "Colosseum: Show Us What You Got",
   "url": "https://earn.superteam.fun/listings/colosseum-show-us-what-got",
   "value_usd": 1500.0,
   "token": "USDG",
   "fit": 1090.91,
   "kind": "generic",
-  "days_left": 3.088460292199074
+  "days_left": 3.080913315636574
+ },
+ {
+  "file": "drafts/05-blockchain-hack-krak-w-submissions.md",
+  "title": "Blockchain Hack Krak\u00f3w - Submissions",
+  "url": "https://earn.superteam.fun/listings/blockchain-hack-krakow-submissions",
+  "value_usd": 2000.0,
+  "token": "USDG",
+  "fit": 1066.67,
+  "kind": "generic",
+  "days_left": 10.122579982303241
  }
 ]

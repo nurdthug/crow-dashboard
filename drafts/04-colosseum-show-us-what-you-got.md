@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/colosseum-show-us-what-got
 - Value: $1,500 USDG
-- Deadline: 3 days left (as of 2026-10-01 18:52 UTC)
+- Deadline: 3 days left (as of 2026-10-01 19:03 UTC)
 - Fit score: 1,091 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 

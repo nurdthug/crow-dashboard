@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01 18:52 UTC",
+  "generated_at": "2026-10-01 19:03 UTC",
   "reviewed": 33,
   "agent_allowed": 2,
   "recommendations": [
@@ -168,13 +168,7 @@
     {
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
-      "competition": 1556,
-      "reason": "huge pool, but high visible competition"
-    },
-    {
-      "title": "RevenueCat Shipaton 2026",
-      "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "competition": 28654,
+      "competition": 1559,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -186,13 +180,19 @@
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 29878,
+      "competition": 29913,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 15363,
+      "competition": 15366,
+      "reason": "huge pool, but high visible competition"
+    },
+    {
+      "title": "OpenCV AI Competition 2026, powered by AWS",
+      "url": "https://opencv26.devpost.com/",
+      "competition": 3588,
       "reason": "huge pool, but high visible competition"
     }
   ]
