@@ -15,9 +15,9 @@
   "url": "https://earn.superteam.fun/listings/road-to-colosseum-hackathon-build-your-mvp",
   "value_usd": 8000.0,
   "token": "USDG",
-  "fit": 3764.71,
+  "fit": 3555.56,
   "kind": "build",
-  "days_left": 5.141955181712963
+  "days_left": 4.13012695886574
  },
  {
   "file": "drafts/03-revenuecat-shipaton-2026.md",
@@ -37,16 +37,16 @@
   "token": "USDG",
   "fit": 1236.36,
   "kind": "generic",
-  "days_left": 15.100288515046294
+  "days_left": 14.088460292199075
  },
  {
-  "file": "drafts/05-blockchain-hack-krak-w-submissions.md",
-  "title": "Blockchain Hack Krak\u00f3w - Submissions",
-  "url": "https://earn.superteam.fun/listings/blockchain-hack-krakow-submissions",
-  "value_usd": 2000.0,
+  "file": "drafts/05-colosseum-show-us-what-you-got.md",
+  "title": "Colosseum: Show Us What You Got",
+  "url": "https://earn.superteam.fun/listings/colosseum-show-us-what-got",
+  "value_usd": 1500.0,
   "token": "USDG",
-  "fit": 1142.86,
+  "fit": 1090.91,
   "kind": "generic",
-  "days_left": 11.141955181712962
+  "days_left": 3.088460292199074
  }
 ]
