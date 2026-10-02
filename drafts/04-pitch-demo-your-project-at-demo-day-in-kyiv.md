@@ -1,9 +1,9 @@
-# Draft pack — Colosseum: Show Us What You Got
+# Draft pack — Pitch & Demo Your Project at Demo Day in Kyiv
 
-- Listing: https://earn.superteam.fun/listings/colosseum-show-us-what-got
-- Value: $1,500 USDG
-- Deadline: 3 days left (as of 2026-10-01 19:03 UTC)
-- Fit score: 1,091 — verified sponsor, low competition
+- Listing: https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv
+- Value: $1,700 USDG
+- Deadline: 13 days left (as of 2026-10-02 18:24 UTC)
+- Fit score: 1,236 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
