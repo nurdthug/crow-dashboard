@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02 18:24 UTC",
+  "generated_at": "2026-10-02 18:43 UTC",
   "reviewed": 35,
   "agent_allowed": 1,
   "recommendations": [
@@ -126,7 +126,7 @@
       "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
       "effort": "high",
       "days_left": 26.0,
-      "competition": 618,
+      "competition": 619,
       "deadline": null,
       "source": "devpost",
       "agent_access": "HUMAN_ONLY"
@@ -168,31 +168,31 @@
     {
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
-      "competition": 1901,
+      "competition": 1902,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Multimodal AI Hackathon 2026",
       "url": "https://multimodal-ai-hackathon-2026-7.devpost.com/",
-      "competition": 1841,
+      "competition": 1846,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 32775,
+      "competition": 32816,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 1866,
+      "competition": 1908,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 16298,
+      "competition": 16312,
       "reason": "huge pool, but high visible competition"
     }
   ]
