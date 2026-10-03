@@ -1,52 +1,52 @@
 [
  {
-  "file": "drafts/01-meta-vr-start-developer-competition-2026.md",
-  "title": "Meta VR Start Developer Competition 2026",
-  "url": "https://start-developer-competition-26.devpost.com/",
-  "value_usd": 1000000.0,
-  "token": "USD",
-  "fit": 7000.0,
-  "kind": "build",
-  "days_left": 60.0
- },
- {
-  "file": "drafts/02-crypto-world-s-fair-pakistan-track.md",
+  "file": "drafts/01-crypto-world-s-fair-pakistan-track.md",
   "title": "Crypto World's Fair Pakistan Track",
   "url": "https://earn.superteam.fun/listings/crypto-worlds-fair-pakistan-track",
   "value_usd": 5000.0,
   "token": "USDC",
   "fit": 5000.0,
   "kind": "build",
-  "days_left": 10.51096878855324
+  "days_left": 9.57175866849537
  },
  {
-  "file": "drafts/03-road-to-colosseum-hackathon-build-your-mvp.md",
+  "file": "drafts/02-crea-contenido-para-promocionar-el-encuentro-2026-en-madrid.md",
+  "title": "Crea Contenido para Promocionar El Encuentro 2026 en Madrid",
+  "url": "https://earn.superteam.fun/listings/crea-contenido-para-promocionar-el-encuentro-2026",
+  "value_usd": 2000.0,
+  "token": "USDG",
+  "fit": 4000.0,
+  "kind": "generic",
+  "days_left": 21.239119768032406
+ },
+ {
+  "file": "drafts/03-meta-vr-start-developer-competition-2026.md",
+  "title": "Meta VR Start Developer Competition 2026",
+  "url": "https://start-developer-competition-26.devpost.com/",
+  "value_usd": 1000000.0,
+  "token": "USD",
+  "fit": 3500.0,
+  "kind": "build",
+  "days_left": 60.0
+ },
+ {
+  "file": "drafts/04-road-to-colosseum-hackathon-build-your-mvp.md",
   "title": "Road to Colosseum Hackathon: Build your MVP",
   "url": "https://earn.superteam.fun/listings/road-to-colosseum-hackathon-build-your-mvp",
   "value_usd": 8000.0,
   "token": "USDG",
-  "fit": 3555.56,
+  "fit": 1344.0,
   "kind": "build",
-  "days_left": 3.136651658923611
+  "days_left": 2.1974415388657405
  },
  {
-  "file": "drafts/04-pitch-demo-your-project-at-demo-day-in-kyiv.md",
+  "file": "drafts/05-pitch-demo-your-project-at-demo-day-in-kyiv.md",
   "title": "Pitch & Demo Your Project at Demo Day in Kyiv",
   "url": "https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv",
   "value_usd": 1700.0,
   "token": "USDG",
   "fit": 1236.36,
   "kind": "generic",
-  "days_left": 13.094984992256943
- },
- {
-  "file": "drafts/05-blockchain-hack-krak-w-submissions.md",
-  "title": "Blockchain Hack Krak\u00f3w - Submissions",
-  "url": "https://earn.superteam.fun/listings/blockchain-hack-krakow-submissions",
-  "value_usd": 2000.0,
-  "token": "USDG",
-  "fit": 1066.67,
-  "kind": "generic",
-  "days_left": 9.136651658923611
+  "days_left": 12.155774872199073
  }
 ]

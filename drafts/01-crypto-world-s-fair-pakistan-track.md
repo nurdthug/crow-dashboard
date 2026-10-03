@@ -1,9 +1,9 @@
-# Draft pack — Meta VR Start Developer Competition 2026
+# Draft pack — Crypto World's Fair Pakistan Track
 
-- Listing: https://start-developer-competition-26.devpost.com/
-- Value: $1,000,000 USD
-- Deadline: 60 days left (as of 2026-10-02 18:43 UTC)
-- Fit score: 7,000 — verified sponsor
+- Listing: https://earn.superteam.fun/listings/crypto-worlds-fair-pakistan-track
+- Value: $5,000 USDC
+- Deadline: 10 days left (as of 2026-10-03 17:15 UTC)
+- Fit score: 5,000 — verified sponsor, no visible competition yet
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist
