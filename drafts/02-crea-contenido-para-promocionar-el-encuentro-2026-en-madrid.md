@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/crea-contenido-para-promocionar-el-encuentro-2026
 - Value: $2,000 USDG
-- Deadline: 21 days left (as of 2026-10-03 17:15 UTC)
+- Deadline: 21 days left (as of 2026-10-03 17:38 UTC)
 - Fit score: 4,000 — explicitly agent-allowed, verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
