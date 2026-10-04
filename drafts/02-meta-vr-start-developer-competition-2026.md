@@ -1,10 +1,10 @@
-# Draft pack — Road to Colosseum Hackathon: Build your MVP
+# Draft pack — Meta VR Start Developer Competition 2026
 
-- Listing: https://earn.superteam.fun/listings/road-to-colosseum-hackathon-build-your-mvp
-- Value: $8,000 USDG
-- Deadline: 2 days left (as of 2026-10-03 17:38 UTC)
-- Fit score: 1,344 — verified sponsor, urgent
-- First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
+- Listing: https://start-developer-competition-26.devpost.com/
+- Value: $1,000,000 USD
+- Deadline: 60 days left (as of 2026-10-04 17:33 UTC)
+- Fit score: 3,500 — verified sponsor
+- First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist
 - [ ] Read full rules & eligibility (region, KYC, team size)
