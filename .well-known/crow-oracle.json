@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://ciao-criterion-encourage-coastal.trycloudflare.com",
+    "baseUrl": "https://adding-wires-peaceful-recordings.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://ciao-criterion-encourage-coastal.trycloudflare.com/healthz",
+    "health": "https://adding-wires-peaceful-recordings.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://ciao-criterion-encourage-coastal.trycloudflare.com/catalog.json",
-    "openapi": "https://ciao-criterion-encourage-coastal.trycloudflare.com/openapi.json",
-    "llms": "https://ciao-criterion-encourage-coastal.trycloudflare.com/llms.txt",
-    "freeSample": "https://ciao-criterion-encourage-coastal.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://ciao-criterion-encourage-coastal.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://ciao-criterion-encourage-coastal.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://ciao-criterion-encourage-coastal.trycloudflare.com/state"
+    "catalog": "https://adding-wires-peaceful-recordings.trycloudflare.com/catalog.json",
+    "openapi": "https://adding-wires-peaceful-recordings.trycloudflare.com/openapi.json",
+    "llms": "https://adding-wires-peaceful-recordings.trycloudflare.com/llms.txt",
+    "freeSample": "https://adding-wires-peaceful-recordings.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://adding-wires-peaceful-recordings.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://adding-wires-peaceful-recordings.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://adding-wires-peaceful-recordings.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://ciao-criterion-encourage-coastal.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://adding-wires-peaceful-recordings.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://ciao-criterion-encourage-coastal.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://adding-wires-peaceful-recordings.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
