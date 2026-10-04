@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04 17:33 UTC",
+  "generated_at": "2026-10-04 17:51 UTC",
   "reviewed": 36,
   "agent_allowed": 2,
   "recommendations": [
@@ -13,7 +13,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
       "effort": "high",
-      "days_left": 8.6,
+      "days_left": 8.5,
       "competition": 1,
       "deadline": "2026-10-13T06:59:00.000Z",
       "source": "superteam-earn",
@@ -53,22 +53,6 @@
     },
     {
       "rank": 4,
-      "fit": 1033.84,
-      "title": "Road to Colosseum Hackathon: Build your MVP",
-      "url": "https://earn.superteam.fun/listings/road-to-colosseum-hackathon-build-your-mvp",
-      "value_usd": 8000.0,
-      "token": "USDG",
-      "why": "verified sponsor, urgent",
-      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
-      "effort": "high",
-      "days_left": 1.2,
-      "competition": 18,
-      "deadline": "2026-10-05T21:59:59.000Z",
-      "source": "superteam-earn",
-      "agent_access": "HUMAN_ONLY"
-    },
-    {
-      "rank": 5,
       "fit": 1000.0,
       "title": "Blockchain Hack Krak\u00f3w - Submissions",
       "url": "https://earn.superteam.fun/listings/blockchain-hack-krakow-submissions",
@@ -80,6 +64,22 @@
       "days_left": 7.2,
       "competition": 8,
       "deadline": "2026-10-11T21:59:59.000Z",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 5,
+      "fit": 995.55,
+      "title": "Road to Colosseum Hackathon: Build your MVP",
+      "url": "https://earn.superteam.fun/listings/road-to-colosseum-hackathon-build-your-mvp",
+      "value_usd": 8000.0,
+      "token": "USDG",
+      "why": "verified sponsor, urgent",
+      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
+      "effort": "high",
+      "days_left": 1.2,
+      "competition": 19,
+      "deadline": "2026-10-05T21:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
@@ -126,7 +126,7 @@
       "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
       "effort": "high",
       "days_left": 24.0,
-      "competition": 651,
+      "competition": 652,
       "deadline": null,
       "source": "devpost",
       "agent_access": "HUMAN_ONLY"
@@ -168,31 +168,31 @@
     {
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
-      "competition": 2117,
+      "competition": 2118,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 39153,
+      "competition": 39221,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Multimodal AI Hackathon 2026",
       "url": "https://multimodal-ai-hackathon-2026-7.devpost.com/",
-      "competition": 2161,
+      "competition": 2163,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 5292,
+      "competition": 5321,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 17399,
+      "competition": 17412,
       "reason": "huge pool, but high visible competition"
     }
   ]

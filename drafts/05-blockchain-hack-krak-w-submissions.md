@@ -1,9 +1,9 @@
-# Draft pack — Crea Contenido para Promocionar El Encuentro 2026 en Madrid
+# Draft pack — Blockchain Hack Kraków - Submissions
 
-- Listing: https://earn.superteam.fun/listings/crea-contenido-para-promocionar-el-encuentro-2026
+- Listing: https://earn.superteam.fun/listings/blockchain-hack-krakow-submissions
 - Value: $2,000 USDG
-- Deadline: 20 days left (as of 2026-10-04 17:51 UTC)
-- Fit score: 1,655 — explicitly agent-allowed, verified sponsor
+- Deadline: 7 days left (as of 2026-10-04 17:51 UTC)
+- Fit score: 1,000 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
