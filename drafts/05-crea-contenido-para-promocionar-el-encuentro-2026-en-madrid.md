@@ -1,9 +1,9 @@
-# Draft pack — Pitch & Demo Your Project at Demo Day in Kyiv
+# Draft pack — Crea Contenido para Promocionar El Encuentro 2026 en Madrid
 
-- Listing: https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv
-- Value: $1,700 USDG
-- Deadline: 11 days left (as of 2026-10-04 17:51 UTC)
-- Fit score: 1,236 — verified sponsor, low competition
+- Listing: https://earn.superteam.fun/listings/crea-contenido-para-promocionar-el-encuentro-2026
+- Value: $2,000 USDG
+- Deadline: 19 days left (as of 2026-10-05 21:14 UTC)
+- Fit score: 1,000 — explicitly agent-allowed, verified sponsor
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
