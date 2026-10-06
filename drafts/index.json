@@ -5,9 +5,9 @@
   "url": "https://earn.superteam.fun/listings/crypto-worlds-fair-pakistan-track",
   "value_usd": 5000.0,
   "token": "USDC",
-  "fit": 4444.44,
+  "fit": 4000.0,
   "kind": "build",
-  "days_left": 7.4059206801273145
+  "days_left": 6.503392227835648
  },
  {
   "file": "drafts/02-meta-vr-start-developer-competition-2026.md",
@@ -20,33 +20,33 @@
   "days_left": 30.0
  },
  {
-  "file": "drafts/03-pitch-demo-your-project-at-demo-day-in-kyiv.md",
-  "title": "Pitch & Demo Your Project at Demo Day in Kyiv",
-  "url": "https://earn.superteam.fun/listings/pitch-and-demo-your-project-at-demo-day-in-kyiv",
-  "value_usd": 1700.0,
-  "token": "USDG",
-  "fit": 1236.36,
-  "kind": "generic",
-  "days_left": 9.989936883831017
- },
- {
-  "file": "drafts/04-blockchain-hack-krak-w-submissions.md",
+  "file": "drafts/03-blockchain-hack-krak-w-submissions.md",
   "title": "Blockchain Hack Krak\u00f3w - Submissions",
   "url": "https://earn.superteam.fun/listings/blockchain-hack-krakow-submissions",
   "value_usd": 2000.0,
   "token": "USDG",
   "fit": 1000.0,
   "kind": "generic",
-  "days_left": 6.031603550497685
+  "days_left": 5.129075098206019
  },
  {
-  "file": "drafts/05-crea-contenido-para-promocionar-el-encuentro-2026-en-madrid.md",
-  "title": "Crea Contenido para Promocionar El Encuentro 2026 en Madrid",
-  "url": "https://earn.superteam.fun/listings/crea-contenido-para-promocionar-el-encuentro-2026",
-  "value_usd": 2000.0,
+  "file": "drafts/04-colosseum-founder-support-talk-to-5-users.md",
+  "title": "Colosseum: Founder Support - Talk to 5 Users",
+  "url": "https://earn.superteam.fun/listings/colosseum-founder-support-talk-to-5-users",
+  "value_usd": 1000.0,
   "token": "USDG",
   "fit": 1000.0,
   "kind": "generic",
-  "days_left": 19.073281779664352
+  "days_left": 11.629075098206018
+ },
+ {
+  "file": "drafts/05-blockchain-hack-warsaw-submissions.md",
+  "title": "Blockchain Hack Warsaw - Submissions",
+  "url": "https://earn.superteam.fun/listings/blockchain-hack-warsaw-submissions",
+  "value_usd": 2000.0,
+  "token": "USDG",
+  "fit": 800.0,
+  "kind": "generic",
+  "days_left": 5.129075098206019
  }
 ]

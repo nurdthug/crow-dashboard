@@ -1,9 +1,9 @@
-# Draft pack — Blockchain Hack Kraków - Submissions
+# Draft pack — Blockchain Hack Warsaw - Submissions
 
-- Listing: https://earn.superteam.fun/listings/blockchain-hack-krakow-submissions
+- Listing: https://earn.superteam.fun/listings/blockchain-hack-warsaw-submissions
 - Value: $2,000 USDG
-- Deadline: 6 days left (as of 2026-10-05 21:14 UTC)
-- Fit score: 1,000 — verified sponsor, low competition
+- Deadline: 5 days left (as of 2026-10-06 18:54 UTC)
+- Fit score: 800 — verified sponsor
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
