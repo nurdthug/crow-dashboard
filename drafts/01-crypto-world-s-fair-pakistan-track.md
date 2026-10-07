@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/crypto-worlds-fair-pakistan-track
 - Value: $5,000 USDC
-- Deadline: 5 days left (as of 2026-10-07 19:19 UTC)
+- Deadline: 5 days left (as of 2026-10-07 19:33 UTC)
 - Fit score: 3,636 — verified sponsor, low competition
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 

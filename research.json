@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07 19:19 UTC",
+  "generated_at": "2026-10-07 19:33 UTC",
   "reviewed": 31,
   "agent_allowed": 2,
   "recommendations": [
@@ -93,7 +93,7 @@
       "why": "explicitly agent-allowed, verified sponsor",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 17.2,
+      "days_left": 17.1,
       "competition": 67,
       "deadline": "2026-10-24T22:59:59.999Z",
       "source": "superteam-earn",
@@ -168,19 +168,19 @@
     {
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
-      "competition": 2519,
+      "competition": 2521,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 50993,
+      "competition": 51018,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Life After Code",
       "url": "https://gitlab-transcend.devpost.com/",
-      "competition": 1048,
+      "competition": 1060,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -192,7 +192,7 @@
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 8830,
+      "competition": 8836,
       "reason": "huge pool, but high visible competition"
     }
   ]

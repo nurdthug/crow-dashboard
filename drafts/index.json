@@ -7,7 +7,7 @@
   "token": "USDC",
   "fit": 3636.36,
   "kind": "build",
-  "days_left": 5.485700385497685
+  "days_left": 5.476078018136573
  },
  {
   "file": "drafts/02-meta-vr-start-developer-competition-2026.md",
@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 1000.0,
   "kind": "generic",
-  "days_left": 4.111383255868056
+  "days_left": 4.101760888506944
  },
  {
   "file": "drafts/04-colosseum-founder-support-talk-to-5-users.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 1000.0,
   "kind": "generic",
-  "days_left": 10.611383255868056
+  "days_left": 10.601760888506945
  },
  {
   "file": "drafts/05-blockchain-hack-warsaw-submissions.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 800.0,
   "kind": "generic",
-  "days_left": 4.111383255868056
+  "days_left": 4.101760888506944
  }
 ]
