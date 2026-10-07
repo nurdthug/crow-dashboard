@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://tourist-compressed-expires-gently.trycloudflare.com",
+    "baseUrl": "https://lay-dental-cup-auburn.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://tourist-compressed-expires-gently.trycloudflare.com/healthz",
+    "health": "https://lay-dental-cup-auburn.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://tourist-compressed-expires-gently.trycloudflare.com/catalog.json",
-    "openapi": "https://tourist-compressed-expires-gently.trycloudflare.com/openapi.json",
-    "llms": "https://tourist-compressed-expires-gently.trycloudflare.com/llms.txt",
-    "freeSample": "https://tourist-compressed-expires-gently.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://tourist-compressed-expires-gently.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://tourist-compressed-expires-gently.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://tourist-compressed-expires-gently.trycloudflare.com/state"
+    "catalog": "https://lay-dental-cup-auburn.trycloudflare.com/catalog.json",
+    "openapi": "https://lay-dental-cup-auburn.trycloudflare.com/openapi.json",
+    "llms": "https://lay-dental-cup-auburn.trycloudflare.com/llms.txt",
+    "freeSample": "https://lay-dental-cup-auburn.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://lay-dental-cup-auburn.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://lay-dental-cup-auburn.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://lay-dental-cup-auburn.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://tourist-compressed-expires-gently.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://lay-dental-cup-auburn.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://tourist-compressed-expires-gently.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://lay-dental-cup-auburn.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
