@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 1000.0,
   "kind": "generic",
-  "days_left": 3.1137756869675925
+  "days_left": 3.104286612025463
  },
  {
   "file": "drafts/04-colosseum-founder-support-talk-to-5-users.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 1000.0,
   "kind": "generic",
-  "days_left": 9.613775686967593
+  "days_left": 9.604286612025463
  },
  {
   "file": "drafts/05-blockchain-hack-warsaw-submissions.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 800.0,
   "kind": "generic",
-  "days_left": 3.1137756869675925
+  "days_left": 3.104286612025463
  }
 ]
