@@ -1,9 +1,9 @@
-# Draft pack — Meta VR Start Developer Competition 2026
+# Draft pack — ForgeHacks Online 2026
 
-- Listing: https://start-developer-competition-26.devpost.com/
-- Value: $1,000,000 USD
-- Deadline: 30 days left (as of 2026-10-07 19:33 UTC)
-- Fit score: 3,500 — verified sponsor
+- Listing: https://forgehacks-2026.devpost.com/
+- Value: $1,382,700 USD
+- Deadline: 2 days left (as of 2026-10-08 19:16 UTC)
+- Fit score: 1,524 — urgent
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist
