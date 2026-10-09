@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09 18:48 UTC",
+  "generated_at": "2026-10-09 19:01 UTC",
   "reviewed": 32,
   "agent_allowed": 2,
   "recommendations": [
@@ -174,19 +174,19 @@
     {
       "title": "ForgeHacks Online 2026",
       "url": "https://forgehacks-2026.devpost.com/",
-      "competition": 3148,
+      "competition": 3149,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 52403,
+      "competition": 52409,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Life After Code",
       "url": "https://gitlab-transcend.devpost.com/",
-      "competition": 1421,
+      "competition": 1423,
       "reason": "huge pool, but high visible competition"
     },
     {

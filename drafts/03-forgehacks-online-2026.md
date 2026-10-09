@@ -2,7 +2,7 @@
 
 - Listing: https://forgehacks-2026.devpost.com/
 - Value: $1,382,700 USD
-- Deadline: no deadline listed (as of 2026-10-09 18:48 UTC)
+- Deadline: no deadline listed (as of 2026-10-09 19:01 UTC)
 - Fit score: 2,904 — reasonable EV after competition/deadline adjustment
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 

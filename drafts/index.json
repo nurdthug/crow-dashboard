@@ -7,7 +7,7 @@
   "token": "USDC",
   "fit": 20000.0,
   "kind": "generic",
-  "days_left": 22.133182877430556
+  "days_left": 22.123732135300926
  },
  {
   "file": "drafts/02-meta-vr-start-developer-competition-2026.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 2500.0,
   "kind": "generic",
-  "days_left": 5.0915162107638885
+  "days_left": 5.0820654686342595
  },
  {
   "file": "drafts/05-get-your-seeker-app-to-mainnet-solana-mobile-brazil-special-.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 1600.0,
   "kind": "generic",
-  "days_left": 7.3415162107638885
+  "days_left": 7.3320654686342595
  }
 ]
