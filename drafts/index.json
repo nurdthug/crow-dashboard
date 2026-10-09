@@ -1,6 +1,16 @@
 [
  {
-  "file": "drafts/01-meta-vr-start-developer-competition-2026.md",
+  "file": "drafts/01-vaultline-security-audit-grants-for-colosseum-projects-up-to.md",
+  "title": "Vaultline Security Audit Grants for Colosseum Projects: Up to 4,000 USDC Each",
+  "url": "https://earn.superteam.fun/listings/vaultline-security-audit-grants-for-colosseum-projects-up-to-4000-usdc-each",
+  "value_usd": 40000.0,
+  "token": "USDC",
+  "fit": 20000.0,
+  "kind": "generic",
+  "days_left": 22.133182877430556
+ },
+ {
+  "file": "drafts/02-meta-vr-start-developer-competition-2026.md",
   "title": "Meta VR Start Developer Competition 2026",
   "url": "https://start-developer-competition-26.devpost.com/",
   "value_usd": 1000000.0,
@@ -10,43 +20,33 @@
   "days_left": 30.0
  },
  {
-  "file": "drafts/02-forgehacks-online-2026.md",
+  "file": "drafts/03-forgehacks-online-2026.md",
   "title": "ForgeHacks Online 2026",
   "url": "https://forgehacks-2026.devpost.com/",
   "value_usd": 1382700.0,
   "token": "USD",
-  "fit": 1524.43,
+  "fit": 2903.67,
   "kind": "build",
-  "days_left": 2.0
+  "days_left": null
  },
  {
-  "file": "drafts/03-blockchain-hack-krak-w-submissions.md",
-  "title": "Blockchain Hack Krak\u00f3w - Submissions",
-  "url": "https://earn.superteam.fun/listings/blockchain-hack-krakow-submissions",
-  "value_usd": 2000.0,
+  "file": "drafts/04-arf-superteam-t-rkiye-university-track.md",
+  "title": "Arf \u00d7 Superteam T\u00fcrkiye \u2014 University Track",
+  "url": "https://earn.superteam.fun/listings/arf-superteam-turkiye-university-track",
+  "value_usd": 2500.0,
   "token": "USDG",
-  "fit": 1000.0,
+  "fit": 2500.0,
   "kind": "generic",
-  "days_left": 3.104286612025463
+  "days_left": 5.0915162107638885
  },
  {
-  "file": "drafts/04-colosseum-founder-support-talk-to-5-users.md",
-  "title": "Colosseum: Founder Support - Talk to 5 Users",
-  "url": "https://earn.superteam.fun/listings/colosseum-founder-support-talk-to-5-users",
-  "value_usd": 1000.0,
+  "file": "drafts/05-get-your-seeker-app-to-mainnet-solana-mobile-brazil-special-.md",
+  "title": "Get your Seeker app to Mainnet \ud83d\udcf1\ud83c\udde7\ud83c\uddf7 Solana Mobile Brazil special track",
+  "url": "https://earn.superteam.fun/listings/mobile",
+  "value_usd": 1600.0,
   "token": "USDG",
-  "fit": 1000.0,
+  "fit": 1600.0,
   "kind": "generic",
-  "days_left": 9.604286612025463
- },
- {
-  "file": "drafts/05-blockchain-hack-warsaw-submissions.md",
-  "title": "Blockchain Hack Warsaw - Submissions",
-  "url": "https://earn.superteam.fun/listings/blockchain-hack-warsaw-submissions",
-  "value_usd": 2000.0,
-  "token": "USDG",
-  "fit": 800.0,
-  "kind": "generic",
-  "days_left": 3.104286612025463
+  "days_left": 7.3415162107638885
  }
 ]

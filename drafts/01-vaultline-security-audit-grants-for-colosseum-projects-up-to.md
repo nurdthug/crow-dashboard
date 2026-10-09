@@ -1,9 +1,9 @@
-# Draft pack — Colosseum: Founder Support - Talk to 5 Users
+# Draft pack — Vaultline Security Audit Grants for Colosseum Projects: Up to 4,000 USDC Each
 
-- Listing: https://earn.superteam.fun/listings/colosseum-founder-support-talk-to-5-users
-- Value: $1,000 USDG
-- Deadline: 10 days left (as of 2026-10-08 19:29 UTC)
-- Fit score: 1,000 — verified sponsor, no visible competition yet
+- Listing: https://earn.superteam.fun/listings/vaultline-security-audit-grants-for-colosseum-projects-up-to-4000-usdc-each
+- Value: $40,000 USDC
+- Deadline: 22 days left (as of 2026-10-09 18:48 UTC)
+- Fit score: 20,000 — low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist

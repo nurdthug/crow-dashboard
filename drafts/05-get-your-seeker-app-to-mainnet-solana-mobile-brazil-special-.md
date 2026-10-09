@@ -1,9 +1,9 @@
-# Draft pack — Blockchain Hack Warsaw - Submissions
+# Draft pack — Get your Seeker app to Mainnet 📱🇧🇷 Solana Mobile Brazil special track
 
-- Listing: https://earn.superteam.fun/listings/blockchain-hack-warsaw-submissions
-- Value: $2,000 USDG
-- Deadline: 3 days left (as of 2026-10-08 19:29 UTC)
-- Fit score: 800 — verified sponsor
+- Listing: https://earn.superteam.fun/listings/mobile
+- Value: $1,600 USDG
+- Deadline: 7 days left (as of 2026-10-09 18:48 UTC)
+- Fit score: 1,600 — verified sponsor, no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist

@@ -1,9 +1,9 @@
-# Draft pack — Blockchain Hack Kraków - Submissions
+# Draft pack — Arf × Superteam Türkiye — University Track
 
-- Listing: https://earn.superteam.fun/listings/blockchain-hack-krakow-submissions
-- Value: $2,000 USDG
-- Deadline: 3 days left (as of 2026-10-08 19:29 UTC)
-- Fit score: 1,000 — verified sponsor, low competition
+- Listing: https://earn.superteam.fun/listings/arf-superteam-turkiye-university-track
+- Value: $2,500 USDG
+- Deadline: 5 days left (as of 2026-10-09 18:48 UTC)
+- Fit score: 2,500 — verified sponsor, no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
