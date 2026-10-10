@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://len-jar-sponsored-dual.trycloudflare.com",
+    "baseUrl": "https://existed-bearing-female-venue.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://len-jar-sponsored-dual.trycloudflare.com/healthz",
+    "health": "https://existed-bearing-female-venue.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://len-jar-sponsored-dual.trycloudflare.com/catalog.json",
-    "openapi": "https://len-jar-sponsored-dual.trycloudflare.com/openapi.json",
-    "llms": "https://len-jar-sponsored-dual.trycloudflare.com/llms.txt",
-    "freeSample": "https://len-jar-sponsored-dual.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://len-jar-sponsored-dual.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://len-jar-sponsored-dual.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://len-jar-sponsored-dual.trycloudflare.com/state"
+    "catalog": "https://existed-bearing-female-venue.trycloudflare.com/catalog.json",
+    "openapi": "https://existed-bearing-female-venue.trycloudflare.com/openapi.json",
+    "llms": "https://existed-bearing-female-venue.trycloudflare.com/llms.txt",
+    "freeSample": "https://existed-bearing-female-venue.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://existed-bearing-female-venue.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://existed-bearing-female-venue.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://existed-bearing-female-venue.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://len-jar-sponsored-dual.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://existed-bearing-female-venue.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://len-jar-sponsored-dual.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://existed-bearing-female-venue.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
