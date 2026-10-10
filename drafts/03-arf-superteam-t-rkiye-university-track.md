@@ -1,9 +1,9 @@
-# Draft pack — Vaultline Security Audit Grants for Colosseum Projects: Up to 4,000 USDC Each
+# Draft pack — Arf × Superteam Türkiye — University Track
 
-- Listing: https://earn.superteam.fun/listings/vaultline-security-audit-grants-for-colosseum-projects-up-to-4000-usdc-each
-- Value: $40,000 USDC
-- Deadline: 21 days left (as of 2026-10-10 17:51 UTC)
-- Fit score: 12,632 — reasonable EV after competition/deadline adjustment
+- Listing: https://earn.superteam.fun/listings/arf-superteam-turkiye-university-track
+- Value: $2,500 USDG
+- Deadline: 4 days left (as of 2026-10-10 17:51 UTC)
+- Fit score: 2,500 — verified sponsor, no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist

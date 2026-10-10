@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-09 19:01 UTC",
-  "reviewed": 32,
-  "agent_allowed": 2,
+  "generated_at": "2026-10-10 17:51 UTC",
+  "reviewed": 31,
+  "agent_allowed": 1,
   "recommendations": [
     {
       "rank": 1,
-      "fit": 20000.0,
+      "fit": 12631.58,
       "title": "Vaultline Security Audit Grants for Colosseum Projects: Up to 4,000 USDC Each",
       "url": "https://earn.superteam.fun/listings/vaultline-security-audit-grants-for-colosseum-projects-up-to-4000-usdc-each",
       "value_usd": 40000.0,
       "token": "USDC",
-      "why": "low competition",
+      "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 22.1,
-      "competition": 4,
+      "days_left": 21.2,
+      "competition": 11,
       "deadline": "2026-10-31T21:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -29,7 +29,7 @@
       "why": "verified sponsor, no visible competition yet",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 5.1,
+      "days_left": 4.1,
       "competition": 0,
       "deadline": "2026-10-14T20:59:59.000Z",
       "source": "superteam-earn",
@@ -45,7 +45,7 @@
       "why": "verified sponsor, no visible competition yet",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 7.3,
+      "days_left": 6.4,
       "competition": 0,
       "deadline": "2026-10-17T02:59:59.000Z",
       "source": "superteam-earn",
@@ -61,7 +61,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 8.6,
+      "days_left": 7.7,
       "competition": 1,
       "deadline": "2026-10-18T09:59:59.000Z",
       "source": "superteam-earn",
@@ -69,7 +69,7 @@
     },
     {
       "rank": 5,
-      "fit": 720.0,
+      "fit": 514.29,
       "title": "Pitch & Demo Your Product at the Demo Day",
       "url": "https://earn.superteam.fun/listings/pitch-and-demo-your-product-at-online-demo-day",
       "value_usd": 1800.0,
@@ -77,8 +77,8 @@
       "why": "verified sponsor",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 6.1,
-      "competition": 12,
+      "days_left": 5.1,
+      "competition": 20,
       "deadline": "2026-10-15T20:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -93,7 +93,7 @@
       "why": "verified sponsor, no visible competition yet",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 12.1,
+      "days_left": 11.2,
       "competition": 0,
       "deadline": "2026-10-21T21:59:59.000Z",
       "source": "superteam-earn",
@@ -109,7 +109,7 @@
       "why": "verified sponsor, low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 5.1,
+      "days_left": 4.2,
       "competition": 1,
       "deadline": "2026-10-14T21:59:59.000Z",
       "source": "superteam-earn",
@@ -125,7 +125,7 @@
       "why": "verified sponsor, low competition, urgent",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 2.1,
+      "days_left": 1.2,
       "competition": 8,
       "deadline": "2026-10-11T21:59:59.000Z",
       "source": "superteam-earn",
@@ -133,6 +133,22 @@
     },
     {
       "rank": 9,
+      "fit": 400.0,
+      "title": "Create Content on Premier League Predictions with worm \ud83e\udeb1\u26bd",
+      "url": "https://earn.superteam.fun/listings/create-content-on-premier-league-predictions-with-worm",
+      "value_usd": 500.0,
+      "token": "USDC",
+      "why": "low competition",
+      "next_step": "Draft script/angle and collect required brand/rule links.",
+      "effort": "low-medium",
+      "days_left": 44.4,
+      "competition": 1,
+      "deadline": "2026-11-24T02:59:59.000Z",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 10,
       "fit": 336.0,
       "title": "Blockchain Hack Warsaw - Submissions",
       "url": "https://earn.superteam.fun/listings/blockchain-hack-warsaw-submissions",
@@ -141,25 +157,9 @@
       "why": "verified sponsor, urgent",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 2.1,
+      "days_left": 1.2,
       "competition": 12,
       "deadline": "2026-10-11T21:59:59.000Z",
-      "source": "superteam-earn",
-      "agent_access": "HUMAN_ONLY"
-    },
-    {
-      "rank": 10,
-      "fit": 279.0,
-      "title": "Launch & Trade on Daejin: Write a Twitter Thread and Create a Market",
-      "url": "https://earn.superteam.fun/listings/launch-and-trade-on-daejin-write-a-twitter-thread-and-create-a-market",
-      "value_usd": 620.0,
-      "token": "USDC",
-      "why": "low competition",
-      "next_step": "Draft thread outline and verify rules before posting.",
-      "effort": "low-medium",
-      "days_left": 14.1,
-      "competition": 8,
-      "deadline": "2026-10-23T21:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     }
@@ -168,31 +168,31 @@
     {
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
-      "competition": 2684,
-      "reason": "huge pool, but high visible competition"
-    },
-    {
-      "title": "ForgeHacks Online 2026",
-      "url": "https://forgehacks-2026.devpost.com/",
-      "competition": 3149,
+      "competition": 2831,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 52409,
+      "competition": 52916,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Life After Code",
       "url": "https://gitlab-transcend.devpost.com/",
-      "competition": 1423,
+      "competition": 1530,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Multimodal AI Hackathon 2026",
       "url": "https://multimodal-ai-hackathon-2026-7.devpost.com/",
-      "competition": 3138,
+      "competition": 3271,
+      "reason": "huge pool, but high visible competition"
+    },
+    {
+      "title": "PayPal AI Hackathon",
+      "url": "https://paypalaihackathon.devpost.com/",
+      "competition": 10973,
       "reason": "huge pool, but high visible competition"
     }
   ]

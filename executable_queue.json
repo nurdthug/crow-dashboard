@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-09T19:01:51+00:00",
- "count": 5,
+ "generated": "2026-10-10T17:51:05+00:00",
+ "count": 4,
  "items": [
   {
    "lane": "listing",
@@ -8,7 +8,7 @@
    "url": "https://earn.superteam.fun/listings/crea-contenido-para-promocionar-el-encuentro-2026",
    "value_usd": 2000.0,
    "token": "USDG",
-   "days_left": 15.165410364467593,
+   "days_left": 14.214545618923612,
    "small": true
   },
   {
@@ -55,15 +55,6 @@
    ],
    "small": true,
    "created": "2026-05-27T06:32:39Z"
-  },
-  {
-   "lane": "listing",
-   "title": "Create twitter Post about the STREAM burn",
-   "url": "https://earn.superteam.fun/listings/create-twitter-post-about-the-stream-burn",
-   "value_usd": 500.0,
-   "token": "USDC",
-   "days_left": 0.12374369780092592,
-   "small": true
   },
   {
    "lane": "github_pr",
