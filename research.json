@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10 17:51 UTC",
+  "generated_at": "2026-10-10 18:03 UTC",
   "reviewed": 31,
   "agent_allowed": 1,
   "recommendations": [
@@ -174,13 +174,13 @@
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 52916,
+      "competition": 52923,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Life After Code",
       "url": "https://gitlab-transcend.devpost.com/",
-      "competition": 1530,
+      "competition": 1531,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -192,7 +192,7 @@
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 10973,
+      "competition": 10976,
       "reason": "huge pool, but high visible competition"
     }
   ]
