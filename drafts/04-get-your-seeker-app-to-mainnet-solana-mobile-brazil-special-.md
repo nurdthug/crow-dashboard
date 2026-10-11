@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/mobile
 - Value: $1,600 USDG
-- Deadline: 5 days left (as of 2026-10-11 18:04 UTC)
+- Deadline: 5 days left (as of 2026-10-11 18:28 UTC)
 - Fit score: 1,600 — verified sponsor, no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
