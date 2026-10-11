@@ -1,9 +1,9 @@
 # Draft pack — Arf × Superteam Türkiye — University Track
 
 - Listing: https://earn.superteam.fun/listings/arf-superteam-turkiye-university-track
-- Value: $2,500 USDG
-- Deadline: 4 days left (as of 2026-10-10 18:03 UTC)
-- Fit score: 2,500 — verified sponsor, no visible competition yet
+- Value: $3,000 USDG
+- Deadline: 4 days left (as of 2026-10-11 18:04 UTC)
+- Fit score: 2,667 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
