@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://favourites-suite-delivery-flight.trycloudflare.com",
+    "baseUrl": "https://thesis-lewis-interventions-formula.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://favourites-suite-delivery-flight.trycloudflare.com/healthz",
+    "health": "https://thesis-lewis-interventions-formula.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://favourites-suite-delivery-flight.trycloudflare.com/catalog.json",
-    "openapi": "https://favourites-suite-delivery-flight.trycloudflare.com/openapi.json",
-    "llms": "https://favourites-suite-delivery-flight.trycloudflare.com/llms.txt",
-    "freeSample": "https://favourites-suite-delivery-flight.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://favourites-suite-delivery-flight.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://favourites-suite-delivery-flight.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://favourites-suite-delivery-flight.trycloudflare.com/state"
+    "catalog": "https://thesis-lewis-interventions-formula.trycloudflare.com/catalog.json",
+    "openapi": "https://thesis-lewis-interventions-formula.trycloudflare.com/openapi.json",
+    "llms": "https://thesis-lewis-interventions-formula.trycloudflare.com/llms.txt",
+    "freeSample": "https://thesis-lewis-interventions-formula.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://thesis-lewis-interventions-formula.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://thesis-lewis-interventions-formula.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://thesis-lewis-interventions-formula.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://favourites-suite-delivery-flight.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://thesis-lewis-interventions-formula.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://favourites-suite-delivery-flight.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://thesis-lewis-interventions-formula.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
