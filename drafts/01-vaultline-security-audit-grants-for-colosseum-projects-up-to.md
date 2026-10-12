@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/vaultline-security-audit-grants-for-colosseum-projects-up-to-4000-usdc-each
 - Value: $40,000 USDC
-- Deadline: 19 days left (as of 2026-10-12 21:43 UTC)
+- Deadline: 19 days left (as of 2026-10-12 21:52 UTC)
 - Fit score: 6,667 — reasonable EV after competition/deadline adjustment
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 

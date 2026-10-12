@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12 21:43 UTC",
+  "generated_at": "2026-10-12 21:52 UTC",
   "reviewed": 26,
   "agent_allowed": 1,
   "recommendations": [
@@ -53,16 +53,16 @@
     },
     {
       "rank": 4,
-      "fit": 592.94,
+      "fit": 560.0,
       "title": "Arf \u00d7 Superteam T\u00fcrkiye \u2014 University Track",
       "url": "https://earn.superteam.fun/listings/arf-superteam-turkiye-university-track",
       "value_usd": 3000.0,
       "token": "USDG",
-      "why": "verified sponsor, low competition, urgent",
+      "why": "verified sponsor, urgent",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
       "days_left": 3.0,
-      "competition": 9,
+      "competition": 10,
       "deadline": "2026-10-15T20:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -85,7 +85,7 @@
     },
     {
       "rank": 6,
-      "fit": 400.0,
+      "fit": 387.1,
       "title": "Write a thread on $CHIMP Launching on Metaplex - Part 1",
       "url": "https://earn.superteam.fun/listings/chimp-on-metaplex",
       "value_usd": 2000.0,
@@ -94,7 +94,7 @@
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
       "days_left": 18.9,
-      "competition": 22,
+      "competition": 23,
       "deadline": "2026-10-31T18:29:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -125,7 +125,7 @@
       "why": "explicitly agent-allowed, verified sponsor",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 12.1,
+      "days_left": 12.0,
       "competition": 148,
       "deadline": "2026-10-24T22:59:59.999Z",
       "source": "superteam-earn",
@@ -186,13 +186,13 @@
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 12598,
+      "competition": 12600,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 21905,
+      "competition": 21910,
       "reason": "huge pool, but high visible competition"
     }
   ]

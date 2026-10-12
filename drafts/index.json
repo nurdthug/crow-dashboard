@@ -7,7 +7,7 @@
   "token": "USDC",
   "fit": 6666.67,
   "kind": "generic",
-  "days_left": 19.01126442550926
+  "days_left": 19.005087384687503
  },
  {
   "file": "drafts/02-meta-vr-start-developer-competition-2026.md",
@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 1280.0,
   "kind": "generic",
-  "days_left": 4.219597758842593
+  "days_left": 4.213420718020833
  },
  {
   "file": "drafts/04-colosseum-founder-support-talk-to-5-users.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 727.27,
   "kind": "generic",
-  "days_left": 5.5112644255092595
+  "days_left": 5.5050873846875
  },
  {
   "file": "drafts/05-arf-superteam-t-rkiye-university-track.md",
@@ -45,8 +45,8 @@
   "url": "https://earn.superteam.fun/listings/arf-superteam-turkiye-university-track",
   "value_usd": 3000.0,
   "token": "USDG",
-  "fit": 592.94,
+  "fit": 560.0,
   "kind": "generic",
-  "days_left": 2.9695977588425926
+  "days_left": 2.9634207180208336
  }
 ]

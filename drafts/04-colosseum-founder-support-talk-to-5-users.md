@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/colosseum-founder-support-talk-to-5-users
 - Value: $1,000 USDG
-- Deadline: 6 days left (as of 2026-10-12 21:43 UTC)
+- Deadline: 6 days left (as of 2026-10-12 21:52 UTC)
 - Fit score: 727 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
