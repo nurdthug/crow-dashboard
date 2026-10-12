@@ -1,9 +1,9 @@
-# Draft pack — Colosseum: Founder Support - Talk to 5 Users
+# Draft pack — Arf × Superteam Türkiye — University Track
 
-- Listing: https://earn.superteam.fun/listings/colosseum-founder-support-talk-to-5-users
-- Value: $1,000 USDG
-- Deadline: 7 days left (as of 2026-10-11 18:28 UTC)
-- Fit score: 800 — verified sponsor, low competition
+- Listing: https://earn.superteam.fun/listings/arf-superteam-turkiye-university-track
+- Value: $3,000 USDG
+- Deadline: 3 days left (as of 2026-10-12 21:43 UTC)
+- Fit score: 593 — verified sponsor, low competition, urgent
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist

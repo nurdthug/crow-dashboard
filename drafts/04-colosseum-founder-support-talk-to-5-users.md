@@ -1,9 +1,9 @@
-# Draft pack — Get your Seeker app to Mainnet 📱🇧🇷 Solana Mobile Brazil special track
+# Draft pack — Colosseum: Founder Support - Talk to 5 Users
 
-- Listing: https://earn.superteam.fun/listings/mobile
-- Value: $1,600 USDG
-- Deadline: 5 days left (as of 2026-10-11 18:28 UTC)
-- Fit score: 1,600 — verified sponsor, no visible competition yet
+- Listing: https://earn.superteam.fun/listings/colosseum-founder-support-talk-to-5-users
+- Value: $1,000 USDG
+- Deadline: 6 days left (as of 2026-10-12 21:43 UTC)
+- Fit score: 727 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
