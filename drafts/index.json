@@ -7,7 +7,7 @@
   "token": "USDC",
   "fit": 5106.38,
   "kind": "generic",
-  "days_left": 18.089391549837963
+  "days_left": 18.08480057596065
  },
  {
   "file": "drafts/02-meta-vr-start-developer-competition-2026.md",
@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 1280.0,
   "kind": "generic",
-  "days_left": 3.297724883171296
+  "days_left": 3.2931339092939815
  },
  {
   "file": "drafts/04-colosseum-founder-support-talk-to-5-users.md",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 727.27,
   "kind": "generic",
-  "days_left": 4.589391549837963
+  "days_left": 4.5848005759606485
  },
  {
   "file": "drafts/05-bring-your-friends-to-segmento.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 500.0,
   "kind": "generic",
-  "days_left": 8.089391549837963
+  "days_left": 8.084800575960648
  }
 ]

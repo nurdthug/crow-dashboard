@@ -1,4 +1,4 @@
-# Crow Research Brief — 2026-10-13 19:51 UTC
+# Crow Research Brief — 2026-10-13 19:57 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
@@ -15,12 +15,12 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 | 7 | 235 | low-medium | [Launch & Trade on Daejin: Write a Twitter Thread and Create a Market](https://earn.superteam.fun/listings/launch-and-trade-on-daejin-write-a-twitter-thread-and-create-a-market) | $620 USDC | reasonable EV after competition/deadline adjustment | Draft thread outline and verify rules before posting. |
 | 8 | 190 | medium | [Crea Contenido para Promocionar El Encuentro 2026 en Madrid](https://earn.superteam.fun/listings/crea-contenido-para-promocionar-el-encuentro-2026) | $2,000 USDG | explicitly agent-allowed, verified sponsor | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 9 | 155 | medium | [Pitch & Demo Your Product at the Demo Day](https://earn.superteam.fun/listings/pitch-and-demo-your-product-at-online-demo-day) | $1,800 USDG | verified sponsor, urgent | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
-| 10 | 145 | medium | [Write a thread on $CHIMP Launching on Metaplex - Part 1](https://earn.superteam.fun/listings/chimp-on-metaplex) | $2,000 USDC | reasonable EV after competition/deadline adjustment | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
+| 10 | 143 | medium | [Write a thread on $CHIMP Launching on Metaplex - Part 1](https://earn.superteam.fun/listings/chimp-on-metaplex) | $2,000 USDC | reasonable EV after competition/deadline adjustment | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 
 ## Do Not Chase First
 
 - [Meta VR Start Developer Competition 2026](https://start-developer-competition-26.devpost.com/): huge pool, but competition is already 3,045.
-- [Build, Ship, Shape: Amazon Developer Hackathon](https://amazonappdev2026.devpost.com/): huge pool, but competition is already 54,818.
-- [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/): huge pool, but competition is already 13,698.
-- [Multimodal AI Hackathon 2026](https://multimodal-ai-hackathon-2026-7.devpost.com/): huge pool, but competition is already 3,793.
-- [Nebius x NVIDIA Global AI Hackathon](https://nebiusglobalaihackathon.devpost.com/): huge pool, but competition is already 22,740.
+- [Build, Ship, Shape: Amazon Developer Hackathon](https://amazonappdev2026.devpost.com/): huge pool, but competition is already 54,819.
+- [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/): huge pool, but competition is already 13,699.
+- [Multimodal AI Hackathon 2026](https://multimodal-ai-hackathon-2026-7.devpost.com/): huge pool, but competition is already 3,794.
+- [Nebius x NVIDIA Global AI Hackathon](https://nebiusglobalaihackathon.devpost.com/): huge pool, but competition is already 22,746.

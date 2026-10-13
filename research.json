@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13 19:51 UTC",
+  "generated_at": "2026-10-13 19:57 UTC",
   "reviewed": 27,
   "agent_allowed": 1,
   "recommendations": [
@@ -149,7 +149,7 @@
     },
     {
       "rank": 10,
-      "fit": 144.58,
+      "fit": 142.86,
       "title": "Write a thread on $CHIMP Launching on Metaplex - Part 1",
       "url": "https://earn.superteam.fun/listings/chimp-on-metaplex",
       "value_usd": 2000.0,
@@ -158,7 +158,7 @@
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
       "days_left": 17.9,
-      "competition": 75,
+      "competition": 76,
       "deadline": "2026-10-31T18:29:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -174,25 +174,25 @@
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 54818,
+      "competition": 54819,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 13698,
+      "competition": 13699,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Multimodal AI Hackathon 2026",
       "url": "https://multimodal-ai-hackathon-2026-7.devpost.com/",
-      "competition": 3793,
+      "competition": 3794,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 22740,
+      "competition": 22746,
       "reason": "huge pool, but high visible competition"
     }
   ]
