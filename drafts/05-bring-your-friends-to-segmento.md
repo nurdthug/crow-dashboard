@@ -1,9 +1,9 @@
-# Draft pack — Arf × Superteam Türkiye — University Track
+# Draft pack — Bring Your Friends to Segmento
 
-- Listing: https://earn.superteam.fun/listings/arf-superteam-turkiye-university-track
-- Value: $3,000 USDG
-- Deadline: 3 days left (as of 2026-10-12 21:52 UTC)
-- Fit score: 560 — verified sponsor, urgent
+- Listing: https://earn.superteam.fun/listings/bring-your-friends-to-segmento
+- Value: $500 USDG
+- Deadline: 8 days left (as of 2026-10-13 19:51 UTC)
+- Fit score: 500 — verified sponsor, no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist

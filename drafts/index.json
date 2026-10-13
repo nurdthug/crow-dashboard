@@ -5,9 +5,9 @@
   "url": "https://earn.superteam.fun/listings/vaultline-security-audit-grants-for-colosseum-projects-up-to-4000-usdc-each",
   "value_usd": 40000.0,
   "token": "USDC",
-  "fit": 6666.67,
+  "fit": 5106.38,
   "kind": "generic",
-  "days_left": 19.005087384687503
+  "days_left": 18.089391549837963
  },
  {
   "file": "drafts/02-meta-vr-start-developer-competition-2026.md",
@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 1280.0,
   "kind": "generic",
-  "days_left": 4.213420718020833
+  "days_left": 3.297724883171296
  },
  {
   "file": "drafts/04-colosseum-founder-support-talk-to-5-users.md",
@@ -37,16 +37,16 @@
   "token": "USDG",
   "fit": 727.27,
   "kind": "generic",
-  "days_left": 5.5050873846875
+  "days_left": 4.589391549837963
  },
  {
-  "file": "drafts/05-arf-superteam-t-rkiye-university-track.md",
-  "title": "Arf \u00d7 Superteam T\u00fcrkiye \u2014 University Track",
-  "url": "https://earn.superteam.fun/listings/arf-superteam-turkiye-university-track",
-  "value_usd": 3000.0,
+  "file": "drafts/05-bring-your-friends-to-segmento.md",
+  "title": "Bring Your Friends to Segmento",
+  "url": "https://earn.superteam.fun/listings/bring-your-friends-to-segmento",
+  "value_usd": 500.0,
   "token": "USDG",
-  "fit": 560.0,
+  "fit": 500.0,
   "kind": "generic",
-  "days_left": 2.9634207180208336
+  "days_left": 8.089391549837963
  }
 ]
