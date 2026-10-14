@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://darwin-camps-norman-twisted.trycloudflare.com",
+    "baseUrl": "https://breeds-installing-yes-jenny.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://darwin-camps-norman-twisted.trycloudflare.com/healthz",
+    "health": "https://breeds-installing-yes-jenny.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://darwin-camps-norman-twisted.trycloudflare.com/catalog.json",
-    "openapi": "https://darwin-camps-norman-twisted.trycloudflare.com/openapi.json",
-    "llms": "https://darwin-camps-norman-twisted.trycloudflare.com/llms.txt",
-    "freeSample": "https://darwin-camps-norman-twisted.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://darwin-camps-norman-twisted.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://darwin-camps-norman-twisted.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://darwin-camps-norman-twisted.trycloudflare.com/state"
+    "catalog": "https://breeds-installing-yes-jenny.trycloudflare.com/catalog.json",
+    "openapi": "https://breeds-installing-yes-jenny.trycloudflare.com/openapi.json",
+    "llms": "https://breeds-installing-yes-jenny.trycloudflare.com/llms.txt",
+    "freeSample": "https://breeds-installing-yes-jenny.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://breeds-installing-yes-jenny.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://breeds-installing-yes-jenny.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://breeds-installing-yes-jenny.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://darwin-camps-norman-twisted.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://breeds-installing-yes-jenny.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://darwin-camps-norman-twisted.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://breeds-installing-yes-jenny.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
