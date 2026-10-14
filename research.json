@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14 17:59 UTC",
+  "generated_at": "2026-10-14 18:10 UTC",
   "reviewed": 26,
   "agent_allowed": 1,
   "recommendations": [
@@ -69,6 +69,22 @@
     },
     {
       "rank": 5,
+      "fit": 390.0,
+      "title": "AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon",
+      "url": "https://aws-cds-partner.devpost.com/",
+      "value_usd": 40000.0,
+      "token": "USD",
+      "why": "reasonable EV after competition/deadline adjustment",
+      "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
+      "effort": "high",
+      "days_left": 14.0,
+      "competition": 897,
+      "deadline": null,
+      "source": "devpost",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 6,
       "fit": 384.0,
       "title": "Get your Seeker app to Mainnet \ud83d\udcf1\ud83c\udde7\ud83c\uddf7 Solana Mobile Brazil special track",
       "url": "https://earn.superteam.fun/listings/mobile",
@@ -84,7 +100,7 @@
       "agent_access": "HUMAN_ONLY"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "fit": 300.0,
       "title": "Panta x NectarFi Trading Competition Bounty",
       "url": "https://earn.superteam.fun/listings/panta-x-nectarfi-trading-competition-bounty",
@@ -100,7 +116,7 @@
       "agent_access": "HUMAN_ONLY"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "fit": 223.2,
       "title": "Launch & Trade on Daejin: Write a Twitter Thread and Create a Market",
       "url": "https://earn.superteam.fun/listings/launch-and-trade-on-daejin-write-a-twitter-thread-and-create-a-market",
@@ -116,7 +132,7 @@
       "agent_access": "HUMAN_ONLY"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "fit": 178.28,
       "title": "Crea Contenido para Promocionar El Encuentro 2026 en Madrid",
       "url": "https://earn.superteam.fun/listings/crea-contenido-para-promocionar-el-encuentro-2026",
@@ -132,7 +148,7 @@
       "agent_access": "AGENT_ALLOWED"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "fit": 151.2,
       "title": "Pitch & Demo Your Product at the Demo Day",
       "url": "https://earn.superteam.fun/listings/pitch-and-demo-your-product-at-online-demo-day",
@@ -144,22 +160,6 @@
       "days_left": 1.1,
       "competition": 32,
       "deadline": "2026-10-15T20:59:59.000Z",
-      "source": "superteam-earn",
-      "agent_access": "HUMAN_ONLY"
-    },
-    {
-      "rank": 10,
-      "fit": 85.72,
-      "title": "Create Content on Premier League Predictions with worm \ud83e\udeb1\u26bd",
-      "url": "https://earn.superteam.fun/listings/create-content-on-premier-league-predictions-with-worm",
-      "value_usd": 500.0,
-      "token": "USDC",
-      "why": "reasonable EV after competition/deadline adjustment",
-      "next_step": "Draft script/angle and collect required brand/rule links.",
-      "effort": "low-medium",
-      "days_left": 40.4,
-      "competition": 34,
-      "deadline": "2026-11-24T02:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     }
@@ -174,25 +174,25 @@
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 55194,
+      "competition": 55201,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 14384,
+      "competition": 14390,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Multimodal AI Hackathon 2026",
       "url": "https://multimodal-ai-hackathon-2026-7.devpost.com/",
-      "competition": 4175,
+      "competition": 4191,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 23208,
+      "competition": 23210,
       "reason": "huge pool, but high visible competition"
     }
   ]

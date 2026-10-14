@@ -1,21 +1,21 @@
-# Crow Scout Digest — 2026-10-14 17:59 UTC
+# Crow Scout Digest — 2026-10-14 18:10 UTC
 
-**26 open opportunities** · 1 new since last run · 1 flagged AGENT_ALLOWED · total face value $1,504,620
+**26 open opportunities** · 0 new since last run · 1 flagged AGENT_ALLOWED · total face value $1,519,620
 
 | # | Score | Title | Value | Type | Source | Days left | Competition | Agent? |
 |---|---|---|---|---|---|---|---|---|
 | 1 | 20,000 | [Meta VR Start Developer Competition 2026](https://start-developer-competition-26.devpost.com/) | $1,000,000 USD | hackathon | devpost | 30 | 3099 |  |
 | 2 | 4,286 | [Vaultline Security Audit Grants for Colosseum Projects: Up to 4,000 USDC Each](https://earn.superteam.fun/listings/vaultline-security-audit-grants-for-colosseum-projects-up-to-4000-usdc-each) | $40,000 USDC | bounty | superteam-earn | 17 | 48 |  |
-| 3 | 2,760 | [Build, Ship, Shape: Amazon Developer Hackathon](https://amazonappdev2026.devpost.com/) | $138,000 USD | hackathon | devpost | 9 | 55194 |  |
-| 4 | 1,350 | [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/) | $67,500 USD | hackathon | devpost | 29 | 14384 |  |
-| 5 | 1,200 | [Multimodal AI Hackathon 2026](https://multimodal-ai-hackathon-2026-7.devpost.com/) | $100,000 USD | hackathon | devpost | — | 4175 |  |
-| 6 | 1,000 | [Nebius x NVIDIA Global AI Hackathon](https://nebiusglobalaihackathon.devpost.com/) | $50,000 USD | hackathon | devpost | 16 | 23208 |  |
+| 3 | 2,760 | [Build, Ship, Shape: Amazon Developer Hackathon](https://amazonappdev2026.devpost.com/) | $138,000 USD | hackathon | devpost | 9 | 55201 |  |
+| 4 | 1,350 | [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/) | $67,500 USD | hackathon | devpost | 29 | 14390 |  |
+| 5 | 1,200 | [Multimodal AI Hackathon 2026](https://multimodal-ai-hackathon-2026-7.devpost.com/) | $100,000 USD | hackathon | devpost | — | 4191 |  |
+| 6 | 1,000 | [Nebius x NVIDIA Global AI Hackathon](https://nebiusglobalaihackathon.devpost.com/) | $50,000 USD | hackathon | devpost | 16 | 23210 |  |
 | 7 | 900 | [Life After Code](https://gitlab-transcend.devpost.com/) | $45,000 USD | hackathon | devpost | 13 | 2143 |  |
 | 8 | 727 | [Colosseum: Founder Support - Talk to 5 Users](https://earn.superteam.fun/listings/colosseum-founder-support-talk-to-5-users) | $1,000 USDG | bounty | superteam-earn | 4 | 3 |  |
 | 9 | 626 | [Arf × Superteam Türkiye — University Track](https://earn.superteam.fun/listings/arf-superteam-turkiye-university-track) | $3,000 USDG | bounty | superteam-earn | 1 | 15 |  |
-| 10 | 549 | [Get your Seeker app to Mainnet 📱🇧🇷 Solana Mobile Brazil special track](https://earn.superteam.fun/listings/mobile) | $1,600 USDG | bounty | superteam-earn | 2 | 6 |  |
-| 11 | 500 | [Bring Your Friends to Segmento](https://earn.superteam.fun/listings/bring-your-friends-to-segmento) | $500 USDG | bounty | superteam-earn | 7 | 0 |  |
-| 12 | 375 | [Qloo Agentic Hackathon](https://qloo.devpost.com/) 🆕 | $25,000 USD | hackathon | devpost | 16 | 1400 |  |
+| 10 | 600 | [AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon](https://aws-cds-partner.devpost.com/) | $40,000 USD | hackathon | devpost | 14 | 897 |  |
+| 11 | 549 | [Get your Seeker app to Mainnet 📱🇧🇷 Solana Mobile Brazil special track](https://earn.superteam.fun/listings/mobile) | $1,600 USDG | bounty | superteam-earn | 2 | 6 |  |
+| 12 | 500 | [Bring Your Friends to Segmento](https://earn.superteam.fun/listings/bring-your-friends-to-segmento) | $500 USDG | bounty | superteam-earn | 7 | 0 |  |
 | 13 | 304 | [OpenCV AI Competition 2026, powered by AWS](https://opencv26.devpost.com/) | $20,250 USD | hackathon | devpost | 13 | 4914 |  |
 | 14 | 300 | [Panta x NectarFi Trading Competition Bounty](https://earn.superteam.fun/listings/panta-x-nectarfi-trading-competition-bounty) | $500 USDG | bounty | superteam-earn | 29 | 2 |  |
 | 15 | 216 | [Pitch & Demo Your Product at the Demo Day](https://earn.superteam.fun/listings/pitch-and-demo-your-product-at-online-demo-day) | $1,800 USDG | bounty | superteam-earn | 1 | 32 |  |
