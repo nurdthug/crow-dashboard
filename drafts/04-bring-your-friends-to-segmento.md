@@ -1,9 +1,9 @@
-# Draft pack — Colosseum: Founder Support - Talk to 5 Users
+# Draft pack — Bring Your Friends to Segmento
 
-- Listing: https://earn.superteam.fun/listings/colosseum-founder-support-talk-to-5-users
-- Value: $1,000 USDG
-- Deadline: 5 days left (as of 2026-10-13 19:57 UTC)
-- Fit score: 727 — verified sponsor, low competition
+- Listing: https://earn.superteam.fun/listings/bring-your-friends-to-segmento
+- Value: $500 USDG
+- Deadline: 7 days left (as of 2026-10-14 17:59 UTC)
+- Fit score: 500 — verified sponsor, no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist

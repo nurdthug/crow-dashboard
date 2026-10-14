@@ -5,9 +5,9 @@
   "url": "https://earn.superteam.fun/listings/vaultline-security-audit-grants-for-colosseum-projects-up-to-4000-usdc-each",
   "value_usd": 40000.0,
   "token": "USDC",
-  "fit": 5106.38,
+  "fit": 4285.71,
   "kind": "generic",
-  "days_left": 18.08480057596065
+  "days_left": 17.166876961458335
  },
  {
   "file": "drafts/02-meta-vr-start-developer-competition-2026.md",
@@ -20,33 +20,33 @@
   "days_left": 30.0
  },
  {
-  "file": "drafts/03-get-your-seeker-app-to-mainnet-solana-mobile-brazil-special-.md",
-  "title": "Get your Seeker app to Mainnet \ud83d\udcf1\ud83c\udde7\ud83c\uddf7 Solana Mobile Brazil special track",
-  "url": "https://earn.superteam.fun/listings/mobile",
-  "value_usd": 1600.0,
-  "token": "USDG",
-  "fit": 1280.0,
-  "kind": "generic",
-  "days_left": 3.2931339092939815
- },
- {
-  "file": "drafts/04-colosseum-founder-support-talk-to-5-users.md",
+  "file": "drafts/03-colosseum-founder-support-talk-to-5-users.md",
   "title": "Colosseum: Founder Support - Talk to 5 Users",
   "url": "https://earn.superteam.fun/listings/colosseum-founder-support-talk-to-5-users",
   "value_usd": 1000.0,
   "token": "USDG",
   "fit": 727.27,
   "kind": "generic",
-  "days_left": 4.5848005759606485
+  "days_left": 3.6668769614583336
  },
  {
-  "file": "drafts/05-bring-your-friends-to-segmento.md",
+  "file": "drafts/04-bring-your-friends-to-segmento.md",
   "title": "Bring Your Friends to Segmento",
   "url": "https://earn.superteam.fun/listings/bring-your-friends-to-segmento",
   "value_usd": 500.0,
   "token": "USDG",
   "fit": 500.0,
   "kind": "generic",
-  "days_left": 8.084800575960648
+  "days_left": 7.166876961458333
+ },
+ {
+  "file": "drafts/05-build-ship-shape-amazon-developer-hackathon.md",
+  "title": "Build, Ship, Shape: Amazon Developer Hackathon",
+  "url": "https://amazonappdev2026.devpost.com/",
+  "value_usd": 138000.0,
+  "token": "USD",
+  "fit": 483.0,
+  "kind": "build",
+  "days_left": 9.0
  }
 ]

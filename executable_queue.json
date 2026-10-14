@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T19:57:55+00:00",
+ "generated": "2026-10-14T17:59:43+00:00",
  "count": 4,
  "items": [
   {
@@ -8,7 +8,7 @@
    "url": "https://earn.superteam.fun/listings/crea-contenido-para-promocionar-el-encuentro-2026",
    "value_usd": 2000.0,
    "token": "USDG",
-   "days_left": 11.126478805127315,
+   "days_left": 10.208555190625,
    "small": true
   },
   {
@@ -37,24 +37,18 @@
   },
   {
    "lane": "github_pr",
-   "title": "Low Handing Fruit Automation",
-   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743",
-   "repo": "SecureBananaLabs/bug-bounty",
-   "issue_number": 743,
-   "value_usd": 700,
+   "title": "Bounty track: hunt accepted-but-unsound programs at the task boundary",
+   "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/5",
+   "repo": "limitlessprojects/Go-Hybrid",
+   "issue_number": 5,
+   "value_usd": 500,
    "labels": [
-    "bug",
-    "documentation",
-    "good first issue",
     "help wanted",
-    "bug bounty",
-    "ai agent friendly",
-    "bounty",
-    "\ud83d\udc8e bounty",
-    "$700"
+    "soundness",
+    "\ud83d\udc8e bounty"
    ],
    "small": true,
-   "created": "2026-05-27T06:32:39Z"
+   "created": "2026-10-14T10:31:03Z"
   },
   {
    "lane": "github_pr",
