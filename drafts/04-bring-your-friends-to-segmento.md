@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/bring-your-friends-to-segmento
 - Value: $500 USDG
-- Deadline: 6 days left (as of 2026-10-15 17:45 UTC)
+- Deadline: 6 days left (as of 2026-10-15 17:53 UTC)
 - Fit score: 500 — verified sponsor, no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 

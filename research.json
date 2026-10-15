@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15 17:45 UTC",
+  "generated_at": "2026-10-15 17:53 UTC",
   "reviewed": 23,
   "agent_allowed": 1,
   "recommendations": [
@@ -133,7 +133,7 @@
     },
     {
       "rank": 9,
-      "fit": 170.5,
+      "fit": 169.56,
       "title": "Crea Contenido para Promocionar El Encuentro 2026 en Madrid",
       "url": "https://earn.superteam.fun/listings/crea-contenido-para-promocionar-el-encuentro-2026",
       "value_usd": 2000.0,
@@ -142,7 +142,7 @@
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
       "days_left": 9.2,
-      "competition": 175,
+      "competition": 176,
       "deadline": "2026-10-24T22:59:59.999Z",
       "source": "superteam-earn",
       "agent_access": "AGENT_ALLOWED"
@@ -168,25 +168,25 @@
     {
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
-      "competition": 3164,
+      "competition": 3165,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 55584,
+      "competition": 55587,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 14998,
+      "competition": 15004,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 23653,
+      "competition": 23654,
       "reason": "huge pool, but high visible competition"
     },
     {

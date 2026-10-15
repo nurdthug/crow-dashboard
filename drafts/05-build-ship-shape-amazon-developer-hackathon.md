@@ -2,7 +2,7 @@
 
 - Listing: https://amazonappdev2026.devpost.com/
 - Value: $138,000 USD
-- Deadline: 8 days left (as of 2026-10-15 17:45 UTC)
+- Deadline: 8 days left (as of 2026-10-15 17:53 UTC)
 - Fit score: 483 — verified sponsor
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
