@@ -1,16 +1,26 @@
 [
  {
-  "file": "drafts/01-vaultline-security-audit-grants-for-colosseum-projects-up-to.md",
+  "file": "drafts/01-travel-boost-create-content-for-breakpoint-2026.md",
+  "title": "Travel boost: Create Content for Breakpoint 2026",
+  "url": "https://earn.superteam.fun/listings/travel-boost-for-bp26",
+  "value_usd": 6000.0,
+  "token": "USDG",
+  "fit": 6400.0,
+  "kind": "content",
+  "days_left": 10.176545828981482
+ },
+ {
+  "file": "drafts/02-vaultline-security-audit-grants-for-colosseum-projects-up-to.md",
   "title": "Vaultline Security Audit Grants for Colosseum Projects: Up to 4,000 USDC Each",
   "url": "https://earn.superteam.fun/listings/vaultline-security-audit-grants-for-colosseum-projects-up-to-4000-usdc-each",
   "value_usd": 40000.0,
   "token": "USDC",
-  "fit": 4285.71,
+  "fit": 3750.0,
   "kind": "generic",
-  "days_left": 17.159153223645834
+  "days_left": 16.17654582898148
  },
  {
-  "file": "drafts/02-meta-vr-start-developer-competition-2026.md",
+  "file": "drafts/03-meta-vr-start-developer-competition-2026.md",
   "title": "Meta VR Start Developer Competition 2026",
   "url": "https://start-developer-competition-26.devpost.com/",
   "value_usd": 1000000.0,
@@ -20,16 +30,6 @@
   "days_left": 30.0
  },
  {
-  "file": "drafts/03-colosseum-founder-support-talk-to-5-users.md",
-  "title": "Colosseum: Founder Support - Talk to 5 Users",
-  "url": "https://earn.superteam.fun/listings/colosseum-founder-support-talk-to-5-users",
-  "value_usd": 1000.0,
-  "token": "USDG",
-  "fit": 727.27,
-  "kind": "generic",
-  "days_left": 3.6591532236458333
- },
- {
   "file": "drafts/04-bring-your-friends-to-segmento.md",
   "title": "Bring Your Friends to Segmento",
   "url": "https://earn.superteam.fun/listings/bring-your-friends-to-segmento",
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 500.0,
   "kind": "generic",
-  "days_left": 7.159153223645833
+  "days_left": 6.176545828981482
  },
  {
   "file": "drafts/05-build-ship-shape-amazon-developer-hackathon.md",
@@ -47,6 +47,6 @@
   "token": "USD",
   "fit": 483.0,
   "kind": "build",
-  "days_left": 9.0
+  "days_left": 8.0
  }
 ]
