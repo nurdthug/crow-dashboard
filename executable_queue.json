@@ -1,16 +1,7 @@
 {
- "generated": "2026-10-15T17:53:28+00:00",
- "count": 4,
+ "generated": "2026-10-16T17:22:58+00:00",
+ "count": 9,
  "items": [
-  {
-   "lane": "listing",
-   "title": "Crea Contenido para Promocionar El Encuentro 2026 en Madrid",
-   "url": "https://earn.superteam.fun/listings/crea-contenido-para-promocionar-el-encuentro-2026",
-   "value_usd": 2000.0,
-   "token": "USDG",
-   "days_left": 9.212895805405092,
-   "small": true
-  },
   {
    "lane": "github_pr",
    "title": "Automate Bug Detection and Reviews",
@@ -37,6 +28,51 @@
   },
   {
    "lane": "github_pr",
+   "title": "[$750] WebGL renderer for the 3D memory graph: 50,000 nodes at interactive frame rates",
+   "url": "https://github.com/oll4com/spaceapp/issues/62",
+   "repo": "oll4com/spaceapp",
+   "issue_number": 62,
+   "value_usd": 750,
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "\ud83d\udc8e bounty"
+   ],
+   "small": true,
+   "created": "2026-10-16T05:30:26Z"
+  },
+  {
+   "lane": "github_pr",
+   "title": "[$600] Support rootless Podman as a container engine in the run-spaceapp launcher",
+   "url": "https://github.com/oll4com/spaceapp/issues/63",
+   "repo": "oll4com/spaceapp",
+   "issue_number": 63,
+   "value_usd": 600,
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "\ud83d\udc8e bounty"
+   ],
+   "small": true,
+   "created": "2026-10-16T05:30:31Z"
+  },
+  {
+   "lane": "github_pr",
+   "title": "[$600] Export worker and workflow spans over OTLP: one trace from API request to every Temporal activity",
+   "url": "https://github.com/oll4com/spaceapp/issues/61",
+   "repo": "oll4com/spaceapp",
+   "issue_number": 61,
+   "value_usd": 600,
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "\ud83d\udc8e bounty"
+   ],
+   "small": true,
+   "created": "2026-10-16T05:30:25Z"
+  },
+  {
+   "lane": "github_pr",
    "title": "Bounty track: hunt accepted-but-unsound programs at the task boundary",
    "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/5",
    "repo": "limitlessprojects/Go-Hybrid",
@@ -49,6 +85,51 @@
    ],
    "small": true,
    "created": "2026-10-14T10:31:03Z"
+  },
+  {
+   "lane": "github_pr",
+   "title": "[$450] One command to run the full SpaceApp stack from source for contributors",
+   "url": "https://github.com/oll4com/spaceapp/issues/65",
+   "repo": "oll4com/spaceapp",
+   "issue_number": 65,
+   "value_usd": 450,
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "\ud83d\udc8e bounty"
+   ],
+   "small": true,
+   "created": "2026-10-16T05:30:34Z"
+  },
+  {
+   "lane": "github_pr",
+   "title": "[$400] Per-service container images: ship each image only the code and dependencies it runs",
+   "url": "https://github.com/oll4com/spaceapp/issues/64",
+   "repo": "oll4com/spaceapp",
+   "issue_number": 64,
+   "value_usd": 400,
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "\ud83d\udc8e bounty"
+   ],
+   "small": true,
+   "created": "2026-10-16T05:30:32Z"
+  },
+  {
+   "lane": "github_pr",
+   "title": "[$400] Test every Temporal workflow on a real time-skipping test server and gate replay determinism in CI",
+   "url": "https://github.com/oll4com/spaceapp/issues/60",
+   "repo": "oll4com/spaceapp",
+   "issue_number": 60,
+   "value_usd": 400,
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "\ud83d\udc8e bounty"
+   ],
+   "small": true,
+   "created": "2026-10-16T05:30:20Z"
   },
   {
    "lane": "github_pr",

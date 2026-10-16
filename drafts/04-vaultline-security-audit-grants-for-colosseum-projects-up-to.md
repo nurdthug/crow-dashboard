@@ -1,9 +1,9 @@
-# Draft pack — Bring Your Friends to Segmento
+# Draft pack — Vaultline Security Audit Grants for Colosseum Projects: Up to 4,000 USDC Each
 
-- Listing: https://earn.superteam.fun/listings/bring-your-friends-to-segmento
-- Value: $500 USDG
-- Deadline: 6 days left (as of 2026-10-15 17:53 UTC)
-- Fit score: 500 — verified sponsor, no visible competition yet
+- Listing: https://earn.superteam.fun/listings/vaultline-security-audit-grants-for-colosseum-projects-up-to-4000-usdc-each
+- Value: $40,000 USDC
+- Deadline: 15 days left (as of 2026-10-16 17:22 UTC)
+- Fit score: 3,333 — reasonable EV after competition/deadline adjustment
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist

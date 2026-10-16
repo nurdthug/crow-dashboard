@@ -1,9 +1,9 @@
-# Draft pack — Vaultline Security Audit Grants for Colosseum Projects: Up to 4,000 USDC Each
+# Draft pack — HackYeah - Superteam Poland Track
 
-- Listing: https://earn.superteam.fun/listings/vaultline-security-audit-grants-for-colosseum-projects-up-to-4000-usdc-each
-- Value: $40,000 USDC
-- Deadline: 16 days left (as of 2026-10-15 17:53 UTC)
-- Fit score: 3,750 — reasonable EV after competition/deadline adjustment
+- Listing: https://earn.superteam.fun/listings/hackyeah-superteam-poland-track
+- Value: $3,000 USDG
+- Deadline: 14 days left (as of 2026-10-16 17:22 UTC)
+- Fit score: 2,400 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
