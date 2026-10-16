@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16 17:22 UTC",
+  "generated_at": "2026-10-16 17:42 UTC",
   "reviewed": 23,
   "agent_allowed": 0,
   "recommendations": [
@@ -37,7 +37,7 @@
     },
     {
       "rank": 3,
-      "fit": 3333.33,
+      "fit": 3287.67,
       "title": "Vaultline Security Audit Grants for Colosseum Projects: Up to 4,000 USDC Each",
       "url": "https://earn.superteam.fun/listings/vaultline-security-audit-grants-for-colosseum-projects-up-to-4000-usdc-each",
       "value_usd": 40000.0,
@@ -46,7 +46,7 @@
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
       "days_left": 15.2,
-      "competition": 64,
+      "competition": 65,
       "deadline": "2026-10-31T21:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -69,6 +69,22 @@
     },
     {
       "rank": 5,
+      "fit": 666.67,
+      "title": "Colosseum: Founder Support - Talk to 5 Users",
+      "url": "https://earn.superteam.fun/listings/colosseum-founder-support-talk-to-5-users",
+      "value_usd": 1000.0,
+      "token": "USDG",
+      "why": "verified sponsor, low competition",
+      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
+      "effort": "medium",
+      "days_left": 8.7,
+      "competition": 4,
+      "deadline": "2026-10-25T09:59:59.000Z",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 6,
       "fit": 500.0,
       "title": "Bring Your Friends to Segmento",
       "url": "https://earn.superteam.fun/listings/bring-your-friends-to-segmento",
@@ -84,7 +100,7 @@
       "agent_access": "HUMAN_ONLY"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "fit": 390.0,
       "title": "AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon",
       "url": "https://aws-cds-partner.devpost.com/",
@@ -97,22 +113,6 @@
       "competition": 919,
       "deadline": null,
       "source": "devpost",
-      "agent_access": "HUMAN_ONLY"
-    },
-    {
-      "rank": 7,
-      "fit": 280.0,
-      "title": "Colosseum: Founder Support - Talk to 5 Users",
-      "url": "https://earn.superteam.fun/listings/colosseum-founder-support-talk-to-5-users",
-      "value_usd": 1000.0,
-      "token": "USDG",
-      "why": "verified sponsor, low competition, urgent",
-      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
-      "effort": "medium",
-      "days_left": 1.7,
-      "competition": 4,
-      "deadline": "2026-10-18T09:59:59.000Z",
-      "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
     {
@@ -168,31 +168,31 @@
     {
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
-      "competition": 3285,
+      "competition": 3286,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 55970,
+      "competition": 55981,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 15629,
+      "competition": 15645,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 24006,
+      "competition": 24015,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Life After Code",
       "url": "https://gitlab-transcend.devpost.com/",
-      "competition": 2393,
+      "competition": 2394,
       "reason": "huge pool, but high visible competition"
     }
   ]
