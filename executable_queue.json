@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-16T17:42:12+00:00",
- "count": 9,
+ "generated": "2026-10-17T16:23:50+00:00",
+ "count": 12,
  "items": [
   {
    "lane": "github_pr",
@@ -133,17 +133,59 @@
   },
   {
    "lane": "github_pr",
-   "title": "parse_duration drops the days (d) unit",
-   "url": "https://github.com/tine1117/oss-hunter-livefire/issues/1",
-   "repo": "tine1117/oss-hunter-livefire",
-   "issue_number": 1,
-   "value_usd": 50,
+   "title": "[wildcard] GUARANTEES.md row 12 is wrong: cancellation-safety is a one-pass corollary of Tier-0",
+   "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/352",
+   "repo": "limitlessprojects/Go-Hybrid",
+   "issue_number": 352,
+   "value_usd": 250,
    "labels": [
     "\ud83d\udc8e bounty",
-    "$50"
+    "wildcard"
    ],
    "small": false,
-   "created": "2026-06-01T14:37:16Z"
+   "created": "2026-10-17T02:20:41Z"
+  },
+  {
+   "lane": "github_pr",
+   "title": "[wildcard] Certify cancellation-safe structured task regions through blocking-effect admission",
+   "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/348",
+   "repo": "limitlessprojects/Go-Hybrid",
+   "issue_number": 348,
+   "value_usd": 250,
+   "labels": [
+    "\ud83d\udc8e bounty",
+    "wildcard"
+   ],
+   "small": false,
+   "created": "2026-10-16T23:50:59Z"
+  },
+  {
+   "lane": "github_pr",
+   "title": "[wildcard] Make hy-emit untrusted: independently validated lowering to plain Go",
+   "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/345",
+   "repo": "limitlessprojects/Go-Hybrid",
+   "issue_number": 345,
+   "value_usd": 250,
+   "labels": [
+    "\ud83d\udc8e bounty",
+    "wildcard"
+   ],
+   "small": false,
+   "created": "2026-10-16T22:12:20Z"
+  },
+  {
+   "lane": "github_pr",
+   "title": "[wildcard] Erase the .hy / .go Split: Whole-Package Tier-0 Checking via Native Go AST and Export-Data Analysis",
+   "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/186",
+   "repo": "limitlessprojects/Go-Hybrid",
+   "issue_number": 186,
+   "value_usd": 250,
+   "labels": [
+    "\ud83d\udc8e bounty",
+    "wildcard"
+   ],
+   "small": false,
+   "created": "2026-10-15T12:09:37Z"
   }
  ]
 }

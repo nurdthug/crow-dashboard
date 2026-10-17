@@ -7,7 +7,7 @@
   "token": "USDG",
   "fit": 5760.0,
   "kind": "content",
-  "days_left": 9.179043329884259
+  "days_left": 8.233457348148148
  },
  {
   "file": "drafts/02-rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-via.md",
@@ -17,7 +17,7 @@
   "token": "USDG",
   "fit": 5000.0,
   "kind": "generic",
-  "days_left": 9.179043329884259
+  "days_left": 8.233457348148148
  },
  {
   "file": "drafts/03-meta-vr-start-developer-competition-2026.md",
@@ -35,9 +35,9 @@
   "url": "https://earn.superteam.fun/listings/vaultline-security-audit-grants-for-colosseum-projects-up-to-4000-usdc-each",
   "value_usd": 40000.0,
   "token": "USDC",
-  "fit": 3287.67,
+  "fit": 3243.24,
   "kind": "generic",
-  "days_left": 15.17904332988426
+  "days_left": 14.23345734814815
  },
  {
   "file": "drafts/05-hackyeah-superteam-poland-track.md",
@@ -45,8 +45,8 @@
   "url": "https://earn.superteam.fun/listings/hackyeah-superteam-poland-track",
   "value_usd": 3000.0,
   "token": "USDG",
-  "fit": 2400.0,
+  "fit": 2181.82,
   "kind": "generic",
-  "days_left": 14.17904332988426
+  "days_left": 13.23345734814815
  }
 ]
