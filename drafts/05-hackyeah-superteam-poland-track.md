@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/hackyeah-superteam-poland-track
 - Value: $3,000 USDG
-- Deadline: 13 days left (as of 2026-10-17 16:23 UTC)
+- Deadline: 13 days left (as of 2026-10-17 16:39 UTC)
 - Fit score: 2,182 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 

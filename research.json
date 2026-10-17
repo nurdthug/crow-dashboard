@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17 16:23 UTC",
+  "generated_at": "2026-10-17 16:39 UTC",
   "reviewed": 21,
   "agent_allowed": 0,
   "recommendations": [
@@ -174,19 +174,19 @@
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 56349,
+      "competition": 56357,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 16127,
+      "competition": 16133,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 24349,
+      "competition": 24356,
       "reason": "huge pool, but high visible competition"
     },
     {
