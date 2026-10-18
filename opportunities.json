@@ -10,7 +10,7 @@
     "token": "USD",
     "deadline": null,
     "days_left": 30.0,
-    "competition": 3338,
+    "competition": 3383,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "AR/VR",
@@ -30,11 +30,11 @@
     "value_usd": 5000.0,
     "token": "USDG",
     "deadline": "2026-10-25T21:59:59.000Z",
-    "days_left": 8.222232871458333,
-    "competition": 0,
+    "days_left": 7.228099790775463,
+    "competition": 1,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 5000.0,
+    "score": 4444.44,
     "is_new": false
   },
   {
@@ -47,11 +47,11 @@
     "value_usd": 6000.0,
     "token": "USDG",
     "deadline": "2026-10-25T21:59:59.000Z",
-    "days_left": 8.222232871458333,
-    "competition": 2,
+    "days_left": 7.228099790775463,
+    "competition": 6,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 4800.0,
+    "score": 3428.57,
     "is_new": false
   },
   {
@@ -64,11 +64,11 @@
     "value_usd": 40000.0,
     "token": "USDC",
     "deadline": "2026-10-31T21:59:59.000Z",
-    "days_left": 14.222232871458333,
-    "competition": 66,
+    "days_left": 13.228099790775463,
+    "competition": 71,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 3243.24,
+    "score": 3037.97,
     "is_new": false
   },
   {
@@ -81,8 +81,8 @@
     "value_usd": 138000.0,
     "token": "USD",
     "deadline": null,
-    "days_left": 6.0,
-    "competition": 56357,
+    "days_left": 5.0,
+    "competition": 56756,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "Machine Learning/AI",
@@ -102,11 +102,11 @@
     "value_usd": 3000.0,
     "token": "USDG",
     "deadline": "2026-10-30T21:59:59.000Z",
-    "days_left": 13.222232871458333,
-    "competition": 3,
+    "days_left": 12.228099790775463,
+    "competition": 4,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 2181.82,
+    "score": 2000.0,
     "is_new": false
   },
   {
@@ -119,8 +119,8 @@
     "value_usd": 67500.0,
     "token": "USD",
     "deadline": null,
-    "days_left": 26.0,
-    "competition": 16133,
+    "days_left": 25.0,
+    "competition": 16580,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "Low/No Code",
@@ -128,23 +128,6 @@
       "Web"
     ],
     "score": 1350.0,
-    "is_new": false
-  },
-  {
-    "source": "superteam-earn",
-    "type": "bounty",
-    "title": "Redesign Your Favourite App on Solana",
-    "url": "https://earn.superteam.fun/listings/redesign-your-favourite-app-on-solana",
-    "sponsor": "Superteam India",
-    "sponsor_verified": true,
-    "value_usd": 1500.0,
-    "token": "USDC",
-    "deadline": "2026-10-23T18:29:59.999Z",
-    "days_left": 6.076411100625,
-    "competition": 4,
-    "agent_access": "HUMAN_ONLY",
-    "themes": [],
-    "score": 1000.0,
     "is_new": false
   },
   {
@@ -157,8 +140,8 @@
     "value_usd": 50000.0,
     "token": "USD",
     "deadline": null,
-    "days_left": 13.0,
-    "competition": 24356,
+    "days_left": 12.0,
+    "competition": 24636,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "Machine Learning/AI",
@@ -178,8 +161,8 @@
     "value_usd": 45000.0,
     "token": "USD",
     "deadline": null,
-    "days_left": 10.0,
-    "competition": 2481,
+    "days_left": 9.0,
+    "competition": 2562,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "DevOps",
@@ -192,6 +175,23 @@
   {
     "source": "superteam-earn",
     "type": "bounty",
+    "title": "Redesign Your Favourite App on Solana",
+    "url": "https://earn.superteam.fun/listings/redesign-your-favourite-app-on-solana",
+    "sponsor": "Superteam India",
+    "sponsor_verified": true,
+    "value_usd": 1500.0,
+    "token": "USDC",
+    "deadline": "2026-10-23T18:29:59.999Z",
+    "days_left": 5.082278019942129,
+    "competition": 8,
+    "agent_access": "HUMAN_ONLY",
+    "themes": [],
+    "score": 750.0,
+    "is_new": false
+  },
+  {
+    "source": "superteam-earn",
+    "type": "bounty",
     "title": "Colosseum: Founder Support - Talk to 5 Users",
     "url": "https://earn.superteam.fun/listings/colosseum-founder-support-talk-to-5-users",
     "sponsor": "Superteam Netherlands",
@@ -199,7 +199,7 @@
     "value_usd": 1000.0,
     "token": "USDG",
     "deadline": "2026-10-25T09:59:59.000Z",
-    "days_left": 7.722232871458333,
+    "days_left": 6.728099790775463,
     "competition": 4,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
@@ -216,8 +216,8 @@
     "value_usd": 40000.0,
     "token": "USD",
     "deadline": null,
-    "days_left": 11.0,
-    "competition": 928,
+    "days_left": 10.0,
+    "competition": 939,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "Communication",
@@ -237,7 +237,7 @@
     "value_usd": 500.0,
     "token": "USDG",
     "deadline": "2026-10-21T21:59:59.000Z",
-    "days_left": 4.222232871458333,
+    "days_left": 3.2280997907754627,
     "competition": 1,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
@@ -254,8 +254,8 @@
     "value_usd": 25000.0,
     "token": "USD",
     "deadline": null,
-    "days_left": 13.0,
-    "competition": 1685,
+    "days_left": 12.0,
+    "competition": 1765,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "Machine Learning/AI"
@@ -273,8 +273,8 @@
     "value_usd": 20250.0,
     "token": "USD",
     "deadline": null,
-    "days_left": 10.0,
-    "competition": 5102,
+    "days_left": 9.0,
+    "competition": 5150,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "IoT",
@@ -294,11 +294,11 @@
     "value_usd": 500.0,
     "token": "USDG",
     "deadline": "2026-11-12T22:59:59.000Z",
-    "days_left": 26.263899538125003,
-    "competition": 7,
+    "days_left": 25.269766457442127,
+    "competition": 11,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 200.0,
+    "score": 157.89,
     "is_new": false
   },
   {
@@ -311,11 +311,11 @@
     "value_usd": 620.0,
     "token": "USDC",
     "deadline": "2026-10-23T21:59:59.000Z",
-    "days_left": 6.222232871458333,
-    "competition": 18,
+    "days_left": 5.228099790775463,
+    "competition": 20,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 143.08,
+    "score": 132.86,
     "is_new": false
   },
   {
@@ -328,11 +328,11 @@
     "value_usd": 2000.0,
     "token": "USDG",
     "deadline": "2026-10-24T22:59:59.999Z",
-    "days_left": 7.263911100625,
-    "competition": 201,
+    "days_left": 6.269778019942129,
+    "competition": 212,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 76.56,
+    "score": 72.73,
     "is_new": false
   },
   {
@@ -345,8 +345,8 @@
     "value_usd": 2500.0,
     "token": "USD",
     "deadline": null,
-    "days_left": 9.0,
-    "competition": 3972,
+    "days_left": 8.0,
+    "competition": 4098,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "Machine Learning/AI",
@@ -366,11 +366,11 @@
     "value_usd": 500.0,
     "token": "USDC",
     "deadline": "2026-11-24T02:59:59.000Z",
-    "days_left": 37.43056620479167,
-    "competition": 58,
+    "days_left": 36.436433124108795,
+    "competition": 68,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 45.45,
+    "score": 39.47,
     "is_new": false
   },
   {
@@ -383,11 +383,11 @@
     "value_usd": 500.0,
     "token": "USDC",
     "deadline": "2026-11-14T18:29:59.000Z",
-    "days_left": 28.076399538125003,
-    "competition": 181,
+    "days_left": 27.082266457442127,
+    "competition": 197,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 15.87,
+    "score": 14.63,
     "is_new": false
   }
 ]

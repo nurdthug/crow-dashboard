@@ -1,31 +1,7 @@
 {
- "generated": "2026-10-17T16:40:01+00:00",
+ "generated": "2026-10-18T16:31:33+00:00",
  "count": 12,
  "items": [
-  {
-   "lane": "github_pr",
-   "title": "Automate Bug Detection and Reviews",
-   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11398",
-   "repo": "SecureBananaLabs/bug-bounty",
-   "issue_number": 11398,
-   "value_usd": 800,
-   "labels": [
-    "bug",
-    "documentation",
-    "enhancement",
-    "good first issue",
-    "help wanted",
-    "bug bounty",
-    "ai agent friendly",
-    "bounty",
-    "\ud83d\udc8e bounty",
-    "$780",
-    "$1k",
-    "$1.2k"
-   ],
-   "small": true,
-   "created": "2026-07-25T09:51:18Z"
-  },
   {
    "lane": "github_pr",
    "title": "[$750] WebGL renderer for the 3D memory graph: 50,000 nodes at interactive frame rates",
@@ -130,6 +106,20 @@
    ],
    "small": true,
    "created": "2026-10-16T05:30:20Z"
+  },
+  {
+   "lane": "github_pr",
+   "title": "[wildcard] Make FFI claims proof-carrying: verify boundary contracts against the linked Rust artifact",
+   "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/610",
+   "repo": "limitlessprojects/Go-Hybrid",
+   "issue_number": 610,
+   "value_usd": 250,
+   "labels": [
+    "\ud83d\udc8e bounty",
+    "wildcard"
+   ],
+   "small": false,
+   "created": "2026-10-18T09:41:00Z"
   },
   {
    "lane": "github_pr",
