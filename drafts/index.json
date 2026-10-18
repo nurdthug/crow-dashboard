@@ -7,7 +7,7 @@
   "token": "USDG",
   "fit": 4444.44,
   "kind": "generic",
-  "days_left": 7.228099790775463
+  "days_left": 7.210026012465278
  },
  {
   "file": "drafts/02-travel-boost-create-content-for-breakpoint-2026.md",
@@ -17,7 +17,7 @@
   "token": "USDG",
   "fit": 4114.28,
   "kind": "content",
-  "days_left": 7.228099790775463
+  "days_left": 7.210026012465278
  },
  {
   "file": "drafts/03-meta-vr-start-developer-competition-2026.md",
@@ -37,7 +37,7 @@
   "token": "USDC",
   "fit": 3037.97,
   "kind": "generic",
-  "days_left": 13.228099790775463
+  "days_left": 13.21002601246528
  },
  {
   "file": "drafts/05-hackyeah-superteam-poland-track.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 2000.0,
   "kind": "generic",
-  "days_left": 12.228099790775463
+  "days_left": 12.21002601246528
  }
 ]
