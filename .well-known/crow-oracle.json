@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://debate-exhibit-greatest-legislation.trycloudflare.com",
+    "baseUrl": "https://kerry-anaheim-bicycle-adding.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://debate-exhibit-greatest-legislation.trycloudflare.com/healthz",
+    "health": "https://kerry-anaheim-bicycle-adding.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://debate-exhibit-greatest-legislation.trycloudflare.com/catalog.json",
-    "openapi": "https://debate-exhibit-greatest-legislation.trycloudflare.com/openapi.json",
-    "llms": "https://debate-exhibit-greatest-legislation.trycloudflare.com/llms.txt",
-    "freeSample": "https://debate-exhibit-greatest-legislation.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://debate-exhibit-greatest-legislation.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://debate-exhibit-greatest-legislation.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://debate-exhibit-greatest-legislation.trycloudflare.com/state"
+    "catalog": "https://kerry-anaheim-bicycle-adding.trycloudflare.com/catalog.json",
+    "openapi": "https://kerry-anaheim-bicycle-adding.trycloudflare.com/openapi.json",
+    "llms": "https://kerry-anaheim-bicycle-adding.trycloudflare.com/llms.txt",
+    "freeSample": "https://kerry-anaheim-bicycle-adding.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://kerry-anaheim-bicycle-adding.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://kerry-anaheim-bicycle-adding.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://kerry-anaheim-bicycle-adding.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://debate-exhibit-greatest-legislation.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://kerry-anaheim-bicycle-adding.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://debate-exhibit-greatest-legislation.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://kerry-anaheim-bicycle-adding.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
