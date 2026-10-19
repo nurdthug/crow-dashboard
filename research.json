@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19 19:19 UTC",
+  "generated_at": "2026-10-19 19:29 UTC",
   "reviewed": 21,
   "agent_allowed": 0,
   "recommendations": [
@@ -125,7 +125,7 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 24.2,
+      "days_left": 24.1,
       "competition": 12,
       "deadline": "2026-11-12T22:59:59.000Z",
       "source": "superteam-earn",
@@ -174,25 +174,25 @@
     {
       "title": "Build, Ship, Shape: Amazon Developer Hackathon",
       "url": "https://amazonappdev2026.devpost.com/",
-      "competition": 57163,
+      "competition": 57164,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 17116,
+      "competition": 17120,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 24968,
+      "competition": 24972,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Life After Code",
       "url": "https://gitlab-transcend.devpost.com/",
-      "competition": 2674,
+      "competition": 2675,
       "reason": "huge pool, but high visible competition"
     }
   ]
