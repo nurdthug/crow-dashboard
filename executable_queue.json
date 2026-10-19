@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-18T16:57:35+00:00",
- "count": 12,
+ "generated": "2026-10-19T19:19:26+00:00",
+ "count": 11,
  "items": [
   {
    "lane": "github_pr",
@@ -46,21 +46,6 @@
    ],
    "small": true,
    "created": "2026-10-16T05:30:25Z"
-  },
-  {
-   "lane": "github_pr",
-   "title": "Bounty track: hunt accepted-but-unsound programs at the task boundary",
-   "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/5",
-   "repo": "limitlessprojects/Go-Hybrid",
-   "issue_number": 5,
-   "value_usd": 500,
-   "labels": [
-    "help wanted",
-    "soundness",
-    "\ud83d\udc8e bounty"
-   ],
-   "small": true,
-   "created": "2026-10-14T10:31:03Z"
   },
   {
    "lane": "github_pr",

@@ -1,23 +1,23 @@
 [
  {
-  "file": "drafts/01-rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-via.md",
-  "title": "Rumbo a Breakpoint 2026: gana una entrada y apoyo para tu viaje",
-  "url": "https://earn.superteam.fun/listings/rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-viaje",
-  "value_usd": 5000.0,
-  "token": "USDG",
-  "fit": 4444.44,
-  "kind": "generic",
-  "days_left": 7.210026012465278
- },
- {
-  "file": "drafts/02-travel-boost-create-content-for-breakpoint-2026.md",
+  "file": "drafts/01-travel-boost-create-content-for-breakpoint-2026.md",
   "title": "Travel boost: Create Content for Breakpoint 2026",
   "url": "https://earn.superteam.fun/listings/travel-boost-for-bp26",
   "value_usd": 6000.0,
   "token": "USDG",
-  "fit": 4114.28,
+  "fit": 3840.0,
   "kind": "content",
-  "days_left": 7.210026012465278
+  "days_left": 6.1115138766203705
+ },
+ {
+  "file": "drafts/02-rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-via.md",
+  "title": "Rumbo a Breakpoint 2026: gana una entrada y apoyo para tu viaje",
+  "url": "https://earn.superteam.fun/listings/rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-viaje",
+  "value_usd": 5000.0,
+  "token": "USDG",
+  "fit": 3636.36,
+  "kind": "generic",
+  "days_left": 6.1115138766203705
  },
  {
   "file": "drafts/03-meta-vr-start-developer-competition-2026.md",
@@ -35,9 +35,9 @@
   "url": "https://earn.superteam.fun/listings/vaultline-security-audit-grants-for-colosseum-projects-up-to-4000-usdc-each",
   "value_usd": 40000.0,
   "token": "USDC",
-  "fit": 3037.97,
+  "fit": 2891.57,
   "kind": "generic",
-  "days_left": 13.21002601246528
+  "days_left": 12.11151387662037
  },
  {
   "file": "drafts/05-hackyeah-superteam-poland-track.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 2000.0,
   "kind": "generic",
-  "days_left": 12.21002601246528
+  "days_left": 11.11151387662037
  }
 ]
