@@ -1,9 +1,9 @@
-# Draft pack — HackYeah - Superteam Poland Track
+# Draft pack — Colosseum: Founder Support - Talk to 5 Users
 
-- Listing: https://earn.superteam.fun/listings/hackyeah-superteam-poland-track
-- Value: $3,000 USDG
-- Deadline: 11 days left (as of 2026-10-19 19:29 UTC)
-- Fit score: 2,000 — verified sponsor, low competition
+- Listing: https://earn.superteam.fun/listings/colosseum-founder-support-talk-to-5-users
+- Value: $1,000 USDG
+- Deadline: 5 days left (as of 2026-10-20 17:57 UTC)
+- Fit score: 667 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
