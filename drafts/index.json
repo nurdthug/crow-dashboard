@@ -7,7 +7,7 @@
   "token": "USDC",
   "fit": 3750.0,
   "kind": "build",
-  "days_left": 40.20756656592593
+  "days_left": 40.197131222222225
  },
  {
   "file": "drafts/02-rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-via.md",
@@ -17,7 +17,7 @@
   "token": "USDG",
   "fit": 3636.36,
   "kind": "generic",
-  "days_left": 13.165911461759258
+  "days_left": 13.155476118055557
  },
  {
   "file": "drafts/03-meta-vr-start-developer-competition-2026.md",
@@ -37,7 +37,7 @@
   "token": "USDC",
   "fit": 2727.27,
   "kind": "generic",
-  "days_left": 10.165899899259259
+  "days_left": 10.155464555555556
  },
  {
   "file": "drafts/05-travel-boost-create-content-for-breakpoint-2026.md",
@@ -47,6 +47,6 @@
   "token": "USDG",
   "fit": 2504.35,
   "kind": "content",
-  "days_left": 4.165899899259259
+  "days_left": 4.155464555555556
  }
 ]
