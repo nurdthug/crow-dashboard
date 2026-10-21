@@ -1,10 +1,10 @@
-# Draft pack — Meta VR Start Developer Competition 2026
+# Draft pack — MultiHopper Build & Route Challenge | Up to $50,000 + Revenue Share
 
-- Listing: https://start-developer-competition-26.devpost.com/
-- Value: $1,000,000 USD
-- Deadline: 29 days left (as of 2026-10-20 18:07 UTC)
-- Fit score: 3,500 — verified sponsor
-- First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
+- Listing: https://earn.superteam.fun/listings/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1
+- Value: $5,000 USDC
+- Deadline: 40 days left (as of 2026-10-21 18:01 UTC)
+- Fit score: 3,750 — no visible competition yet
+- First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
 - [ ] Read full rules & eligibility (region, KYC, team size)
