@@ -1,9 +1,9 @@
-# Draft pack — Vaultline Security Audit Grants for Colosseum Projects: Up to 4,000 USDC Each
+# Draft pack — Inside the Block: How Solana Validators Order Transactions
 
-- Listing: https://earn.superteam.fun/listings/vaultline-security-audit-grants-for-colosseum-projects-up-to-4000-usdc-each
-- Value: $40,000 USDC
-- Deadline: 10 days left (as of 2026-10-21 18:16 UTC)
-- Fit score: 2,727 — reasonable EV after competition/deadline adjustment
+- Listing: https://earn.superteam.fun/listings/inside-the-block-how-solana-validators-order-transactions
+- Value: $2,500 USDC
+- Deadline: 14 days left (as of 2026-10-22 17:58 UTC)
+- Fit score: 2,500 — verified sponsor, no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
