@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/travel-boost-for-bp26
 - Value: $6,000 USDG
-- Deadline: 3 days left (as of 2026-10-22 17:58 UTC)
+- Deadline: 3 days left (as of 2026-10-22 18:10 UTC)
 - Fit score: 2,057 — verified sponsor
 - First action: Draft script/angle and collect required brand/rule links.
 
