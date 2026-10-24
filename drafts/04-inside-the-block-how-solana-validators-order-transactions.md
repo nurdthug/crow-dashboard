@@ -2,8 +2,8 @@
 
 - Listing: https://earn.superteam.fun/listings/inside-the-block-how-solana-validators-order-transactions
 - Value: $2,500 USDC
-- Deadline: 13 days left (as of 2026-10-23 17:57 UTC)
-- Fit score: 2,000 — verified sponsor, low competition
+- Deadline: 12 days left (as of 2026-10-24 16:34 UTC)
+- Fit score: 1,667 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
