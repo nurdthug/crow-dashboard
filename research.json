@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24 16:34 UTC",
+  "generated_at": "2026-10-24 17:01 UTC",
   "reviewed": 21,
   "agent_allowed": 0,
   "recommendations": [
@@ -109,7 +109,7 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 19.3,
+      "days_left": 19.2,
       "competition": 15,
       "deadline": "2026-11-12T22:59:59.000Z",
       "source": "superteam-earn",
@@ -149,7 +149,7 @@
     },
     {
       "rank": 10,
-      "fit": 6.48,
+      "fit": 6.45,
       "title": "Write a thread on $CHIMP Fair Launch - Part 1",
       "url": "https://earn.superteam.fun/listings/chimp-on-metaplex",
       "value_usd": 500.0,
@@ -158,7 +158,7 @@
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
       "days_left": 21.1,
-      "competition": 293,
+      "competition": 294,
       "deadline": "2026-11-14T18:29:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -168,31 +168,31 @@
     {
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
-      "competition": 3838,
+      "competition": 3839,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 20393,
+      "competition": 20420,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon",
       "url": "https://aws-cds-partner.devpost.com/",
-      "competition": 1015,
+      "competition": 1016,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 26807,
+      "competition": 26822,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Life After Code",
       "url": "https://gitlab-transcend.devpost.com/",
-      "competition": 3065,
+      "competition": 3067,
       "reason": "huge pool, but high visible competition"
     }
   ]
