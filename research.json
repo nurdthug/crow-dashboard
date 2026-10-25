@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25 17:03 UTC",
+  "generated_at": "2026-10-25 17:14 UTC",
   "reviewed": 19,
   "agent_allowed": 0,
   "recommendations": [
@@ -133,7 +133,7 @@
     },
     {
       "rank": 9,
-      "fit": 6.0,
+      "fit": 5.98,
       "title": "Write a thread on $CHIMP Fair Launch - Part 1",
       "url": "https://earn.superteam.fun/listings/chimp-on-metaplex",
       "value_usd": 500.0,
@@ -142,7 +142,7 @@
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
       "days_left": 20.1,
-      "competition": 317,
+      "competition": 318,
       "deadline": "2026-11-14T18:29:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -174,7 +174,7 @@
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 21116,
+      "competition": 21125,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -186,13 +186,13 @@
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 27292,
+      "competition": 27299,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Life After Code",
       "url": "https://gitlab-transcend.devpost.com/",
-      "competition": 3158,
+      "competition": 3160,
       "reason": "huge pool, but high visible competition"
     }
   ]

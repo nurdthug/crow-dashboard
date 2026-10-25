@@ -17,7 +17,7 @@
   "token": "USDC",
   "fit": 2424.24,
   "kind": "generic",
-  "days_left": 6.206237545833334
+  "days_left": 6.198510804976852
  },
  {
   "file": "drafts/03-rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-via.md",
@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 1904.76,
   "kind": "generic",
-  "days_left": 9.206249108333333
+  "days_left": 9.198522367476853
  },
  {
   "file": "drafts/04-inside-the-block-how-solana-validators-order-transactions.md",
@@ -37,7 +37,7 @@
   "token": "USDC",
   "fit": 1428.57,
   "kind": "generic",
-  "days_left": 11.206249108333333
+  "days_left": 11.198522367476853
  },
  {
   "file": "drafts/05-multihopper-build-route-challenge-up-to-50-000-revenue-share.md",
@@ -47,6 +47,6 @@
   "token": "USDC",
   "fit": 882.35,
   "kind": "build",
-  "days_left": 50.20623754583334
+  "days_left": 50.19851080497685
  }
 ]
