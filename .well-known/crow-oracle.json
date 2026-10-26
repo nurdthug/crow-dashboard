@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://remembered-occurred-pads-sectors.trycloudflare.com",
+    "baseUrl": "https://results-toner-icon-freeze.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://remembered-occurred-pads-sectors.trycloudflare.com/healthz",
+    "health": "https://results-toner-icon-freeze.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://remembered-occurred-pads-sectors.trycloudflare.com/catalog.json",
-    "openapi": "https://remembered-occurred-pads-sectors.trycloudflare.com/openapi.json",
-    "llms": "https://remembered-occurred-pads-sectors.trycloudflare.com/llms.txt",
-    "freeSample": "https://remembered-occurred-pads-sectors.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://remembered-occurred-pads-sectors.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://remembered-occurred-pads-sectors.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://remembered-occurred-pads-sectors.trycloudflare.com/state"
+    "catalog": "https://results-toner-icon-freeze.trycloudflare.com/catalog.json",
+    "openapi": "https://results-toner-icon-freeze.trycloudflare.com/openapi.json",
+    "llms": "https://results-toner-icon-freeze.trycloudflare.com/llms.txt",
+    "freeSample": "https://results-toner-icon-freeze.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://results-toner-icon-freeze.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://results-toner-icon-freeze.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://results-toner-icon-freeze.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://remembered-occurred-pads-sectors.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://results-toner-icon-freeze.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://remembered-occurred-pads-sectors.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://results-toner-icon-freeze.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
