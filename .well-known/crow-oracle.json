@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://dictionaries-kruger-lou-approve.trycloudflare.com",
+    "baseUrl": "https://lane-rrp-toddler-injuries.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://dictionaries-kruger-lou-approve.trycloudflare.com/healthz",
+    "health": "https://lane-rrp-toddler-injuries.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://dictionaries-kruger-lou-approve.trycloudflare.com/catalog.json",
-    "openapi": "https://dictionaries-kruger-lou-approve.trycloudflare.com/openapi.json",
-    "llms": "https://dictionaries-kruger-lou-approve.trycloudflare.com/llms.txt",
-    "freeSample": "https://dictionaries-kruger-lou-approve.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://dictionaries-kruger-lou-approve.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://dictionaries-kruger-lou-approve.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://dictionaries-kruger-lou-approve.trycloudflare.com/state"
+    "catalog": "https://lane-rrp-toddler-injuries.trycloudflare.com/catalog.json",
+    "openapi": "https://lane-rrp-toddler-injuries.trycloudflare.com/openapi.json",
+    "llms": "https://lane-rrp-toddler-injuries.trycloudflare.com/llms.txt",
+    "freeSample": "https://lane-rrp-toddler-injuries.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://lane-rrp-toddler-injuries.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://lane-rrp-toddler-injuries.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://lane-rrp-toddler-injuries.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://dictionaries-kruger-lou-approve.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://lane-rrp-toddler-injuries.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://dictionaries-kruger-lou-approve.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://lane-rrp-toddler-injuries.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
