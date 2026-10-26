@@ -2,8 +2,8 @@
 
 - Listing: https://earn.superteam.fun/listings/rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-viaje
 - Value: $5,000 USDG
-- Deadline: 9 days left (as of 2026-10-25 17:14 UTC)
-- Fit score: 1,905 — verified sponsor
+- Deadline: 8 days left (as of 2026-10-26 19:17 UTC)
+- Fit score: 1,818 — verified sponsor
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist

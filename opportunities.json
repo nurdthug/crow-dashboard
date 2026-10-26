@@ -9,8 +9,8 @@
     "value_usd": 1000000.0,
     "token": "USD",
     "deadline": null,
-    "days_left": 24.0,
-    "competition": 3952,
+    "days_left": 23.0,
+    "competition": 4086,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "AR/VR",
@@ -30,11 +30,11 @@
     "value_usd": 40000.0,
     "token": "USDC",
     "deadline": "2026-10-31T21:59:59.000Z",
-    "days_left": 6.198510804976852,
-    "competition": 91,
+    "days_left": 5.112706480752315,
+    "competition": 95,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 2424.24,
+    "score": 2330.1,
     "is_new": false
   },
   {
@@ -47,28 +47,11 @@
     "value_usd": 5000.0,
     "token": "USDG",
     "deadline": "2026-11-03T21:59:59.999Z",
-    "days_left": 9.198522367476853,
-    "competition": 13,
+    "days_left": 8.112718043252315,
+    "competition": 14,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 1904.76,
-    "is_new": false
-  },
-  {
-    "source": "superteam-earn",
-    "type": "bounty",
-    "title": "Inside the Block: How Solana Validators Order Transactions",
-    "url": "https://earn.superteam.fun/listings/inside-the-block-how-solana-validators-order-transactions",
-    "sponsor": "Superteam Ukraine",
-    "sponsor_verified": true,
-    "value_usd": 2500.0,
-    "token": "USDC",
-    "deadline": "2026-11-05T21:59:59.999Z",
-    "days_left": 11.198522367476853,
-    "competition": 6,
-    "agent_access": "HUMAN_ONLY",
-    "themes": [],
-    "score": 1428.57,
+    "score": 1818.18,
     "is_new": false
   },
   {
@@ -81,8 +64,8 @@
     "value_usd": 67500.0,
     "token": "USD",
     "deadline": null,
-    "days_left": 18.0,
-    "competition": 21125,
+    "days_left": 17.0,
+    "competition": 22036,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "Low/No Code",
@@ -90,6 +73,23 @@
       "Web"
     ],
     "score": 1350.0,
+    "is_new": false
+  },
+  {
+    "source": "superteam-earn",
+    "type": "bounty",
+    "title": "Inside the Block: How Solana Validators Order Transactions",
+    "url": "https://earn.superteam.fun/listings/inside-the-block-how-solana-validators-order-transactions",
+    "sponsor": "Superteam Ukraine",
+    "sponsor_verified": true,
+    "value_usd": 2500.0,
+    "token": "USDC",
+    "deadline": "2026-11-05T21:59:59.999Z",
+    "days_left": 10.112718043252315,
+    "competition": 9,
+    "agent_access": "HUMAN_ONLY",
+    "themes": [],
+    "score": 1176.47,
     "is_new": false
   },
   {
@@ -102,8 +102,8 @@
     "value_usd": 50000.0,
     "token": "USD",
     "deadline": null,
-    "days_left": 5.0,
-    "competition": 27299,
+    "days_left": 4.0,
+    "competition": 27861,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "Machine Learning/AI",
@@ -123,32 +123,11 @@
     "value_usd": 5000.0,
     "token": "USDC",
     "deadline": "2026-12-14T21:59:59.000Z",
-    "days_left": 50.19851080497685,
-    "competition": 26,
+    "days_left": 49.11270648075231,
+    "competition": 28,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 882.35,
-    "is_new": false
-  },
-  {
-    "source": "devpost",
-    "type": "hackathon",
-    "title": "AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon",
-    "url": "https://aws-cds-partner.devpost.com/",
-    "sponsor": "AWS",
-    "sponsor_verified": false,
-    "value_usd": 40000.0,
-    "token": "USD",
-    "deadline": null,
-    "days_left": 3.0,
-    "competition": 1028,
-    "agent_access": "HUMAN_ONLY",
-    "themes": [
-      "Communication",
-      "Mobile",
-      "Machine Learning/AI"
-    ],
-    "score": 600.0,
+    "score": 833.33,
     "is_new": false
   },
   {
@@ -161,16 +140,37 @@
     "value_usd": 45000.0,
     "token": "USD",
     "deadline": null,
-    "days_left": 2.0,
-    "competition": 3160,
+    "days_left": null,
+    "competition": 3277,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "DevOps",
       "Machine Learning/AI",
       "Productivity"
     ],
-    "score": 540.0,
+    "score": 720.0,
     "is_new": false
+  },
+  {
+    "source": "devpost",
+    "type": "hackathon",
+    "title": "Codex x TwitchCon Hackathon",
+    "url": "https://twitchcon-codex.devpost.com/",
+    "sponsor": "Twitch",
+    "sponsor_verified": true,
+    "value_usd": 25000.0,
+    "token": "USD",
+    "deadline": null,
+    "days_left": 7.0,
+    "competition": 950,
+    "agent_access": "HUMAN_ONLY",
+    "themes": [
+      "Communication",
+      "Gaming",
+      "Machine Learning/AI"
+    ],
+    "score": 500.0,
+    "is_new": true
   },
   {
     "source": "devpost",
@@ -182,8 +182,8 @@
     "value_usd": 25000.0,
     "token": "USD",
     "deadline": null,
-    "days_left": 5.0,
-    "competition": 2396,
+    "days_left": 4.0,
+    "competition": 2511,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "Machine Learning/AI"
@@ -201,28 +201,11 @@
     "value_usd": 500.0,
     "token": "USDC",
     "deadline": "2026-11-12T21:59:59.999Z",
-    "days_left": 18.19852236747685,
-    "competition": 3,
+    "days_left": 17.112718043252315,
+    "competition": 4,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 272.73,
-    "is_new": false
-  },
-  {
-    "source": "superteam-earn",
-    "type": "bounty",
-    "title": "Travel boost: Create Content for Breakpoint 2026",
-    "url": "https://earn.superteam.fun/listings/travel-boost-for-bp26",
-    "sponsor": "Superteam Germany",
-    "sponsor_verified": true,
-    "value_usd": 6000.0,
-    "token": "USDG",
-    "deadline": "2026-10-25T21:59:59.000Z",
-    "days_left": 0.19851080497685183,
-    "competition": 37,
-    "agent_access": "HUMAN_ONLY",
-    "themes": [],
-    "score": 213.33,
+    "score": 250.0,
     "is_new": false
   },
   {
@@ -235,15 +218,15 @@
     "value_usd": 20250.0,
     "token": "USD",
     "deadline": null,
-    "days_left": 1.0,
-    "competition": 6095,
+    "days_left": null,
+    "competition": 6279,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "IoT",
       "Machine Learning/AI",
       "Serverless"
     ],
-    "score": 182.25,
+    "score": 243.0,
     "is_new": false
   },
   {
@@ -256,11 +239,11 @@
     "value_usd": 500.0,
     "token": "USDG",
     "deadline": "2026-11-12T22:59:59.000Z",
-    "days_left": 18.24017747164352,
-    "competition": 17,
+    "days_left": 17.154373147418983,
+    "competition": 21,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 120.0,
+    "score": 103.45,
     "is_new": false
   },
   {
@@ -273,8 +256,8 @@
     "value_usd": 6000.0,
     "token": "USD",
     "deadline": null,
-    "days_left": 8.0,
-    "competition": 1253,
+    "days_left": 7.0,
+    "competition": 1301,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "AR/VR",
@@ -294,16 +277,33 @@
     "value_usd": 2500.0,
     "token": "USD",
     "deadline": null,
-    "days_left": 1.0,
-    "competition": 4928,
+    "days_left": null,
+    "competition": 5106,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "Machine Learning/AI",
       "Beginner Friendly",
       "Education"
     ],
-    "score": 30.0,
+    "score": 40.0,
     "is_new": false
+  },
+  {
+    "source": "superteam-earn",
+    "type": "bounty",
+    "title": "RaptorX Research Challenge: Ask Better Questions. Find Better Alpha.",
+    "url": "https://earn.superteam.fun/listings/raptorx-research-challenge-ask-better-questions-find-better-alpha",
+    "sponsor": "RaptorX Labs",
+    "sponsor_verified": false,
+    "value_usd": 125.0,
+    "token": "USDC",
+    "deadline": "2026-11-02T03:59:59.000Z",
+    "days_left": 6.362706480752315,
+    "competition": 48,
+    "agent_access": "AGENT_ALLOWED",
+    "themes": [],
+    "score": 20.09,
+    "is_new": true
   },
   {
     "source": "superteam-earn",
@@ -315,11 +315,11 @@
     "value_usd": 500.0,
     "token": "USDC",
     "deadline": "2026-11-24T02:59:59.000Z",
-    "days_left": 29.406844138310188,
-    "competition": 137,
+    "days_left": 28.321039814085648,
+    "competition": 150,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 20.69,
+    "score": 18.99,
     "is_new": false
   },
   {
@@ -332,28 +332,11 @@
     "value_usd": 500.0,
     "token": "USDC",
     "deadline": "2026-11-14T18:29:59.000Z",
-    "days_left": 20.05267747164352,
-    "competition": 318,
+    "days_left": 18.966873147418983,
+    "competition": 341,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 9.2,
-    "is_new": false
-  },
-  {
-    "source": "superteam-earn",
-    "type": "project",
-    "title": "Motion Graphics Designer - Kimia Product Launch Film for X",
-    "url": "https://earn.superteam.fun/listings/motion-graphics-designer-kimia-product-launch-film-for-x",
-    "sponsor": "Kimia",
-    "sponsor_verified": false,
-    "value_usd": 0.0,
-    "token": "USDC",
-    "deadline": "2026-10-25T18:29:59.000Z",
-    "days_left": 0.05267747164351852,
-    "competition": 56,
-    "agent_access": "HUMAN_ONLY",
-    "themes": [],
-    "score": 0.0,
+    "score": 8.6,
     "is_new": false
   }
 ]

@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-25T17:14:09+00:00",
- "count": 11,
+ "generated": "2026-10-26T19:17:43+00:00",
+ "count": 12,
  "items": [
   {
    "lane": "github_pr",
@@ -91,6 +91,15 @@
    ],
    "small": true,
    "created": "2026-10-16T05:30:20Z"
+  },
+  {
+   "lane": "listing",
+   "title": "RaptorX Research Challenge: Ask Better Questions. Find Better Alpha.",
+   "url": "https://earn.superteam.fun/listings/raptorx-research-challenge-ask-better-questions-find-better-alpha",
+   "value_usd": 125.0,
+   "token": "USDC",
+   "days_left": 6.362706480752315,
+   "small": true
   },
   {
    "lane": "github_pr",
