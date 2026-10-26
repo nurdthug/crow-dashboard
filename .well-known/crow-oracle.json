@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://garage-techrepublic-destiny-sega.trycloudflare.com",
+    "baseUrl": "https://piece-organize-labor-fluid.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://garage-techrepublic-destiny-sega.trycloudflare.com/healthz",
+    "health": "https://piece-organize-labor-fluid.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://garage-techrepublic-destiny-sega.trycloudflare.com/catalog.json",
-    "openapi": "https://garage-techrepublic-destiny-sega.trycloudflare.com/openapi.json",
-    "llms": "https://garage-techrepublic-destiny-sega.trycloudflare.com/llms.txt",
-    "freeSample": "https://garage-techrepublic-destiny-sega.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://garage-techrepublic-destiny-sega.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://garage-techrepublic-destiny-sega.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://garage-techrepublic-destiny-sega.trycloudflare.com/state"
+    "catalog": "https://piece-organize-labor-fluid.trycloudflare.com/catalog.json",
+    "openapi": "https://piece-organize-labor-fluid.trycloudflare.com/openapi.json",
+    "llms": "https://piece-organize-labor-fluid.trycloudflare.com/llms.txt",
+    "freeSample": "https://piece-organize-labor-fluid.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://piece-organize-labor-fluid.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://piece-organize-labor-fluid.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://piece-organize-labor-fluid.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://garage-techrepublic-destiny-sega.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://piece-organize-labor-fluid.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://garage-techrepublic-destiny-sega.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://piece-organize-labor-fluid.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
