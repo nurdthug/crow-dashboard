@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26 19:17 UTC",
+  "generated_at": "2026-10-26 19:35 UTC",
   "reviewed": 18,
   "agent_allowed": 1,
   "recommendations": [
@@ -109,7 +109,7 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 17.2,
+      "days_left": 17.1,
       "competition": 21,
       "deadline": "2026-11-12T22:59:59.000Z",
       "source": "superteam-earn",
@@ -133,7 +133,7 @@
     },
     {
       "rank": 9,
-      "fit": 14.81,
+      "fit": 14.72,
       "title": "Create Content on Premier League Predictions with worm \ud83e\udeb1\u26bd",
       "url": "https://earn.superteam.fun/listings/create-content-on-premier-league-predictions-with-worm",
       "value_usd": 500.0,
@@ -142,7 +142,7 @@
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
       "days_left": 28.3,
-      "competition": 150,
+      "competition": 151,
       "deadline": "2026-11-24T02:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -168,19 +168,19 @@
     {
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
-      "competition": 4086,
+      "competition": 4088,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 22036,
+      "competition": 22044,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 27861,
+      "competition": 27867,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -192,7 +192,7 @@
     {
       "title": "Qloo Agentic Hackathon",
       "url": "https://qloo.devpost.com/",
-      "competition": 2511,
+      "competition": 2515,
       "reason": "huge pool, but high visible competition"
     }
   ]
