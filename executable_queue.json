@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-26T19:35:17+00:00",
- "count": 12,
+ "generated": "2026-10-27T18:41:06+00:00",
+ "count": 11,
  "items": [
   {
    "lane": "github_pr",
@@ -98,7 +98,7 @@
    "url": "https://earn.superteam.fun/listings/raptorx-research-challenge-ask-better-questions-find-better-alpha",
    "value_usd": 125.0,
    "token": "USDC",
-   "days_left": 6.350521039270833,
+   "days_left": 5.388135353738426,
    "small": true
   },
   {
@@ -156,20 +156,6 @@
    ],
    "small": false,
    "created": "2026-10-16T22:12:20Z"
-  },
-  {
-   "lane": "github_pr",
-   "title": "[wildcard] Erase the .hy / .go Split: Whole-Package Tier-0 Checking via Native Go AST and Export-Data Analysis",
-   "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/186",
-   "repo": "limitlessprojects/Go-Hybrid",
-   "issue_number": 186,
-   "value_usd": 250,
-   "labels": [
-    "\ud83d\udc8e bounty",
-    "wildcard"
-   ],
-   "small": false,
-   "created": "2026-10-15T12:09:37Z"
   }
  ]
 }
