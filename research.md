@@ -1,4 +1,4 @@
-# Crow Research Brief — 2026-10-27 18:41 UTC
+# Crow Research Brief — 2026-10-27 18:59 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
@@ -19,8 +19,8 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 
 ## Do Not Chase First
 
-- [Meta VR Start Developer Competition 2026](https://start-developer-competition-26.devpost.com/): huge pool, but competition is already 4,221.
-- [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/): huge pool, but competition is already 22,772.
-- [Nebius x NVIDIA Global AI Hackathon](https://nebiusglobalaihackathon.devpost.com/): huge pool, but competition is already 28,328.
-- [Codex x TwitchCon Hackathon](https://twitchcon-codex.devpost.com/): huge pool, but competition is already 1,309.
-- [AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon](https://aws-cds-partner.devpost.com/): huge pool, but competition is already 1,069.
+- [Meta VR Start Developer Competition 2026](https://start-developer-competition-26.devpost.com/): huge pool, but competition is already 4,224.
+- [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/): huge pool, but competition is already 22,783.
+- [Nebius x NVIDIA Global AI Hackathon](https://nebiusglobalaihackathon.devpost.com/): huge pool, but competition is already 28,335.
+- [Codex x TwitchCon Hackathon](https://twitchcon-codex.devpost.com/): huge pool, but competition is already 1,313.
+- [AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon](https://aws-cds-partner.devpost.com/): huge pool, but competition is already 1,070.
