@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://largely-peak-photographer-educational.trycloudflare.com",
+    "baseUrl": "https://promise-luxury-stylish-minority.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://largely-peak-photographer-educational.trycloudflare.com/healthz",
+    "health": "https://promise-luxury-stylish-minority.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://largely-peak-photographer-educational.trycloudflare.com/catalog.json",
-    "openapi": "https://largely-peak-photographer-educational.trycloudflare.com/openapi.json",
-    "llms": "https://largely-peak-photographer-educational.trycloudflare.com/llms.txt",
-    "freeSample": "https://largely-peak-photographer-educational.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://largely-peak-photographer-educational.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://largely-peak-photographer-educational.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://largely-peak-photographer-educational.trycloudflare.com/state"
+    "catalog": "https://promise-luxury-stylish-minority.trycloudflare.com/catalog.json",
+    "openapi": "https://promise-luxury-stylish-minority.trycloudflare.com/openapi.json",
+    "llms": "https://promise-luxury-stylish-minority.trycloudflare.com/llms.txt",
+    "freeSample": "https://promise-luxury-stylish-minority.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://promise-luxury-stylish-minority.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://promise-luxury-stylish-minority.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://promise-luxury-stylish-minority.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://largely-peak-photographer-educational.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://promise-luxury-stylish-minority.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://largely-peak-photographer-educational.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://promise-luxury-stylish-minority.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
