@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://landscape-festivals-pamela-albert.trycloudflare.com",
+    "baseUrl": "https://derived-mails-proprietary-approval.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://landscape-festivals-pamela-albert.trycloudflare.com/healthz",
+    "health": "https://derived-mails-proprietary-approval.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://landscape-festivals-pamela-albert.trycloudflare.com/catalog.json",
-    "openapi": "https://landscape-festivals-pamela-albert.trycloudflare.com/openapi.json",
-    "llms": "https://landscape-festivals-pamela-albert.trycloudflare.com/llms.txt",
-    "freeSample": "https://landscape-festivals-pamela-albert.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://landscape-festivals-pamela-albert.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://landscape-festivals-pamela-albert.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://landscape-festivals-pamela-albert.trycloudflare.com/state"
+    "catalog": "https://derived-mails-proprietary-approval.trycloudflare.com/catalog.json",
+    "openapi": "https://derived-mails-proprietary-approval.trycloudflare.com/openapi.json",
+    "llms": "https://derived-mails-proprietary-approval.trycloudflare.com/llms.txt",
+    "freeSample": "https://derived-mails-proprietary-approval.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://derived-mails-proprietary-approval.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://derived-mails-proprietary-approval.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://derived-mails-proprietary-approval.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://landscape-festivals-pamela-albert.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://derived-mails-proprietary-approval.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://landscape-festivals-pamela-albert.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://derived-mails-proprietary-approval.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
