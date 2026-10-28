@@ -1,9 +1,9 @@
-# Draft pack — Rumbo a Breakpoint 2026: gana una entrada y apoyo para tu viaje
+# Draft pack — Vaultline Security Audit Grants for Colosseum Projects: Up to 4,000 USDC Each
 
-- Listing: https://earn.superteam.fun/listings/rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-viaje
-- Value: $5,000 USDG
-- Deadline: 7 days left (as of 2026-10-27 18:59 UTC)
-- Fit score: 1,739 — verified sponsor
+- Listing: https://earn.superteam.fun/listings/vaultline-security-audit-grants-for-colosseum-projects-up-to-4000-usdc-each
+- Value: $40,000 USDC
+- Deadline: 3 days left (as of 2026-10-28 18:51 UTC)
+- Fit score: 1,418 — reasonable EV after competition/deadline adjustment
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist

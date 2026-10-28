@@ -9,8 +9,8 @@
     "value_usd": 1000000.0,
     "token": "USD",
     "deadline": null,
-    "days_left": 22.0,
-    "competition": 4224,
+    "days_left": 21.0,
+    "competition": 4356,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "AR/VR",
@@ -30,11 +30,11 @@
     "value_usd": 40000.0,
     "token": "USDC",
     "deadline": "2026-10-31T21:59:59.000Z",
-    "days_left": 4.12517102587963,
-    "competition": 100,
+    "days_left": 3.131260669675926,
+    "competition": 102,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 2222.22,
+    "score": 2181.82,
     "is_new": false
   },
   {
@@ -47,7 +47,7 @@
     "value_usd": 5000.0,
     "token": "USDG",
     "deadline": "2026-11-03T21:59:59.999Z",
-    "days_left": 7.125182588379629,
+    "days_left": 6.131272232175926,
     "competition": 15,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
@@ -64,8 +64,8 @@
     "value_usd": 67500.0,
     "token": "USD",
     "deadline": null,
-    "days_left": 16.0,
-    "competition": 22783,
+    "days_left": 15.0,
+    "competition": 23439,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "Low/No Code",
@@ -85,32 +85,11 @@
     "value_usd": 2500.0,
     "token": "USDC",
     "deadline": "2026-11-05T21:59:59.999Z",
-    "days_left": 9.12518258837963,
-    "competition": 10,
+    "days_left": 8.131272232175926,
+    "competition": 11,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 1111.11,
-    "is_new": false
-  },
-  {
-    "source": "devpost",
-    "type": "hackathon",
-    "title": "Nebius x NVIDIA Global AI Hackathon",
-    "url": "https://nebiusglobalaihackathon.devpost.com/",
-    "sponsor": "nebius",
-    "sponsor_verified": true,
-    "value_usd": 50000.0,
-    "token": "USD",
-    "deadline": null,
-    "days_left": 3.0,
-    "competition": 28335,
-    "agent_access": "HUMAN_ONLY",
-    "themes": [
-      "Machine Learning/AI",
-      "Beginner Friendly",
-      "Robotic Process Automation"
-    ],
-    "score": 1000.0,
+    "score": 1052.63,
     "is_new": false
   },
   {
@@ -123,11 +102,11 @@
     "value_usd": 5000.0,
     "token": "USDC",
     "deadline": "2026-12-14T21:59:59.000Z",
-    "days_left": 48.125171025879624,
-    "competition": 29,
+    "days_left": 47.131260669675925,
+    "competition": 31,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 810.81,
+    "score": 769.23,
     "is_new": false
   },
   {
@@ -140,8 +119,8 @@
     "value_usd": 46000.0,
     "token": "USD",
     "deadline": null,
-    "days_left": 20.0,
-    "competition": 572,
+    "days_left": 19.0,
+    "competition": 643,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "Lifehacks",
@@ -154,6 +133,27 @@
   {
     "source": "devpost",
     "type": "hackathon",
+    "title": "Nebius x NVIDIA Global AI Hackathon",
+    "url": "https://nebiusglobalaihackathon.devpost.com/",
+    "sponsor": "nebius",
+    "sponsor_verified": true,
+    "value_usd": 50000.0,
+    "token": "USD",
+    "deadline": null,
+    "days_left": 2.0,
+    "competition": 28772,
+    "agent_access": "HUMAN_ONLY",
+    "themes": [
+      "Machine Learning/AI",
+      "Beginner Friendly",
+      "Robotic Process Automation"
+    ],
+    "score": 600.0,
+    "is_new": false
+  },
+  {
+    "source": "devpost",
+    "type": "hackathon",
     "title": "Codex x TwitchCon Hackathon",
     "url": "https://twitchcon-codex.devpost.com/",
     "sponsor": "Twitch",
@@ -161,8 +161,8 @@
     "value_usd": 25000.0,
     "token": "USD",
     "deadline": null,
-    "days_left": 6.0,
-    "competition": 1313,
+    "days_left": 5.0,
+    "competition": 1490,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "Communication",
@@ -175,25 +175,6 @@
   {
     "source": "devpost",
     "type": "hackathon",
-    "title": "Qloo Agentic Hackathon",
-    "url": "https://qloo.devpost.com/",
-    "sponsor": "Qloo",
-    "sponsor_verified": false,
-    "value_usd": 25000.0,
-    "token": "USD",
-    "deadline": null,
-    "days_left": 3.0,
-    "competition": 2614,
-    "agent_access": "HUMAN_ONLY",
-    "themes": [
-      "Machine Learning/AI"
-    ],
-    "score": 375.0,
-    "is_new": false
-  },
-  {
-    "source": "devpost",
-    "type": "hackathon",
     "title": "AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon",
     "url": "https://aws-cds-partner.devpost.com/",
     "sponsor": "AWS",
@@ -201,15 +182,34 @@
     "value_usd": 40000.0,
     "token": "USD",
     "deadline": null,
-    "days_left": 1.0,
-    "competition": 1070,
+    "days_left": null,
+    "competition": 1117,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "Communication",
       "Mobile",
       "Machine Learning/AI"
     ],
-    "score": 360.0,
+    "score": 480.0,
+    "is_new": false
+  },
+  {
+    "source": "devpost",
+    "type": "hackathon",
+    "title": "Qloo Agentic Hackathon",
+    "url": "https://qloo.devpost.com/",
+    "sponsor": "Qloo",
+    "sponsor_verified": false,
+    "value_usd": 25000.0,
+    "token": "USD",
+    "deadline": null,
+    "days_left": 2.0,
+    "competition": 2728,
+    "agent_access": "HUMAN_ONLY",
+    "themes": [
+      "Machine Learning/AI"
+    ],
+    "score": 225.0,
     "is_new": false
   },
   {
@@ -222,11 +222,11 @@
     "value_usd": 500.0,
     "token": "USDC",
     "deadline": "2026-11-12T21:59:59.999Z",
-    "days_left": 16.12518258837963,
-    "competition": 5,
+    "days_left": 15.131272232175926,
+    "competition": 7,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 230.77,
+    "score": 200.0,
     "is_new": false
   },
   {
@@ -239,11 +239,11 @@
     "value_usd": 500.0,
     "token": "USDG",
     "deadline": "2026-11-12T22:59:59.000Z",
-    "days_left": 16.166837692546295,
-    "competition": 22,
+    "days_left": 15.17292733634259,
+    "competition": 23,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 100.0,
+    "score": 96.77,
     "is_new": false
   },
   {
@@ -256,8 +256,8 @@
     "value_usd": 6000.0,
     "token": "USD",
     "deadline": null,
-    "days_left": 6.0,
-    "competition": 1351,
+    "days_left": 5.0,
+    "competition": 1402,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "AR/VR",
@@ -266,6 +266,23 @@
     ],
     "score": 90.0,
     "is_new": false
+  },
+  {
+    "source": "superteam-earn",
+    "type": "bounty",
+    "title": "Create Content About KriptoK \u00b7 200 USDC Creator Challenge",
+    "url": "https://earn.superteam.fun/listings/kriptok-creator-challenge-01",
+    "sponsor": "KriptoK",
+    "sponsor_verified": false,
+    "value_usd": 200.0,
+    "token": "USDC",
+    "deadline": "2026-11-18T20:59:59.999Z",
+    "days_left": 21.08960556550926,
+    "competition": 6,
+    "agent_access": "HUMAN_ONLY",
+    "themes": [],
+    "score": 85.71,
+    "is_new": true
   },
   {
     "source": "devpost",
@@ -277,8 +294,8 @@
     "value_usd": 2500.0,
     "token": "USD",
     "deadline": null,
-    "days_left": 13.0,
-    "competition": 856,
+    "days_left": 12.0,
+    "competition": 898,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "AR/VR",
@@ -298,11 +315,11 @@
     "value_usd": 500.0,
     "token": "USDC",
     "deadline": "2026-11-24T02:59:59.000Z",
-    "days_left": 27.33350435921296,
-    "competition": 163,
+    "days_left": 26.33959400300926,
+    "competition": 170,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 17.54,
+    "score": 16.85,
     "is_new": false
   },
   {
@@ -315,11 +332,11 @@
     "value_usd": 125.0,
     "token": "USDC",
     "deadline": "2026-11-02T03:59:59.000Z",
-    "days_left": 5.37517102587963,
-    "competition": 87,
+    "days_left": 4.3812606696759255,
+    "competition": 137,
     "agent_access": "AGENT_ALLOWED",
     "themes": [],
-    "score": 11.84,
+    "score": 7.76,
     "is_new": false
   },
   {
@@ -332,11 +349,11 @@
     "value_usd": 500.0,
     "token": "USDC",
     "deadline": "2026-11-14T18:29:59.000Z",
-    "days_left": 17.979337692546295,
-    "competition": 361,
+    "days_left": 16.985427336342592,
+    "competition": 382,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 8.13,
+    "score": 7.69,
     "is_new": false
   },
   {
@@ -349,11 +366,11 @@
     "value_usd": 10.0,
     "token": "USDC",
     "deadline": "2026-12-04T22:59:59.000Z",
-    "days_left": 38.166837692546295,
-    "competition": 0,
+    "days_left": 37.172927336342596,
+    "competition": 2,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
-    "score": 7.5,
+    "score": 6.0,
     "is_new": false
   }
 ]
