@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://lighter-avenue-operator-control.trycloudflare.com",
+    "baseUrl": "https://versus-francis-atm-brush.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://lighter-avenue-operator-control.trycloudflare.com/healthz",
+    "health": "https://versus-francis-atm-brush.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://lighter-avenue-operator-control.trycloudflare.com/catalog.json",
-    "openapi": "https://lighter-avenue-operator-control.trycloudflare.com/openapi.json",
-    "llms": "https://lighter-avenue-operator-control.trycloudflare.com/llms.txt",
-    "freeSample": "https://lighter-avenue-operator-control.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://lighter-avenue-operator-control.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://lighter-avenue-operator-control.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://lighter-avenue-operator-control.trycloudflare.com/state"
+    "catalog": "https://versus-francis-atm-brush.trycloudflare.com/catalog.json",
+    "openapi": "https://versus-francis-atm-brush.trycloudflare.com/openapi.json",
+    "llms": "https://versus-francis-atm-brush.trycloudflare.com/llms.txt",
+    "freeSample": "https://versus-francis-atm-brush.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://versus-francis-atm-brush.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://versus-francis-atm-brush.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://versus-francis-atm-brush.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://lighter-avenue-operator-control.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://versus-francis-atm-brush.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://lighter-avenue-operator-control.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://versus-francis-atm-brush.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
