@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://findlaw-organisms-miami-improved.trycloudflare.com",
+    "baseUrl": "https://seems-library-tuner-reconstruction.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://findlaw-organisms-miami-improved.trycloudflare.com/healthz",
+    "health": "https://seems-library-tuner-reconstruction.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://findlaw-organisms-miami-improved.trycloudflare.com/catalog.json",
-    "openapi": "https://findlaw-organisms-miami-improved.trycloudflare.com/openapi.json",
-    "llms": "https://findlaw-organisms-miami-improved.trycloudflare.com/llms.txt",
-    "freeSample": "https://findlaw-organisms-miami-improved.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://findlaw-organisms-miami-improved.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://findlaw-organisms-miami-improved.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://findlaw-organisms-miami-improved.trycloudflare.com/state"
+    "catalog": "https://seems-library-tuner-reconstruction.trycloudflare.com/catalog.json",
+    "openapi": "https://seems-library-tuner-reconstruction.trycloudflare.com/openapi.json",
+    "llms": "https://seems-library-tuner-reconstruction.trycloudflare.com/llms.txt",
+    "freeSample": "https://seems-library-tuner-reconstruction.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://seems-library-tuner-reconstruction.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://seems-library-tuner-reconstruction.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://seems-library-tuner-reconstruction.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://findlaw-organisms-miami-improved.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://seems-library-tuner-reconstruction.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://findlaw-organisms-miami-improved.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://seems-library-tuner-reconstruction.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
