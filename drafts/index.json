@@ -17,7 +17,7 @@
   "token": "USDG",
   "fit": 1739.13,
   "kind": "generic",
-  "days_left": 6.131272232175926
+  "days_left": 6.119486776134259
  },
  {
   "file": "drafts/03-vaultline-security-audit-grants-for-colosseum-projects-up-to.md",
@@ -27,7 +27,7 @@
   "token": "USDC",
   "fit": 1418.18,
   "kind": "generic",
-  "days_left": 3.131260669675926
+  "days_left": 3.119475213634259
  },
  {
   "file": "drafts/04-inside-the-block-how-solana-validators-order-transactions.md",
@@ -37,7 +37,7 @@
   "token": "USDC",
   "fit": 1052.63,
   "kind": "generic",
-  "days_left": 8.131272232175926
+  "days_left": 8.11948677613426
  },
  {
   "file": "drafts/05-multihopper-build-route-challenge-up-to-50-000-revenue-share.md",
@@ -47,6 +47,6 @@
   "token": "USDC",
   "fit": 769.23,
   "kind": "build",
-  "days_left": 47.131260669675925
+  "days_left": 47.11947521363426
  }
 ]

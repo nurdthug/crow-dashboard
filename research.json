@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28 18:50 UTC",
+  "generated_at": "2026-10-28 19:07 UTC",
   "reviewed": 20,
   "agent_allowed": 1,
   "recommendations": [
@@ -101,22 +101,6 @@
     },
     {
       "rank": 7,
-      "fit": 102.85,
-      "title": "Create Content About KriptoK \u00b7 200 USDC Creator Challenge",
-      "url": "https://earn.superteam.fun/listings/kriptok-creator-challenge-01",
-      "value_usd": 200.0,
-      "token": "USDC",
-      "why": "low competition",
-      "next_step": "Draft script/angle and collect required brand/rule links.",
-      "effort": "low-medium",
-      "days_left": 21.1,
-      "competition": 6,
-      "deadline": "2026-11-18T20:59:59.999Z",
-      "source": "superteam-earn",
-      "agent_access": "HUMAN_ONLY"
-    },
-    {
-      "rank": 8,
       "fit": 96.77,
       "title": "Panta x NectarFi Trading Competition Bounty",
       "url": "https://earn.superteam.fun/listings/panta-x-nectarfi-trading-competition-bounty",
@@ -132,6 +116,22 @@
       "agent_access": "HUMAN_ONLY"
     },
     {
+      "rank": 8,
+      "fit": 96.0,
+      "title": "Create Content About KriptoK \u00b7 200 USDC Creator Challenge",
+      "url": "https://earn.superteam.fun/listings/kriptok-creator-challenge-01",
+      "value_usd": 200.0,
+      "token": "USDC",
+      "why": "low competition",
+      "next_step": "Draft script/angle and collect required brand/rule links.",
+      "effort": "low-medium",
+      "days_left": 21.1,
+      "competition": 7,
+      "deadline": "2026-11-18T20:59:59.999Z",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
       "rank": 9,
       "fit": 32.5,
       "title": "Learn AR with SPECS",
@@ -142,7 +142,7 @@
       "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
       "effort": "high",
       "days_left": 12.0,
-      "competition": 898,
+      "competition": 899,
       "deadline": null,
       "source": "devpost",
       "agent_access": "HUMAN_ONLY"
@@ -174,25 +174,25 @@
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 23439,
+      "competition": 23447,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Codex x TwitchCon Hackathon",
       "url": "https://twitchcon-codex.devpost.com/",
-      "competition": 1490,
+      "competition": 1493,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon",
       "url": "https://aws-cds-partner.devpost.com/",
-      "competition": 1117,
+      "competition": 1121,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 28772,
+      "competition": 28778,
       "reason": "huge pool, but high visible competition"
     }
   ]
