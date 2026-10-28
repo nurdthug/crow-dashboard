@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://odds-markets-optimal-armed.trycloudflare.com",
+    "baseUrl": "https://lighter-avenue-operator-control.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://odds-markets-optimal-armed.trycloudflare.com/healthz",
+    "health": "https://lighter-avenue-operator-control.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://odds-markets-optimal-armed.trycloudflare.com/catalog.json",
-    "openapi": "https://odds-markets-optimal-armed.trycloudflare.com/openapi.json",
-    "llms": "https://odds-markets-optimal-armed.trycloudflare.com/llms.txt",
-    "freeSample": "https://odds-markets-optimal-armed.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://odds-markets-optimal-armed.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://odds-markets-optimal-armed.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://odds-markets-optimal-armed.trycloudflare.com/state"
+    "catalog": "https://lighter-avenue-operator-control.trycloudflare.com/catalog.json",
+    "openapi": "https://lighter-avenue-operator-control.trycloudflare.com/openapi.json",
+    "llms": "https://lighter-avenue-operator-control.trycloudflare.com/llms.txt",
+    "freeSample": "https://lighter-avenue-operator-control.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://lighter-avenue-operator-control.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://lighter-avenue-operator-control.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://lighter-avenue-operator-control.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://odds-markets-optimal-armed.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://lighter-avenue-operator-control.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://odds-markets-optimal-armed.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://lighter-avenue-operator-control.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
