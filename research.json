@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29 18:57 UTC",
+  "generated_at": "2026-10-29 19:16 UTC",
   "reviewed": 20,
   "agent_allowed": 1,
   "recommendations": [
@@ -158,7 +158,7 @@
       "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
       "effort": "high",
       "days_left": 11.0,
-      "competition": 943,
+      "competition": 944,
       "deadline": null,
       "source": "devpost",
       "agent_access": "HUMAN_ONLY"
@@ -168,25 +168,25 @@
     {
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
-      "competition": 4476,
+      "competition": 4478,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 24063,
+      "competition": 24071,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Codex x TwitchCon Hackathon",
       "url": "https://twitchcon-codex.devpost.com/",
-      "competition": 1599,
+      "competition": 1603,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Nebius x NVIDIA Global AI Hackathon",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "competition": 29279,
+      "competition": 29286,
       "reason": "huge pool, but high visible competition"
     },
     {
