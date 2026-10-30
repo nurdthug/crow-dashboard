@@ -1,20 +1,20 @@
-# Crow Scout Digest — 2026-10-30 18:36 UTC
+# Crow Scout Digest — 2026-10-30 18:53 UTC
 
-**20 open opportunities** · 1 new since last run · 1 flagged AGENT_ALLOWED · total face value $1,446,835
+**20 open opportunities** · 0 new since last run · 1 flagged AGENT_ALLOWED · total face value $1,446,835
 
 | # | Score | Title | Value | Type | Source | Days left | Competition | Agent? |
 |---|---|---|---|---|---|---|---|---|
-| 1 | 20,000 | [Meta VR Start Developer Competition 2026](https://start-developer-competition-26.devpost.com/) | $1,000,000 USD | hackathon | devpost | 19 | 4598 |  |
-| 2 | 2,400 | [Codegeist 2026: Build with context. Ship with confidence.](https://codegeist2026.devpost.com/) | $120,000 USD | hackathon | devpost | 60 | 817 |  |
-| 3 | 2,000 | [Kiroween 2026](https://kiroween.devpost.com/) 🆕 | $100,000 USD | hackathon | devpost | 30 | 2506 |  |
-| 4 | 1,350 | [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/) | $67,500 USD | hackathon | devpost | 13 | 24795 |  |
+| 1 | 20,000 | [Meta VR Start Developer Competition 2026](https://start-developer-competition-26.devpost.com/) | $1,000,000 USD | hackathon | devpost | 19 | 4600 |  |
+| 2 | 2,400 | [Codegeist 2026: Build with context. Ship with confidence.](https://codegeist2026.devpost.com/) | $120,000 USD | hackathon | devpost | 60 | 819 |  |
+| 3 | 2,000 | [Kiroween 2026](https://kiroween.devpost.com/) | $100,000 USD | hackathon | devpost | 30 | 2519 |  |
+| 4 | 1,350 | [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/) | $67,500 USD | hackathon | devpost | 13 | 24811 |  |
 | 5 | 823 | [Vaultline Security Audit Grants for Colosseum Projects: Up to 4,000 USDC Each](https://earn.superteam.fun/listings/vaultline-security-audit-grants-for-colosseum-projects-up-to-4000-usdc-each) | $40,000 USDC | bounty | superteam-earn | 1 | 167 |  |
 | 6 | 727 | [Rumbo a Breakpoint 2026: gana una entrada y apoyo para tu viaje](https://earn.superteam.fun/listings/rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-viaje) | $5,000 USDG | bounty | superteam-earn | 4 | 47 |  |
 | 7 | 690 | [UGREEN Hackathon 2026 on AI NAS](https://ugreenhackathon.devpost.com/) | $46,000 USD | hackathon | devpost | 17 | 865 |  |
 | 8 | 638 | [MultiHopper Build & Route Challenge | Up to $50,000 + Revenue Share](https://earn.superteam.fun/listings/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1) | $5,000 USDC | bounty | superteam-earn | 45 | 39 |  |
-| 9 | 500 | [Codex x TwitchCon Hackathon](https://twitchcon-codex.devpost.com/) | $25,000 USD | hackathon | devpost | 3 | 1750 |  |
+| 9 | 500 | [Codex x TwitchCon Hackathon](https://twitchcon-codex.devpost.com/) | $25,000 USD | hackathon | devpost | 3 | 1751 |  |
 | 10 | 377 | [Inside the Block: How Solana Validators Order Transactions](https://earn.superteam.fun/listings/inside-the-block-how-solana-validators-order-transactions) | $2,500 USDC | bounty | superteam-earn | 6 | 45 |  |
-| 11 | 300 | [Qloo Agentic Hackathon](https://qloo.devpost.com/) | $25,000 USD | hackathon | devpost | — | 2947 |  |
+| 11 | 300 | [Qloo Agentic Hackathon](https://qloo.devpost.com/) | $25,000 USD | hackathon | devpost | — | 2948 |  |
 | 12 | 90 | [YouCam API Skin AI & eCommerce VTO Hackathon](https://youcam-api-skin-ai-ecommerce.devpost.com/) | $6,000 USD | hackathon | devpost | 3 | 1512 |  |
 | 13 | 88 | [Show us how you use MozaikPay](https://earn.superteam.fun/listings/mozaikpay-video-chile-colombia) | $500 USDC | bounty | superteam-earn | 13 | 26 |  |
 | 14 | 73 | [Panta x NectarFi Trading Competition Bounty](https://earn.superteam.fun/listings/panta-x-nectarfi-trading-competition-bounty) | $500 USDG | bounty | superteam-earn | 13 | 33 |  |

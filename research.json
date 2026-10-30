@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30 18:36 UTC",
+  "generated_at": "2026-10-30 18:53 UTC",
   "reviewed": 20,
   "agent_allowed": 1,
   "recommendations": [
@@ -14,7 +14,7 @@
       "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
       "effort": "high",
       "days_left": 60.0,
-      "competition": 817,
+      "competition": 819,
       "deadline": null,
       "source": "devpost",
       "agent_access": "HUMAN_ONLY"
@@ -168,31 +168,31 @@
     {
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
-      "competition": 4598,
+      "competition": 4600,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Kiroween 2026",
       "url": "https://kiroween.devpost.com/",
-      "competition": 2506,
+      "competition": 2519,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 24795,
+      "competition": 24811,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Codex x TwitchCon Hackathon",
       "url": "https://twitchcon-codex.devpost.com/",
-      "competition": 1750,
+      "competition": 1751,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Qloo Agentic Hackathon",
       "url": "https://qloo.devpost.com/",
-      "competition": 2947,
+      "competition": 2948,
       "reason": "huge pool, but high visible competition"
     }
   ]
