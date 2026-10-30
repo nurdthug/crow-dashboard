@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://european-sunday-fast-diet.trycloudflare.com",
+    "baseUrl": "https://national-filename-employ-widespread.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://european-sunday-fast-diet.trycloudflare.com/healthz",
+    "health": "https://national-filename-employ-widespread.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://european-sunday-fast-diet.trycloudflare.com/catalog.json",
-    "openapi": "https://european-sunday-fast-diet.trycloudflare.com/openapi.json",
-    "llms": "https://european-sunday-fast-diet.trycloudflare.com/llms.txt",
-    "freeSample": "https://european-sunday-fast-diet.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://european-sunday-fast-diet.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://european-sunday-fast-diet.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://european-sunday-fast-diet.trycloudflare.com/state"
+    "catalog": "https://national-filename-employ-widespread.trycloudflare.com/catalog.json",
+    "openapi": "https://national-filename-employ-widespread.trycloudflare.com/openapi.json",
+    "llms": "https://national-filename-employ-widespread.trycloudflare.com/llms.txt",
+    "freeSample": "https://national-filename-employ-widespread.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://national-filename-employ-widespread.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://national-filename-employ-widespread.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://national-filename-employ-widespread.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://european-sunday-fast-diet.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://national-filename-employ-widespread.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://european-sunday-fast-diet.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://national-filename-employ-widespread.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
