@@ -1,96 +1,30 @@
 {
- "generated": "2026-10-29T19:16:25+00:00",
- "count": 11,
+ "generated": "2026-10-30T18:36:30+00:00",
+ "count": 7,
  "items": [
   {
    "lane": "github_pr",
-   "title": "[$750] WebGL renderer for the 3D memory graph: 50,000 nodes at interactive frame rates",
-   "url": "https://github.com/oll4com/spaceapp/issues/62",
-   "repo": "oll4com/spaceapp",
-   "issue_number": 62,
-   "value_usd": 750,
+   "title": "Automate Bug Detection and Reviews",
+   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11398",
+   "repo": "SecureBananaLabs/bug-bounty",
+   "issue_number": 11398,
+   "value_usd": 800,
    "labels": [
+    "bug",
+    "documentation",
     "enhancement",
+    "good first issue",
     "help wanted",
-    "\ud83d\udc8e bounty"
+    "bug bounty",
+    "ai agent friendly",
+    "bounty",
+    "\ud83d\udc8e bounty",
+    "$780",
+    "$1k",
+    "$1.2k"
    ],
    "small": true,
-   "created": "2026-10-16T05:30:26Z"
-  },
-  {
-   "lane": "github_pr",
-   "title": "[$600] Support rootless Podman as a container engine in the run-spaceapp launcher",
-   "url": "https://github.com/oll4com/spaceapp/issues/63",
-   "repo": "oll4com/spaceapp",
-   "issue_number": 63,
-   "value_usd": 600,
-   "labels": [
-    "enhancement",
-    "help wanted",
-    "\ud83d\udc8e bounty"
-   ],
-   "small": true,
-   "created": "2026-10-16T05:30:31Z"
-  },
-  {
-   "lane": "github_pr",
-   "title": "[$600] Export worker and workflow spans over OTLP: one trace from API request to every Temporal activity",
-   "url": "https://github.com/oll4com/spaceapp/issues/61",
-   "repo": "oll4com/spaceapp",
-   "issue_number": 61,
-   "value_usd": 600,
-   "labels": [
-    "enhancement",
-    "help wanted",
-    "\ud83d\udc8e bounty"
-   ],
-   "small": true,
-   "created": "2026-10-16T05:30:25Z"
-  },
-  {
-   "lane": "github_pr",
-   "title": "[$450] One command to run the full SpaceApp stack from source for contributors",
-   "url": "https://github.com/oll4com/spaceapp/issues/65",
-   "repo": "oll4com/spaceapp",
-   "issue_number": 65,
-   "value_usd": 450,
-   "labels": [
-    "enhancement",
-    "help wanted",
-    "\ud83d\udc8e bounty"
-   ],
-   "small": true,
-   "created": "2026-10-16T05:30:34Z"
-  },
-  {
-   "lane": "github_pr",
-   "title": "[$400] Per-service container images: ship each image only the code and dependencies it runs",
-   "url": "https://github.com/oll4com/spaceapp/issues/64",
-   "repo": "oll4com/spaceapp",
-   "issue_number": 64,
-   "value_usd": 400,
-   "labels": [
-    "enhancement",
-    "help wanted",
-    "\ud83d\udc8e bounty"
-   ],
-   "small": true,
-   "created": "2026-10-16T05:30:32Z"
-  },
-  {
-   "lane": "github_pr",
-   "title": "[$400] Test every Temporal workflow on a real time-skipping test server and gate replay determinism in CI",
-   "url": "https://github.com/oll4com/spaceapp/issues/60",
-   "repo": "oll4com/spaceapp",
-   "issue_number": 60,
-   "value_usd": 400,
-   "labels": [
-    "enhancement",
-    "help wanted",
-    "\ud83d\udc8e bounty"
-   ],
-   "small": true,
-   "created": "2026-10-16T05:30:20Z"
+   "created": "2026-07-25T09:51:18Z"
   },
   {
    "lane": "listing",
@@ -98,7 +32,7 @@
    "url": "https://earn.superteam.fun/listings/raptorx-research-challenge-ask-better-questions-find-better-alpha",
    "value_usd": 125.0,
    "token": "USDC",
-   "days_left": 3.363613764664352,
+   "days_left": 2.3913353630902776,
    "small": true
   },
   {
@@ -156,6 +90,20 @@
    ],
    "small": false,
    "created": "2026-10-16T22:12:20Z"
+  },
+  {
+   "lane": "github_pr",
+   "title": "[wildcard] Erase the .hy / .go Split: Whole-Package Tier-0 Checking via Native Go AST and Export-Data Analysis",
+   "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/186",
+   "repo": "limitlessprojects/Go-Hybrid",
+   "issue_number": 186,
+   "value_usd": 250,
+   "labels": [
+    "\ud83d\udc8e bounty",
+    "wildcard"
+   ],
+   "small": false,
+   "created": "2026-10-15T12:09:37Z"
   }
  ]
 }
