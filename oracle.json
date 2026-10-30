@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://newman-prince-seeker-fluid.trycloudflare.com",
+    "baseUrl": "https://pool-livecam-arts-settled.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://newman-prince-seeker-fluid.trycloudflare.com/healthz",
+    "health": "https://pool-livecam-arts-settled.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://newman-prince-seeker-fluid.trycloudflare.com/catalog.json",
-    "openapi": "https://newman-prince-seeker-fluid.trycloudflare.com/openapi.json",
-    "llms": "https://newman-prince-seeker-fluid.trycloudflare.com/llms.txt",
-    "freeSample": "https://newman-prince-seeker-fluid.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://newman-prince-seeker-fluid.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://newman-prince-seeker-fluid.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://newman-prince-seeker-fluid.trycloudflare.com/state"
+    "catalog": "https://pool-livecam-arts-settled.trycloudflare.com/catalog.json",
+    "openapi": "https://pool-livecam-arts-settled.trycloudflare.com/openapi.json",
+    "llms": "https://pool-livecam-arts-settled.trycloudflare.com/llms.txt",
+    "freeSample": "https://pool-livecam-arts-settled.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://pool-livecam-arts-settled.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://pool-livecam-arts-settled.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://pool-livecam-arts-settled.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://newman-prince-seeker-fluid.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://pool-livecam-arts-settled.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://newman-prince-seeker-fluid.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://pool-livecam-arts-settled.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
