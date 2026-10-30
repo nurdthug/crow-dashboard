@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://national-filename-employ-widespread.trycloudflare.com",
+    "baseUrl": "https://spectacular-arrested-ensemble-taylor.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://national-filename-employ-widespread.trycloudflare.com/healthz",
+    "health": "https://spectacular-arrested-ensemble-taylor.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://national-filename-employ-widespread.trycloudflare.com/catalog.json",
-    "openapi": "https://national-filename-employ-widespread.trycloudflare.com/openapi.json",
-    "llms": "https://national-filename-employ-widespread.trycloudflare.com/llms.txt",
-    "freeSample": "https://national-filename-employ-widespread.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://national-filename-employ-widespread.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://national-filename-employ-widespread.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://national-filename-employ-widespread.trycloudflare.com/state"
+    "catalog": "https://spectacular-arrested-ensemble-taylor.trycloudflare.com/catalog.json",
+    "openapi": "https://spectacular-arrested-ensemble-taylor.trycloudflare.com/openapi.json",
+    "llms": "https://spectacular-arrested-ensemble-taylor.trycloudflare.com/llms.txt",
+    "freeSample": "https://spectacular-arrested-ensemble-taylor.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://spectacular-arrested-ensemble-taylor.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://spectacular-arrested-ensemble-taylor.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://spectacular-arrested-ensemble-taylor.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://national-filename-employ-widespread.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://spectacular-arrested-ensemble-taylor.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://national-filename-employ-widespread.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://spectacular-arrested-ensemble-taylor.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
