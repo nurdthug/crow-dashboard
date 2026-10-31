@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://scenario-hills-art-convinced.trycloudflare.com",
+    "baseUrl": "https://facts-productive-therapist-revisions.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://scenario-hills-art-convinced.trycloudflare.com/healthz",
+    "health": "https://facts-productive-therapist-revisions.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://scenario-hills-art-convinced.trycloudflare.com/catalog.json",
-    "openapi": "https://scenario-hills-art-convinced.trycloudflare.com/openapi.json",
-    "llms": "https://scenario-hills-art-convinced.trycloudflare.com/llms.txt",
-    "freeSample": "https://scenario-hills-art-convinced.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://scenario-hills-art-convinced.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://scenario-hills-art-convinced.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://scenario-hills-art-convinced.trycloudflare.com/state"
+    "catalog": "https://facts-productive-therapist-revisions.trycloudflare.com/catalog.json",
+    "openapi": "https://facts-productive-therapist-revisions.trycloudflare.com/openapi.json",
+    "llms": "https://facts-productive-therapist-revisions.trycloudflare.com/llms.txt",
+    "freeSample": "https://facts-productive-therapist-revisions.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://facts-productive-therapist-revisions.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://facts-productive-therapist-revisions.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://facts-productive-therapist-revisions.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://scenario-hills-art-convinced.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://facts-productive-therapist-revisions.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://scenario-hills-art-convinced.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://facts-productive-therapist-revisions.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
