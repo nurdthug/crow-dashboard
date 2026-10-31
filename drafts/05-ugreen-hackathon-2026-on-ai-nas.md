@@ -2,7 +2,7 @@
 
 - Listing: https://ugreenhackathon.devpost.com/
 - Value: $46,000 USD
-- Deadline: 16 days left (as of 2026-10-31 17:42 UTC)
+- Deadline: 16 days left (as of 2026-10-31 17:57 UTC)
 - Fit score: 448 — reasonable EV after competition/deadline adjustment
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 

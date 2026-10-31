@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31 17:42 UTC",
+  "generated_at": "2026-10-31 17:57 UTC",
   "reviewed": 20,
   "agent_allowed": 1,
   "recommendations": [
@@ -14,7 +14,7 @@
       "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
       "effort": "high",
       "days_left": 60.0,
-      "competition": 961,
+      "competition": 963,
       "deadline": null,
       "source": "devpost",
       "agent_access": "HUMAN_ONLY"
@@ -62,7 +62,7 @@
       "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
       "effort": "high",
       "days_left": 16.0,
-      "competition": 947,
+      "competition": 948,
       "deadline": null,
       "source": "devpost",
       "agent_access": "HUMAN_ONLY"
@@ -174,19 +174,19 @@
     {
       "title": "Kiroween 2026",
       "url": "https://kiroween.devpost.com/",
-      "competition": 4475,
+      "competition": 4482,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 25608,
+      "competition": 25623,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Codex x TwitchCon Hackathon",
       "url": "https://twitchcon-codex.devpost.com/",
-      "competition": 1885,
+      "competition": 1889,
       "reason": "huge pool, but high visible competition"
     },
     {

@@ -1,4 +1,4 @@
-# Crow Research Brief — 2026-10-31 17:42 UTC
+# Crow Research Brief — 2026-10-31 17:57 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
@@ -20,7 +20,7 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 ## Do Not Chase First
 
 - [Meta VR Start Developer Competition 2026](https://start-developer-competition-26.devpost.com/): huge pool, but competition is already 4,688.
-- [Kiroween 2026](https://kiroween.devpost.com/): huge pool, but competition is already 4,475.
-- [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/): huge pool, but competition is already 25,608.
-- [Codex x TwitchCon Hackathon](https://twitchcon-codex.devpost.com/): huge pool, but competition is already 1,885.
+- [Kiroween 2026](https://kiroween.devpost.com/): huge pool, but competition is already 4,482.
+- [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/): huge pool, but competition is already 25,623.
+- [Codex x TwitchCon Hackathon](https://twitchcon-codex.devpost.com/): huge pool, but competition is already 1,889.
 - [Learn AR with SPECS](https://learn-specs.devpost.com/): huge pool, but competition is already 1,014.
