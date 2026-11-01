@@ -1,9 +1,9 @@
-# Draft pack — UGREEN Hackathon 2026 on AI NAS
+# Draft pack — Kiroween 2026
 
-- Listing: https://ugreenhackathon.devpost.com/
-- Value: $46,000 USD
-- Deadline: 16 days left (as of 2026-10-31 17:57 UTC)
-- Fit score: 448 — reasonable EV after competition/deadline adjustment
+- Listing: https://kiroween.devpost.com/
+- Value: $100,000 USD
+- Deadline: 30 days left (as of 2026-11-01 18:25 UTC)
+- Fit score: 350 — verified sponsor
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist

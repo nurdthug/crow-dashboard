@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-31T17:57:17+00:00",
- "count": 7,
+ "generated": "2026-11-01T18:25:04+00:00",
+ "count": 6,
  "items": [
   {
    "lane": "github_pr",
@@ -32,7 +32,7 @@
    "url": "https://earn.superteam.fun/listings/raptorx-research-challenge-ask-better-questions-find-better-alpha",
    "value_usd": 125.0,
    "token": "USDC",
-   "days_left": 1.4185752848263888,
+   "days_left": 6.3576090087731485,
    "small": true
   },
   {
@@ -76,20 +76,6 @@
    ],
    "small": false,
    "created": "2026-10-16T23:50:59Z"
-  },
-  {
-   "lane": "github_pr",
-   "title": "[wildcard] Make hy-emit untrusted: independently validated lowering to plain Go",
-   "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/345",
-   "repo": "limitlessprojects/Go-Hybrid",
-   "issue_number": 345,
-   "value_usd": 250,
-   "labels": [
-    "\ud83d\udc8e bounty",
-    "wildcard"
-   ],
-   "small": false,
-   "created": "2026-10-16T22:12:20Z"
   },
   {
    "lane": "github_pr",
