@@ -27,7 +27,7 @@
   "token": "USDC",
   "fit": 545.45,
   "kind": "build",
-  "days_left": 43.14927567543982
+  "days_left": 43.14160086090278
  },
  {
   "file": "drafts/04-kiroween-2026.md",
@@ -47,6 +47,6 @@
   "token": "USDC",
   "fit": 338.98,
   "kind": "generic",
-  "days_left": 4.149287237939815
+  "days_left": 4.141612423402778
  }
 ]

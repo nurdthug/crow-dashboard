@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01 18:25 UTC",
+  "generated_at": "2026-11-01 18:36 UTC",
   "reviewed": 19,
   "agent_allowed": 1,
   "recommendations": [
@@ -109,7 +109,7 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 22.4,
+      "days_left": 22.3,
       "competition": 201,
       "deadline": "2026-11-24T02:59:59.000Z",
       "source": "superteam-earn",
@@ -125,7 +125,7 @@
       "why": "explicitly agent-allowed",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 6.4,
+      "days_left": 6.3,
       "competition": 255,
       "deadline": "2026-11-08T02:59:59.000Z",
       "source": "superteam-earn",
@@ -168,19 +168,19 @@
     {
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
-      "competition": 4781,
+      "competition": 4783,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Codegeist 2026: Build with context. Ship with confidence.",
       "url": "https://codegeist2026.devpost.com/",
-      "competition": 1140,
+      "competition": 1141,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Kiroween 2026",
       "url": "https://kiroween.devpost.com/",
-      "competition": 5605,
+      "competition": 5613,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -192,7 +192,7 @@
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 26493,
+      "competition": 26502,
       "reason": "huge pool, but high visible competition"
     }
   ]
