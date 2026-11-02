@@ -52,7 +52,7 @@
     "token": "USD",
     "deadline": null,
     "days_left": 30.0,
-    "competition": 6889,
+    "competition": 6893,
     "agent_access": "HUMAN_ONLY",
     "themes": [
       "Beginner Friendly",
@@ -93,7 +93,7 @@
     "value_usd": 5000.0,
     "token": "USDG",
     "deadline": "2026-11-08T22:59:59.999Z",
-    "days_left": 6.028784926435185,
+    "days_left": 6.02162103375,
     "competition": 48,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
@@ -131,7 +131,7 @@
     "value_usd": 5000.0,
     "token": "USDC",
     "deadline": "2026-12-14T21:59:59.000Z",
-    "days_left": 41.987106697268516,
+    "days_left": 41.97994280458333,
     "competition": 60,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
@@ -148,7 +148,7 @@
     "value_usd": 2500.0,
     "token": "USDC",
     "deadline": "2026-11-05T21:59:59.999Z",
-    "days_left": 2.9871182597685184,
+    "days_left": 2.9799543670833333,
     "competition": 55,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
@@ -174,7 +174,7 @@
       "Open Ended"
     ],
     "score": 117.0,
-    "is_new": true
+    "is_new": false
   },
   {
     "source": "superteam-earn",
@@ -186,7 +186,7 @@
     "value_usd": 500.0,
     "token": "USDC",
     "deadline": "2026-11-12T21:59:59.999Z",
-    "days_left": 9.987118259768518,
+    "days_left": 9.979954367083334,
     "competition": 26,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
@@ -203,7 +203,7 @@
     "value_usd": 500.0,
     "token": "USDG",
     "deadline": "2026-11-12T22:59:59.000Z",
-    "days_left": 10.028773363935185,
+    "days_left": 10.02160947125,
     "competition": 42,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
@@ -241,7 +241,7 @@
     "value_usd": 500.0,
     "token": "USDC",
     "deadline": "2026-11-24T02:59:59.000Z",
-    "days_left": 21.19544003060185,
+    "days_left": 21.188276137916667,
     "competition": 212,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
@@ -258,7 +258,7 @@
     "value_usd": 200.0,
     "token": "USDC",
     "deadline": "2026-11-18T20:59:59.999Z",
-    "days_left": 15.945451593101852,
+    "days_left": 15.938287700416668,
     "competition": 86,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
@@ -275,7 +275,7 @@
     "value_usd": 500.0,
     "token": "USDC",
     "deadline": "2026-11-14T18:29:59.000Z",
-    "days_left": 11.841273363935185,
+    "days_left": 11.83410947125,
     "competition": 485,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
@@ -292,7 +292,7 @@
     "value_usd": 125.0,
     "token": "USDC",
     "deadline": "2026-11-08T02:59:59.000Z",
-    "days_left": 5.195440030601852,
+    "days_left": 5.188276137916667,
     "competition": 292,
     "agent_access": "AGENT_ALLOWED",
     "themes": [],
@@ -309,7 +309,7 @@
     "value_usd": 10.0,
     "token": "USDC",
     "deadline": "2026-12-04T22:59:59.000Z",
-    "days_left": 32.02877336393519,
+    "days_left": 32.021609471249995,
     "competition": 10,
     "agent_access": "HUMAN_ONLY",
     "themes": [],
@@ -356,6 +356,6 @@
       "Web"
     ],
     "score": 0.0,
-    "is_new": true
+    "is_new": false
   }
 ]
