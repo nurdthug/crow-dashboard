@@ -1,9 +1,9 @@
-# Draft pack — Kiroween 2026
+# Draft pack — QNX Global Hackathon
 
-- Listing: https://kiroween.devpost.com/
-- Value: $100,000 USD
-- Deadline: 30 days left (as of 2026-11-02 22:28 UTC)
-- Fit score: 350 — verified sponsor
+- Listing: https://qnx.devpost.com/
+- Value: $50,000 USD
+- Deadline: 30 days left (as of 2026-11-03 20:05 UTC)
+- Fit score: 956 — verified sponsor
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist

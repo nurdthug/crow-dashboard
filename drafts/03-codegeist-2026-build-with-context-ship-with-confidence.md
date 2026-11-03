@@ -1,10 +1,10 @@
-# Draft pack — MultiHopper Build & Route Challenge | Up to $50,000 + Revenue Share
+# Draft pack — Codegeist 2026: Build with context. Ship with confidence.
 
-- Listing: https://earn.superteam.fun/listings/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1
-- Value: $5,000 USDC
-- Deadline: 42 days left (as of 2026-11-02 22:28 UTC)
-- Fit score: 441 — reasonable EV after competition/deadline adjustment
-- First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
+- Listing: https://codegeist2026.devpost.com/
+- Value: $120,000 USD
+- Deadline: 60 days left (as of 2026-11-03 20:05 UTC)
+- Fit score: 840 — verified sponsor
+- First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist
 - [ ] Read full rules & eligibility (region, KYC, team size)
