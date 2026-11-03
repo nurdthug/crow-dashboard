@@ -15,7 +15,7 @@
   "url": "https://qnx.devpost.com/",
   "value_usd": 50000.0,
   "token": "USD",
-  "fit": 955.88,
+  "fit": 948.9,
   "kind": "build",
   "days_left": 30.0
  },
@@ -37,7 +37,7 @@
   "token": "USDG",
   "fit": 714.29,
   "kind": "generic",
-  "days_left": 5.1211422150231485
+  "days_left": 5.113085070335648
  },
  {
   "file": "drafts/05-multihopper-build-route-challenge-up-to-50-000-revenue-share.md",
@@ -47,6 +47,6 @@
   "token": "USDC",
   "fit": 422.54,
   "kind": "build",
-  "days_left": 41.079463985856485
+  "days_left": 41.07140684116898
  }
 ]

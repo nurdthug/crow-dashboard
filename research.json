@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-03 20:05 UTC",
+  "generated_at": "2026-11-03 20:17 UTC",
   "reviewed": 19,
   "agent_allowed": 1,
   "recommendations": [
     {
       "rank": 1,
-      "fit": 955.88,
+      "fit": 948.9,
       "title": "QNX Global Hackathon",
       "url": "https://qnx.devpost.com/",
       "value_usd": 50000.0,
@@ -14,7 +14,7 @@
       "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
       "effort": "high",
       "days_left": 30.0,
-      "competition": 264,
+      "competition": 266,
       "deadline": null,
       "source": "devpost",
       "agent_access": "HUMAN_ONLY"
@@ -133,7 +133,7 @@
     },
     {
       "rank": 9,
-      "fit": 10.13,
+      "fit": 10.09,
       "title": "Create Content on Premier League Predictions with worm \ud83e\udeb1\u26bd",
       "url": "https://earn.superteam.fun/listings/create-content-on-premier-league-predictions-with-worm",
       "value_usd": 500.0,
@@ -142,7 +142,7 @@
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
       "days_left": 20.3,
-      "competition": 223,
+      "competition": 224,
       "deadline": "2026-11-24T02:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -168,31 +168,31 @@
     {
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
-      "competition": 5014,
+      "competition": 5015,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Codegeist 2026: Build with context. Ship with confidence.",
       "url": "https://codegeist2026.devpost.com/",
-      "competition": 1504,
+      "competition": 1505,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Kiroween 2026",
       "url": "https://kiroween.devpost.com/",
-      "competition": 8099,
+      "competition": 8102,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "UGREEN Hackathon 2026 on AI NAS",
       "url": "https://ugreenhackathon.devpost.com/",
-      "competition": 1193,
+      "competition": 1194,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 27975,
+      "competition": 27976,
       "reason": "huge pool, but high visible competition"
     }
   ]

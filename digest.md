@@ -1,23 +1,23 @@
-# Crow Scout Digest — 2026-11-03 20:05 UTC
+# Crow Scout Digest — 2026-11-03 20:17 UTC
 
-**19 open opportunities** · 1 new since last run · 1 flagged AGENT_ALLOWED · total face value $1,408,635
+**19 open opportunities** · 0 new since last run · 1 flagged AGENT_ALLOWED · total face value $1,408,635
 
 | # | Score | Title | Value | Type | Source | Days left | Competition | Agent? |
 |---|---|---|---|---|---|---|---|---|
-| 1 | 20,000 | [Meta VR Start Developer Competition 2026](https://start-developer-competition-26.devpost.com/) | $1,000,000 USD | hackathon | devpost | 15 | 5014 |  |
-| 2 | 2,400 | [Codegeist 2026: Build with context. Ship with confidence.](https://codegeist2026.devpost.com/) | $120,000 USD | hackathon | devpost | 60 | 1504 |  |
-| 3 | 2,000 | [Kiroween 2026](https://kiroween.devpost.com/) | $100,000 USD | hackathon | devpost | 30 | 8099 |  |
-| 4 | 1,471 | [QNX Global Hackathon](https://qnx.devpost.com/) 🆕 | $50,000 USD | hackathon | devpost | 30 | 264 |  |
-| 5 | 1,350 | [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/) | $67,500 USD | hackathon | devpost | 9 | 27975 |  |
+| 1 | 20,000 | [Meta VR Start Developer Competition 2026](https://start-developer-competition-26.devpost.com/) | $1,000,000 USD | hackathon | devpost | 15 | 5015 |  |
+| 2 | 2,400 | [Codegeist 2026: Build with context. Ship with confidence.](https://codegeist2026.devpost.com/) | $120,000 USD | hackathon | devpost | 60 | 1505 |  |
+| 3 | 2,000 | [Kiroween 2026](https://kiroween.devpost.com/) | $100,000 USD | hackathon | devpost | 30 | 8102 |  |
+| 4 | 1,460 | [QNX Global Hackathon](https://qnx.devpost.com/) | $50,000 USD | hackathon | devpost | 30 | 266 |  |
+| 5 | 1,350 | [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/) | $67,500 USD | hackathon | devpost | 9 | 27976 |  |
 | 6 | 714 | [Rumbo a Breakpoint 2026: gana una entrada y apoyo para tu viaje](https://earn.superteam.fun/listings/rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-viaje) | $5,000 USDG | bounty | superteam-earn | 5 | 48 |  |
-| 7 | 690 | [UGREEN Hackathon 2026 on AI NAS](https://ugreenhackathon.devpost.com/) | $46,000 USD | hackathon | devpost | 12 | 1193 |  |
+| 7 | 690 | [UGREEN Hackathon 2026 on AI NAS](https://ugreenhackathon.devpost.com/) | $46,000 USD | hackathon | devpost | 12 | 1194 |  |
 | 8 | 423 | [MultiHopper Build & Route Challenge | Up to $50,000 + Revenue Share](https://earn.superteam.fun/listings/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1) | $5,000 USDC | bounty | superteam-earn | 41 | 63 |  |
 | 9 | 188 | [Inside the Block: How Solana Validators Order Transactions](https://earn.superteam.fun/listings/inside-the-block-how-solana-validators-order-transactions) | $2,500 USDC | bounty | superteam-earn | 2 | 56 |  |
 | 10 | 117 | [Arbiter Hacks V1](https://arbiter-hacks-v1.devpost.com/) | $7,800 USD | hackathon | devpost | 60 | 847 |  |
 | 11 | 86 | [Show us how you use MozaikPay](https://earn.superteam.fun/listings/mozaikpay-video-chile-colombia) | $500 USDC | bounty | superteam-earn | 9 | 27 |  |
 | 12 | 56 | [Panta x NectarFi Trading Competition Bounty](https://earn.superteam.fun/listings/panta-x-nectarfi-trading-competition-bounty) | $500 USDG | bounty | superteam-earn | 9 | 46 |  |
-| 13 | 50 | [Learn AR with SPECS](https://learn-specs.devpost.com/) | $2,500 USD | hackathon | devpost | 6 | 1098 |  |
-| 14 | 13 | [Create Content on Premier League Predictions with worm 🪱⚽](https://earn.superteam.fun/listings/create-content-on-premier-league-predictions-with-worm) | $500 USDC | bounty | superteam-earn | 20 | 223 |  |
+| 13 | 50 | [Learn AR with SPECS](https://learn-specs.devpost.com/) | $2,500 USD | hackathon | devpost | 6 | 1099 |  |
+| 14 | 13 | [Create Content on Premier League Predictions with worm 🪱⚽](https://earn.superteam.fun/listings/create-content-on-premier-league-predictions-with-worm) | $500 USDC | bounty | superteam-earn | 20 | 224 |  |
 | 15 | 11 | [Create Content About KriptoK · 200 USDC Creator Challenge](https://earn.superteam.fun/listings/kriptok-creator-challenge-01) | $200 USDC | bounty | superteam-earn | 15 | 100 |  |
 | 16 | 8 | [Write a thread on $CHIMP Fair Launch - Part 1](https://earn.superteam.fun/listings/chimp-on-metaplex) | $500 USDC | bounty | superteam-earn | 11 | 506 |  |
 | 17 | 3 | [Write an original science fiction novel on Sempai HQ.](https://earn.superteam.fun/listings/write-an-original-science-fiction-novel-on-sempai-hq) | $10 USDC | bounty | superteam-earn | 31 | 10 |  |

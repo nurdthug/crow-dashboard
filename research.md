@@ -1,4 +1,4 @@
-# Crow Research Brief — 2026-11-03 20:05 UTC
+# Crow Research Brief — 2026-11-03 20:17 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
@@ -6,7 +6,7 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 
 | # | Fit | Effort | Opportunity | Value | Why | Next step |
 |---|---:|---|---|---:|---|---|
-| 1 | 956 | high | [QNX Global Hackathon](https://qnx.devpost.com/) | $50,000 USD | verified sponsor | Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible. |
+| 1 | 949 | high | [QNX Global Hackathon](https://qnx.devpost.com/) | $50,000 USD | verified sponsor | Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible. |
 | 2 | 714 | medium | [Rumbo a Breakpoint 2026: gana una entrada y apoyo para tu viaje](https://earn.superteam.fun/listings/rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-viaje) | $5,000 USDG | verified sponsor | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 3 | 423 | high | [MultiHopper Build & Route Challenge | Up to $50,000 + Revenue Share](https://earn.superteam.fun/listings/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1) | $5,000 USDC | reasonable EV after competition/deadline adjustment | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 4 | 131 | medium | [Inside the Block: How Solana Validators Order Transactions](https://earn.superteam.fun/listings/inside-the-block-how-solana-validators-order-transactions) | $2,500 USDC | verified sponsor, urgent | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
@@ -19,8 +19,8 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 
 ## Do Not Chase First
 
-- [Meta VR Start Developer Competition 2026](https://start-developer-competition-26.devpost.com/): huge pool, but competition is already 5,014.
-- [Codegeist 2026: Build with context. Ship with confidence.](https://codegeist2026.devpost.com/): huge pool, but competition is already 1,504.
-- [Kiroween 2026](https://kiroween.devpost.com/): huge pool, but competition is already 8,099.
-- [UGREEN Hackathon 2026 on AI NAS](https://ugreenhackathon.devpost.com/): huge pool, but competition is already 1,193.
-- [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/): huge pool, but competition is already 27,975.
+- [Meta VR Start Developer Competition 2026](https://start-developer-competition-26.devpost.com/): huge pool, but competition is already 5,015.
+- [Codegeist 2026: Build with context. Ship with confidence.](https://codegeist2026.devpost.com/): huge pool, but competition is already 1,505.
+- [Kiroween 2026](https://kiroween.devpost.com/): huge pool, but competition is already 8,102.
+- [UGREEN Hackathon 2026 on AI NAS](https://ugreenhackathon.devpost.com/): huge pool, but competition is already 1,194.
+- [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/): huge pool, but competition is already 27,976.
