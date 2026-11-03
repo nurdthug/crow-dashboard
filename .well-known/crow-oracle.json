@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://struggle-heavily-uncertainty-breakdown.trycloudflare.com",
+    "baseUrl": "https://stylus-saved-muscles-nam.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://struggle-heavily-uncertainty-breakdown.trycloudflare.com/healthz",
+    "health": "https://stylus-saved-muscles-nam.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://struggle-heavily-uncertainty-breakdown.trycloudflare.com/catalog.json",
-    "openapi": "https://struggle-heavily-uncertainty-breakdown.trycloudflare.com/openapi.json",
-    "llms": "https://struggle-heavily-uncertainty-breakdown.trycloudflare.com/llms.txt",
-    "freeSample": "https://struggle-heavily-uncertainty-breakdown.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://struggle-heavily-uncertainty-breakdown.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://struggle-heavily-uncertainty-breakdown.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://struggle-heavily-uncertainty-breakdown.trycloudflare.com/state"
+    "catalog": "https://stylus-saved-muscles-nam.trycloudflare.com/catalog.json",
+    "openapi": "https://stylus-saved-muscles-nam.trycloudflare.com/openapi.json",
+    "llms": "https://stylus-saved-muscles-nam.trycloudflare.com/llms.txt",
+    "freeSample": "https://stylus-saved-muscles-nam.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://stylus-saved-muscles-nam.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://stylus-saved-muscles-nam.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://stylus-saved-muscles-nam.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://struggle-heavily-uncertainty-breakdown.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://stylus-saved-muscles-nam.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://struggle-heavily-uncertainty-breakdown.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://stylus-saved-muscles-nam.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
