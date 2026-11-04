@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04 20:25 UTC",
+  "generated_at": "2026-11-04 20:33 UTC",
   "reviewed": 19,
   "agent_allowed": 1,
   "recommendations": [
@@ -180,7 +180,7 @@
     {
       "title": "Kiroween 2026",
       "url": "https://kiroween.devpost.com/",
-      "competition": 8708,
+      "competition": 8712,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -192,7 +192,7 @@
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 28704,
+      "competition": 28705,
       "reason": "huge pool, but high visible competition"
     }
   ]

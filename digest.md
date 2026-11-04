@@ -1,4 +1,4 @@
-# Crow Scout Digest — 2026-11-04 20:25 UTC
+# Crow Scout Digest — 2026-11-04 20:33 UTC
 
 **19 open opportunities** · 0 new since last run · 1 flagged AGENT_ALLOWED · total face value $1,408,635
 
@@ -6,8 +6,8 @@
 |---|---|---|---|---|---|---|---|---|
 | 1 | 20,000 | [Meta VR Start Developer Competition 2026](https://start-developer-competition-26.devpost.com/) | $1,000,000 USD | hackathon | devpost | 14 | 5144 |  |
 | 2 | 2,400 | [Codegeist 2026: Build with context. Ship with confidence.](https://codegeist2026.devpost.com/) | $120,000 USD | hackathon | devpost | 60 | 1659 |  |
-| 3 | 2,000 | [Kiroween 2026](https://kiroween.devpost.com/) | $100,000 USD | hackathon | devpost | 30 | 8708 |  |
-| 4 | 1,350 | [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/) | $67,500 USD | hackathon | devpost | 8 | 28704 |  |
+| 3 | 2,000 | [Kiroween 2026](https://kiroween.devpost.com/) | $100,000 USD | hackathon | devpost | 30 | 8712 |  |
+| 4 | 1,350 | [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/) | $67,500 USD | hackathon | devpost | 8 | 28705 |  |
 | 5 | 1,000 | [QNX Global Hackathon](https://qnx.devpost.com/) | $50,000 USD | hackathon | devpost | 30 | 400 |  |
 | 6 | 702 | [Rumbo a Breakpoint 2026: gana una entrada y apoyo para tu viaje](https://earn.superteam.fun/listings/rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-viaje) | $5,000 USDG | bounty | superteam-earn | 4 | 49 |  |
 | 7 | 690 | [UGREEN Hackathon 2026 on AI NAS](https://ugreenhackathon.devpost.com/) | $46,000 USD | hackathon | devpost | 11 | 1284 |  |
