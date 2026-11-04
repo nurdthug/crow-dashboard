@@ -1,9 +1,9 @@
-# Draft pack — Codegeist 2026: Build with context. Ship with confidence.
+# Draft pack — QNX Global Hackathon
 
-- Listing: https://codegeist2026.devpost.com/
-- Value: $120,000 USD
-- Deadline: 60 days left (as of 2026-11-03 20:17 UTC)
-- Fit score: 840 — verified sponsor
+- Listing: https://qnx.devpost.com/
+- Value: $50,000 USD
+- Deadline: 30 days left (as of 2026-11-04 20:25 UTC)
+- Fit score: 650 — verified sponsor
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist

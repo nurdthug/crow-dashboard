@@ -7,20 +7,10 @@
   "token": "USD",
   "fit": 3500.0,
   "kind": "build",
-  "days_left": 15.0
+  "days_left": 14.0
  },
  {
-  "file": "drafts/02-qnx-global-hackathon.md",
-  "title": "QNX Global Hackathon",
-  "url": "https://qnx.devpost.com/",
-  "value_usd": 50000.0,
-  "token": "USD",
-  "fit": 948.9,
-  "kind": "build",
-  "days_left": 30.0
- },
- {
-  "file": "drafts/03-codegeist-2026-build-with-context-ship-with-confidence.md",
+  "file": "drafts/02-codegeist-2026-build-with-context-ship-with-confidence.md",
   "title": "Codegeist 2026: Build with context. Ship with confidence.",
   "url": "https://codegeist2026.devpost.com/",
   "value_usd": 120000.0,
@@ -30,14 +20,24 @@
   "days_left": 60.0
  },
  {
-  "file": "drafts/04-rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-via.md",
+  "file": "drafts/03-rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-via.md",
   "title": "Rumbo a Breakpoint 2026: gana una entrada y apoyo para tu viaje",
   "url": "https://earn.superteam.fun/listings/rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-viaje",
   "value_usd": 5000.0,
   "token": "USDG",
-  "fit": 714.29,
+  "fit": 701.75,
   "kind": "generic",
-  "days_left": 5.113085070335648
+  "days_left": 4.107498772222222
+ },
+ {
+  "file": "drafts/04-qnx-global-hackathon.md",
+  "title": "QNX Global Hackathon",
+  "url": "https://qnx.devpost.com/",
+  "value_usd": 50000.0,
+  "token": "USD",
+  "fit": 650.0,
+  "kind": "build",
+  "days_left": 30.0
  },
  {
   "file": "drafts/05-multihopper-build-route-challenge-up-to-50-000-revenue-share.md",
@@ -45,8 +45,8 @@
   "url": "https://earn.superteam.fun/listings/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1",
   "value_usd": 5000.0,
   "token": "USDC",
-  "fit": 422.54,
+  "fit": 405.41,
   "kind": "build",
-  "days_left": 41.07140684116898
+  "days_left": 40.06582054305555
  }
 ]
