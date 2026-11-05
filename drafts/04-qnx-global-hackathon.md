@@ -2,7 +2,7 @@
 
 - Listing: https://qnx.devpost.com/
 - Value: $50,000 USD
-- Deadline: 30 days left (as of 2026-11-05 20:38 UTC)
+- Deadline: 30 days left (as of 2026-11-05 20:49 UTC)
 - Fit score: 650 — verified sponsor
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 

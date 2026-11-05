@@ -27,7 +27,7 @@
   "token": "USDG",
   "fit": 677.97,
   "kind": "generic",
-  "days_left": 3.0980551594444443
+  "days_left": 3.0904150983217593
  },
  {
   "file": "drafts/04-qnx-global-hackathon.md",
@@ -47,6 +47,6 @@
   "token": "USDC",
   "fit": 400.0,
   "kind": "build",
-  "days_left": 39.05637693027778
+  "days_left": 39.04873686915509
  }
 ]
