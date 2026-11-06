@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06 19:56 UTC",
+  "generated_at": "2026-11-06 20:05 UTC",
   "reviewed": 19,
   "agent_allowed": 1,
   "recommendations": [
@@ -14,7 +14,7 @@
       "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
       "effort": "high",
       "days_left": 30.0,
-      "competition": 595,
+      "competition": 597,
       "deadline": null,
       "source": "devpost",
       "agent_access": "HUMAN_ONLY"
@@ -37,7 +37,7 @@
     },
     {
       "rank": 3,
-      "fit": 284.75,
+      "fit": 280.0,
       "title": "Rumbo a Breakpoint 2026: gana una entrada y apoyo para tu viaje",
       "url": "https://earn.superteam.fun/listings/rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-viaje",
       "value_usd": 5000.0,
@@ -46,7 +46,7 @@
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
       "days_left": 2.1,
-      "competition": 51,
+      "competition": 52,
       "deadline": "2026-11-08T22:59:59.999Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -174,25 +174,25 @@
     {
       "title": "Codegeist 2026: Build with context. Ship with confidence.",
       "url": "https://codegeist2026.devpost.com/",
-      "competition": 1955,
+      "competition": 1956,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Kiroween 2026",
       "url": "https://kiroween.devpost.com/",
-      "competition": 9776,
+      "competition": 9777,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "UGREEN Hackathon 2026 on AI NAS",
       "url": "https://ugreenhackathon.devpost.com/",
-      "competition": 1423,
+      "competition": 1425,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 29920,
+      "competition": 29921,
       "reason": "huge pool, but high visible competition"
     }
   ]

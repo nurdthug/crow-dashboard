@@ -1,4 +1,4 @@
-# Crow Research Brief — 2026-11-06 19:56 UTC
+# Crow Research Brief — 2026-11-06 20:05 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
@@ -8,7 +8,7 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 |---|---:|---|---|---:|---|---|
 | 1 | 650 | high | [QNX Global Hackathon](https://qnx.devpost.com/) | $50,000 USD | verified sponsor | Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible. |
 | 2 | 390 | high | [MultiHopper Build & Route Challenge | Up to $50,000 + Revenue Share](https://earn.superteam.fun/listings/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1) | $5,000 USDC | reasonable EV after competition/deadline adjustment | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
-| 3 | 285 | medium | [Rumbo a Breakpoint 2026: gana una entrada y apoyo para tu viaje](https://earn.superteam.fun/listings/rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-viaje) | $5,000 USDG | verified sponsor, urgent | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
+| 3 | 280 | medium | [Rumbo a Breakpoint 2026: gana una entrada y apoyo para tu viaje](https://earn.superteam.fun/listings/rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-viaje) | $5,000 USDG | verified sponsor, urgent | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 4 | 277 | low-medium | [Make a video about our x402 Feature](https://earn.superteam.fun/listings/make-a-video-about-our-x402-feature) | $500 USDC | low competition | Draft script/angle and collect required brand/rule links. |
 | 5 | 83 | medium | [Show us how you use MozaikPay](https://earn.superteam.fun/listings/mozaikpay-video-chile-colombia) | $500 USDC | reasonable EV after competition/deadline adjustment | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 6 | 76 | high | [Arbiter Hacks V1](https://arbiter-hacks-v1.devpost.com/) | $7,800 USD | reasonable EV after competition/deadline adjustment | Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible. |
@@ -20,7 +20,7 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 ## Do Not Chase First
 
 - [Meta VR Start Developer Competition 2026](https://start-developer-competition-26.devpost.com/): huge pool, but competition is already 5,340.
-- [Codegeist 2026: Build with context. Ship with confidence.](https://codegeist2026.devpost.com/): huge pool, but competition is already 1,955.
-- [Kiroween 2026](https://kiroween.devpost.com/): huge pool, but competition is already 9,776.
-- [UGREEN Hackathon 2026 on AI NAS](https://ugreenhackathon.devpost.com/): huge pool, but competition is already 1,423.
-- [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/): huge pool, but competition is already 29,920.
+- [Codegeist 2026: Build with context. Ship with confidence.](https://codegeist2026.devpost.com/): huge pool, but competition is already 1,956.
+- [Kiroween 2026](https://kiroween.devpost.com/): huge pool, but competition is already 9,777.
+- [UGREEN Hackathon 2026 on AI NAS](https://ugreenhackathon.devpost.com/): huge pool, but competition is already 1,425.
+- [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/): huge pool, but competition is already 29,921.
