@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://heritage-pennsylvania-were-spoken.trycloudflare.com",
+    "baseUrl": "https://spotlight-film-disciplinary-mining.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://heritage-pennsylvania-were-spoken.trycloudflare.com/healthz",
+    "health": "https://spotlight-film-disciplinary-mining.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://heritage-pennsylvania-were-spoken.trycloudflare.com/catalog.json",
-    "openapi": "https://heritage-pennsylvania-were-spoken.trycloudflare.com/openapi.json",
-    "llms": "https://heritage-pennsylvania-were-spoken.trycloudflare.com/llms.txt",
-    "freeSample": "https://heritage-pennsylvania-were-spoken.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://heritage-pennsylvania-were-spoken.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://heritage-pennsylvania-were-spoken.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://heritage-pennsylvania-were-spoken.trycloudflare.com/state"
+    "catalog": "https://spotlight-film-disciplinary-mining.trycloudflare.com/catalog.json",
+    "openapi": "https://spotlight-film-disciplinary-mining.trycloudflare.com/openapi.json",
+    "llms": "https://spotlight-film-disciplinary-mining.trycloudflare.com/llms.txt",
+    "freeSample": "https://spotlight-film-disciplinary-mining.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://spotlight-film-disciplinary-mining.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://spotlight-film-disciplinary-mining.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://spotlight-film-disciplinary-mining.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://heritage-pennsylvania-were-spoken.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://spotlight-film-disciplinary-mining.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://heritage-pennsylvania-were-spoken.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://spotlight-film-disciplinary-mining.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
