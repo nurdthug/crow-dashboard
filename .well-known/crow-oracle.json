@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://synthesis-these-middle-senator.trycloudflare.com",
+    "baseUrl": "https://frontier-heat-sleeps-latest.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://synthesis-these-middle-senator.trycloudflare.com/healthz",
+    "health": "https://frontier-heat-sleeps-latest.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://synthesis-these-middle-senator.trycloudflare.com/catalog.json",
-    "openapi": "https://synthesis-these-middle-senator.trycloudflare.com/openapi.json",
-    "llms": "https://synthesis-these-middle-senator.trycloudflare.com/llms.txt",
-    "freeSample": "https://synthesis-these-middle-senator.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://synthesis-these-middle-senator.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://synthesis-these-middle-senator.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://synthesis-these-middle-senator.trycloudflare.com/state"
+    "catalog": "https://frontier-heat-sleeps-latest.trycloudflare.com/catalog.json",
+    "openapi": "https://frontier-heat-sleeps-latest.trycloudflare.com/openapi.json",
+    "llms": "https://frontier-heat-sleeps-latest.trycloudflare.com/llms.txt",
+    "freeSample": "https://frontier-heat-sleeps-latest.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://frontier-heat-sleeps-latest.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://frontier-heat-sleeps-latest.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://frontier-heat-sleeps-latest.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://synthesis-these-middle-senator.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://frontier-heat-sleeps-latest.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://synthesis-these-middle-senator.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://frontier-heat-sleeps-latest.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
