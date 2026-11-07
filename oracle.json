@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://rentals-bangkok-amongst-innovative.trycloudflare.com",
+    "baseUrl": "https://synthesis-these-middle-senator.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://rentals-bangkok-amongst-innovative.trycloudflare.com/healthz",
+    "health": "https://synthesis-these-middle-senator.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://rentals-bangkok-amongst-innovative.trycloudflare.com/catalog.json",
-    "openapi": "https://rentals-bangkok-amongst-innovative.trycloudflare.com/openapi.json",
-    "llms": "https://rentals-bangkok-amongst-innovative.trycloudflare.com/llms.txt",
-    "freeSample": "https://rentals-bangkok-amongst-innovative.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://rentals-bangkok-amongst-innovative.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://rentals-bangkok-amongst-innovative.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://rentals-bangkok-amongst-innovative.trycloudflare.com/state"
+    "catalog": "https://synthesis-these-middle-senator.trycloudflare.com/catalog.json",
+    "openapi": "https://synthesis-these-middle-senator.trycloudflare.com/openapi.json",
+    "llms": "https://synthesis-these-middle-senator.trycloudflare.com/llms.txt",
+    "freeSample": "https://synthesis-these-middle-senator.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://synthesis-these-middle-senator.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://synthesis-these-middle-senator.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://synthesis-these-middle-senator.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://rentals-bangkok-amongst-innovative.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://synthesis-these-middle-senator.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://rentals-bangkok-amongst-innovative.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://synthesis-these-middle-senator.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
