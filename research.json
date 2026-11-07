@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07 18:01 UTC",
+  "generated_at": "2026-11-07 18:20 UTC",
   "reviewed": 19,
   "agent_allowed": 1,
   "recommendations": [
@@ -14,7 +14,7 @@
       "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
       "effort": "high",
       "days_left": 30.0,
-      "competition": 704,
+      "competition": 706,
       "deadline": null,
       "source": "devpost",
       "agent_access": "HUMAN_ONLY"
@@ -53,7 +53,7 @@
     },
     {
       "rank": 4,
-      "fit": 112.5,
+      "fit": 109.09,
       "title": "Make a video about our x402 Feature",
       "url": "https://earn.superteam.fun/listings/make-a-video-about-our-x402-feature",
       "value_usd": 500.0,
@@ -62,7 +62,7 @@
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
       "days_left": 7.2,
-      "competition": 24,
+      "competition": 25,
       "deadline": "2026-11-14T23:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -168,7 +168,7 @@
     {
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
-      "competition": 5401,
+      "competition": 5403,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -180,19 +180,19 @@
     {
       "title": "Kiroween 2026",
       "url": "https://kiroween.devpost.com/",
-      "competition": 10088,
+      "competition": 10092,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "UGREEN Hackathon 2026 on AI NAS",
       "url": "https://ugreenhackathon.devpost.com/",
-      "competition": 1536,
+      "competition": 1538,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 30394,
+      "competition": 30405,
       "reason": "huge pool, but high visible competition"
     }
   ]
