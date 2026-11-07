@@ -7,20 +7,10 @@
   "token": "USD",
   "fit": 3500.0,
   "kind": "build",
-  "days_left": 12.0
+  "days_left": 11.0
  },
  {
-  "file": "drafts/02-codegeist-2026-build-with-context-ship-with-confidence.md",
-  "title": "Codegeist 2026: Build with context. Ship with confidence.",
-  "url": "https://codegeist2026.devpost.com/",
-  "value_usd": 120000.0,
-  "token": "USD",
-  "fit": 840.0,
-  "kind": "build",
-  "days_left": 60.0
- },
- {
-  "file": "drafts/03-qnx-global-hackathon.md",
+  "file": "drafts/02-qnx-global-hackathon.md",
   "title": "QNX Global Hackathon",
   "url": "https://qnx.devpost.com/",
   "value_usd": 50000.0,
@@ -30,6 +20,16 @@
   "days_left": 30.0
  },
  {
+  "file": "drafts/03-codegeist-2026-build-with-context-ship-with-confidence.md",
+  "title": "Codegeist 2026: Build with context. Ship with confidence.",
+  "url": "https://codegeist2026.devpost.com/",
+  "value_usd": 120000.0,
+  "token": "USD",
+  "fit": 420.0,
+  "kind": "build",
+  "days_left": 60.0
+ },
+ {
   "file": "drafts/04-multihopper-build-route-challenge-up-to-50-000-revenue-share.md",
   "title": "MultiHopper Build & Route Challenge | Up to $50,000 + Revenue Share",
   "url": "https://earn.superteam.fun/listings/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1",
@@ -37,7 +37,7 @@
   "token": "USDC",
   "fit": 389.61,
   "kind": "build",
-  "days_left": 38.07932180916667
+  "days_left": 37.165774234895835
  },
  {
   "file": "drafts/05-kiroween-2026.md",
@@ -47,6 +47,6 @@
   "token": "USD",
   "fit": 350.0,
   "kind": "build",
-  "days_left": 28.0
+  "days_left": 27.0
  }
 ]

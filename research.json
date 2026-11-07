@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06 20:05 UTC",
+  "generated_at": "2026-11-07 18:01 UTC",
   "reviewed": 19,
   "agent_allowed": 1,
   "recommendations": [
@@ -14,7 +14,7 @@
       "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
       "effort": "high",
       "days_left": 30.0,
-      "competition": 597,
+      "competition": 704,
       "deadline": null,
       "source": "devpost",
       "agent_access": "HUMAN_ONLY"
@@ -29,7 +29,7 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "high",
-      "days_left": 38.1,
+      "days_left": 37.2,
       "competition": 69,
       "deadline": "2026-12-14T21:59:59.000Z",
       "source": "superteam-earn",
@@ -45,7 +45,7 @@
       "why": "verified sponsor, urgent",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 2.1,
+      "days_left": 1.2,
       "competition": 52,
       "deadline": "2026-11-08T22:59:59.999Z",
       "source": "superteam-earn",
@@ -53,16 +53,16 @@
     },
     {
       "rank": 4,
-      "fit": 276.92,
+      "fit": 112.5,
       "title": "Make a video about our x402 Feature",
       "url": "https://earn.superteam.fun/listings/make-a-video-about-our-x402-feature",
       "value_usd": 500.0,
       "token": "USDC",
-      "why": "low competition",
+      "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 8.2,
-      "competition": 5,
+      "days_left": 7.2,
+      "competition": 24,
       "deadline": "2026-11-14T23:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -77,7 +77,7 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 6.1,
+      "days_left": 5.2,
       "competition": 28,
       "deadline": "2026-11-12T21:59:59.999Z",
       "source": "superteam-earn",
@@ -94,7 +94,7 @@
       "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
       "effort": "high",
       "days_left": 30.0,
-      "competition": 914,
+      "competition": 929,
       "deadline": null,
       "source": "devpost",
       "agent_access": "HUMAN_ONLY"
@@ -109,7 +109,7 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 6.1,
+      "days_left": 5.2,
       "competition": 51,
       "deadline": "2026-11-12T22:59:59.000Z",
       "source": "superteam-earn",
@@ -117,7 +117,7 @@
     },
     {
       "rank": 8,
-      "fit": 9.67,
+      "fit": 9.48,
       "title": "Create Content on Premier League Predictions with worm \ud83e\udeb1\u26bd",
       "url": "https://earn.superteam.fun/listings/create-content-on-premier-league-predictions-with-worm",
       "value_usd": 500.0,
@@ -125,15 +125,15 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 17.3,
-      "competition": 234,
+      "days_left": 16.4,
+      "competition": 239,
       "deadline": "2026-11-24T02:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
     {
       "rank": 9,
-      "fit": 6.41,
+      "fit": 6.0,
       "title": "Create Content About KriptoK \u00b7 200 USDC Creator Challenge",
       "url": "https://earn.superteam.fun/listings/kriptok-creator-challenge-01",
       "value_usd": 200.0,
@@ -141,8 +141,8 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 12.0,
-      "competition": 138,
+      "days_left": 11.1,
+      "competition": 148,
       "deadline": "2026-11-18T20:59:59.999Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -157,8 +157,8 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 7.9,
-      "competition": 555,
+      "days_left": 7.0,
+      "competition": 568,
       "deadline": "2026-11-14T18:29:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -168,31 +168,31 @@
     {
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
-      "competition": 5340,
+      "competition": 5401,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Codegeist 2026: Build with context. Ship with confidence.",
       "url": "https://codegeist2026.devpost.com/",
-      "competition": 1956,
+      "competition": 2086,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Kiroween 2026",
       "url": "https://kiroween.devpost.com/",
-      "competition": 9777,
+      "competition": 10088,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "UGREEN Hackathon 2026 on AI NAS",
       "url": "https://ugreenhackathon.devpost.com/",
-      "competition": 1425,
+      "competition": 1536,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 29921,
+      "competition": 30394,
       "reason": "huge pool, but high visible competition"
     }
   ]
