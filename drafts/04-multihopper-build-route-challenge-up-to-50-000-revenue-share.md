@@ -2,8 +2,8 @@
 
 - Listing: https://earn.superteam.fun/listings/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1
 - Value: $5,000 USDC
-- Deadline: 37 days left (as of 2026-11-07 18:20 UTC)
-- Fit score: 390 — reasonable EV after competition/deadline adjustment
+- Deadline: 36 days left (as of 2026-11-08 18:20 UTC)
+- Fit score: 385 — reasonable EV after competition/deadline adjustment
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
