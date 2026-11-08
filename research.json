@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08 18:20 UTC",
+  "generated_at": "2026-11-08 18:30 UTC",
   "reviewed": 18,
   "agent_allowed": 0,
   "recommendations": [
@@ -14,7 +14,7 @@
       "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
       "effort": "high",
       "days_left": 30.0,
-      "competition": 837,
+      "competition": 838,
       "deadline": null,
       "source": "devpost",
       "agent_access": "HUMAN_ONLY"
@@ -29,7 +29,7 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "high",
-      "days_left": 36.2,
+      "days_left": 36.1,
       "competition": 70,
       "deadline": "2026-12-14T21:59:59.000Z",
       "source": "superteam-earn",
@@ -45,7 +45,7 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
-      "days_left": 4.2,
+      "days_left": 4.1,
       "competition": 28,
       "deadline": "2026-11-12T21:59:59.999Z",
       "source": "superteam-earn",
@@ -78,7 +78,7 @@
       "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
       "effort": "high",
       "days_left": 30.0,
-      "competition": 956,
+      "competition": 957,
       "deadline": null,
       "source": "devpost",
       "agent_access": "HUMAN_ONLY"
@@ -168,7 +168,7 @@
     {
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
-      "competition": 5471,
+      "competition": 5473,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -180,7 +180,7 @@
     {
       "title": "Kiroween 2026",
       "url": "https://kiroween.devpost.com/",
-      "competition": 10404,
+      "competition": 10407,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -192,7 +192,7 @@
     {
       "title": "PayPal AI Hackathon",
       "url": "https://paypalaihackathon.devpost.com/",
-      "competition": 31256,
+      "competition": 31264,
       "reason": "huge pool, but high visible competition"
     }
   ]
