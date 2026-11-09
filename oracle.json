@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://cadillac-assistant-specialists-san.trycloudflare.com",
+    "baseUrl": "https://wife-acquisition-compound-combining.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://cadillac-assistant-specialists-san.trycloudflare.com/healthz",
+    "health": "https://wife-acquisition-compound-combining.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://cadillac-assistant-specialists-san.trycloudflare.com/catalog.json",
-    "openapi": "https://cadillac-assistant-specialists-san.trycloudflare.com/openapi.json",
-    "llms": "https://cadillac-assistant-specialists-san.trycloudflare.com/llms.txt",
-    "freeSample": "https://cadillac-assistant-specialists-san.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://cadillac-assistant-specialists-san.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://cadillac-assistant-specialists-san.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://cadillac-assistant-specialists-san.trycloudflare.com/state"
+    "catalog": "https://wife-acquisition-compound-combining.trycloudflare.com/catalog.json",
+    "openapi": "https://wife-acquisition-compound-combining.trycloudflare.com/openapi.json",
+    "llms": "https://wife-acquisition-compound-combining.trycloudflare.com/llms.txt",
+    "freeSample": "https://wife-acquisition-compound-combining.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://wife-acquisition-compound-combining.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://wife-acquisition-compound-combining.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://wife-acquisition-compound-combining.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://cadillac-assistant-specialists-san.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://wife-acquisition-compound-combining.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://cadillac-assistant-specialists-san.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://wife-acquisition-compound-combining.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
