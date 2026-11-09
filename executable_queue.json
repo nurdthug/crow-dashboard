@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-08T18:30:55+00:00",
- "count": 5,
+ "generated": "2026-11-09T22:58:31+00:00",
+ "count": 6,
  "items": [
   {
    "lane": "github_pr",
@@ -25,6 +25,15 @@
    ],
    "small": true,
    "created": "2026-07-25T09:51:18Z"
+  },
+  {
+   "lane": "listing",
+   "title": "Make a video about our x402 Feature",
+   "url": "https://earn.superteam.fun/listings/make-a-video-about-our-x402-feature",
+   "value_usd": 500.0,
+   "token": "USDC",
+   "days_left": 5.042702309525463,
+   "small": true
   },
   {
    "lane": "github_pr",
