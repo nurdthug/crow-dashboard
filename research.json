@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09 22:58 UTC",
+  "generated_at": "2026-11-09 23:09 UTC",
   "reviewed": 18,
   "agent_allowed": 1,
   "recommendations": [
@@ -14,7 +14,7 @@
       "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
       "effort": "high",
       "days_left": 30.0,
-      "competition": 984,
+      "competition": 985,
       "deadline": null,
       "source": "devpost",
       "agent_access": "HUMAN_ONLY"
@@ -37,22 +37,6 @@
     },
     {
       "rank": 3,
-      "fit": 138.46,
-      "title": "Make a video about our x402 Feature",
-      "url": "https://earn.superteam.fun/listings/make-a-video-about-our-x402-feature",
-      "value_usd": 500.0,
-      "token": "USDC",
-      "why": "explicitly agent-allowed",
-      "next_step": "Draft script/angle and collect required brand/rule links.",
-      "effort": "low-medium",
-      "days_left": 5.0,
-      "competition": 70,
-      "deadline": "2026-11-14T23:59:59.000Z",
-      "source": "superteam-earn",
-      "agent_access": "AGENT_ALLOWED"
-    },
-    {
-      "rank": 4,
       "fit": 136.36,
       "title": "Create an Engaging X Thread Introducing Anna AI Messenger",
       "url": "https://earn.superteam.fun/listings/create-an-engaging-x-thread-introducing-anna-ai-messenger-1",
@@ -66,6 +50,22 @@
       "deadline": "2026-11-19T22:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 4,
+      "fit": 135.0,
+      "title": "Make a video about our x402 Feature",
+      "url": "https://earn.superteam.fun/listings/make-a-video-about-our-x402-feature",
+      "value_usd": 500.0,
+      "token": "USDC",
+      "why": "explicitly agent-allowed",
+      "next_step": "Draft script/angle and collect required brand/rule links.",
+      "effort": "low-medium",
+      "days_left": 5.0,
+      "competition": 72,
+      "deadline": "2026-11-14T23:59:59.000Z",
+      "source": "superteam-earn",
+      "agent_access": "AGENT_ALLOWED"
     },
     {
       "rank": 5,
@@ -85,22 +85,6 @@
     },
     {
       "rank": 6,
-      "fit": 46.15,
-      "title": "Panta x NectarFi Trading Competition Bounty",
-      "url": "https://earn.superteam.fun/listings/panta-x-nectarfi-trading-competition-bounty",
-      "value_usd": 500.0,
-      "token": "USDG",
-      "why": "reasonable EV after competition/deadline adjustment",
-      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
-      "effort": "medium",
-      "days_left": 3.0,
-      "competition": 57,
-      "deadline": "2026-11-12T22:59:59.000Z",
-      "source": "superteam-earn",
-      "agent_access": "HUMAN_ONLY"
-    },
-    {
-      "rank": 7,
       "fit": 35.0,
       "title": "Show us how you use MozaikPay",
       "url": "https://earn.superteam.fun/listings/mozaikpay-video-chile-colombia",
@@ -112,6 +96,22 @@
       "days_left": 3.0,
       "competition": 28,
       "deadline": "2026-11-12T21:59:59.999Z",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 7,
+      "fit": 19.38,
+      "title": "Panta x NectarFi Trading Competition Bounty",
+      "url": "https://earn.superteam.fun/listings/panta-x-nectarfi-trading-competition-bounty",
+      "value_usd": 500.0,
+      "token": "USDG",
+      "why": "urgent",
+      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
+      "effort": "medium",
+      "days_left": 3.0,
+      "competition": 57,
+      "deadline": "2026-11-12T22:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
@@ -168,7 +168,7 @@
     {
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
-      "competition": 5615,
+      "competition": 5616,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -180,7 +180,7 @@
     {
       "title": "Kiroween 2026",
       "url": "https://kiroween.devpost.com/",
-      "competition": 10962,
+      "competition": 10965,
       "reason": "huge pool, but high visible competition"
     },
     {
