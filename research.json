@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10 20:27 UTC",
+  "generated_at": "2026-11-10 20:37 UTC",
   "reviewed": 19,
   "agent_allowed": 1,
   "recommendations": [
@@ -37,7 +37,7 @@
     },
     {
       "rank": 3,
-      "fit": 61.04,
+      "fit": 60.51,
       "title": "Make a video about our x402 Feature",
       "url": "https://earn.superteam.fun/listings/make-a-video-about-our-x402-feature",
       "value_usd": 500.0,
@@ -46,7 +46,7 @@
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
       "days_left": 4.1,
-      "competition": 107,
+      "competition": 108,
       "deadline": "2026-11-14T23:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "AGENT_ALLOWED"
@@ -168,25 +168,25 @@
     {
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
-      "competition": 5721,
+      "competition": 5723,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Codegeist 2026: Build with context. Ship with confidence.",
       "url": "https://codegeist2026.devpost.com/",
-      "competition": 2695,
+      "competition": 2697,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Kiroween 2026",
       "url": "https://kiroween.devpost.com/",
-      "competition": 11491,
+      "competition": 11492,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "QNX Global Hackathon",
       "url": "https://qnx.devpost.com/",
-      "competition": 1134,
+      "competition": 1136,
       "reason": "huge pool, but high visible competition"
     },
     {
