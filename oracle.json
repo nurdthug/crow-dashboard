@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://thats-winning-discover-pamela.trycloudflare.com",
+    "baseUrl": "https://coding-collections-intended-reprint.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://thats-winning-discover-pamela.trycloudflare.com/healthz",
+    "health": "https://coding-collections-intended-reprint.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://thats-winning-discover-pamela.trycloudflare.com/catalog.json",
-    "openapi": "https://thats-winning-discover-pamela.trycloudflare.com/openapi.json",
-    "llms": "https://thats-winning-discover-pamela.trycloudflare.com/llms.txt",
-    "freeSample": "https://thats-winning-discover-pamela.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://thats-winning-discover-pamela.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://thats-winning-discover-pamela.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://thats-winning-discover-pamela.trycloudflare.com/state"
+    "catalog": "https://coding-collections-intended-reprint.trycloudflare.com/catalog.json",
+    "openapi": "https://coding-collections-intended-reprint.trycloudflare.com/openapi.json",
+    "llms": "https://coding-collections-intended-reprint.trycloudflare.com/llms.txt",
+    "freeSample": "https://coding-collections-intended-reprint.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://coding-collections-intended-reprint.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://coding-collections-intended-reprint.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://coding-collections-intended-reprint.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://thats-winning-discover-pamela.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://coding-collections-intended-reprint.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://thats-winning-discover-pamela.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://coding-collections-intended-reprint.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
