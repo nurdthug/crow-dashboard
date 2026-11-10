@@ -1,10 +1,10 @@
-# Draft pack — Codegeist 2026: Build with context. Ship with confidence.
+# Draft pack — Build an Autonomous Capital Agent on Solana & Compete for $500 in Rewards
 
-- Listing: https://codegeist2026.devpost.com/
-- Value: $120,000 USD
-- Deadline: 30 days left (as of 2026-11-09 23:09 UTC)
-- Fit score: 420 — verified sponsor
-- First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
+- Listing: https://earn.superteam.fun/listings/build-an-autonomous-capital-agent-on-solana-and-compete-for-dollar500-in-rewards
+- Value: $500 USDC
+- Deadline: 30 days left (as of 2026-11-10 20:27 UTC)
+- Fit score: 375 — no visible competition yet
+- First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
 - [ ] Read full rules & eligibility (region, KYC, team size)
