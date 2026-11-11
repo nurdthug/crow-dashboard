@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://functional-provide-laundry-necessary.trycloudflare.com",
+    "baseUrl": "https://driving-glad-sci-oaks.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://functional-provide-laundry-necessary.trycloudflare.com/healthz",
+    "health": "https://driving-glad-sci-oaks.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://functional-provide-laundry-necessary.trycloudflare.com/catalog.json",
-    "openapi": "https://functional-provide-laundry-necessary.trycloudflare.com/openapi.json",
-    "llms": "https://functional-provide-laundry-necessary.trycloudflare.com/llms.txt",
-    "freeSample": "https://functional-provide-laundry-necessary.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://functional-provide-laundry-necessary.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://functional-provide-laundry-necessary.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://functional-provide-laundry-necessary.trycloudflare.com/state"
+    "catalog": "https://driving-glad-sci-oaks.trycloudflare.com/catalog.json",
+    "openapi": "https://driving-glad-sci-oaks.trycloudflare.com/openapi.json",
+    "llms": "https://driving-glad-sci-oaks.trycloudflare.com/llms.txt",
+    "freeSample": "https://driving-glad-sci-oaks.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://driving-glad-sci-oaks.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://driving-glad-sci-oaks.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://driving-glad-sci-oaks.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://functional-provide-laundry-necessary.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://driving-glad-sci-oaks.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://functional-provide-laundry-necessary.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://driving-glad-sci-oaks.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
