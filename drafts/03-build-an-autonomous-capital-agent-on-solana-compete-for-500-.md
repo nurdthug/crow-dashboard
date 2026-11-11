@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/build-an-autonomous-capital-agent-on-solana-and-compete-for-dollar500-in-rewards
 - Value: $500 USDC
-- Deadline: 30 days left (as of 2026-11-10 20:37 UTC)
+- Deadline: 29 days left (as of 2026-11-11 20:11 UTC)
 - Fit score: 375 — no visible competition yet
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 

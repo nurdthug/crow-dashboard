@@ -7,7 +7,7 @@
   "token": "USD",
   "fit": 3500.0,
   "kind": "build",
-  "days_left": 8.0
+  "days_left": 7.0
  },
  {
   "file": "drafts/02-codegeist-2026-build-with-context-ship-with-confidence.md",
@@ -27,7 +27,7 @@
   "token": "USDC",
   "fit": 375.0,
   "kind": "build",
-  "days_left": 30.0990858612963
+  "days_left": 29.117210756134256
  },
  {
   "file": "drafts/04-multihopper-build-route-challenge-up-to-50-000-revenue-share.md",
@@ -37,7 +37,7 @@
   "token": "USDC",
   "fit": 370.37,
   "kind": "build",
-  "days_left": 34.05741919462963
+  "days_left": 33.07554408946759
  },
  {
   "file": "drafts/05-kiroween-2026.md",
@@ -47,6 +47,6 @@
   "token": "USD",
   "fit": 350.0,
   "kind": "build",
-  "days_left": 24.0
+  "days_left": 23.0
  }
 ]
