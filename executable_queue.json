@@ -1,7 +1,16 @@
 {
- "generated": "2026-11-11T20:11:14+00:00",
- "count": 6,
+ "generated": "2026-11-12T20:48:44+00:00",
+ "count": 7,
  "items": [
+  {
+   "lane": "listing",
+   "title": "A Narrative of Buying BAOBAO on PAJ - Twitter thread",
+   "url": "https://earn.superteam.fun/listings/a-narrative-of-buying-baobao-on-paj-twitter-x-thread",
+   "value_usd": 689655.0,
+   "token": "BAOBAO",
+   "days_left": 9.091167941666667,
+   "small": true
+  },
   {
    "lane": "github_pr",
    "title": "Automate Bug Detection and Reviews",
@@ -32,7 +41,7 @@
    "url": "https://earn.superteam.fun/listings/make-a-video-about-our-x402-feature",
    "value_usd": 500.0,
    "token": "USDC",
-   "days_left": 3.1588774228009258,
+   "days_left": 2.1328346083333334,
    "small": true
   },
   {

@@ -1,9 +1,9 @@
-# Draft pack — Build an Autonomous Capital Agent on Solana & Compete for $500 in Rewards
+# Draft pack — MultiHopper Build & Route Challenge | Up to $50,000 + Revenue Share
 
-- Listing: https://earn.superteam.fun/listings/build-an-autonomous-capital-agent-on-solana-and-compete-for-dollar500-in-rewards
-- Value: $500 USDC
-- Deadline: 29 days left (as of 2026-11-11 20:11 UTC)
-- Fit score: 375 — no visible competition yet
+- Listing: https://earn.superteam.fun/listings/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1
+- Value: $5,000 USDC
+- Deadline: 32 days left (as of 2026-11-12 20:48 UTC)
+- Fit score: 361 — reasonable EV after competition/deadline adjustment
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
