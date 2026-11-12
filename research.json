@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12 20:48 UTC",
+  "generated_at": "2026-11-12 21:07 UTC",
   "reviewed": 23,
   "agent_allowed": 2,
   "recommendations": [
@@ -62,7 +62,7 @@
       "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
       "effort": "high",
       "days_left": 26.0,
-      "competition": 723,
+      "competition": 728,
       "deadline": null,
       "source": "devpost",
       "agent_access": "HUMAN_ONLY"
@@ -117,7 +117,7 @@
     },
     {
       "rank": 8,
-      "fit": 102.5,
+      "fit": 94.62,
       "title": "Play a cat game. 40 players win 5 USDC each.",
       "url": "https://earn.superteam.fun/listings/play-a-cat-game-40-players-win-5-usdc-each",
       "value_usd": 205.0,
@@ -126,14 +126,14 @@
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
       "days_left": 3.0,
-      "competition": 4,
+      "competition": 5,
       "deadline": "2026-11-15T21:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
     {
       "rank": 9,
-      "fit": 16.95,
+      "fit": 16.85,
       "title": "Make a video about our x402 Feature",
       "url": "https://earn.superteam.fun/listings/make-a-video-about-our-x402-feature",
       "value_usd": 500.0,
@@ -142,7 +142,7 @@
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
       "days_left": 2.1,
-      "competition": 166,
+      "competition": 167,
       "deadline": "2026-11-14T23:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "AGENT_ALLOWED"
@@ -157,7 +157,7 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 11.3,
+      "days_left": 11.2,
       "competition": 255,
       "deadline": "2026-11-24T02:59:59.000Z",
       "source": "superteam-earn",
@@ -174,25 +174,25 @@
     {
       "title": "Codegeist 2026: Build with context. Ship with confidence.",
       "url": "https://codegeist2026.devpost.com/",
-      "competition": 3006,
+      "competition": 3011,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Kiroween 2026",
       "url": "https://kiroween.devpost.com/",
-      "competition": 12852,
+      "competition": 12858,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "QNX Global Hackathon",
       "url": "https://qnx.devpost.com/",
-      "competition": 1328,
+      "competition": 1330,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "#BuildHybridAI 2026",
       "url": "https://firebasehybridaihackathon.devpost.com/",
-      "competition": 1660,
+      "competition": 1664,
       "reason": "huge pool, but high visible competition"
     }
   ]
