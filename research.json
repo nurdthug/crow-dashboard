@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13 20:28 UTC",
+  "generated_at": "2026-11-13 20:39 UTC",
   "reviewed": 23,
   "agent_allowed": 2,
   "recommendations": [
@@ -117,7 +117,7 @@
     },
     {
       "rank": 8,
-      "fit": 13.78,
+      "fit": 13.65,
       "title": "Make a video about our x402 Feature",
       "url": "https://earn.superteam.fun/listings/make-a-video-about-our-x402-feature",
       "value_usd": 500.0,
@@ -126,7 +126,7 @@
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
       "days_left": 1.1,
-      "competition": 206,
+      "competition": 208,
       "deadline": "2026-11-14T23:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "AGENT_ALLOWED"
@@ -168,19 +168,19 @@
     {
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
-      "competition": 6114,
+      "competition": 6115,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Codegeist 2026: Build with context. Ship with confidence.",
       "url": "https://codegeist2026.devpost.com/",
-      "competition": 3247,
+      "competition": 3248,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Kiroween 2026",
       "url": "https://kiroween.devpost.com/",
-      "competition": 13426,
+      "competition": 13427,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -192,7 +192,7 @@
     {
       "title": "Reddit\u2019s Game of the Day Hackathon",
       "url": "https://redditgameofday2026.devpost.com/",
-      "competition": 1024,
+      "competition": 1026,
       "reason": "huge pool, but high visible competition"
     }
   ]

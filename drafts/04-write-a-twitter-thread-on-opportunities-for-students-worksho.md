@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/write-a-twitter-thread-on-opportunities-for-students-workshop
 - Value: $400 USDG
-- Deadline: 7 days left (as of 2026-11-13 20:28 UTC)
+- Deadline: 7 days left (as of 2026-11-13 20:39 UTC)
 - Fit score: 480 — verified sponsor, no visible competition yet
 - First action: Draft thread outline and verify rules before posting.
 
