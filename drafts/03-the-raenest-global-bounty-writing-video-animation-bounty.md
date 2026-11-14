@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/the-raenest-global-bounty-writing-video-and-animation
 - Value: $13,000 USDC
-- Deadline: 29 days left (as of 2026-11-14 18:43 UTC)
+- Deadline: 29 days left (as of 2026-11-14 18:51 UTC)
 - Fit score: 2,177 — reasonable EV after competition/deadline adjustment
 - First action: Draft script/angle and collect required brand/rule links.
 
