@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15 19:21 UTC",
+  "generated_at": "2026-11-15 19:28 UTC",
   "reviewed": 21,
   "agent_allowed": 1,
   "recommendations": [
@@ -13,7 +13,7 @@
       "why": "explicitly agent-allowed, low competition",
       "next_step": "Draft thread outline and verify rules before posting.",
       "effort": "low-medium",
-      "days_left": 6.2,
+      "days_left": 6.1,
       "competition": 5,
       "deadline": "2026-11-21T22:59:59.000Z",
       "source": "superteam-earn",
@@ -29,7 +29,7 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 28.2,
+      "days_left": 28.1,
       "competition": 67,
       "deadline": "2026-12-13T22:59:59.000Z",
       "source": "superteam-earn",
@@ -93,7 +93,7 @@
       "why": "low competition",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "high",
-      "days_left": 25.2,
+      "days_left": 25.1,
       "competition": 6,
       "deadline": "2026-12-10T22:59:59.000Z",
       "source": "superteam-earn",
@@ -141,7 +141,7 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 10.2,
+      "days_left": 10.1,
       "competition": 87,
       "deadline": "2026-11-25T22:59:59.000Z",
       "source": "superteam-earn",
@@ -180,19 +180,19 @@
     {
       "title": "Kiroween 2026",
       "url": "https://kiroween.devpost.com/",
-      "competition": 14250,
+      "competition": 14253,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "QNX Global Hackathon",
       "url": "https://qnx.devpost.com/",
-      "competition": 1665,
+      "competition": 1667,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Reddit\u2019s Game of the Day Hackathon",
       "url": "https://redditgameofday2026.devpost.com/",
-      "competition": 1288,
+      "competition": 1290,
       "reason": "huge pool, but high visible competition"
     }
   ]

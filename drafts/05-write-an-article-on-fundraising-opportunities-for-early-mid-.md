@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/write-an-article-on-fundraising-opportunities-for-early-and-mid-stage-projects
 - Value: $500 USDG
-- Deadline: 6 days left (as of 2026-11-15 19:21 UTC)
+- Deadline: 6 days left (as of 2026-11-15 19:28 UTC)
 - Fit score: 400 — verified sponsor, low competition
 - First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 

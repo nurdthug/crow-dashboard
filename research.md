@@ -1,4 +1,4 @@
-# Crow Research Brief — 2026-11-15 19:21 UTC
+# Crow Research Brief — 2026-11-15 19:28 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
@@ -21,6 +21,6 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 
 - [Meta VR Start Developer Competition 2026](https://start-developer-competition-26.devpost.com/): huge pool, but competition is already 6,344.
 - [Codegeist 2026: Build with context. Ship with confidence.](https://codegeist2026.devpost.com/): huge pool, but competition is already 3,582.
-- [Kiroween 2026](https://kiroween.devpost.com/): huge pool, but competition is already 14,250.
-- [QNX Global Hackathon](https://qnx.devpost.com/): huge pool, but competition is already 1,665.
-- [Reddit’s Game of the Day Hackathon](https://redditgameofday2026.devpost.com/): huge pool, but competition is already 1,288.
+- [Kiroween 2026](https://kiroween.devpost.com/): huge pool, but competition is already 14,253.
+- [QNX Global Hackathon](https://qnx.devpost.com/): huge pool, but competition is already 1,667.
+- [Reddit’s Game of the Day Hackathon](https://redditgameofday2026.devpost.com/): huge pool, but competition is already 1,290.
