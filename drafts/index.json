@@ -5,9 +5,9 @@
   "url": "https://earn.superteam.fun/listings/a-narrative-of-buying-baobao-on-paj-twitter-x-thread",
   "value_usd": 689655.0,
   "token": "BAOBAO",
-  "fit": 1241379.0,
+  "fit": 1145888.3,
   "kind": "content",
-  "days_left": 7.172322040787037
+  "days_left": 6.151460050000001
  },
  {
   "file": "drafts/02-meta-vr-start-developer-competition-2026.md",
@@ -17,7 +17,7 @@
   "token": "USD",
   "fit": 3500.0,
   "kind": "build",
-  "days_left": 4.0
+  "days_left": 3.0
  },
  {
   "file": "drafts/03-the-raenest-global-bounty-writing-video-animation-bounty.md",
@@ -25,28 +25,28 @@
   "url": "https://earn.superteam.fun/listings/the-raenest-global-bounty-writing-video-and-animation",
   "value_usd": 13000.0,
   "token": "USDC",
-  "fit": 2176.74,
+  "fit": 1248.0,
   "kind": "content",
-  "days_left": 29.172322040787037
+  "days_left": 28.15146005
  },
  {
-  "file": "drafts/04-write-an-article-on-fundraising-opportunities-for-early-mid-.md",
+  "file": "drafts/04-codegeist-2026-build-with-context-ship-with-confidence.md",
+  "title": "Codegeist 2026: Build with context. Ship with confidence.",
+  "url": "https://codegeist2026.devpost.com/",
+  "value_usd": 120000.0,
+  "token": "USD",
+  "fit": 420.0,
+  "kind": "build",
+  "days_left": 30.0
+ },
+ {
+  "file": "drafts/05-write-an-article-on-fundraising-opportunities-for-early-mid-.md",
   "title": "Write an Article on Fundraising Opportunities for Early & Mid-Stage Projects",
   "url": "https://earn.superteam.fun/listings/write-an-article-on-fundraising-opportunities-for-early-and-mid-stage-projects",
   "value_usd": 500.0,
   "token": "USDG",
-  "fit": 500.0,
+  "fit": 400.0,
   "kind": "writing",
-  "days_left": 7.214000269953704
- },
- {
-  "file": "drafts/05-write-a-twitter-thread-on-opportunities-for-students-worksho.md",
-  "title": "Write a Twitter Thread on Opportunities for Students Workshop",
-  "url": "https://earn.superteam.fun/listings/write-a-twitter-thread-on-opportunities-for-students-workshop",
-  "value_usd": 400.0,
-  "token": "USDG",
-  "fit": 426.67,
-  "kind": "content",
-  "days_left": 6.214000269953704
+  "days_left": 6.193138279166667
  }
 ]

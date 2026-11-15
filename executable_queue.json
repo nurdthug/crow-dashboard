@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-14T18:51:53+00:00",
- "count": 7,
+ "generated": "2026-11-15T19:21:54+00:00",
+ "count": 5,
  "items": [
   {
    "lane": "listing",
@@ -8,40 +8,7 @@
    "url": "https://earn.superteam.fun/listings/a-narrative-of-buying-baobao-on-paj-twitter-x-thread",
    "value_usd": 689655.0,
    "token": "BAOBAO",
-   "days_left": 7.172322040787037,
-   "small": true
-  },
-  {
-   "lane": "github_pr",
-   "title": "Automate Bug Detection and Reviews",
-   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11398",
-   "repo": "SecureBananaLabs/bug-bounty",
-   "issue_number": 11398,
-   "value_usd": 800,
-   "labels": [
-    "bug",
-    "documentation",
-    "enhancement",
-    "good first issue",
-    "help wanted",
-    "bug bounty",
-    "ai agent friendly",
-    "bounty",
-    "\ud83d\udc8e bounty",
-    "$780",
-    "$1k",
-    "$1.2k"
-   ],
-   "small": true,
-   "created": "2026-07-25T09:51:18Z"
-  },
-  {
-   "lane": "listing",
-   "title": "Make a video about our x402 Feature",
-   "url": "https://earn.superteam.fun/listings/make-a-video-about-our-x402-feature",
-   "value_usd": 500.0,
-   "token": "USDC",
-   "days_left": 0.2139887074537037,
+   "days_left": 6.151460050000001,
    "small": true
   },
   {
