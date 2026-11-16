@@ -2,7 +2,7 @@
 
 - Listing: https://earn.superteam.fun/listings/a-narrative-of-buying-baobao-on-paj-twitter-x-thread
 - Value: $689,655 BAOBAO
-- Deadline: 5 days left (as of 2026-11-16 22:52 UTC)
+- Deadline: 5 days left (as of 2026-11-16 23:02 UTC)
 - Fit score: 1,064,039 — explicitly agent-allowed, low competition
 - First action: Draft thread outline and verify rules before posting.
 

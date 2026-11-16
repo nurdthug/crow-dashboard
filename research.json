@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16 22:52 UTC",
+  "generated_at": "2026-11-16 23:02 UTC",
   "reviewed": 20,
   "agent_allowed": 1,
   "recommendations": [
@@ -168,7 +168,7 @@
     {
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
-      "competition": 6537,
+      "competition": 6536,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -180,19 +180,19 @@
     {
       "title": "Kiroween 2026",
       "url": "https://kiroween.devpost.com/",
-      "competition": 14912,
+      "competition": 14913,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "QNX Global Hackathon",
       "url": "https://qnx.devpost.com/",
-      "competition": 1794,
+      "competition": 1795,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Reddit\u2019s Game of the Day Hackathon",
       "url": "https://redditgameofday2026.devpost.com/",
-      "competition": 1437,
+      "competition": 1438,
       "reason": "huge pool, but high visible competition"
     }
   ]
