@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17 21:45 UTC",
+  "generated_at": "2026-11-17 21:54 UTC",
   "reviewed": 21,
   "agent_allowed": 1,
   "recommendations": [
@@ -13,7 +13,7 @@
       "why": "explicitly agent-allowed",
       "next_step": "Draft thread outline and verify rules before posting.",
       "effort": "low-medium",
-      "days_left": 4.1,
+      "days_left": 4.0,
       "competition": 11,
       "deadline": "2026-11-21T22:59:59.000Z",
       "source": "superteam-earn",
@@ -29,7 +29,7 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 26.1,
+      "days_left": 26.0,
       "competition": 134,
       "deadline": "2026-12-13T22:59:59.000Z",
       "source": "superteam-earn",
@@ -93,7 +93,7 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "high",
-      "days_left": 23.1,
+      "days_left": 23.0,
       "competition": 11,
       "deadline": "2026-12-10T22:59:59.000Z",
       "source": "superteam-earn",
@@ -117,7 +117,7 @@
     },
     {
       "rank": 8,
-      "fit": 62.07,
+      "fit": 60.0,
       "title": "Provide Feedback on our new Support Assistant Nosa",
       "url": "https://earn.superteam.fun/listings/provide-feedback-on-our-new-support-assistant-nosa",
       "value_usd": 300.0,
@@ -126,14 +126,14 @@
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
       "days_left": 12.1,
-      "competition": 21,
+      "competition": 22,
       "deadline": "2026-11-29T23:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
     {
       "rank": 9,
-      "fit": 19.43,
+      "fit": 19.31,
       "title": "Create Nosana content: Explainer Thread/Article or Creative Meme/Video",
       "url": "https://earn.superteam.fun/listings/create-nosana-content-explainer-threadarticle-or-creative-memevideo",
       "value_usd": 660.0,
@@ -141,8 +141,8 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 8.1,
-      "competition": 151,
+      "days_left": 8.0,
+      "competition": 152,
       "deadline": "2026-11-25T22:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -168,7 +168,7 @@
     {
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
-      "competition": 6783,
+      "competition": 6782,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -180,7 +180,7 @@
     {
       "title": "Kiroween 2026",
       "url": "https://kiroween.devpost.com/",
-      "competition": 15741,
+      "competition": 15749,
       "reason": "huge pool, but high visible competition"
     },
     {

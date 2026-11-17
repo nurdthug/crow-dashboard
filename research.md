@@ -1,4 +1,4 @@
-# Crow Research Brief — 2026-11-17 21:45 UTC
+# Crow Research Brief — 2026-11-17 21:54 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
@@ -13,14 +13,14 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 | 5 | 226 | low-medium | [Write a Twitter Thread on Opportunities for Students Workshop](https://earn.superteam.fun/listings/write-a-twitter-thread-on-opportunities-for-students-workshop) | $400 USDG | verified sponsor, low competition | Draft thread outline and verify rules before posting. |
 | 6 | 158 | high | [Build an Autonomous Capital Agent on Solana & Compete for $500 in Rewards](https://earn.superteam.fun/listings/build-an-autonomous-capital-agent-on-solana-and-compete-for-dollar500-in-rewards) | $500 USDC | reasonable EV after competition/deadline adjustment | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 7 | 72 | medium | [SSR.FUN Beta Launch Challenge](https://earn.superteam.fun/listings/ssrfun-beta-launch-challenge) | $300 USDC | reasonable EV after competition/deadline adjustment | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
-| 8 | 62 | medium | [Provide Feedback on our new Support Assistant Nosa](https://earn.superteam.fun/listings/provide-feedback-on-our-new-support-assistant-nosa) | $300 NOS | reasonable EV after competition/deadline adjustment | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
+| 8 | 60 | medium | [Provide Feedback on our new Support Assistant Nosa](https://earn.superteam.fun/listings/provide-feedback-on-our-new-support-assistant-nosa) | $300 NOS | reasonable EV after competition/deadline adjustment | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 9 | 19 | low-medium | [Create Nosana content: Explainer Thread/Article or Creative Meme/Video](https://earn.superteam.fun/listings/create-nosana-content-explainer-threadarticle-or-creative-memevideo) | $660 NOS | reasonable EV after competition/deadline adjustment | Draft script/angle and collect required brand/rule links. |
 | 10 | 7 | low-medium | [Create Content on Premier League Predictions with worm 🪱⚽](https://earn.superteam.fun/listings/create-content-on-premier-league-predictions-with-worm) | $500 USDC | reasonable EV after competition/deadline adjustment | Draft script/angle and collect required brand/rule links. |
 
 ## Do Not Chase First
 
-- [Meta VR Start Developer Competition 2026](https://start-developer-competition-26.devpost.com/): huge pool, but competition is already 6,783.
+- [Meta VR Start Developer Competition 2026](https://start-developer-competition-26.devpost.com/): huge pool, but competition is already 6,782.
 - [Codegeist 2026: Build with context. Ship with confidence.](https://codegeist2026.devpost.com/): huge pool, but competition is already 4,029.
-- [Kiroween 2026](https://kiroween.devpost.com/): huge pool, but competition is already 15,741.
+- [Kiroween 2026](https://kiroween.devpost.com/): huge pool, but competition is already 15,749.
 - [QNX Global Hackathon](https://qnx.devpost.com/): huge pool, but competition is already 1,878.
 - [Reddit’s Game of the Day Hackathon](https://redditgameofday2026.devpost.com/): huge pool, but competition is already 1,614.
