@@ -5,9 +5,9 @@
   "url": "https://earn.superteam.fun/listings/a-narrative-of-buying-baobao-on-paj-twitter-x-thread",
   "value_usd": 689655.0,
   "token": "BAOBAO",
-  "fit": 1064039.14,
+  "fit": 784028.83,
   "kind": "content",
-  "days_left": 4.997953842627315
+  "days_left": 4.052017830891204
  },
  {
   "file": "drafts/02-meta-vr-start-developer-competition-2026.md",
@@ -15,9 +15,9 @@
   "url": "https://start-developer-competition-26.devpost.com/",
   "value_usd": 1000000.0,
   "token": "USD",
-  "fit": 1470.0,
+  "fit": 2800.0,
   "kind": "build",
-  "days_left": 2.0
+  "days_left": null
  },
  {
   "file": "drafts/03-the-raenest-global-bounty-writing-video-animation-bounty.md",
@@ -25,9 +25,9 @@
   "url": "https://earn.superteam.fun/listings/the-raenest-global-bounty-writing-video-and-animation",
   "value_usd": 13000.0,
   "token": "USDC",
-  "fit": 866.66,
+  "fit": 428.45,
   "kind": "content",
-  "days_left": 26.997953842627314
+  "days_left": 26.052017830891202
  },
  {
   "file": "drafts/04-codegeist-2026-build-with-context-ship-with-confidence.md",
@@ -47,6 +47,6 @@
   "token": "USD",
   "fit": 350.0,
   "kind": "build",
-  "days_left": 18.0
+  "days_left": 17.0
  }
 ]
