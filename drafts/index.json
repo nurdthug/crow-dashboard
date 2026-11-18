@@ -5,32 +5,12 @@
   "url": "https://earn.superteam.fun/listings/a-narrative-of-buying-baobao-on-paj-twitter-x-thread",
   "value_usd": 689655.0,
   "token": "BAOBAO",
-  "fit": 784028.83,
+  "fit": 595861.92,
   "kind": "content",
-  "days_left": 4.0451632121875
+  "days_left": 3.0655091447106484
  },
  {
-  "file": "drafts/02-meta-vr-start-developer-competition-2026.md",
-  "title": "Meta VR Start Developer Competition 2026",
-  "url": "https://start-developer-competition-26.devpost.com/",
-  "value_usd": 1000000.0,
-  "token": "USD",
-  "fit": 2800.0,
-  "kind": "build",
-  "days_left": null
- },
- {
-  "file": "drafts/03-the-raenest-global-bounty-writing-video-animation-bounty.md",
-  "title": "The Raenest Global Bounty - Writing, Video & Animation Bounty",
-  "url": "https://earn.superteam.fun/listings/the-raenest-global-bounty-writing-video-and-animation",
-  "value_usd": 13000.0,
-  "token": "USDC",
-  "fit": 428.45,
-  "kind": "content",
-  "days_left": 26.0451632121875
- },
- {
-  "file": "drafts/04-codegeist-2026-build-with-context-ship-with-confidence.md",
+  "file": "drafts/02-codegeist-2026-build-with-context-ship-with-confidence.md",
   "title": "Codegeist 2026: Build with context. Ship with confidence.",
   "url": "https://codegeist2026.devpost.com/",
   "value_usd": 120000.0,
@@ -40,13 +20,33 @@
   "days_left": 30.0
  },
  {
-  "file": "drafts/05-kiroween-2026.md",
+  "file": "drafts/03-the-raenest-global-bounty-writing-video-animation-bounty.md",
+  "title": "The Raenest Global Bounty - Writing, Video & Animation Bounty",
+  "url": "https://earn.superteam.fun/listings/the-raenest-global-bounty-writing-video-and-animation",
+  "value_usd": 13000.0,
+  "token": "USDC",
+  "fit": 364.31,
+  "kind": "content",
+  "days_left": 25.065509144710646
+ },
+ {
+  "file": "drafts/04-kiroween-2026.md",
   "title": "Kiroween 2026",
   "url": "https://kiroween.devpost.com/",
   "value_usd": 100000.0,
   "token": "USD",
   "fit": 350.0,
   "kind": "build",
-  "days_left": 17.0
+  "days_left": 16.0
+ },
+ {
+  "file": "drafts/05-qnx-global-hackathon.md",
+  "title": "QNX Global Hackathon",
+  "url": "https://qnx.devpost.com/",
+  "value_usd": 50000.0,
+  "token": "USD",
+  "fit": 350.0,
+  "kind": "build",
+  "days_left": 27.0
  }
 ]

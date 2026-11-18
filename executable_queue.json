@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-17T21:55:00+00:00",
- "count": 5,
+ "generated": "2026-11-18T21:25:41+00:00",
+ "count": 4,
  "items": [
   {
    "lane": "listing",
@@ -8,7 +8,7 @@
    "url": "https://earn.superteam.fun/listings/a-narrative-of-buying-baobao-on-paj-twitter-x-thread",
    "value_usd": 689655.0,
    "token": "BAOBAO",
-   "days_left": 4.0451632121875,
+   "days_left": 3.0655091447106484,
    "small": true
   },
   {
@@ -52,20 +52,6 @@
    ],
    "small": false,
    "created": "2026-10-16T23:50:59Z"
-  },
-  {
-   "lane": "github_pr",
-   "title": "[wildcard] Erase the .hy / .go Split: Whole-Package Tier-0 Checking via Native Go AST and Export-Data Analysis",
-   "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/186",
-   "repo": "limitlessprojects/Go-Hybrid",
-   "issue_number": 186,
-   "value_usd": 250,
-   "labels": [
-    "\ud83d\udc8e bounty",
-    "wildcard"
-   ],
-   "small": false,
-   "created": "2026-10-15T12:09:37Z"
   }
  ]
 }

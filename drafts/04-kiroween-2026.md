@@ -1,9 +1,9 @@
-# Draft pack — Meta VR Start Developer Competition 2026
+# Draft pack — Kiroween 2026
 
-- Listing: https://start-developer-competition-26.devpost.com/
-- Value: $1,000,000 USD
-- Deadline: no deadline listed (as of 2026-11-17 21:54 UTC)
-- Fit score: 2,800 — verified sponsor
+- Listing: https://kiroween.devpost.com/
+- Value: $100,000 USD
+- Deadline: 16 days left (as of 2026-11-18 21:25 UTC)
+- Fit score: 350 — verified sponsor
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist
