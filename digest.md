@@ -1,12 +1,12 @@
-# Crow Scout Digest — 2026-11-18 21:25 UTC
+# Crow Scout Digest — 2026-11-18 21:37 UTC
 
 **21 open opportunities** · 0 new since last run · 1 flagged AGENT_ALLOWED · total face value $1,089,065
 
 | # | Score | Title | Value | Type | Source | Days left | Competition | Agent? |
 |---|---|---|---|---|---|---|---|---|
 | 1 | 248,276 | [A Narrative of Buying BAOBAO on PAJ - Twitter thread](https://earn.superteam.fun/listings/a-narrative-of-buying-baobao-on-paj-twitter-x-thread) | $689,655 BAOBAO | bounty | superteam-earn | 3 | 17 | 🤖 |
-| 2 | 2,400 | [Codegeist 2026: Build with context. Ship with confidence.](https://codegeist2026.devpost.com/) | $120,000 USD | hackathon | devpost | 30 | 4199 |  |
-| 3 | 2,000 | [Kiroween 2026](https://kiroween.devpost.com/) | $100,000 USD | hackathon | devpost | 16 | 16454 |  |
+| 2 | 2,400 | [Codegeist 2026: Build with context. Ship with confidence.](https://codegeist2026.devpost.com/) | $120,000 USD | hackathon | devpost | 30 | 4200 |  |
+| 3 | 2,000 | [Kiroween 2026](https://kiroween.devpost.com/) | $100,000 USD | hackathon | devpost | 16 | 16455 |  |
 | 4 | 1,000 | [QNX Global Hackathon](https://qnx.devpost.com/) | $50,000 USD | hackathon | devpost | 27 | 1973 |  |
 | 5 | 600 | [#BuildHybridAI 2026](https://firebasehybridaihackathon.devpost.com/) | $30,000 USD | hackathon | devpost | 12 | 3223 |  |
 | 6 | 525 | [Reddit’s Game of the Day Hackathon](https://redditgameofday2026.devpost.com/) | $35,000 USD | hackathon | devpost | 20 | 1733 |  |
