@@ -1,9 +1,9 @@
-# Draft pack — QNX Global Hackathon
+# Draft pack — Cloud9 x JetBrains: Sky's The Limit Hackathon 2026
 
-- Listing: https://qnx.devpost.com/
-- Value: $50,000 USD
-- Deadline: 27 days left (as of 2026-11-18 21:37 UTC)
-- Fit score: 350 — verified sponsor
+- Listing: https://cloud9.devpost.com/
+- Value: $25,000 USD
+- Deadline: 60 days left (as of 2026-11-19 21:30 UTC)
+- Fit score: 325 — verified sponsor
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist
