@@ -2,7 +2,7 @@
 
 - Listing: https://cloud9.devpost.com/
 - Value: $25,000 USD
-- Deadline: 60 days left (as of 2026-11-19 21:50 UTC)
+- Deadline: 60 days left (as of 2026-11-20 21:03 UTC)
 - Fit score: 325 — verified sponsor
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
