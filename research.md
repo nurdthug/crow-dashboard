@@ -1,4 +1,4 @@
-# Crow Research Brief — 2026-11-20 21:03 UTC
+# Crow Research Brief — 2026-11-20 21:33 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
@@ -19,8 +19,8 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 
 ## Do Not Chase First
 
-- [Codegeist 2026: Build with context. Ship with confidence.](https://codegeist2026.devpost.com/): huge pool, but competition is already 4,566.
-- [Kiroween 2026](https://kiroween.devpost.com/): huge pool, but competition is already 17,559.
-- [Reddit’s Game of the Day Hackathon](https://redditgameofday2026.devpost.com/): huge pool, but competition is already 1,966.
-- [QNX Global Hackathon](https://qnx.devpost.com/): huge pool, but competition is already 2,171.
-- [Deck the Pixels](https://deckthepixels.devpost.com/): huge pool, but competition is already 1,315.
+- [Codegeist 2026: Build with context. Ship with confidence.](https://codegeist2026.devpost.com/): huge pool, but competition is already 4,570.
+- [Kiroween 2026](https://kiroween.devpost.com/): huge pool, but competition is already 17,563.
+- [Reddit’s Game of the Day Hackathon](https://redditgameofday2026.devpost.com/): huge pool, but competition is already 1,968.
+- [QNX Global Hackathon](https://qnx.devpost.com/): huge pool, but competition is already 2,172.
+- [Deck the Pixels](https://deckthepixels.devpost.com/): huge pool, but competition is already 1,316.

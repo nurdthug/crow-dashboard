@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20 21:03 UTC",
+  "generated_at": "2026-11-20 21:33 UTC",
   "reviewed": 21,
   "agent_allowed": 1,
   "recommendations": [
@@ -46,7 +46,7 @@
       "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
       "effort": "high",
       "days_left": 60.0,
-      "competition": 645,
+      "competition": 646,
       "deadline": null,
       "source": "devpost",
       "agent_access": "HUMAN_ONLY"
@@ -117,7 +117,7 @@
     },
     {
       "rank": 8,
-      "fit": 10.73,
+      "fit": 10.63,
       "title": "Provide Feedback on our new Support Assistant Nosa",
       "url": "https://earn.superteam.fun/listings/provide-feedback-on-our-new-support-assistant-nosa",
       "value_usd": 300.0,
@@ -126,7 +126,7 @@
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
       "days_left": 9.1,
-      "competition": 101,
+      "competition": 102,
       "deadline": "2026-11-29T23:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -168,31 +168,31 @@
     {
       "title": "Codegeist 2026: Build with context. Ship with confidence.",
       "url": "https://codegeist2026.devpost.com/",
-      "competition": 4566,
+      "competition": 4570,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Kiroween 2026",
       "url": "https://kiroween.devpost.com/",
-      "competition": 17559,
+      "competition": 17563,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Reddit\u2019s Game of the Day Hackathon",
       "url": "https://redditgameofday2026.devpost.com/",
-      "competition": 1966,
+      "competition": 1968,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "QNX Global Hackathon",
       "url": "https://qnx.devpost.com/",
-      "competition": 2171,
+      "competition": 2172,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Deck the Pixels",
       "url": "https://deckthepixels.devpost.com/",
-      "competition": 1315,
+      "competition": 1316,
       "reason": "huge pool, but high visible competition"
     }
   ]
