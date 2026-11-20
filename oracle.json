@@ -7,10 +7,10 @@
   "stableBeacon": "https://nurdthug.github.io/crow-dashboard/oracle.json",
   "updatedAt": "2026-08-15T07:48:35Z",
   "backend": {
-    "baseUrl": "https://networking-ment-editorial-fridge.trycloudflare.com",
+    "baseUrl": "https://worldwide-foods-recreational-align.trycloudflare.com",
     "hostnameClass": "temporary-accountless-cloudflare",
     "permanent": false,
-    "health": "https://networking-ment-editorial-fridge.trycloudflare.com/healthz",
+    "health": "https://worldwide-foods-recreational-align.trycloudflare.com/healthz",
     "buyerRequirement": "Fetch this beacon, then recheck backend health and the live unpaid quote before signing or transmitting payment."
   },
   "network": "solana-mainnet",
@@ -33,19 +33,19 @@
     }
   },
   "docs": {
-    "catalog": "https://networking-ment-editorial-fridge.trycloudflare.com/catalog.json",
-    "openapi": "https://networking-ment-editorial-fridge.trycloudflare.com/openapi.json",
-    "llms": "https://networking-ment-editorial-fridge.trycloudflare.com/llms.txt",
-    "freeSample": "https://networking-ment-editorial-fridge.trycloudflare.com/sample/token-risk",
-    "buyerClient": "https://networking-ment-editorial-fridge.trycloudflare.com/buyer-client.mjs",
-    "receiptVerifier": "https://networking-ment-editorial-fridge.trycloudflare.com/verify-receipt.mjs",
-    "publicState": "https://networking-ment-editorial-fridge.trycloudflare.com/state"
+    "catalog": "https://worldwide-foods-recreational-align.trycloudflare.com/catalog.json",
+    "openapi": "https://worldwide-foods-recreational-align.trycloudflare.com/openapi.json",
+    "llms": "https://worldwide-foods-recreational-align.trycloudflare.com/llms.txt",
+    "freeSample": "https://worldwide-foods-recreational-align.trycloudflare.com/sample/token-risk",
+    "buyerClient": "https://worldwide-foods-recreational-align.trycloudflare.com/buyer-client.mjs",
+    "receiptVerifier": "https://worldwide-foods-recreational-align.trycloudflare.com/verify-receipt.mjs",
+    "publicState": "https://worldwide-foods-recreational-align.trycloudflare.com/state"
   },
   "products": [
     {
       "id": "token-risk-check",
       "method": "GET",
-      "resourceTemplate": "https://networking-ment-editorial-fridge.trycloudflare.com/check/{mint}",
+      "resourceTemplate": "https://worldwide-foods-recreational-align.trycloudflare.com/check/{mint}",
       "description": "Red, amber, or green Solana token risk verdict with concise reasons.",
       "price": {
         "amountUSDC": 0.03,
@@ -57,7 +57,7 @@
     {
       "id": "lending-health",
       "method": "GET",
-      "resourceTemplate": "https://networking-ment-editorial-fridge.trycloudflare.com/health/{wallet}",
+      "resourceTemplate": "https://worldwide-foods-recreational-align.trycloudflare.com/health/{wallet}",
       "description": "Kamino position health and liquidation-risk signals for a Solana wallet.",
       "price": {
         "amountUSDC": 0.05,
