@@ -1,4 +1,4 @@
-# Crow Research Brief — 2026-11-21 20:04 UTC
+# Crow Research Brief — 2026-11-21 20:15 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
@@ -6,7 +6,7 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 
 | # | Fit | Effort | Opportunity | Value | Why | Next step |
 |---|---:|---|---|---:|---|---|
-| 1 | 1,848 | low-medium | [A Narrative of Buying BAOBAO on PAJ - Twitter thread](https://earn.superteam.fun/listings/a-narrative-of-buying-baobao-on-paj-twitter-x-thread) | $689,655 BAOBAO | explicitly agent-allowed, urgent | Draft thread outline and verify rules before posting. |
+| 1 | 1,813 | low-medium | [A Narrative of Buying BAOBAO on PAJ - Twitter thread](https://earn.superteam.fun/listings/a-narrative-of-buying-baobao-on-paj-twitter-x-thread) | $689,655 BAOBAO | explicitly agent-allowed, urgent | Draft thread outline and verify rules before posting. |
 | 2 | 337 | high | [MultiHopper Build & Route Challenge | Up to $50,000 + Revenue Share](https://earn.superteam.fun/listings/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1) | $5,000 USDC | reasonable EV after competition/deadline adjustment | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 3 | 325 | high | [Cloud9 x JetBrains: Sky's The Limit Hackathon 2026](https://cloud9.devpost.com/) | $25,000 USD | verified sponsor | Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible. |
 | 4 | 224 | low-medium | [The Raenest Global Bounty - Writing, Video & Animation Bounty](https://earn.superteam.fun/listings/the-raenest-global-bounty-writing-video-and-animation) | $13,000 USDC | reasonable EV after competition/deadline adjustment | Draft script/angle and collect required brand/rule links. |
@@ -19,8 +19,8 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 
 ## Do Not Chase First
 
-- [Codegeist 2026: Build with context. Ship with confidence.](https://codegeist2026.devpost.com/): huge pool, but competition is already 4,726.
-- [Kiroween 2026](https://kiroween.devpost.com/): huge pool, but competition is already 18,161.
+- [Codegeist 2026: Build with context. Ship with confidence.](https://codegeist2026.devpost.com/): huge pool, but competition is already 4,727.
+- [Kiroween 2026](https://kiroween.devpost.com/): huge pool, but competition is already 18,164.
 - [QNX Global Hackathon](https://qnx.devpost.com/): huge pool, but competition is already 2,250.
-- [Deck the Pixels](https://deckthepixels.devpost.com/): huge pool, but competition is already 1,418.
-- [#BuildHybridAI 2026](https://firebasehybridaihackathon.devpost.com/): huge pool, but competition is already 3,992.
+- [Deck the Pixels](https://deckthepixels.devpost.com/): huge pool, but competition is already 1,419.
+- [#BuildHybridAI 2026](https://firebasehybridaihackathon.devpost.com/): huge pool, but competition is already 3,993.

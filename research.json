@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-21 20:04 UTC",
+  "generated_at": "2026-11-21 20:15 UTC",
   "reviewed": 21,
   "agent_allowed": 1,
   "recommendations": [
     {
       "rank": 1,
-      "fit": 1847.86,
+      "fit": 1813.25,
       "title": "A Narrative of Buying BAOBAO on PAJ - Twitter thread",
       "url": "https://earn.superteam.fun/listings/a-narrative-of-buying-baobao-on-paj-twitter-x-thread",
       "value_usd": 689655.0,
@@ -14,7 +14,7 @@
       "next_step": "Draft thread outline and verify rules before posting.",
       "effort": "low-medium",
       "days_left": 0.1,
-      "competition": 254,
+      "competition": 259,
       "deadline": "2026-11-21T22:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "AGENT_ALLOWED"
@@ -46,7 +46,7 @@
       "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
       "effort": "high",
       "days_left": 60.0,
-      "competition": 756,
+      "competition": 757,
       "deadline": null,
       "source": "devpost",
       "agent_access": "HUMAN_ONLY"
@@ -168,13 +168,13 @@
     {
       "title": "Codegeist 2026: Build with context. Ship with confidence.",
       "url": "https://codegeist2026.devpost.com/",
-      "competition": 4726,
+      "competition": 4727,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Kiroween 2026",
       "url": "https://kiroween.devpost.com/",
-      "competition": 18161,
+      "competition": 18164,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -186,13 +186,13 @@
     {
       "title": "Deck the Pixels",
       "url": "https://deckthepixels.devpost.com/",
-      "competition": 1418,
+      "competition": 1419,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "#BuildHybridAI 2026",
       "url": "https://firebasehybridaihackathon.devpost.com/",
-      "competition": 3992,
+      "competition": 3993,
       "reason": "huge pool, but high visible competition"
     }
   ]
