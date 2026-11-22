@@ -1,16 +1,7 @@
 {
- "generated": "2026-11-21T20:15:31+00:00",
- "count": 4,
+ "generated": "2026-11-22T20:20:11+00:00",
+ "count": 1,
  "items": [
-  {
-   "lane": "listing",
-   "title": "A Narrative of Buying BAOBAO on PAJ - Twitter thread",
-   "url": "https://earn.superteam.fun/listings/a-narrative-of-buying-baobao-on-paj-twitter-x-thread",
-   "value_usd": 689655.0,
-   "token": "BAOBAO",
-   "days_left": 0.11423245572916667,
-   "small": true
-  },
   {
    "lane": "github_pr",
    "title": "[wildcard] Make FFI claims proof-carrying: verify boundary contracts against the linked Rust artifact",
@@ -24,34 +15,6 @@
    ],
    "small": false,
    "created": "2026-10-18T09:41:00Z"
-  },
-  {
-   "lane": "github_pr",
-   "title": "[wildcard] GUARANTEES.md row 12 is wrong: cancellation-safety is a one-pass corollary of Tier-0",
-   "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/352",
-   "repo": "limitlessprojects/Go-Hybrid",
-   "issue_number": 352,
-   "value_usd": 250,
-   "labels": [
-    "\ud83d\udc8e bounty",
-    "wildcard"
-   ],
-   "small": false,
-   "created": "2026-10-17T02:20:41Z"
-  },
-  {
-   "lane": "github_pr",
-   "title": "[wildcard] Certify cancellation-safe structured task regions through blocking-effect admission",
-   "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/348",
-   "repo": "limitlessprojects/Go-Hybrid",
-   "issue_number": 348,
-   "value_usd": 250,
-   "labels": [
-    "\ud83d\udc8e bounty",
-    "wildcard"
-   ],
-   "small": false,
-   "created": "2026-10-16T23:50:59Z"
   }
  ]
 }

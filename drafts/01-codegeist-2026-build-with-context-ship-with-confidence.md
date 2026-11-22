@@ -1,9 +1,9 @@
-# Draft pack — Cloud9 x JetBrains: Sky's The Limit Hackathon 2026
+# Draft pack — Codegeist 2026: Build with context. Ship with confidence.
 
-- Listing: https://cloud9.devpost.com/
-- Value: $25,000 USD
-- Deadline: 60 days left (as of 2026-11-21 20:15 UTC)
-- Fit score: 325 — verified sponsor
+- Listing: https://codegeist2026.devpost.com/
+- Value: $120,000 USD
+- Deadline: 30 days left (as of 2026-11-22 20:20 UTC)
+- Fit score: 420 — verified sponsor
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist
