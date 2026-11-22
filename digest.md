@@ -1,19 +1,19 @@
-# Crow Scout Digest — 2026-11-22 20:20 UTC
+# Crow Scout Digest — 2026-11-22 20:29 UTC
 
 **20 open opportunities** · 0 new since last run · 0 flagged AGENT_ALLOWED · total face value $424,410
 
 | # | Score | Title | Value | Type | Source | Days left | Competition | Agent? |
 |---|---|---|---|---|---|---|---|---|
-| 1 | 2,400 | [Codegeist 2026: Build with context. Ship with confidence.](https://codegeist2026.devpost.com/) | $120,000 USD | hackathon | devpost | 30 | 4891 |  |
-| 2 | 2,000 | [Kiroween 2026](https://kiroween.devpost.com/) | $100,000 USD | hackathon | devpost | 12 | 18423 |  |
-| 3 | 1,000 | [QNX Global Hackathon](https://qnx.devpost.com/) | $50,000 USD | hackathon | devpost | 23 | 2327 |  |
-| 4 | 600 | [#BuildHybridAI 2026](https://firebasehybridaihackathon.devpost.com/) | $30,000 USD | hackathon | devpost | 8 | 4289 |  |
-| 5 | 525 | [Reddit’s Game of the Day Hackathon](https://redditgameofday2026.devpost.com/) | $35,000 USD | hackathon | devpost | 16 | 2245 |  |
-| 6 | 500 | [Deck the Pixels](https://deckthepixels.devpost.com/) | $25,000 USD | hackathon | devpost | 15 | 1545 |  |
+| 1 | 2,400 | [Codegeist 2026: Build with context. Ship with confidence.](https://codegeist2026.devpost.com/) | $120,000 USD | hackathon | devpost | 30 | 4892 |  |
+| 2 | 2,000 | [Kiroween 2026](https://kiroween.devpost.com/) | $100,000 USD | hackathon | devpost | 12 | 18424 |  |
+| 3 | 1,000 | [QNX Global Hackathon](https://qnx.devpost.com/) | $50,000 USD | hackathon | devpost | 23 | 2328 |  |
+| 4 | 600 | [#BuildHybridAI 2026](https://firebasehybridaihackathon.devpost.com/) | $30,000 USD | hackathon | devpost | 8 | 4295 |  |
+| 5 | 525 | [Reddit’s Game of the Day Hackathon](https://redditgameofday2026.devpost.com/) | $35,000 USD | hackathon | devpost | 16 | 2246 |  |
+| 6 | 500 | [Deck the Pixels](https://deckthepixels.devpost.com/) | $25,000 USD | hackathon | devpost | 15 | 1546 |  |
 | 7 | 500 | [Cloud9 x JetBrains: Sky's The Limit Hackathon 2026](https://cloud9.devpost.com/) | $25,000 USD | hackathon | devpost | 60 | 864 |  |
 | 8 | 337 | [MultiHopper Build & Route Challenge | Up to $50,000 + Revenue Share](https://earn.superteam.fun/listings/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1) | $5,000 USDC | bounty | superteam-earn | 22 | 81 |  |
 | 9 | 195 | [The Raenest Global Bounty - Writing, Video & Animation Bounty](https://earn.superteam.fun/listings/the-raenest-global-bounty-writing-video-and-animation) | $13,000 USDC | bounty | superteam-earn | 21 | 562 |  |
-| 10 | 150 | [Open Agentic Web Challenge](https://cognizant-agenticweb.devpost.com/) | $10,000 USD | hackathon | devpost | 60 | 1649 |  |
+| 10 | 150 | [Open Agentic Web Challenge](https://cognizant-agenticweb.devpost.com/) | $10,000 USD | hackathon | devpost | 60 | 1650 |  |
 | 11 | 117 | [Arbiter Hacks V1](https://arbiter-hacks-v1.devpost.com/) | $7,800 USD | hackathon | devpost | 28 | 1367 |  |
 | 12 | 42 | [Write an Article on Fundraising Opportunities for Early & Mid-Stage Projects](https://earn.superteam.fun/listings/write-an-article-on-fundraising-opportunities-for-early-and-mid-stage-projects) | $500 USDG | bounty | superteam-earn | 4 | 87 |  |
 | 13 | 19 | [Write a Twitter Thread on Opportunities for Students Workshop](https://earn.superteam.fun/listings/write-a-twitter-thread-on-opportunities-for-students-workshop) | $400 USDG | bounty | superteam-earn | 1 | 94 |  |
