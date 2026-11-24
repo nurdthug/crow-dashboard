@@ -1,10 +1,10 @@
-# Draft pack — MultiHopper Build & Route Challenge | Up to $50,000 + Revenue Share
+# Draft pack — Kiroween 2026
 
-- Listing: https://earn.superteam.fun/listings/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1
-- Value: $5,000 USDC
-- Deadline: 21 days left (as of 2026-11-24 01:14 UTC)
-- Fit score: 330 — reasonable EV after competition/deadline adjustment
-- First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
+- Listing: https://kiroween.devpost.com/
+- Value: $100,000 USD
+- Deadline: 10 days left (as of 2026-11-24 23:16 UTC)
+- Fit score: 350 — verified sponsor
+- First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist
 - [ ] Read full rules & eligibility (region, KYC, team size)

@@ -1,9 +1,9 @@
-# Draft pack — Codegeist 2026: Build with context. Ship with confidence.
+# Draft pack — AWS MSP AI Hackathon
 
-- Listing: https://codegeist2026.devpost.com/
-- Value: $120,000 USD
-- Deadline: 29 days left (as of 2026-11-24 01:14 UTC)
-- Fit score: 420 — verified sponsor
+- Listing: https://aws-agentic-msp.devpost.com/
+- Value: $64,000 USD
+- Deadline: 17 days left (as of 2026-11-24 23:16 UTC)
+- Fit score: 832 — verified sponsor
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist

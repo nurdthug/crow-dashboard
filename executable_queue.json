@@ -1,20 +1,33 @@
 {
- "generated": "2026-11-24T01:14:37+00:00",
- "count": 1,
+ "generated": "2026-11-24T23:16:31+00:00",
+ "count": 2,
  "items": [
   {
    "lane": "github_pr",
-   "title": "[wildcard] Make FFI claims proof-carrying: verify boundary contracts against the linked Rust artifact",
-   "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/610",
+   "title": "[wildcard] The expressiveness census: port real Go programs to .hy and count what Tier-0 forces you to rewrite",
+   "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4739",
    "repo": "limitlessprojects/Go-Hybrid",
-   "issue_number": 610,
+   "issue_number": 4739,
    "value_usd": 250,
    "labels": [
     "\ud83d\udc8e bounty",
     "wildcard"
    ],
    "small": false,
-   "created": "2026-10-18T09:41:00Z"
+   "created": "2026-11-24T05:37:38Z"
+  },
+  {
+   "lane": "github_pr",
+   "title": "\ud83d\udc8e Bounty $50: parse_duration drops the days (d) unit",
+   "url": "https://github.com/madin-ll/bounty-pipeline-e2e-verify/issues/1",
+   "repo": "madin-ll/bounty-pipeline-e2e-verify",
+   "issue_number": 1,
+   "value_usd": 50,
+   "labels": [
+    "\ud83d\udc8e bounty"
+   ],
+   "small": false,
+   "created": "2026-11-24T13:30:46Z"
   }
  ]
 }

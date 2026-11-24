@@ -1,9 +1,9 @@
-# Draft pack — Kiroween 2026
+# Draft pack — Codegeist 2026: Build with context. Ship with confidence.
 
-- Listing: https://kiroween.devpost.com/
-- Value: $100,000 USD
-- Deadline: 11 days left (as of 2026-11-24 01:14 UTC)
-- Fit score: 350 — verified sponsor
+- Listing: https://codegeist2026.devpost.com/
+- Value: $120,000 USD
+- Deadline: 28 days left (as of 2026-11-24 23:16 UTC)
+- Fit score: 420 — verified sponsor
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist
