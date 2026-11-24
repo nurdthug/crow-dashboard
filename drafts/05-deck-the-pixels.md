@@ -1,9 +1,9 @@
-# Draft pack — Cloud9 x JetBrains: Sky's The Limit Hackathon 2026
+# Draft pack — Deck the Pixels
 
-- Listing: https://cloud9.devpost.com/
+- Listing: https://deckthepixels.devpost.com/
 - Value: $25,000 USD
-- Deadline: 60 days left (as of 2026-11-22 20:29 UTC)
-- Fit score: 325 — verified sponsor
+- Deadline: 14 days left (as of 2026-11-24 00:49 UTC)
+- Fit score: 175 — verified sponsor
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
 ## Go/no-go checklist
