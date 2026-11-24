@@ -2,7 +2,7 @@
 
 - Listing: https://deckthepixels.devpost.com/
 - Value: $25,000 USD
-- Deadline: 14 days left (as of 2026-11-24 00:49 UTC)
+- Deadline: 14 days left (as of 2026-11-24 01:14 UTC)
 - Fit score: 175 — verified sponsor
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
