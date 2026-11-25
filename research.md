@@ -1,4 +1,4 @@
-# Crow Research Brief — 2026-11-25 22:30 UTC
+# Crow Research Brief — 2026-11-25 22:48 UTC
 
 This is the first triage pass after Scout. It favors realistic wins over giant headline prizes.
 
@@ -7,8 +7,8 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 | # | Fit | Effort | Opportunity | Value | Why | Next step |
 |---|---:|---|---|---:|---|---|
 | 1 | 832 | high | [AWS MSP AI Hackathon](https://aws-agentic-msp.devpost.com/) | $64,000 USD | verified sponsor | Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible. |
-| 2 | 60 | high | [MultiHopper Build & Route Challenge | Up to $50,000 + Revenue Share](https://earn.superteam.fun/listings/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1) | $5,000 USDC | reasonable EV after competition/deadline adjustment | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
-| 3 | 44 | medium | [Create & Earn: Explore TokenPocket’s Transfer Features](https://earn.superteam.fun/listings/create-and-earn-explore-tokenpockets-transfer-features) | $500 USDC | reasonable EV after competition/deadline adjustment | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
+| 2 | 59 | high | [MultiHopper Build & Route Challenge | Up to $50,000 + Revenue Share](https://earn.superteam.fun/listings/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1) | $5,000 USDC | reasonable EV after competition/deadline adjustment | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
+| 3 | 39 | medium | [Create & Earn: Explore TokenPocket’s Transfer Features](https://earn.superteam.fun/listings/create-and-earn-explore-tokenpockets-transfer-features) | $500 USDC | reasonable EV after competition/deadline adjustment | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 4 | 6 | low-medium | [Publish CapsGame Review for Solana Audience (Video or X Thread)](https://earn.superteam.fun/listings/publish-capsgame-review-for-solana-audience-video-or-x-thread) | $500 USDC | reasonable EV after competition/deadline adjustment | Draft script/angle and collect required brand/rule links. |
 | 5 | 5 | high | [Build an Autonomous Capital Agent on Solana & Compete for $500 in Rewards](https://earn.superteam.fun/listings/build-an-autonomous-capital-agent-on-solana-and-compete-for-dollar500-in-rewards) | $500 USDC | reasonable EV after competition/deadline adjustment | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
 | 6 | 4 | medium | [Provide Feedback on our new Support Assistant Nosa](https://earn.superteam.fun/listings/provide-feedback-on-our-new-support-assistant-nosa) | $300 NOS | reasonable EV after competition/deadline adjustment | Open listing, capture rules/deadline/payout terms, and decide go/no-go. |
@@ -19,8 +19,8 @@ This is the first triage pass after Scout. It favors realistic wins over giant h
 
 ## Do Not Chase First
 
-- [Codegeist 2026: Build with context. Ship with confidence.](https://codegeist2026.devpost.com/): huge pool, but competition is already 5,467.
-- [Kiroween 2026](https://kiroween.devpost.com/): huge pool, but competition is already 19,365.
+- [Codegeist 2026: Build with context. Ship with confidence.](https://codegeist2026.devpost.com/): huge pool, but competition is already 5,468.
+- [Kiroween 2026](https://kiroween.devpost.com/): huge pool, but competition is already 19,367.
 - [QNX Global Hackathon](https://qnx.devpost.com/): huge pool, but competition is already 2,608.
 - [Cloud9 x JetBrains: Sky's The Limit Hackathon 2026](https://cloud9.devpost.com/): huge pool, but competition is already 1,256.
-- [#BuildHybridAI 2026](https://firebasehybridaihackathon.devpost.com/): huge pool, but competition is already 5,454.
+- [#BuildHybridAI 2026](https://firebasehybridaihackathon.devpost.com/): huge pool, but competition is already 5,458.
