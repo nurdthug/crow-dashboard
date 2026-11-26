@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26 22:19 UTC",
+  "generated_at": "2026-11-26 22:37 UTC",
   "reviewed": 20,
   "agent_allowed": 0,
   "recommendations": [
@@ -14,7 +14,7 @@
       "next_step": "Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.",
       "effort": "high",
       "days_left": 15.0,
-      "competition": 577,
+      "competition": 578,
       "deadline": null,
       "source": "devpost",
       "agent_access": "HUMAN_ONLY"
@@ -53,7 +53,7 @@
     },
     {
       "rank": 4,
-      "fit": 5.91,
+      "fit": 5.89,
       "title": "Create & Earn: Explore TokenPocket\u2019s Transfer Features",
       "url": "https://earn.superteam.fun/listings/create-and-earn-explore-tokenpockets-transfer-features",
       "value_usd": 500.0,
@@ -62,7 +62,7 @@
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
       "days_left": 10.2,
-      "competition": 322,
+      "competition": 323,
       "deadline": "2026-12-07T02:30:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -174,7 +174,7 @@
     {
       "title": "Kiroween 2026",
       "url": "https://kiroween.devpost.com/",
-      "competition": 19605,
+      "competition": 19606,
       "reason": "huge pool, but high visible competition"
     },
     {
@@ -186,13 +186,13 @@
     {
       "title": "Cloud9 x JetBrains: Sky's The Limit Hackathon 2026",
       "url": "https://cloud9.devpost.com/",
-      "competition": 1343,
+      "competition": 1345,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "#BuildHybridAI 2026",
       "url": "https://firebasehybridaihackathon.devpost.com/",
-      "competition": 5670,
+      "competition": 5671,
       "reason": "huge pool, but high visible competition"
     }
   ]

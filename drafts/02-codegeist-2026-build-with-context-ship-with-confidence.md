@@ -2,7 +2,7 @@
 
 - Listing: https://codegeist2026.devpost.com/
 - Value: $120,000 USD
-- Deadline: 26 days left (as of 2026-11-26 22:19 UTC)
+- Deadline: 26 days left (as of 2026-11-26 22:37 UTC)
 - Fit score: 420 — verified sponsor
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 

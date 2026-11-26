@@ -2,7 +2,7 @@
 
 - Listing: https://aws-agentic-msp.devpost.com/
 - Value: $64,000 USD
-- Deadline: 15 days left (as of 2026-11-26 22:19 UTC)
+- Deadline: 15 days left (as of 2026-11-26 22:37 UTC)
 - Fit score: 832 — verified sponsor
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 
