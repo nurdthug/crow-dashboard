@@ -1,10 +1,10 @@
-# Draft pack — Cloud9 x JetBrains: Sky's The Limit Hackathon 2026
+# Draft pack — MultiHopper Build & Route Challenge | Up to $50,000 + Revenue Share
 
-- Listing: https://cloud9.devpost.com/
-- Value: $25,000 USD
-- Deadline: 60 days left (as of 2026-11-26 22:37 UTC)
-- Fit score: 175 — verified sponsor
-- First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
+- Listing: https://earn.superteam.fun/listings/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1
+- Value: $5,000 USDC
+- Deadline: 45 days left (as of 2026-11-27 21:57 UTC)
+- Fit score: 316 — reasonable EV after competition/deadline adjustment
+- First action: Open listing, capture rules/deadline/payout terms, and decide go/no-go.
 
 ## Go/no-go checklist
 - [ ] Read full rules & eligibility (region, KYC, team size)
