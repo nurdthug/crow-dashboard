@@ -2,7 +2,7 @@
 
 - Listing: https://kiroween.devpost.com/
 - Value: $100,000 USD
-- Deadline: 7 days left (as of 2026-11-27 21:57 UTC)
+- Deadline: 7 days left (as of 2026-11-27 22:21 UTC)
 - Fit score: 350 — verified sponsor
 - First action: Read rules, judging criteria, and required deliverables; decide if a tiny MVP is possible.
 

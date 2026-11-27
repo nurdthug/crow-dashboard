@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27 21:57 UTC",
+  "generated_at": "2026-11-27 22:21 UTC",
   "reviewed": 19,
   "agent_allowed": 0,
   "recommendations": [
@@ -53,22 +53,6 @@
     },
     {
       "rank": 4,
-      "fit": 133.33,
-      "title": "Write an Article on Fundraising Opportunities for Early & Mid-Stage Projects",
-      "url": "https://earn.superteam.fun/listings/write-an-article-on-fundraising-opportunities-for-early-and-mid-stage-projects",
-      "value_usd": 500.0,
-      "token": "USDG",
-      "why": "verified sponsor",
-      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
-      "effort": "medium",
-      "days_left": 3.0,
-      "competition": 22,
-      "deadline": "2026-11-30T21:59:59.000Z",
-      "source": "superteam-earn",
-      "agent_access": "HUMAN_ONLY"
-    },
-    {
-      "rank": 5,
       "fit": 85.71,
       "title": "Build an Autonomous Capital Agent on Solana & Compete for $500 in Rewards",
       "url": "https://earn.superteam.fun/listings/build-an-autonomous-capital-agent-on-solana-and-compete-for-dollar500-in-rewards",
@@ -80,6 +64,22 @@
       "days_left": 27.0,
       "competition": 27,
       "deadline": "2026-12-24T22:59:59.000Z",
+      "source": "superteam-earn",
+      "agent_access": "HUMAN_ONLY"
+    },
+    {
+      "rank": 5,
+      "fit": 56.0,
+      "title": "Write an Article on Fundraising Opportunities for Early & Mid-Stage Projects",
+      "url": "https://earn.superteam.fun/listings/write-an-article-on-fundraising-opportunities-for-early-and-mid-stage-projects",
+      "value_usd": 500.0,
+      "token": "USDG",
+      "why": "verified sponsor, urgent",
+      "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
+      "effort": "medium",
+      "days_left": 3.0,
+      "competition": 22,
+      "deadline": "2026-11-30T21:59:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
     },
@@ -117,7 +117,7 @@
     },
     {
       "rank": 8,
-      "fit": 11.75,
+      "fit": 11.67,
       "title": "Create & Earn: Explore TokenPocket\u2019s Transfer Features",
       "url": "https://earn.superteam.fun/listings/create-and-earn-explore-tokenpockets-transfer-features",
       "value_usd": 500.0,
@@ -126,7 +126,7 @@
       "next_step": "Open listing, capture rules/deadline/payout terms, and decide go/no-go.",
       "effort": "medium",
       "days_left": 9.2,
-      "competition": 158,
+      "competition": 159,
       "deadline": "2026-12-07T02:30:59.000Z",
       "source": "superteam-earn",
       "agent_access": "HUMAN_ONLY"
@@ -157,7 +157,7 @@
       "why": "reasonable EV after competition/deadline adjustment",
       "next_step": "Draft script/angle and collect required brand/rule links.",
       "effort": "low-medium",
-      "days_left": 5.0,
+      "days_left": 4.9,
       "competition": 375,
       "deadline": "2026-12-02T20:59:59.000Z",
       "source": "superteam-earn",
@@ -168,31 +168,31 @@
     {
       "title": "Codegeist 2026: Build with context. Ship with confidence.",
       "url": "https://codegeist2026.devpost.com/",
-      "competition": 5791,
+      "competition": 5792,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Kiroween 2026",
       "url": "https://kiroween.devpost.com/",
-      "competition": 19870,
+      "competition": 19871,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "QNX Global Hackathon",
       "url": "https://qnx.devpost.com/",
-      "competition": 2746,
+      "competition": 2747,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "Cloud9 x JetBrains: Sky's The Limit Hackathon 2026",
       "url": "https://cloud9.devpost.com/",
-      "competition": 1412,
+      "competition": 1413,
       "reason": "huge pool, but high visible competition"
     },
     {
       "title": "#BuildHybridAI 2026",
       "url": "https://firebasehybridaihackathon.devpost.com/",
-      "competition": 5874,
+      "competition": 5876,
       "reason": "huge pool, but high visible competition"
     }
   ]
